@@ -1,0 +1,20 @@
+# %W%	%Q%
+# Copyright 1984-1992 Ansoft Corp.
+
+begin_error_file
+
+1001	Circuit "$$1" is not set up for compilation.
+1002	Circuit "$$1" has not been compiled.    
+1003	Stop time must be greater than start time.
+1004	Maximum time step must be greater than zero.
+1005	Couldn't setup SPICE run file.
+1006	Circuit "$$1" contains errors in circuit check.
+1007	Transmission line "$$1" failed in parameter extractor.
+1008	Circuit "$$1" failed in compilation.
+1009	$$1 simulation aborted.
+1009	See file $$2 for error messages.
+1010	$$1 simulation aborted by user.
+1011	No non-zero voltages or currents have been probed.
+
+end_error_file
+

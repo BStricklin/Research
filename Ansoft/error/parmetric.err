@@ -1,0 +1,495 @@
+
+begin_error_file
+
+1256 user
+1256 "$$1" file does not exist.
+
+1257 user
+1257 Error in the call to the function "$$1".
+
+1258 user
+1258 Unable to rename directory from "$$1" to "$$2".
+
+1259 user
+1259 Unable to save the file "$$1". Please cleanup space
+1259 and then click on OK.
+
+1260 user
+1260 Error in reading the file "$$1".
+
+1261 user
+1261 Error in opening the configuration file "$$1".
+
+1262 user
+1262 Error in reading configuration file "$$1".
+1262 Expected token "$$2".
+
+1263 user
+1263 Error in opening the file "$$1" for writing.
+
+1264 user
+1264 Error in opening the file "$$1" for reading.
+
+1265 user
+1265 Error in writing the file "$$1".
+
+1266 user
+1266 Error in reading the command lines.
+
+1267 user
+1267 Unable to generate temporary file in the directory:
+1267 $$1.
+
+1268 user
+1268 Failed in the execution of process "$$1".
+1268 Return status is $$2.
+
+1269 user
+1269 Parametric analysis is not yet implemented for the chosen
+1269 project classification.
+
+1270 user
+1270 Error in copying project file "$$1" to "$$2".
+
+1271 user
+1271 Error in reading the database file "$$1". Number of
+1271 columns must be 2.
+
+1272 user
+1272 Error in reading the database file "$$1". Format of
+1272 data is incorrect. First column must be a name and
+1272 second column a double-precision value.
+
+1273 user
+1273 Inputting a new project will destroy all the current information.
+1273 Are you sure you want to proceed?
+
+1274 user
+1274 If you edit the project, all the analysis setup may become
+
+1275 user
+1275 invalid and all solutions will be deleted.
+
+1276 user
+1276 Error in saving the "$$1" file. Clean up disk space 
+1276 and re save.
+
+1277 user
+1277 Programmer Error: Column for cost function "$$1"
+1277 does not exist.
+
+1278 user
+1278 Unable to add row to the table. May be out of memory.
+
+1279 user
+1279 Programmer Error: Column $$1 with $$2 id should be a variable
+1279 column. Data should be double type, but it is $$3.
+
+1280 user
+1280 Programmer Error: "$$1" is not a parameter of project.
+
+1281 user
+1281 Optimization analysis failed. Error: "$$1"
+
+1282 user
+1282 "$$1" is not a parameter of project.
+
+1283 user
+1283 There is no table column by name "$$1".
+
+1284 user
+1284 Programmer error: Num parameters in optimization setup does not
+1284 match the num parameters the optimizer is setting : $$1, $$2
+
+1285 user
+1285 Error in copying directory "$$1" to "$$2".
+
+1286 user
+1286 To create output parameters, nominal project's field solution is
+1286 necessary. For this project, there is no field solution. Do you
+1286 want to go ahead and start field solution?
+
+1287 user
+1287 Corrupt configuration file. Invalid parameter line specification.
+
+1288 user
+1288 Database file "$$1", exported by the macro file "$$2",
+1288 does not exist. Parameters from the macro file will be recognized
+1288 only if the database files are created.
+
+1289 user
+1289 Aborting now will immediately abort the solution and 
+1289 also delete the solution data (if any) for the row
+1289 currently being solved.
+1289  
+1289 To stop the solve process after the current row is solved,
+1289 click on "After this row".
+1289 
+1289 To preserve the existing solution for the current row, 
+1289 click on the "Cancel" button and then un-iconify "$$1" and 
+1289 abort the process in "$$1".
+1289 
+1289 Abort options:
+
+1290 user
+1290 Error in copying project files. Probably you are out of disk
+1290 space.
+
+1291 user
+1291 Cannot delete file/directory $$1. Possible causes are:
+1291     - No file access privileges.
+1291     - Network or hardware problems.
+1291     - File or directory is in use.
+
+1292 user
+1292 Error in creating the $$1 file or directory.
+1292 Possible causes are:a
+1292   - Out of disk space.
+1292   - No file access privileges.
+1292   - Network or hardware problems.
+
+1293 user
+1293 Variable specified must be a valid double precision
+1293 number. "$$1" is not a valid number.
+
+1294 user
+1294 Invalid specification for variable scaling. The
+1294 dimension might not have matched the number of 
+1294 optimization variables.
+
+1295 user
+1295 Error in the configuration file while reading "$$1".
+1295 Encountered unknown keyword "$$2".
+
+1296 user
+1296 Parameter "$$1" has no value.
+
+1297 user
+1297 Error in parsing the double parameter token.
+
+1298 user
+1298 Error in setting the value for the parameter "$$1".
+
+1299 user
+1299 Error in enforcing or reading macro file while setting the name for 
+1299 the parameter.
+
+1300 user
+1300 Error in enforcing the file "$$1".
+
+1301 user
+1301 Error in copying the symbol table parameters.
+
+1302 user
+1302 Error in copying the input project.
+1302 Possible causes are:
+1302       - Out of disk space.
+1302       - No file access privileges.
+1302       - Network or hardware problems.
+1302 Please fix the problem and try again.
+
+1303 user
+1303 Cannot edit constraints. Atleast one input variable needs
+1303 to be present.
+
+1304 user
+1304 Invalid cost function. Click on the "Cost Function" selection box
+1304 to set the cost function.
+1304 NOTE: Cost function is a dependent parameter. To define a cost 
+1304 function, use the "Edit Parameters..." button in the main interface. 
+1304 (OR) Use the "Setup Output Parameters" feature.
+
+1305 user
+1305 To be able to set the cost function, there must be at least one 
+1305 dependent parameter defined. Use "Edit Parameters..." button
+1305 in the main interface to define a dependent parameter. (OR) Use
+1305 the "Setup Output Parameters" feature.
+
+1306 user
+1306 At least one variable coefficient must be non-zero.
+
+1307 user
+1307 Lower bound must be smaller than the upper bound.
+
+1308 user
+1308 This project is not completely setup to do batch solution.
+
+1309 user
+1309 $$1 is not yet implemented for this project classification.
+
+1310 user
+1310 Parametric module is not yet implemented for this project classification
+1310 "$$1".
+
+1311 user
+1311 Error occured while adding parameter with name "$$1".
+1311 Reasons: $$2
+
+1312 user
+1312 Error in linking $$1 to $$2. Possible causes are:
+1312       - Out of disk space.
+1312       - No file access privileges.
+1312       - Network or hardware problems.
+1312       - Directory $$2 already exists and is not a link.
+
+1313 user
+1313 Error in the configuration file while reading "$$1".
+
+1314 user
+1314 $$1
+1314 Cannot open a locked project. Use maxwell project manager
+1314 to recover the project OR input a different project.
+
+1315 user
+1315 Unable to lock project $$1.
+1315 Possible causes are:
+1315       - Out of disk space.
+1315       - No file access privileges.
+1315       - Network or hardware problems.
+
+1316 user
+1316 The input project will be copied to a "template" sub-directory
+1316 of the current project. Do you want to delete the original
+1316 project after making a copy of it?
+1316 Click on "Move" if you want to delete the original project 
+1316 after making a copy of it.
+
+1317 user
+1317 Table has variable columns which are not chosen as optimization
+1317 variables. These columns do not have same values for all the
+1317 existing rows. Optimizer will use values from the last row
+1317 for such a variable.
+
+1318 user
+1318 Parametric analysis is complete.
+
+1319 user
+1319 Optimization analysis is completed successfully.
+1319 Status: "$$1".
+1319 Check the cost function column of the table to determine the 
+1319 row with the least value for the cost function.
+
+1320 user
+1320 Recomputing output parameters is complete.
+
+1321 user
+1321 Geometry macro file mod3.mac does not exist in the mod3
+1321 sub-directory of project. Unless this file is present,
+1321 geometry cannot be parameterized.
+
+1322 user
+1322 Error occured in the solve of setup "$$1".
+
+1323 user
+1323 Setup "$$1" aborted by the user.
+
+1324 user
+1324 Optimizer needs valid starting values for the input variables.
+1324 The nominal values of these variables and the values (if any)
+1324 set in the parametric table rows are invalid - they are
+1324 either out of bounds or don't satisfy the constraints specified
+1324 in the optimization setup.
+1324 Either change the bounds or constraints on these variables or
+1324 add a row to the table which has valid values. Note that the
+1324 specified values cannot be equal to the minimum or maximum
+1324 but should lie in between.
+
+1325 user
+1325 Current nominal project has the same name. Edit the nominal project
+1325 if you want the same name or choose a different name.
+
+1326 user
+1326 Parametric module is not implemented for "$$1" product.
+
+1327 user
+1327 Project name must be input.
+
+1328 user
+1328 Project name cannot have spaces.
+
+1329 user
+1329 Creating a new project will destroy all the current information.
+1329 Are you sure you want to proceed?
+
+1330 user
+1330 The status of the nominal project is not known. This is normal if
+1330 the project has been copied with the "model only" option. Please click
+1330 on "Nominal Project/Edit/View..." to generate this status information.
+
+1331 user
+1331 Functions { "$$1" } are invalid as the project parameter 
+1331 on which they depend no longer exists.
+
+1332 user
+1332 Removing these variables will remove all constraints that refer to
+1332 these variables. Are you sure you want to remove the selected
+1332 variables?
+
+1333 user
+1333 You have not selected any macro file to be run or any output to be
+1333 recomputed.
+
+1334 user
+1334 Aborting now will immediately abort the solution re-computation.
+1334 
+1334 To stop the process after the solution for the current row is 
+1334 re-computed, click on "After this row".
+1334 
+1334 Click on "cancel" to cancel the abort.
+1334 
+1334 Abort options:
+
+1335 user
+1335 There are some macro files generated by you either
+1335 by the recording mechanism provided or via an external editor. 
+1335 Make sure that these macro files are consistent with the 
+1335 changes you made to the nominal project setup. It is recommended 
+1335 that you execute these macro files in the respective module before 
+1335 you perform any analysis. Having erroneous macro files will fail 
+1335 the run of any analysis.
+
+1336 user
+1336 Error in reading the macro line which exports database file.
+
+1337 user
+1337 Error in writing the expressions to the file.
+1337 Possible causes are:
+1337     - No file access privileges.
+1337     - Network or hardware problems.
+1337     - File or directory is in use.
+
+1338 user
+1338 You have edited your standard output parameters. In order to
+1338 recompute values of newly added parameters for all the solved rows,
+1338 you have to run the command "Run/Recompute Output Parameters".
+1338 If you do not recompute the values, you could be steering the
+1338 optimizer in the wrong direction.
+
+1339 user
+1339 You have created one or more post processor macro files. You have
+1339 to select the macro files whose output you are interested in.
+1339 Do you want to select the macro files now? 
+1339 ( You can later change selections by using the command:
+1339   "Setup Output Parameters/Select Macros" )
+
+1340 user
+1340 You have edited your custom output parameters. In order to
+1340 recompute values of newly added parameters for all the solved rows,
+1340 you have to run the command "Run/Recompute Output Parameters".
+1340 If you do not recompute the values, you could be steering the
+1340 optimizer in the wrong direction.
+
+1341 user
+1341 Parametric table might be corrupted: Error in saving the "$$1" file. 
+1341 If you exit Optimetrics in the current state, you may lose all of 
+1341 your table data.
+1341 In order to recover the table, you have to clean up disk space and 
+1341 do a File/Save in Setup Analysis/Parametrics.
+
+1342 user
+1342 Table has variable columns which are not chosen as sensitivity
+1342 analysis variables. These columns do not have same values for 
+1342 all the existing rows. Optimizer will use values from the design point
+1342 for such a variable.
+
+1343 user
+1343 Sensitivity analysis is completed successfully.
+1343 Status: "$$1".
+
+1344 user
+1344 Sensitivity analysis failed. Error: "$$1"
+
+1345 user
+1345 Programmer error: Num parameters in sensitivity setup does not
+1345 match the num parameters the optimizer is setting : $$1, $$2
+
+1346 user
+1346 Programmer Error: Column for output parameter "$$1"
+1346 does not exist.
+
+1347 user
+1347 Failed in the reclassification of the template project "$$1" 
+1347 from "$$2" to the supported version "$$3".
+1347 $$4.
+
+1348 user
+1348 Failed in the reclassification of the project "$$1" 
+1348 to the supported version "$$2".
+1348 $$3.
+
+1349 user
+1349 Failed in reclassification of the template project "$$1". 
+1349 Possible causes are:
+1349	- Parametric module is not yet implemented for the template
+1349      project's classification.
+1349	- Parametric module is not compatible with the template
+1349	  project's classification.
+1349	- Parametric module failed in opening the configuration file (.dat) 
+1349	  for the product "$$2".
+
+1350 user
+1350 Error in the reclassification of the project:
+1350 Failed in converting file "$$1" into "$$2"
+1350 for the template project.
+
+1351 user
+1351 At least one checkbox must be selected.
+
+1352 user
+1352 The sensitivity setup file for project $$1 has been deleted
+1352 as the master output parameter no longer exists.
+
+1353 user
+1353 The sensitivity setup files for projects "$$1"
+1353 have been deleted as the master output parameters in these 
+1353 setup files no longer exist.
+
+1354 user
+1354 You have edited the output parameters. In order to recompute
+1354 the sensitivity anaylsis results for project $$1,
+1354 you have to run the command "Run/Recompute Sensitivity Analysis".
+
+1355 user
+1355 You have edited the output parameters. In order to recompute
+1355 the sensitivity anaylsis results for projects "$$1",
+1355 you have to run the command "Run/Recompute Sensitivity Analysis"
+1355 and select the setups to be recomputed.
+
+1356 user
+1356 Maximum step size must be greater than zero.
+
+1357 user 
+1357 Minimum step size must be positive.
+
+1358 user
+1358 Number of neurons in a hidden layer must be greated than zero.
+
+1359 user
+1359 Design of Experiment is the data source of Neural Network Analysis.
+1359 Changes you made in the list of input/output will be carried over to 
+1359 Neural Network Setup.
+1359 Are you sure you want to proceed?
+
+1360 user
+1360 Parameters "THETA", "PHI", "R", "X", "Y" and "Z" are reserverd
+1360 variable names. Existing columns in the parametric table
+1360 with these names have been removed.
+
+1361 user
+1361 Parameter '$$1' in $$2 is already defined in $$3. 
+1361 This will cause problem in enforcing the parameter value.
+
+1362 user
+1362 Parameter '$$1' in $$2 is already defined in another file. 
+1362 This will cause problem in enforcing the parameter value.
+
+1363 user
+1363 Design of experiemnt failed. Error: "$$1".
+
+1364 user
+1364 Neural Network analysis failed. Error: "$$1".
+
+1365 user
+1365 Error in loading the S-matrix file "$$1"
+
+end_error_file

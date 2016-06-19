@@ -1,0 +1,204 @@
+# %W%	%Q%
+# Copyright 1984-1992 Ansoft Corp.
+
+begin_error_file
+
+1001    fatal
+1001    Module $$1 died unexpectedly.
+
+1002    fatal
+1002    Copy protection violation occurred for module $$1.
+1002    Please check your codewords.
+
+1003    fatal
+1003    Transcript file for module $$1 is corrupted or missing.
+
+1004    fatal
+1004    Failed in graphics setup for module $$1.
+
+1005    fatal
+1005    Insufficient memory for module $$1.
+
+1006    fatal
+1006    Unable to start subprocess $$1.
+
+1007    fatal
+1007    Subprocess $$1 aborted by the user.
+
+1008    fatal
+1008    Insufficient memory for subprocess in module $$1.
+
+1009    fatal
+1009    Could not find executable "$$1" in your path.
+
+1010    fatal
+1010    File write failed in module $$1.
+1010    Possibly out of disk space.
+
+1011    fatal
+1011    File read failed in module $$1.
+1011    Possibly corrupted or empty file.
+
+1012    fatal
+1012    Module $$1 could not open file.
+
+1013    fatal
+1013    Could not read conductors file.
+
+1014    fatal
+1014    Could not generate auxiliary model files for the solvers.
+
+1015    fatal
+1015    Problem setup is inconsistent. Check geometry,
+1015    conductors, materials and boundary setup.
+
+1016    fatal
+1016    Problem setup is inconsistent.
+1016    Error in reading geometry or boundary setup.
+
+1017    fatal
+1017    Could not perform modal analysis.
+
+1018    fatal
+1018    Could not make SPICE format circuit.
+
+1019    fatal
+1019    This file name is reserved or illegal.
+
+1020    fatal
+1020    Incomplete setup for $$1 solution.
+
+1021    fatal
+1021    Improper $$1.
+1021    $$2 must be greater than zero.
+
+1022    fatal
+1022    Parameter $$1 has not been selected for solution.
+
+1023    fatal
+1023    No parameters have been selected for solution.
+
+1024    fatal
+1024    Problem setup is incomplete; background is
+1024    excluded and no boundaries are defined.
+
+1025    fatal
+1025    Problem setup is incomplete.
+1025    Background object has not been defined.
+
+1026    fatal
+1026    Error in writing the $$1 file.
+1026    Possible causes are:
+1026       - Out of disk space.
+1026       - No file access privileges.
+1026       - Network or hardware problems.
+
+
+1027    fatal
+1027    File copy error. Possible causes are:
+1027       - Out of disk space.
+1027       - No file access privileges.
+1027       - Network or hardware problems.
+
+1028    fatal
+1028    Failed in solver setup.
+
+1029    fatal
+1029    Error in loading material database.
+1029    Possible causes are:
+1029      - Default database path has not been set.
+1029      - Database file is missing or corrupted.
+
+1030    fatal
+1030    Improper solve setup. Select either "Solve fields" or 
+1030    "Solve parameters" or both.
+
+1031    fatal
+1031    Error in loading the $$1 file.
+1031    Possible causes are:
+1031      - Default database path has not been set.
+1031      - Database file is missing or corrupted.
+
+1032    fatal
+1032    Improper conductor setup. Zero area floating conductors 
+1032    are not allowed. 
+
+1033    fatal
+1033    Read failed for solution information file.
+
+1034    fatal
+1034    Failed in setting up links to the $$1 files.
+
+1035    fatal
+1035    No field solutions have been computed.
+
+1036    fatal
+1036    The solution has already converged. 
+1036    Please check the solution parameters.
+
+1037    fatal
+1037    Could not create directory $$1. Possible causes are:
+1037       - Out of disk space.
+1037       - No file access privileges.
+1037       - Network or hardware problems.
+
+1038    user
+1038    Error in writing the profile file.
+1038    Possible causes are:
+1038       - Out of disk space.
+1038       - No file access privileges.
+1038       - Network or hardware problems.
+1038    Free up some disk space and then press OK.
+
+1039    fatal
+1039    Improper solve setup. Select either "Solve fields",
+1039    "Solve parameters", "Solve Sweep" or any combination
+1039    of them.
+
+1040    user
+1040    Cannot do fast sweep.  Complex sheet sources and complex 
+1040    source densities are not yet supported by fast sweep. 
+
+1041    user
+1041    Cannot do fast sweep.  Non-zero value boundaries, and 
+1041    functional value boundaries, are not yet supported by 
+1041    fast sweep.
+
+1042    user
+1042    Cannot do fast sweep.  Fast sweep does not support impedance 
+1042    boundary conditions yet.
+
+1043    user
+1043    Cannot do a frequency sweep (fast or slow.)  
+1043
+1043    You have set up a completely lossless problem.  The result 
+1043    will be independent of frequency, so there's no point to 
+1043    doing a sweep.  Possible causes:
+1043      - all conductors are "perfect_conductor"
+1043      - all conductors are "stranded"
+1043      - a mix of the above
+
+1044    fatal
+1044    Improper solve setup. Select either "Solve fields",
+1044    "Solve parameters", "Solve Transient" or any combination
+1044    of them.
+
+1045   	user
+1045	Cannot export $$1 matrix
+
+1046 	user
+1046	No matrix to export
+
+1047	user
+1047	Cannot open file for export
+	
+1100	user	
+1100    Error in enforcing $$1 variables for setup $$2.
+
+1101	user
+1101    Error in enforcing $$1 variables for setup.
+
+1102 user
+1102 Module $$1 exited with an error code.
+
+end_error_file

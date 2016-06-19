@@ -1,0 +1,10 @@
+# %W%	%Q%
+# Copyright 1984-1989 Ansoft Corp.
+
+begin_error_file
+
+1001 fatal
+1001 Negative diagonal entry in system matrix. Please
+1001 check if material properties were properly setup.
+
+end_error_file

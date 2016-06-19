@@ -1,0 +1,337 @@
+# %W%	%Q%
+# Copyright 1984-1991 Ansoft Corp.
+begin_error_file
+
+1001	fatal
+1001	Two points have identical coordinates within the resolution
+1001	of the program.
+
+1002	fatal
+1002	Divide by zero operation encountered. 
+
+1051	fatal
+1051	Leaf has no elements but has sub leaves.
+
+1052	fatal
+1052 	Data out of sequence in leaf.
+
+1053	fatal
+1053	Leaf pointers are not correct.
+
+1054	fatal
+1054	Leaf's sub-leaves are out of sequence.
+
+1055	fatal
+1055	Leaf's stem's pointer is not correct.
+
+1056	fatal
+1056	Leaf's stem's pointer is not correct.
+
+1057	fatal
+1057	Leaf's size is not correct.
+
+1058	fatal
+1058	Test error during display.
+
+1059	fatal
+1059	Data variable has less than 1 inode link.
+     
+1060	fatal
+1060	Data is out of order in test routine.
+
+1061	fatal
+1061	Btree has the wrong number of elements.
+
+1062	fatal
+1062	Delete operation failed on quick search, element is in list.
+
+1063	fatal
+1063	Delete operation has null leaf.
+
+1064	fatal
+1064	Delete operation should point at head leaf.
+
+
+1065	fatal
+1065	Insertion data for linked list is already in another
+1065	linked list.
+
+1066	fatal
+1066	Linked list previous pointer does not point to the proper data.
+
+1067	fatal
+1067	Linked list next pointer does not point to the proper data.
+
+1068	fatal
+1068	Linked list size disagrees with actual size.
+
+1069	fatal
+1069	Illegal leaf structure encountered during btree
+1069	traversal.
+
+1070	fatal
+1070	Leaf has nil pointer during btree traversal.
+
+1071	fatal
+1071	Leaf has nil head during btree traversal.
+
+1101	fatal
+1101	The two points are equal.
+
+1102 	fatal
+1102	Divide by zero, large or 0 is returned.
+     
+1103	fatal
+1103	Either the 2 lines are equal or they have different end points and
+1103	their mid points are on top of each other.
+
+1115 	fatal
+1115	Error in assigning line to tetrahedron.
+
+1116	fatal
+1116	Error in reverse sweep during assigning line to tetrahedron.
+
+1120	fatal
+1120	Duplicate tetrahedron entry for face.
+
+1121	fatal
+1121	Tetrahedron can't be linked to face.
+
+1122	fatal
+1122	Tetrahedron can't be deleted from face.
+
+1123	fatal
+1123	Tetrahedron to be moved is NIL.
+     
+1124	fatal
+1124	Error in reading tetrahedra data.
+     
+1125	fatal
+1125	Can't find tetrahedron's neighbor.
+
+1126	fatal
+1126	Error in two point tetrahedron match.
+
+1130	fatal
+1130	Duplicate triangle entry for line.
+     
+1131	fatal
+1131 	Triangle can't be linked to line.
+
+1132    fatal
+1132	Triangle can't be deleted from line.
+     
+1133	fatal
+1133	Triangle to be moved is NIL.
+     
+1134	fatal
+1134	Error in reading triangle data.
+
+1135	fatal
+1135	Can't find triangle's neighbor.
+
+1141	fatal
+1141	Error in reading points.
+
+1142	fatal
+1142	Error in reading lines.
+
+1143	fatal
+1143	Error in reading faces.
+
+1144	fatal
+1144	Error in reading tetrahedra.
+     
+1145	fatal
+1145	Error in reading triangles.
+
+1151    fatal
+1151	Error in writing points.
+     
+1152	fatal
+1152	Error in writing lines.
+
+1153	fatal
+1153	Error in writing faces.
+
+1154	fatal
+1154	Error in writing tetrahedra.
+
+1155	fatal
+1155   	Error in writing triangles.
+
+1201	fatal
+1201	There are no solids with which to make a mesh.
+
+1202	fatal
+1202	There is no mesh available for refinement.
+
+1203	fatal
+1203	Empty tetrahedron location for processing data.
+
+1212	fatal
+1212	Error in two point tetrahedron match operation.
+
+1215	fatal
+1215	Error in assigning line to tetrahedron during line 
+1215	preservation routines.
+
+1216	fatal
+1216	Error in reverse sweep during assigning line to 
+1216	tetrahedron during line preservation routines.
+
+1218	fatal
+1218	Incorrect solid angle computed during test for
+1218	point enclosure within solid.
+
+1219	fatal
+1219	Unable to find initial solid during slow loop
+1219	procedure of tetrahedra assignment.
+
+1222	fatal
+1222	No boundary tetrahedra found upon entry to tetrahedra
+1222	boundary assignment procedure.
+
+1223	fatal
+1223	Unassigned tetrahedra are left after tetrahedra assignment
+1223	procedure.
+
+1224	fatal
+1224	Error in list structure of either face or tetrahedra data.
+
+1225	fatal
+1225	Volume mismatch during mesh generation procedure.
+
+1227	fatal
+1227	Face already has two tetrahedra assigned to it and
+1227	can not be assigned to another.
+
+1228	fatal
+1228	Face has empty pointer to point data.
+
+1236	fatal
+1236	Point found on edge during test for illegal tetrahedron.
+
+1237	fatal
+1237	Point found on half face during test for illegal tetrahedron.
+
+1240	fatal
+1240	Surface area of tetrahedrons is different than before point
+1240	addition. 
+
+1241	fatal
+1241	Computed dot product of face normal with normal
+1241	of test point is not correct.
+
+1242	fatal
+1242	Addition of point causes a tetrahedron to form
+1242	with an aspect ratio greater than 200.
+
+1243	fatal
+1243	Unable to rollback mesh to last correct mesh.
+
+1244	fatal
+1244	At least two of the solids in this problem overlap 
+1244	and cannot be meshed correctly. Please check the data
+1244	and try the problem again.
+
+
+1245	user
+1245 	There are no points in the point list to refine.
+
+1246	fatal
+1246	No new tetrahedra were added during this refinement step.
+1246	This is either because the new points formed 'bad'
+1246	tetrahedra or that the mesh generator could not handle the
+1246	new data.
+
+1247	fatal
+1247	One of the solids in this problem has at least one 
+1247	face in which the points on the face are not
+1247	coplanar. Please check the solid data and try the problem
+1247	again.
+
+1250	fatal
+1250	One of the face's vertices points to a nil point or 
+1250	one of the face's vertices has an inode counter 
+1250	not equal to one.
+
+1251	fatal
+1251	Tetrahedron number 0 on the face points to a nil tetrahedron.
+
+1252	fatal
+1252	Tetrahedron number 0's reference does not link back correctly.
+
+1253	fatal
+1253	Tetrahedron number 1's reference does not link back correctly.
+
+1254	fatal
+1254	Tetrahedron points to a non-existent half-face.
+
+1255	fatal
+1255	Tetrahedron has no neighbor, but the tetrahedron face has two entries.
+
+1256	fatal
+1256	Tetrahedron is too small for the mesh generator.
+
+1257	fatal
+1257	The inode counter is not one for one of the faces.
+
+1258	fatal
+1258	The inode counter is not one for one of the tetrahedron.
+
+1259	fatal
+1259	One of the tetrahedron's vertices points to a nil point or 
+1259	one of the tetrahedron's vertices has an inode counter 
+1259	not equal to one.
+
+1260	fatal
+1260	One of the vertices points has an inode counter 
+1260	not equal to one.
+
+1261	fatal
+1261	The computed surface area for the solid faces does
+1261	not equal the area that is described by the mesh
+1261	representation of the solid faces.
+
+1262	fatal
+1262	The computed length of the preserved lines
+1262	does not match the previously computed length.
+
+1302	fatal
+1302	Material volumes of tetrahedra have changed after point
+1302	addition.
+
+1303	fatal
+1303	Unable to open point list file for refinement.
+
+1400	fatal
+1400	Abort test during line preservation.
+
+1401	fatal
+1401	Abort test during face preservation.
+
+1402	fatal
+1402	Abort test during material assignment.
+
+1501	fatal
+1501	No point list found for one of the master boundaries.
+1501	Please recheck your boundary information.
+
+1502	fatal
+1502	One of the triangles on the master boundary could not
+1502	be matched to the slave's set of triangles. Please
+1502 	recheck your boundary information.
+
+1505	fatal
+1505	One of the solid points on the master/slave pair
+1505	could not be matched on the corresponding 
+1505	slave/master pair. Please check to make certain
+1505	that both boundaries have identical solid faces.
+
+1506	user
+1506	Error in creating a macro file in the "$$1"
+1506	directory.
+
+end_error_file
+

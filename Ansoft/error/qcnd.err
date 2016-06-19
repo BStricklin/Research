@@ -1,0 +1,46 @@
+
+
+begin_error_file
+
+1401	user
+1401 	$$1: Not yet implemented.
+
+1402	user
+1402	Error: $$1 is already assigned to $$2.
+1402	Either remove the object from this net selection 
+1402	or clear the above net.
+
+1403	user
+1403	Error: $$1 Not allowed to be changed to $$2 like this.
+
+1404	user
+1404	Error: No Object selected for making $$1.
+
+1405   	user
+1405	Error: No Object selected.
+
+1406    user
+1406   	Error: Object $$1 is not a conductor, cannot select it.
+
+1407	user
+1407	Error: $$1 is not assigned correctly. All objects in one
+1407	conduction path are not selected to form this net.
+
+1408	user
+1408	Error: Cannot clear nets without any net being selected.
+
+1409	user
+1409	Error: Cannot clear the net as the string in the edit field
+1409	does not match the net selected in the list box.
+
+1410	user
+1410	Error: $$1 cannot be renamed or changed into contents of an 
+1410	already existing net, $$2.
+
+1411	user
+1411	Error: $$1 cannot have regular and perfect conductors as part 
+1411	of it. Nets can be made up of all perfect conductors or all regular 
+1411	conductors. Hybrid nets are not allowed, so delete the above net or
+1411	change the material property of the objects involved.
+
+end_error_file

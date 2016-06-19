@@ -1,0 +1,1327 @@
+749057: contents: Contents
+855682: onhelp: Using the Help System
+854739: onhelp: The Topics List
+854746: onhelp: The Button Commands
+854748: onhelp: Links in the Text
+854750: onhelp: Document Title
+855092: onhelp: Active Regions on Graphics
+855070: onhelp: Selecting Text and Graphics
+854752: onhelp: The Menu Bar
+996746: onhelp: Help Window Functions
+996775: onhelp: Page Number
+997365: onhelp: Screen Size (Percentage)
+997949: onhelp: Screen Size (Step)
+996806: onhelp: Page Scroll
+996812: onhelp: Scroll Bar
+75459: intro: Maxwell 2D
+75550: intro: Maxwell 2D and Maxwell Control Panel
+75589: intro: Maxwell 2D and Maxwell 3D
+77431: intro: Time-stepping Solutions
+81805: intro: Maxwell 2D Parametric Analysis Module
+74901: intro: Accessing Maxwell 2D
+82265: intro: General Procedure
+78727: intro: Executive Commands Window
+75095: intro: Executive Commands Menu
+75101: intro: Solution Monitoring
+78669: intro: Display Area
+76920: intro: Changing the View of the Geometric Model
+84367: intro: Zooming In
+84368: intro: Zooming Out
+84369: intro: Fit All
+84370: intro: Fit Drawing
+84371: intro: Fill Solids
+82076: intro: Changing the View of Transient Solutions
+82131: intro: Zooming In
+82139: intro: Zooming Out
+82104: intro: Viewing the Entire Plot
+82159: intro: Displaying Plot Coordinates
+82172: intro: Formatting Transient Plot Axes
+82175: intro: Formatting Transient Plot Graphs
+76406: intro: Batch Processing
+82344: intro: Licensing and Non-Graphical Interfaces
+81795: intro: Batch Mode for Workstations (UNIX)
+76439: intro: Batch Log File
+76447: intro: Batch Script File
+79842: intro: Batch Mode for Personal Computers (Microsoft Windows)
+80044: intro: Batch Log File
+127452: slvr: Solver
+126271: slvr: Modifying the Solver Type
+125282: slvr: Maxwell 2D Software Packages
+125316: slvr: Electric Fields
+128699: slvr: Electrostatic Field Solver
+128961: slvr: DC Conduction Field Solver
+131321: slvr: AC Conduction Field Solver
+127068: slvr: DC Magnetic Fields
+125416: slvr: Magnetostatic Field Solver
+127085: slvr: AC Magnetic Fields
+125456: slvr: Eddy Current Field Solver
+125490: slvr: Eddy Axial Field Solver
+130353: slvr: Transient Solver
+127435: slvr: Complete
+130341: slvr: Parametric Analysis
+132067: slvr: Thermal Field Solver
+997429: hotkeys: Hotkeys
+997825: hotkeys: List of Hotkeys
+997833: hotkeys: 2D Modeler Hotkeys
+997834: hotkeys: 2D Boundary Manager Hotkeys
+998794: hotkeys: 2D Meshmaker Hotkeys
+1000359: hotkeys: Parametric Table Hotkeys
+996735: hotkeys: Parametrics Post Processor Hotkeys
+555418: drawing: Drawing
+555591: drawing: Differences Between Cartesian and Axisymmetric Models
+418256: defmod: Define Model Menu
+418706: defmod: Draw Model
+420854: defmod: Couple Model
+418352: defmod: Group Objects
+579881: 2dmodel: Draw Model
+580169: 2dmodel: 2D Modeler
+576226: 2dmodel: Modifying the Geometry
+572594: 2dmodel: 2D Modeler Commands
+342491: 2dmodel: Tool Bar
+343529: 2dmodel: Screen Layout
+342553: 2dmodel: Menu Bar
+342558: 2dmodel: Drawing Region
+342569: 2dmodel: Project Windows
+342574: 2dmodel: Subwindows
+342591: 2dmodel: Subwindow Coordinate Systems
+342598: 2dmodel: Subwindows Versus Project Windows
+342601: 2dmodel: Active Windows
+342609: 2dmodel: Status Bar
+342633: 2dmodel: Message Bar
+576274: 2dmodel: Drawing Plane for the Model
+342727: 2dmodel: General Procedure
+342819: 2dmodel: Selecting Points With the Keyboard
+580259: 2dmodel: Units
+580256: 2dmodel: Object Names and Colors
+342868: 2dmodel: Viewing a Model
+342874: 2dmodel: Zooming and Panning in Subwindows
+342885: 2dmodel: Displaying Objects as Wire Frames or Shaded Solids
+576716: 2dmodel: Reading, Importing, and Saving Models
+576714: 2dmodel: Things to Consider
+343026: 2dmodel: Keep it Simple
+343031: 2dmodel: Level of Detail
+576765: 2dmodel: Treat the Background as an Object
+577307: 2dmodel: Sizing the Drawing Region
+576842: 2dmodel: Consider Boundaries
+576825: 2dmodel: Objects within Objects
+343059: 2dmodel: Partial Overlapping Not Allowed
+559734: file: File Menu
+342490: file: File Commands
+342563: file: File Extensions
+343250: file: File/New
+342596: file: File/Open
+342653: file: Things to Consider
+342654: file: Read Only Mode
+342659: file: Opening Maxwell 2D Field Simulator Files version 4.33 (or earlier)
+343336: file: File/Import
+342706: file: File/Close
+343394: file: File/Save
+343415: file: File/Save As
+559808: file: File/Macro
+559841: file: File/Macro/Start Recording
+559852: file: File/Macro/Stop Recording
+559860: file: File/Macro/Execute
+559875: file: File/Macro/Delete
+559890: file: File/Macro/Promote
+559920: file: File/Macro/Edit Macro
+342814: file: File/Revert
+559135: file: File/Print Setup
+557593: file: File/Print
+559201: file: File/Print/Rectangle
+559220: file: File/Print/Active View
+557611: file: File/Print/Project
+557655: file: Print Setup Within the Windows
+556261: file: File/Export Animation
+559707: file: File/Exit
+342475: editmenu: Edit Menu
+342494: editmenu: Edit Commands
+342704: editmenu: Edit/Undo Clear
+1007943: editmenu: Edit/Undo
+1009861: editmenu: Edit/Redo
+342712: editmenu: Edit/Cut
+342727: editmenu: Edit/Copy
+1004290: editmenu: Edit/Paste
+342770: editmenu: Edit/Clear
+342780: editmenu: Edit/Duplicate
+342808: editmenu: Edit/Duplicate/Along Line
+342833: editmenu: Edit/Duplicate/Along Arc
+342870: editmenu: Edit/Duplicate/Mirror Duplicate
+1003155: editmenu: Edit/Select
+343007: editmenu: Edit/Select/By Area
+1003423: editmenu: Edit/Select/By Name
+1009898: editmenu: Edit/Select/From List
+343037: editmenu: Edit/Select/All Items
+343044: editmenu: Edit/Select/Open Objects
+343051: editmenu: Edit/Select/Closed Objects
+343058: editmenu: Edit/Select/Model Objects
+343067: editmenu: Edit/Select/NonModel Objects
+1003762: editmenu: Edit/Deselect All
+1003230: editmenu: Edit/Deselect All/Current Project
+1003233: editmenu: Edit/Deselect All/All Projects
+343089: editmenu: Edit/Attributes
+343108: editmenu: Edit/Attributes/By Clicking
+344132: editmenu: Object Attributes
+343154: editmenu: Color
+343165: editmenu: Name
+1003316: editmenu: Model Object
+1011368: editmenu: Show Hatches
+1003355: editmenu: Show Orientation
+343219: editmenu: Text Attributes
+343236: editmenu: Text
+343243: editmenu: Color
+343255: editmenu: Alignment
+343274: editmenu: Slant
+343754: editmenu: Edit/Attributes/Recolor
+1007514: editmenu: Edit/Attributes/Rename
+343338: editmenu: Edit/Visibility
+343349: editmenu: Edit/Visibility/Hide Selection
+343357: editmenu: Edit/Visibility/By Item
+343381: editmenu: Edit/Show All
+1007965: editmenu: Edit/Insert Row
+1007971: editmenu: Edit/Delete Row
+1009866: editmenu: Edit/Duplicate Row
+1009811: editmenu: Edit/External Circuit
+1010920: editmenu: External Circuit Connection
+1010907: editmenu: Edit External Connection
+610225: reshape: Reshape Menu
+342496: reshape: Reshape Commands
+342576: reshape: Reshape/Scale Selection
+342609: reshape: Reshape/Vertex
+342642: reshape: Reshape/Vertex/Move
+609821: reshape: Reshape/Vertex/Align
+342741: reshape: Reshape/Vertex/Insert
+609684: reshape: Reshape/Edge
+342802: reshape: Reshape/Edge/Number of Segments
+342835: reshape: Reshape/Edge/Delete
+342850: reshape: Object Stitching
+430139: boolean: Boolean Menu
+429509: boolean: Boolean Commands
+555952: boolean: Boolean/Union
+555166: boolean: Boolean/Subtract
+555205: boolean: Boolean/Intersect
+555164: boolean: Boolean/Simplify
+342473: arrange: Arrange Menu
+342487: arrange: Arrange Commands
+342522: arrange: Arrange/Move
+342773: arrange: Using the Mouse
+342785: arrange: Using the Keyboard
+342848: arrange: By Entering Offsets
+342571: arrange: Arrange/Rotate
+342587: arrange: Arrange/Mirror
+430139: object: Object Menu
+429509: object: Object Commands
+342583: object: Objects
+343130: object: Open Objects
+342617: object: Closed Objects
+342619: object: Simple Closed Objects
+342625: object: Complex Closed Objects
+342642: object: Entering Points from the Keyboard
+342653: object: Picking Points in Several Subwindows
+342673: object: Overlapping Objects
+342693: object: Self-Intersecting Objects
+555618: object: Modeling Thin Objects
+558178: object: Importing Complex Objects
+342735: object: Object/Polyline
+342753: object: Object/Arc
+342805: object: Object/Spline
+342828: object: Object/Text
+342868: object: Scaling Text
+342878: object: Generating Screen Captures
+342887: object: Object/Rectangle
+342925: object: Object/Circle
+342941: object: Object/Circle/2 Point
+342981: object: Object/Circle/3 Point
+555654: object: Object/Spiral
+555673: object: Object/Spiral/Rectangular
+555716: object: Square Corners
+555721: object: Rounded Corners
+555796: object: Mitered Corners
+555836: object: Object/Spiral/Circular
+46273: constr: Constraint Menu
+36100: constr: ds
+36464: constr: Constraints
+39206: constr: Constraints and Parametric Sweeps
+39919: constr: Direction of Constraints
+39281: constr: Over-Constraining a Model
+39914: constr: Deleting Objects and Edges
+39865: constr: Moving Objects and Edges
+44574: constr: Naming Constraint Variables
+41232: constr: Constraint/Add
+38723: constr: Constraint/Add/Point-To-Point Distance
+39231: constr: Effect of Point-to-Point Constraints on Object Dimensions
+39138: constr: Constraints Between Arbitrary Object Points
+38776: constr: Constraint/Add/Line-To-Line Angle
+38811: constr: Constraint/Add/Arc Radius
+38788: constr: Constraint/Add/Rotation
+38869: constr: Constraint/Modify
+38893: constr: Constraint/Modify/By Clicking
+38911: constr: Constraint/Modify/Edit Variables
+39689: constr: Defining Functional Constraints
+38945: constr: Constraint/Delete
+38991: constr: Constraint/Delete/By Clicking
+39002: constr: Constraint/Delete/By Name
+38952: constr: Constraint/Delete/All
+38958: constr: Constraint/Enforce
+39389: constr: Errors in Enforcing Constraints
+39397: constr: Exiting With Unenforced Constraints
+343636: model: Model Menu
+343107: model: Model Commands
+688137: model: Model/Measure
+343217: model: Measurements
+692142: model: Model/Object Attributes
+692355: model: Model/Drawing Units
+343272: model: Model/Drawing Size
+343369: model: Things to Consider
+343371: model: Scroll Bars
+343374: model: Adjusting the View
+690275: model: Model/Drawing Plane
+343471: model: Model/SnapTo Mode
+343506: model: Keyboard Entry
+343523: model: Model/Defaults
+343544: model: Model/Defaults/Color
+343553: model: Model/Defaults/Text Size
+343578: model: Model/Defaults/Window Settings
+692294: model: Model/Default Color
+342472: wind2d: Window Menu
+342492: wind2d: Window Commands
+342666: wind2d: Windows
+838997: wind2d: Selecting the Active Project Window
+342677: wind2d: Moving and Resizing Windows Using the Mouse
+342682: wind2d: Entering Points With the Keyboard
+342696: wind2d: Window/New
+342726: wind2d: Window/Close
+342734: wind2d: Window/Tile
+342757: wind2d: Window/Tile/Subwindows
+342777: wind2d: Window/Tile/Projects
+342797: wind2d: Window/Tile/All
+342806: wind2d: Window/Cascade
+342822: wind2d: Window/Cascade/Subwindows
+342842: wind2d: Window/Cascade/Projects
+342861: wind2d: Window/Cascade/All
+836456: wind2d: Window/Change View
+342899: wind2d: Window/Change View/Zoom In
+837019: wind2d: Window/Change View/Zoom Out
+837368: wind2d: Window/Change View/Fit All
+342946: wind2d: Window/Change View/Fit Selection
+342955: wind2d: Window/Change View/Fit Drawing
+342965: wind2d: Window/Coordinate System
+342984: wind2d: Window/Coordinate System/Shift
+836566: wind2d: Window/Coordinate System/Rotate
+838867: wind2d: Window/Coordinate System/Align to Edge
+836527: wind2d: Window/Coordinate System/Reset
+343059: wind2d: Things to Consider
+836631: wind2d: Window/Grid
+343141: wind2d: Default Grid Settings
+343150: wind2d: Inappropriate Grid Spacing
+343158: wind2d: Invisible Grid Points
+343162: wind2d: Window/Fill Solids
+343189: wind2d: Window/Toolbar
+840454: wind2d: Window/Wire Frame
+555270: helpmenu: Help Menu
+290434: helpmenu: Help Menu Commands
+295165: helpmenu: Help/About Help
+556266: helpmenu: Help/On Context
+294405: helpmenu: Help/On Module
+294406: helpmenu: Help/On Maxwell 2D
+294411: helpmenu: Help/Contents
+294412: helpmenu: Help/Index
+555858: helpmenu: Help/Shortcuts
+294886: helpmenu: Help/Shortcuts/Hotkeys
+294887: helpmenu: Help/Shortcuts/Tool Bar
+420854: couple: Couple Model
+742590: group: Group Objects
+744188: group: Grouping Objects
+744630: group: Ungrouping Objects
+746615: group: Selecting Objects
+742870: group: Deselecting Objects
+742877: group: Exiting Group Objects
+744857: group: Effects of Grouping
+744819: group: Assigning Materials
+745635: group: Assigning Boundaries or Sources
+742905: group: Setting up Executive Parameters
+742926: group: Computing Matrices
+744831: group: Computing Forces, Torques, and Core Loss
+742906: group: Current Distribution in Grouped Objects
+743739: group: Current Distribution in Magnetostatic Simulations
+743746: group: Current Distribution in Eddy Current Simulations
+742940: group: Things to Consider
+742885: group: Adjacent Conductors
+744342: group: Parallel Sources and Grouped Objects
+746626: group: Objects that Appear Differently in Different Cross Sections
+743707: group: Grouping Ground Conductors
+408601: mat1: Material Manager
+406847: mat1: Modifying the Material Setup
+488735: mat1: Accessing the Material Manager from the Control Panel
+406901: mat1: Assigning Materials
+412733: mat1: Material Database
+495625: mat1: Global Material Database
+495628: mat1: Local Material Database
+495635: mat1: Inheritance
+467109: mat1: Functional and Vector Material Properties
+495159: mat1: View Window
+495172: mat1: Changing the View of the Geometric Model
+495236: mat1: Zoom In
+495237: mat1: Zoom Out
+495238: mat1: Fit All
+495239: mat1: Fit Drawing
+495240: mat1: Fill Solids
+495241: mat1: Wire Frame
+495213: mat1: Window Commands
+495167: mat1: Window/Measure
+495259: mat1: Window/Grid
+495260: mat1: Window/SnapTo Mode
+409030: mat1: Adding Materials to the Database
+495574: mat1: Deriving New Materials
+409260: mat1: Assigning Materials to Objects
+407071: mat1: Selecting Several Objects at Once
+407101: mat1: Deselecting Objects
+495071: mat1: Materials with Vector, Anisotropic, or Functional Properties
+492066: mat1: Object Orientation Display
+479905: mat1: Excluded Objects
+409464: mat1: Excluding Objects
+413934: mat1: Including Objects
+488856: mat1: Automatically Excluded Objects (DC Conduction)
+407179: mat1: Changing Material Attributes
+407217: mat1: Deleting Materials
+490966: mat1: Deleting Derived Materials
+495583: mat1: Underiving and Rederiving Materials
+495022: mat2: Material Attributes
+407261: mat2: Relative Permittivity
+407279: mat2: Relative Permeability
+495135: mat2: Conductivity
+416757: mat2: Imaginary Permeability
+496244: mat2: Thermal Conductivity
+488942: mat2: Magnetic Coercivity
+489028: mat2: Magnetic Retentivity
+489042: mat2: Magnetization
+489067: mat2: Electric Coercivity
+489079: mat2: Electric Retentivity
+489092: mat2: Polarization
+489117: mat2: Radial Vector Functions
+489145: mat2: Tangential Vector Functions
+453828: mat2: Perfect Conductors
+420001: mat2: Anisotropic Materials
+492531: mat2: Entering Anisotropic Material Property Values
+492632: mat2: Electrostatic, AC Conduction, and Eddy Axial Solvers
+445838: mat2: Anisotropic Permittivity Tensor
+492728: mat2: Anisotropic Conductivity Tensor (AC Conduction and Eddy Axial)
+495008: mat2: Anisotropic Permeability Tensor (Eddy Axial Only)
+492938: mat2: Anisotropic Imaginary Relative Permeability Tensor
+492959: mat2: Magnetostatic and Eddy Current Solvers
+407767: mat2: Anisotropic Permeability Tensor
+493449: mat2: Anisotropic Imaginary Relative Permeability Tensor (Eddy Current Only)
+492985: mat2: Anisotropic Permittivity Tensor (Eddy Current Only)
+493049: mat2: Anisotropic Conductivity Tensor (Eddy Current Only)
+489231: mat3: Nonlinear Materials
+492105: mat3: Nonlinear, Functionally Defined, and Anisotropic Materials
+489260: mat3: Nonlinear and Linear Permanent Magnets
+489295: mat3: Adding Nonlinear Materials
+489331: mat3: Entering a B-H Curve
+489346: mat3: Deleting a B-H Curve
+489350: mat3: Modifying B and H values for a B-H Curve
+489358: mat3: Adding Points to a B-H Curve
+489370: mat3: Importing a B-H Curve
+491386: mat3: Saving a B-H Curve
+489434: mat3: Axes
+489471: mat3: View Graph
+496105: mat3: Nonlinear Permanent Magnets
+496127: mat3: In Air Demagnetization
+496129: mat3: In Device Demagnetization
+496131: mat3: Other Device Considerations
+492871: mat3: Functional Material Properties
+492132: mat3: Functional Properties in RZ Solvers
+489538: mat3: Options
+489564: mat3: Dependent and Independent (Editable) Material Properties
+489573: mat3: Magnetostatic Properties
+489618: mat3: Electrostatic Properties
+435034: mat3: Functions
+414509: mat3: Modifying a Function
+414516: mat3: Deleting a Function
+495171: mat3: Transient Function Variables
+489663: mat3: Vector Functions
+308194: bound1: Setup Boundaries/Sources
+308102: bound1: Boundary Manager
+850012: bound1: Modifying the Boundary and Source Setup
+262783: bound1: Boundary Manager Commands
+850233: bound1: Boundary Manager Tool Bar
+852633: bound1: General Procedure
+852667: bound1: Modifying Boundaries and Sources
+852686: bound1: Deleting Boundaries and Sources
+852703: bound1: Exiting Setup Boundaries/Sources
+296709: bound1: Boundaries and Sources
+257615: bound1: Boundary Conditions
+257621: bound1: Sources
+285672: bound1: Required Electromagnetic Sources
+257709: bound1: References for Electric or Magnetic Potential
+262464: bound1: Functional Boundaries and Sources
+263851: bound1: Modeling External Fields
+263871: bound1: Using Symmetry
+299844: bound1: Boundaries and Sources in Axisymmetric Models
+299849: bound1: Outside Boundaries
+299905: bound1: Value Boundaries in Magnetostatic and Eddy Current Problems
+299909: bound1: Axisymmetric External Fields
+300016: bound1: Symmetry Boundaries
+266318: bound2: Electrostatic Boundary Conditions
+300033: bound2: Default (Neumann and Natural) Boundaries
+848850: bound2: Value Boundaries
+303108: bound2: Balloon Boundaries
+848908: bound2: Symmetry Boundaries
+259605: bound2: Odd Symmetry
+306707: bound2: Even Symmetry
+848946: bound2: Matching (Master and Slave) Boundaries
+256518: bound2: Electrostatic Sources
+256520: bound2: Solid Voltage
+256521: bound2: Edge Voltage
+256522: bound2: Solid Charge Sources
+260595: bound2: Floating Charge Sources (Floating Conductors)
+260579: bound2: Charge Sources for Non-Conductors
+256523: bound2: Charge Sheet
+266488: bound2: Magnetostatic Boundary Conditions
+300132: bound2: Default (Neumann and Natural) Boundaries
+849030: bound2: Value Boundaries
+300155: bound2: Value Boundaries in Axisymmetric Models
+849070: bound2: Balloon Boundaries
+849096: bound2: Symmetry Boundaries
+849102: bound2: Odd Symmetry
+294660: bound2: Even Symmetry
+849122: bound2: Matching (Master and Slave) Boundaries
+264482: bound2: Magnetostatic Sources
+264490: bound2: Current
+257028: bound2: Perfect Current
+256504: bound2: Current Sheet
+849142: bound3: Eddy Current Boundary Conditions
+300229: bound3: Default (Neumann and Natural) Boundaries
+849210: bound3: Value Boundaries
+300261: bound3: Value Boundaries in Axisymmetric Models
+852091: bound3: Balloon Boundaries
+852106: bound3: Symmetry Boundaries
+852113: bound3: Odd Symmetry
+852126: bound3: Even Symmetry
+849250: bound3: Impedance Boundaries
+849282: bound3: Matching (Master and Slave) Boundaries
+256545: bound3: Eddy Current Sources
+304834: bound3: Active Conductors
+271043: bound3: Solid, Stranded, and Parallel Current Sources
+305140: bound3: Current Sources for Touching Conductors
+257112: bound3: Current Sources for Perfect Conductors
+257091: bound3: Current Sheets
+256646: bound3: Passive Conductors
+258806: bound3: Specifying Phase In Single and Multi-Phase Systems
+306464: bound4: DC Conduction Boundary Conditions
+300377: bound4: Default (Neumann and Natural) Boundaries
+300407: bound4: Value Boundaries
+300450: bound4: Balloon Boundaries
+300455: bound4: Symmetry Boundaries
+300459: bound4: Odd Symmetry
+300463: bound4: Even Symmetry
+300469: bound4: Resistance Boundaries
+300532: bound4: Matching (Master and Slave) Boundaries
+300540: bound4: DC Conduction Sources
+300546: bound4: Solid Voltage
+300554: bound4: Edge Voltage
+849450: bound4: AC Conduction Boundary Conditions
+300575: bound4: Default (Neumann and Natural) Boundaries
+849512: bound4: Value Boundaries
+849534: bound4: Balloon Boundaries
+849556: bound4: Symmetry Boundaries
+849560: bound4: Odd Symmetry
+849564: bound4: Even Symmetry
+849580: bound4: Matching (Master and Slave) Boundaries
+266740: bound4: AC Conduction Sources
+266755: bound4: Solid Voltage
+257493: bound4: Edge Voltage
+300635: bound4: Eddy Axial Boundary Conditions
+300646: bound4: Default (Neumann and Natural) Boundaries
+300664: bound4: Value Boundaries
+300676: bound4: Balloon Boundaries
+300681: bound4: Symmetry Boundaries
+300684: bound4: Odd Symmetry
+300687: bound4: Even Symmetry
+300691: bound4: Matching Boundaries
+300700: bound4: Eddy Axial Sources
+308976: bound5: Transient Boundary Conditions
+306610: bound5: Default (Neumann and Natural) Boundaries
+306662: bound5: Value Boundaries
+306696: bound5: Balloon Boundaries
+306704: bound5: Symmetry Boundaries
+306711: bound5: Odd Symmetry
+306723: bound5: Even Symmetry
+306733: bound5: Matching (Master and Slave) Boundaries
+306553: bound5: Transient Sources
+306901: bound5: Solid Current
+306902: bound5: Solid Voltage
+307063: bound5: Current Sheet
+308364: bound5: External Connections
+308126: bound5: Schematic Capture and Diodes
+308568: bound5: Sources in Schematic Capture
+308605: bound5: Thermal Boundary Conditions and Sources
+308617: bound5: Thermal Boundary Conditions
+308639: bound5: Temperature
+308952: bound5: Heat Flux Density
+308647: bound5: Convection and Radiation
+308762: bound5: Thermal Sources
+308773: bound5: Heat Source
+308777: bound5: Total Heat Source
+308782: bound5: Heat Source Density
+342475: boundsel: Edit Menu (Boundary Manager)
+342494: boundsel: Boundary Manager Edit Commands
+342704: boundsel: Edit/Undo Clear
+342770: boundsel: Edit/Clear
+1003155: boundsel: Edit/Select
+343037: boundsel: Edit/Select/Objects
+343067: boundsel: Edit/Select/Objects/By Clicking
+1008213: boundsel: Edit/Select/Objects/By Area
+1008310: boundsel: Edit/Select/Objects/By Name
+1008374: boundsel: Edit/Select/Edge
+1008767: boundsel: Edit/Select/Trace
+1008479: boundsel: Things to Consider
+1008438: boundsel: Edit/Select/Object Intersect
+1008364: boundsel: Edit/Deselect All
+443264: assign1: Assign Menu
+441827: assign1: Assign Commands
+443333: assign1: General Procedure
+447781: assign1: Setting Default Boundary Conditions
+446428: assign1: Assigning Boundary Conditions
+452290: assign1: Sources
+454536: assign2: Assign/Boundary
+447934: assign2: Assign/Boundary (Thermal)
+454645: assign2: Convection & Radiation
+454576: assign2: Assign/Boundary/Value
+442273: assign2: Assign/Boundary/Symmetry
+442323: assign2: Assign/Boundary/Balloon
+442357: assign2: Assign/Boundary/Resistance
+448326: assign2: Assign/Boundary/Impedance
+442419: assign2: Assign/Boundary/Master
+442467: assign2: Assign/Boundary/Slave
+455870: assign3: Assign/Source
+448055: assign3: Assign/Source/Solid
+442577: assign3: Solid Charge Sources
+449381: assign3: Charges on Conductors (Floating Conductors)
+449397: assign3: Charges on Dielectrics
+442595: assign3: Solid Voltage Sources
+454718: assign3: Transient Voltage Sources
+454789: assign3: Winding Setup
+442625: assign3: Solid DC Current Sources
+442655: assign3: Solid AC Current Sources
+454697: assign3: Transient Current Sources
+454893: assign3: Windings
+458047: assign3: Solid Thermal Sources
+448134: assign3: Assign/Source/Sheet
+442747: assign3: Charge Sheets
+442771: assign3: Current Sheets
+442807: assign3: Edge Voltages
+457016: assign3: Sheet Thermal Sources
+442835: assign3: Assign/End Connection
+454136: assign3: Functional Boundaries and Sources
+447474: assign3: General Procedure
+444977: assign3: Options
+442857: assign3: Functions
+442889: assign3: Modifying a Function
+442901: assign3: Deleting a Function
+445045: assign3: Orientation
+454982: assign3: Specifying Function Orientation
+5051: exparm: Setup Executive Parameters
+5065: exparm: Executive Parameters Commands
+3172: exparm: Available Parameters
+6178: exparm: Force
+6221: exparm: Viewing the Force Solution
+6230: exparm: Core Loss
+6240: exparm: Core Loss for Eddy Current Problems
+7627: exparm: Core Loss for Transient Problems
+7640: exparm: Computing Core Loss
+412446: exparm: Matrix
+412526: exparm: Specifying a Return Path for Current
+412598: exparm: Specifying Signal and Ground Lines
+2701: exparm: Viewing the Matrix Solution
+412680: exparm: Torque
+412720: exparm: Viewing the Torque Solution
+412736: exparm: Flux Lines
+412762: exparm: Viewing Information about Flux Lines
+412774: exparm: Viewing the Flux Linkage Solution
+414722: exparm: Current Flow
+2940: exparm: Viewing the Current Flow Solution
+3222: exparm: Post Processor Macros
+774: exparm: Executing Macros
+415762: exparm: Defining Macros
+4856: exparm: Matrix/Flux
+6432: exparm: Select Matrix/Flux Entries
+4825: exparm: Select Matrix Entries
+4855: exparm: Removing Matrix Entries
+4889: exparm: Tailoring a Parametric Problem
+4896: exparm: Define Model
+4905: exparm: Setup Materials
+4913: exparm: Setup Boundaries/Sources
+686428: solopt: Setup Solution Options
+686446: solopt: Meshing
+686468: solopt: Need for a Fine Mesh
+686480: solopt: General Procedure
+686552: solopt: Starting Mesh
+686562: solopt: Initial Mesh
+686572: solopt: Current Mesh
+691179: solopt: Manual Mesh
+687848: solopt: Solver Residual
+694543: solopt: Solver Choice
+694540: solopt: Frequency
+687673: solopt: Solve For Fields and Parameters
+687718: solopt: Transient Solution Options
+695498: solopt: Transient Models
+695415: solopt: Adaptive Analysis
+686638: solopt: Percent Refinement Per Pass
+686642: solopt: Stopping Criterion
+686648: solopt: Number of Requested Passes
+686652: solopt: Percent Error
+687822: solopt: Suggested Values
+697581: solopt: Use Control Program
+698004: solopt: Control Program
+697718: solopt: Activating a Control Program
+698010: solopt: Control Program File Format
+698056: solopt: Solution and Previous Control File Formats
+698051: solopt: User Control File Format
+698877: solopt: Use Macro
+115461: mesh: Manual Mesh Refinement
+117087: mesh: 2D Meshmaker
+106935: mesh: Meshmaker Commands
+106971: mesh: Tool Bar
+106977: mesh: General Procedure
+106989: mesh: Mesh Refinement
+107021: mesh: Undoing a Refinement
+107027: mesh: Mesh Menu
+107041: mesh: Mesh/Seed
+111202: mesh: Mesh/Seed/Surface
+112849: mesh: Mesh/Seed/Object
+107109: mesh: Mesh/Seed/Skin
+109372: mesh: Mesh/Seed/QuadTree
+107191: mesh: Mesh/Seed/Delete
+113481: mesh: Mesh/Seed/SaveSeed
+113483: mesh: Mesh Seeding for Parametric Sweeps
+113488: mesh: Deleting Mesh Seeding Operations
+107203: mesh: Mesh/Make
+109393: mesh: Triangle Aspect Ratios
+109557: mesh: Mesh/Line Match
+109974: mesh: Point Placement
+107219: mesh: Mesh/Delete
+107229: mesh: Mesh/Display
+107255: mesh: Mesh/Information
+107277: mesh: Refine Menu
+107289: mesh: Refine/Point
+107327: mesh: Refine/Area
+115629: mesh: Aborting an Area Refinement
+115639: mesh: Refine/Object
+113291: mesh: Object Information
+113319: mesh: Refine Area and Refine Number
+107445: mesh: Aborting an Object Refinement
+135076: transien: 2D Transient Solver
+131642: transien: Transient Excitation
+132980: transien: Transient Motion
+133004: transien: Motion Attributes
+133114: transien: Units of Motion
+132177: transien: Motion Setup
+132910: transien: General Procedure
+131758: transien: Mechanical Setup
+131920: transien: Functional Mechanical Values
+131951: transien: Deleting Symbols
+130526: transien: Functional Parameter Values
+133329: transien: Source Variables
+133553: transien: Winding Variables
+133198: transien: Solid Conductor Variables
+133212: transien: Mechanical Transient Variables
+133665: transien: Magnetization and Value Boundary Variables
+133163: transien: Modifying the Motion Setup
+130434: transien: Rotational Motion
+132008: transien: Translational Motion
+131319: transien: View Window
+131324: transien: Changing the View of the Geometric Model
+131326: transien: Zoom In
+131334: transien: Zoom Out
+131342: transien: Fit All
+131349: transien: Fit Drawing
+131353: transien: Fill Solids
+131356: transien: Wire Frame
+131361: transien: Window Commands
+131376: transien: Window/Measure
+131385: transien: Window/Grid
+131395: transien: Window/SnapTo Mode
+132874: transien: Modifying the Motion Status Setup
+131272: transien: Exiting the Motion Setup
+235994: ssetp: Setting up a Parametric Solution
+236394: ssetp: Setup Solution/Options
+237040: ssetp: Setup Solution/Variables
+235491: ssetp: Parametric Solution Options Commands
+235518: ssetp: Parametric Solution Options Tool Bar
+232284: ssetp: General Procedure
+236339: ssetp: Selecting Cells
+232993: ssetp: Editing Individual Cells
+235606: ssetp: Setup Solution/Variable Control
+238721: ssetp: Configuring the Control Settings
+238722: ssetp: Motor Configuration
+238774: ssetp: Optimization Configuration
+973189: solve: Solve
+968214: solve: Generating Solutions
+968236: solve: Completing the Solution Process
+968246: solve: Monitoring the Solution Process
+968274: solve: Aborting the Solution Process
+968288: solve: Stopping and Restarting the Solution Process
+977879: solve: Refreshing the Plot
+977341: solve: Viewing the Geometric Model
+972052: solve: Viewing Executive Parameter Solutions
+971004: solve: Solutions/Matrix
+976923: solve: Viewing a Matrix
+972084: solve: Distributed Maxwell
+968398: solve: Lumped Maxwell
+968442: solve: Distributed SPICE
+976941: solve: Lumped SPICE
+976927: solve: Coupling Coefficient
+976953: solve: Operations
+976954: solve: Export
+976955: solve: Set Units
+968488: solve: Matrix Norm
+968522: solve: Solutions/Force/Torque
+978062: solve: Force
+968558: solve: Torque
+979863: solve: Solutions/Flux Lines
+972631: solve: Solutions/Flux Linkage
+979979: solve: Modifying Turns and Depth
+980179: solve: Operations
+980168: solve: Export
+980185: solve: Set Units
+968612: solve: Solutions/Current Flow
+971908: solve: Solutions/Core Loss
+980233: solve: Solutions/Number Registers
+977821: solve: Solutions/Transient Data
+978115: solve: Show Coords
+978118: solve: Settings
+973363: solve: Viewing Convergence Data
+968664: solve: Number of Passes
+972171: solve: Convergence Criteria
+968718: solve: Frequency
+970514: solve: Convergence Data
+968802: solve: Convergence Display
+968894: solve: Viewing Profile Data
+968910: solve: Command/Info
+968918: solve: Real Time and CPU Time
+968924: solve: Memory Size
+968928: solve: Number of Elements
+555868: solvem: Solving a Problem with Variables
+571968: solvem: Solve/Nominal Problem
+569323: solvem: Solve/Variables
+555240: solvem: Solution Process
+555792: solvem: Aborting a Solution
+555794: solvem: Errors in Parametric Solutions
+555354: solvem: Displaying Solution Information
+555358: solvem: Variables
+573857: solvem: Model
+557382: solvem: Nominal Geometry
+556887: solvem: Parametric Geometry
+556918: solvem: Solutions
+572821: solvem: Nominal Solutions
+557118: solvem: Parametric Solutions
+557099: solvem: Convergence
+557283: solvem: Nominal Convergence
+557284: solvem: Parametric Convergence
+572793: solvem: Profile
+572804: solvem: General Profile Statistics
+556643: solvem: Parametric Profile Statistics
+232706: post1: 2D Post Processor
+232820: post1: Post Process Commands
+229131: post1: Post Process/Nominal Problem
+232903: post1: 2D Post Processor Commands
+232916: post1: Post Processor Units
+233852: post1: Predefined Surfaces, Volumes, and Lists
+234073: post1: Predefined Surfaces
+233910: post1: Predefined Volumes and Object Lists
+232582: post1: Post Process/Fields
+232652: post1: Deleting Time Steps
+555270: viewmenu: View Menu
+556707: viewmenu: View Commands
+290441: viewmenu: Using the Mouse to Change the View
+291293: viewmenu: View/Render
+291096: viewmenu: View/Render/Wireframe
+291107: viewmenu: View/Render/Flat Shaded
+293869: viewmenu: View/Render/Smooth Shaded
+291146: viewmenu: View/Zoom In
+291251: viewmenu: Zooming In With the Mouse
+291168: viewmenu: View/Zoom Out
+291273: viewmenu: Zooming Out With the Mouse
+298440: viewmenu: View/Fit Selection
+291182: viewmenu: View/Fit All
+557000: viewmenu: View/Fit All/All Views
+557020: viewmenu: View/Fit All/Active View
+557844: viewmenu: View/Orientations
+558754: viewmenu: View/Default
+291141: viewmenu: View/Coordinate System
+291433: viewmenu: View/Coordinate System/Show
+299449: viewmenu: View/Coordinate System/Hide
+293335: viewmenu: View/Coordinate System/Large
+291472: viewmenu: View/Coordinate System/Small
+291529: viewmenu: View/Coordinate System/Positive Only
+299460: viewmenu: View/Coordinate System/Two Sided
+291427: viewmenu: View/Grid Plane
+291802: viewmenu: View/Grid Plane/Show
+291803: viewmenu: View/Grid Plane/Hide
+293680: viewmenu: View/Grid Plane/XY
+291804: viewmenu: View/Grid Plane/YZ
+291793: viewmenu: View/Grid Plane/XZ
+291844: viewmenu: View/Setup Grid
+291935: viewmenu: View/Side Window
+293311: viewmenu: View/Toolbar
+292120: viewmenu: View/Command Prompt
+555270: coordmen: Coordinates Menu
+290434: coordmen: Coordinates Commands
+556538: coordmen: Using Coordinate Systems
+556547: coordmen: Global
+556549: coordmen: Local
+556552: coordmen: Saved Local
+556556: coordmen: Object
+556558: coordmen: Rotated
+556352: coordmen: Coordinates/Set Current CS
+291293: coordmen: Coordinates/Set Current CS/Move Origin
+557663: coordmen: Rotating Coordinate Systems
+556462: coordmen: Coordinates/Set Current CS/Rotate X
+556473: coordmen: Coordinates/Set Current CS/Rotate Y
+291147: coordmen: Coordinates/Save Current CS
+292637: coordmen: Coordinates/Delete
+293483: coordmen: Coordinates/Global
+292681: coordmen: Coordinates/Local
+292694: coordmen: Coordinates/Unrotated
+292707: coordmen: Coordinates/Rotated
+555270: geommenu: Geometry Menu
+293846: geommenu: Geometry Commands
+298229: geommenu: Geometry/Create
+299352: geommenu: Geometry/Create/Point
+299353: geommenu: Geometry/Create/Line
+557364: geommenu: Geometry/Create/Arc
+556476: geommenu: Geometry/Create/Object List
+299446: geommenu: Geometry/Create/Rectangle
+558864: geommenu: Geometry/Create/Circle
+294982: geommenu: Geometry/Modify
+295009: geommenu: Geometry/Modify/Point
+295015: geommenu: Geometry/Modify/Line
+299463: geommenu: Geometry/Modify/Object List
+295060: geommenu: Geometry/Delete
+555270: datamenu: Data Menu
+290462: datamenu: Data Commands
+290573: datamenu: Data/Functions
+290591: datamenu: Data/Functions/Edit
+564523: datamenu: Variable Names
+564526: datamenu: Valid Operators
+564651: datamenu: Intrinsic Functions and Variables
+564837: datamenu: Piecewise Linear Functions
+564841: datamenu: Form Expressions
+564861: datamenu: Dataset Expressions
+564871: datamenu: Expressions File
+302121: datamenu: Data/Functions/Modify
+300098: datamenu: Modifying a Variable
+290575: datamenu: Data/Calculator
+295772: datamenu: Data Calculations
+555489: datamenu: The Calculator Stack
+302148: datamenu: Registers
+297447: datamenu: Enlarging the Register Display Area
+302158: datamenu: Stack Commands
+290634: datamenu: Push
+290638: datamenu: Pop
+290642: datamenu: RlDn
+290646: datamenu: RlUp
+290650: datamenu: Exch
+290654: datamenu: Clear
+290658: datamenu: Undo
+302161: datamenu: Name
+293663: datamenu: Degrees
+295313: datamenu: Radians
+290715: datamenu: Input
+302331: datamenu: Qty
+293979: datamenu: Electrostatic Field Quantities
+291960: datamenu: Magnetostatic Field Quantities
+291204: datamenu: Eddy Current (AC Magnetic) Field Quantities
+563926: datamenu: Eddy Axial Field Quantities
+563942: datamenu: Thermal Field Quantities
+563962: datamenu: DC Conduction Field Quantities
+563983: datamenu: AC Conduction Field Quantities
+302334: datamenu: Geom
+302337: datamenu: Const
+302340: datamenu: Num
+302343: datamenu: Func
+302346: datamenu: Read
+302168: datamenu: General
+292673: datamenu: (Add)
+292675: datamenu: (Subtract)
+292727: datamenu: (Multiply)
+292679: datamenu: (Divide)
+292769: datamenu: Neg
+292777: datamenu: Abs
+302178: datamenu: Cmplx
+294258: datamenu: Real
+293687: datamenu: Imag
+293693: datamenu: CmplxMag
+294733: datamenu: CmplxPhase
+558783: datamenu: CmplxR
+558784: datamenu: CmplxI
+558785: datamenu: Conj
+293696: datamenu: AtPhase
+294357: datamenu: Smooth
+302381: datamenu: Domain
+302192: datamenu: Scalar
+294932: datamenu: Vec?
+292821: datamenu: (Inverse)
+296563: datamenu: Power
+296557: datamenu: (Square Root)
+296038: datamenu: Trig
+558809: datamenu: (Partial Derivative)
+292905: datamenu: (Integral)
+296615: datamenu:  (Gradient)
+302430: datamenu: Max
+293103: datamenu: Min
+564217: datamenu: ln
+564218: datamenu: log
+302195: datamenu: Vector
+294952: datamenu: Scal?
+293197: datamenu: Matl
+303296: datamenu: Electrostatic Properties
+303299: datamenu: Eddy Current Properties
+293303: datamenu: Magnetostatic Properties
+564108: datamenu: Eddy Axial Properties
+564141: datamenu: Thermal Properties
+564111: datamenu: Transient Properties
+564344: datamenu: DC Conduction Properties
+564112: datamenu: AC Conduction Properties
+293273: datamenu: Mag
+293207: datamenu: Dot
+298562: datamenu: Cross
+293219: datamenu: Divg
+293221: datamenu: Curl
+294673: datamenu: Tangent
+295011: datamenu: Normal
+558847: datamenu: Unit Vec
+558853: datamenu: Tangent
+565022: datamenu: 2D Normal
+558407: datamenu: Output
+558396: datamenu: Draw
+302222: datamenu: Plot
+557714: datamenu: Anim
+302234: datamenu: 2D Plot
+293126: datamenu: Value
+302263: datamenu: Eval
+293132: datamenu: Write
+302269: datamenu: Export
+297769: datamenu: Export/To File
+297936: datamenu: Export/On Grid
+564214: datamenu: Append
+298382: datamenu: Data/Solution Info
+302292: datamenu: Type
+297370: datamenu: Mesh Size
+297371: datamenu: Region Extents
+297372: datamenu: Object Name
+297373: datamenu: Triangles
+302275: datamenu: Total Area
+298596: datamenu: Min Tri Area
+297376: datamenu: Max Tri Area
+562750: plotmenu: Plot Menu
+293846: plotmenu: Plot Commands
+294464: plotmenu: Plot/Mesh
+294548: plotmenu: Plot/Field
+305606: plotmenu: Create the Geometry
+556352: plotmenu: Plot Quantity
+556359: plotmenu: Electrostatic Field Quantities
+303067: plotmenu: Magnetostatic Field Quantities
+303069: plotmenu: Eddy Current Field Quantities
+563049: plotmenu: DC Conduction Field Quantities
+563050: plotmenu: Thermal Field Quantities
+563051: plotmenu: AC Conduction Field Quantities
+563054: plotmenu: Eddy Axial Field Quantities
+563055: plotmenu: Transient Field Quantities
+305615: plotmenu: On Geometry
+299125: plotmenu: In Area
+301489: plotmenu: 2D Line Plot
+301492: plotmenu: 3D Line Plot
+299052: plotmenu: Phase
+557040: plotmenu: Phase Animation
+296942: plotmenu: Scalar Surface Plots
+297798: plotmenu: Vector Surface Plots
+306367: plotmenu: Scalar 3D Line Plots
+306384: plotmenu: Vector 3D Line Plots
+306783: plotmenu: Scalar 2D Line Plots
+297817: plotmenu: Scalar Point Plots
+297823: plotmenu: Vector Point Plots
+297773: plotmenu: Plot Options
+297568: plotmenu: Name
+298462: plotmenu: Show Color Key
+299468: plotmenu: Moving the Color Key
+299461: plotmenu: Modifying a Plot with the Color Key
+297327: plotmenu: Filled
+297510: plotmenu: Plot Scale
+297517: plotmenu: Auto Scale
+297523: plotmenu: Use Limits
+297547: plotmenu: Divisions
+297627: plotmenu: Linear
+297553: plotmenu: Logarithmic
+299223: plotmenu: Color Map Type
+299225: plotmenu: Ramp
+297734: plotmenu: Spectrum
+300403: plotmenu: Color Block
+307043: plotmenu: Value
+300408: plotmenu: Marker
+298165: plotmenu: Marker Options
+298180: plotmenu: Type
+298238: plotmenu: Size
+298240: plotmenu: Map Size
+298242: plotmenu: Map Color
+297903: plotmenu: Arrow
+298145: plotmenu: Arrow Options
+297995: plotmenu: Type
+297111: plotmenu: Size
+298024: plotmenu: Map Size
+298027: plotmenu: Map Color
+298026: plotmenu: Spacing
+298294: plotmenu: Num Points
+298299: plotmenu: Color
+298296: plotmenu: Marker
+298349: plotmenu: Width
+298471: plotmenu: Style
+298487: plotmenu: Show Markers
+298381: plotmenu: Show Line
+298292: plotmenu: Add to current plot
+299279: plotmenu: Plot/Animation
+306019: plotmenu: Creating an Animated Plot
+304609: plotmenu: Displaying an Animated Plot (Plot Control Panel)
+304058: plotmenu: Editing an Animated Plot
+556879: plotmenu: Making Movies
+556894: plotmenu: Tips and Hints For Generating Animated Plots
+307705: plotmenu: Space
+307707: plotmenu: Speed
+304681: plotmenu: Changing the Views
+307795: plotmenu: Rotating Views
+307794: plotmenu: Zooming In and Out
+299289: plotmenu: Plot/B-H Curves
+563638: plotmenu: Plot/Open
+301747: plotmenu: Plot/Open/2D Plot
+563678: plotmenu: Plot/Open/3D Plot
+301750: plotmenu: Plot/Save As
+301824: plotmenu: Plot/Save As/2D Plot
+301837: plotmenu: Plot/Save As/3D Plot
+301665: plotmenu: Plot/Modify
+295854: plotmenu: Plot/Visibility
+296676: plotmenu: Plot/Delete
+296726: plotmenu: Plot/Show Coordinates
+296741: plotmenu: Plot/Format
+296756: plotmenu: Plot/Format/Axes
+296831: plotmenu: Plot/Format/Graphs
+555270: optionme: Options Menu
+290434: optionme: Options Commands
+558339: optionme: Options/Preferences
+580503: prmover: Introduction to Parametric Analysis
+556361: prmover: Nominal and Parametric Models
+556777: prmover: Nominal Model
+556692: prmover: Parametric Model
+577825: prmover: Accessing the Parametrics Analysis Module
+578750: prmover: General Procedure
+557261: prmover: Create the Model
+571669: prmover: Set Up Solutions
+556020: prmover: Field and Nominal Solutions
+556027: prmover: Setup the Parametric Solution
+555364: prmover: Generate Solutions
+556097: prmover: Post Processing
+572044: prmover: Batch Processing
+555467: prmover: Batch Mode for Workstations (UNIX)
+555428: prmover: Errors in Parametric Solutions
+555578: prmover: Batch Mode for Personal Computers
+578641: prmover: Batch Processing for Windows
+565944: postp: Parametrics Post Processing
+566453: postp: Parametric Postprocessor
+555260: postp: Post Process/Nominal Problem
+555268: postp: Post Process/Variables
+566462: postp: Parametric Setup
+562700: postp: Parametrics Post Processor Tool Bar
+559602: postp: Variables
+565234: postp: General Procedure for Viewing Field Solutions
+557647: editm: Edit Menu
+555762: editm: Edit Commands
+557687: editm: Edit/Undo
+557690: editm: Edit/Redo
+555700: editm: Edit/Cut
+555477: editm: Edit/Copy
+555479: editm: Edit/Paste
+555481: editm: Edit/Clear
+555483: editm: Edit/Deselect All
+555485: editm: Edit/Insert Row
+555487: editm: Edit/Delete Row
+557695: editm: Edit/Duplicate Row
+555217: varmenu: Variables Menu
+555245: varmenu: Variables Commands
+555359: varmenu: Variables/Add
+555377: varmenu: Variables/Delete
+555735: varmenu: Variables/View
+555381: varmenu: Variables/Animate
+555487: varmenu: Animating the Model
+555676: varmenu: Changing the View of the Geometric Model
+557979: varmenu: Variables/Rearrange Columns
+555220: datam: Data Menu
+555248: datam: Data Commands
+555275: datam: Data/Fill
+555456: datam: Data/Sweep
+557269: datam: Data/Sort
+555716: datam: Selecting Sort Keys
+555717: datam: Deleting Sort Keys
+555718: datam: Sorting Data
+555719: datam: Changing the Sort Priority
+558913: plotm: Plot Menu
+555922: plotm: Plot Commands
+555429: plotm: Plot/New
+555473: plotm: Plot Windows
+556097: plotm: Plot/Open
+556635: plotm: Plot/Close
+556113: plotm: Plot/Create Composite Plot
+564246: plotm: Plot/Save As
+559503: plotm: Plot/Add Graphs
+558133: plotm: Plot/Show Coordinates
+561939: plotm: Plot/Format
+555577: plotm: Plot/Format/Axes
+555611: plotm: Plot/Format/Graphs
+561094: plotm: Plot/Zoom In
+555693: plotm: Plot/Zoom Out
+555715: plotm: Plot/Fit All
+561202: plotm: Plotting Vector Data
+560960: plotm: Plotting Complex Data
+159583: posttran: Post Processor/Transient Data
+232703: posttran: Plotting the Transient Solutions
+232763: posttran: Exiting PlotData
+585886: tech1: Technical Notes
+588044: tech1: Modules and Solvers
+574768: tech1: Electrostatic Field Simulation
+574772: tech1: Theory
+581348: tech1: Capacitance
+574882: tech1: Capacitance in Terms of Charges and Voltages
+579528: tech1: Capacitance in Terms of Currents and Time Varying Voltages
+574936: tech1: Computing Capacitance
+579633: tech1: Virtual Forces (Electrostatic)
+579698: tech1: Virtual Torques (Electrostatic)
+575004: tech1: Flux Linkage (Electrostatic)
+582070: tech1: Magnetostatic Field Simulation
+575050: tech1: Theory
+575140: tech1: Inductance
+579761: tech1: Inductance in Terms of Flux Linkage and Currents
+579835: tech1: Inductance in Terms of Voltages and Time Varying Currents
+575222: tech1: Computing an Inductance Matrix
+579948: tech1: Virtual Forces (Magnetostatic)
+580010: tech1: Virtual Torques (Magnetostatic)
+575286: tech1: Flux Linkage (Magnetostatic)
+590067: tech2: Eddy Current Field Simulation
+584755: tech2: Theory
+575338: tech2: Components of Current Density
+575354: tech2: Integrating the Current Density
+575362: tech2: Assumptions
+575376: tech2: Deriving the Eddy Current Equation
+586054: tech2: Maxwell\xd5 s Equations
+578778: tech2: Relationship of Magnetic and Electric Field
+575470: tech2: Relationship of Current and Current Density
+580084: tech2: Eddy Currents and Skin Depth
+580115: tech2: Impedance Matrix
+587386: tech2: Computing an Impedance Matrix
+580242: tech2: Inductance
+580273: tech2: Resistance
+580300: tech2: Inductance and Resistance in Impedance Computations
+580474: tech2: Virtual Forces (Eddy Current)
+580491: tech2: Virtual Torques (Eddy Current)
+575642: tech2: Current Flow (Eddy Current)
+588140: tech2: Nonlinear Eddy Current Field Simulation
+588163: tech2: Theory
+588331: tech2: Sinusoidal B
+588356: tech2: Sinusoidal H
+588162: tech2: Permeability
+575664: tech2: DC Conduction Field Simulation
+585115: tech2: Theory
+585142: tech2: Steady-state Conditions
+575740: tech2: Relevant Time Constant
+575784: tech2: Conductance
+581578: tech2: Current Flow (DC Conduction)
+575808: tech3: AC Conduction Field Simulation
+582278: tech3: Theory
+575844: tech3: Assumptions
+575856: tech3: Admittance
+575860: tech3: Current Flow
+575876: tech3: Eddy Axial Field Simulation
+575880: tech3: Theory
+575930: tech3: Electromagnetic Sources
+575934: tech3: Assumptions
+575954: tech3: Deriving the Eddy Axial Field Equation
+585470: tech3: Obtaining Maxwell\xd5 s Equations in Terms of H
+576052: tech3: Obtaining Currents
+576066: tech3: Current Flow (Eddy Axial)
+578846: tech3: Axisymmetric Field Simulation
+576084: tech3: Transient Simulation
+587333: tech3: Assumptions
+587974: tech3: Time-Dependent Magnetic Field Simulation
+588008: tech3: Stranded Conductors
+588038: tech3: Solid Conductors
+588061: tech3: Solid Conductors with Current Sources
+588082: tech3: Solid Conductors with Voltage Sources
+587385: tech3: Translational Motion
+587414: tech3: Rotational Motion
+587285: tech3: Phasor Notation
+585590: tech3: Real and Imaginary Components
+576138: tech3: Thermal Field Simulation
+589762: tech3: Theory
+3415: macedit: Macro Editor
+557710: macedit: Defining Macros in the Macro Editor
+558729: macedit: Macro Editor Tool Bar
+558040: macedit: Macro Editor Commands
+557760: macedit: Macro Editor Edit Commands
+558810: macedit: Edit/All Parameters
+558824: macedit: Edit/Command Parameters
+558526: macedit: Edit/Database Export Macro
+559643: macedit: Edit/Database Export Macro/Add
+559731: macedit: Edit/Database Export Macro/Edit
+559732: macedit: Edit/Database Export Macro/Delete
+559208: macedit: Edit/Add New Commands
+559951: macedit: Edit/Cut
+559217: macedit: Edit/Copy
+559229: macedit: Edit/Paste
+558543: macedit: Edit/GoTo Line
+559265: macedit: Edit/Comment
+558549: macedit: Edit/Uncomment
+557761: macedit: Search Commands
+557791: macedit: Search/Find
+557870: macedit: Search/Replace
+557762: macedit: Macro Editor View Commands
+558572: macedit: View/Edit Mode
+558579: macedit: View/Assign Parameter Mode
+560637: macedit: Assign Parameter Mode
+558585: macedit: View/All Parameters
+558020: macedit: View/Fit Preview
+560014: macedit: View/Clear Preview
+560015: macedit: View/Options
+556844: datasets: Datasets
+557184: datasets: Dataset Editor
+560096: datasets: Datasets Menu Commands
+556852: datasets: Creating Datasets
+557036: datasets: Dataset File Menu
+557024: datasets: File/New
+557025: datasets: File/Open
+557026: datasets: File/Close
+557027: datasets: File/Save
+557028: datasets: File/Save As
+557029: datasets: File/Import Text File
+557030: datasets: File/Exit
+557031: datasets: Dataset Edit Menu
+557354: datasets: Edit/Insert Coords/Before
+557041: datasets: Edit/Insert Coords/After
+557040: datasets: Edit/Delete Coords
+557043: datasets: Dataset View Menu
+557044: datasets: View/Zoom In
+557045: datasets: View/Zoom Out
+557046: datasets: View/Fit All
+557091: datasets: View/Show Coordinates
+557092: datasets: View/Plot Settings
+557093: datasets: View/Graph Settings
+557047: datasets: Dataset Arrange Menu
+557048: datasets: Arrange/Move
+557049: datasets: Arrange/Scale
+559620: datasets: Dataset Help Menu
+559628: datasets: Help/About Help
+559660: datasets: Help On Context
+559661: datasets: Help/On Dataset Editor
+560100: datasets: Piecewise Linear Functions
+560103: datasets: Usage
+560105: datasets: Parameters
+560110: datasets: x_variable or y_variable
+560112: datasets: form_expression
+560131: datasets: dataset_function
+226038: index: Index

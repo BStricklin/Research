@@ -1,0 +1,41 @@
+t "NZ" V 4.0
+a     25 coil
+ 1 0.999991 25833384.9998968
+n 0 m  0 0 0
+	p  0
+	c  6
+a     53 bonnet
+ 1 1 0
+n 13 m0
+ m  0 Mag_ValueAngle 0 0
+	p  0
+	c  3
+a     35 yoke
+ 1 1 0
+n 13 m1
+ m  0 Mag_ValueAngle 0 0
+	p  0
+	c  4
+a     11 core
+ 1 1.05 0
+n 0 m  1 0.026653376507058 994718.394321114
+	p  0
+	c  1
+a      1 plugnut
+ 1 1 0
+n 20 m2
+ m  0 Mag_ValueAngle 0 0
+	p  0
+	c  5
+a      0 background
+ 1 1 0
+n 0 m  0 0 0
+	p  0
+	c 12
+e
+r 1
+y 0 -112.5
+300 127.5
+u 39.37007874 INCHES
+s 0.00270933333334416
+end

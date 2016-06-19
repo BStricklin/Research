@@ -1,0 +1,567 @@
+# %W%	%Q%
+# Copyright 1984-1996 Ansoft Corp.
+
+
+begin_error_file
+
+1001    fatal
+1001    Module $$1 died unexpectedly or
+1001    possibly was terminated by user.
+
+
+1026    fatal
+1026    Error in writing the $$1 file.
+1026    Possible causes are:
+1026       - Out of disk space.
+1026       - No file access privileges.
+1026       - Network or hardware problems.
+
+
+1037    fatal
+1037    Could not create directory $$1. Possible causes are:
+1037       - Out of disk space.
+1037       - No file access privileges.
+1037       - Network or hardware problems.
+
+1050	fatal
+1050	mesh3d failed.
+
+1051	fatal
+1051	Error while opening/reading the model
+
+1052	fatal
+1052	Failed to make initial mesh
+
+1053	fatal
+1053	Error while opening/writing the mesh files
+
+1054	fatal
+1054	Error while opening/reading the mesh files
+
+1055	fatal
+1055	Error while refining the mesh
+
+1100    fatal
+1100    Insufficient memory for module $$1.
+
+1243    fatal
+1243    Error in reading material file.
+
+1244    fatal
+1244    The project $$1 is not created by "Maxwell 3D Field Simulator". 
+1244    Cannot run m3dfs on it.
+
+1245    user
+1245    Number of passes has to be greater than 0.
+
+1246    user
+1246    One of "Solve fields" or "Solve parameters" must be chosen.
+
+1247    fatal
+1247    Error in reading solution parameters. Error code is $$1,
+1247    Last read keyword = $$2.
+
+1248    user
+1248    Field solution does not exist for the current mesh.
+1248    Choose "Solve for fields" through 
+1248    "Setup solution parameters..." and then resume solving.
+
+1249    fatal
+1249    Meshes (fileset1 or fileset2) do not exist. Impossible to
+1249    solve non-adaptively.
+
+1250    fatal
+1250    Initial mesh copy failed either due to insufficient disk space
+1250    or the initial mesh does not exist.
+
+1251    user
+1251    Choose at least one of "Solve Parameters" or "Solve Fields"
+
+1252    fatal
+1252    Cannot copy $$1 to $$2
+
+1253    fatal
+1253    Cannot link $$1 to $$2
+
+1254    user
+1254    The current mouse position is not the vertex of a body.
+1254    Pick a vertex in the "Vertex Snap" mode and proceed.
+
+1255    fatal
+1255    Feature Not Yet Implemented in module $$1.
+
+1256    fatal
+1256    Incomplete setup for $$1 solution.
+
+1257    user
+1257    The Problem has a converged solution.
+1257    Please check the solution parameters.
+
+1258    user
+1258    Additional passes requested is set to 0.
+1258    Please edit the solution parameters and 
+1258    specify the number of passes requested.
+
+1259    user
+1259    You do not have a license for pre-processing for the
+1259    current problem type.
+
+1260    user
+1260    You do not have a license for post-processing for the
+1260    current problem type.
+
+1261    user
+1261    You do not have a license for solving the
+1261    current problem type.
+
+1262    user
+1262    You do not have a license for parametrics.
+
+1263    user
+1263    Solvers do not accept residual values below 1e-30
+
+1264    user
+1264	Min D calculated is less than or equal to zero. 
+1264    Your model seems to be incorrect. Mesher/solver might fail
+
+1265    user
+1265    Translation of "$$1" to $$2 format failed
+1265    Message: $$3
+
+1266    user
+1266    Error in problem setup: $$1
+
+2000	user
+2000	Invalid param : do single freq.
+
+2001	user
+2001	Invalid param : solve adaptive.
+
+2002	user
+2002	Invalid param : do sweep.
+
+2003	user
+2003	Invalid param : sweep type.
+
+2004	user
+2004	Illegal port field accuracy percent.
+
+2005	user
+2005	Illegal frequency unit.
+
+2006	user
+2006	Illegal frequency.
+
+2007	user
+2007	Illegal sweep frequency value(s).
+
+2008	user
+2008	Illegal sweep number of steps.
+
+2009	user
+2009	Illegal sweep field save option.
+
+2010	user
+2010	Invalid computation type.
+
+2011	user
+2011	Invalid mode selection.
+
+2012	user
+2012	Max modes must be positive.
+
+2013	user
+2013	The max number of port modes you can solve is $$1.
+
+2014	user
+2014	Invalid convergence type.
+
+2015	user
+2015	In order to do an adaptive solution, the number of
+2015	adaptive passes must be greater than zero.
+
+2016	user
+2016	Tet. refinement must be a valid percent.
+
+2017	user
+2017	The convergence delta must be positive.
+
+2018	user
+2018	Invalid PortMode string.
+
+2019	user
+2019	Invalid Port number.
+
+2020	use
+2020	Invalid Mode number.
+
+2021	user
+2021	Invalid magnitude.
+
+2022	user
+2022	Invalid mesh type.
+
+2023	user
+2023	Invalid approximation method.
+
+2024	user
+2024	The tet. limit must be positive.
+
+2025	user
+2025	Invalid limit tets indicator.
+
+2026	user
+2026	The test "$$1" already exists.
+2026	You cannot add it.
+
+2027	user
+2027	The number of points must be positive.
+
+2028	user
+2028	Illegal 0 <= Phi < 360 interval.
+
+2029	user
+2029	Illegal 0 <= Theta < 180 interval.
+
+2030	user
+2030	The radius must be positive.
+
+2031	user
+2031	Invalid surface type.
+
+2032	user
+2032	Invalid source name.
+
+2033	user
+2033	The test "$$1" was not found.
+2033	You cannot modify it.
+
+2034	user
+2034	The new name "$$1" conflicts with an existing test.
+
+2035	user
+2035	The test "$$1" was not found.
+2035	You cannot delete it.
+
+2036	user
+2036	The max_tet_increase must be a positive value.
+
+# 2037-2038 unused -- available for use
+
+2039	user
+2039	The magnitude must satisfy  -100 dB <= mag < 0 dB.
+
+2040	user
+2040	The magnitude must satisfy  0 < mag < 1.
+
+2041	user
+2041	The phase must satisfy 0 <= phase < 180.
+
+2042	user
+2042	Emissions Only requires a fast sweep or single frequency
+2042	solution.  You have not requested one and none exists.
+
+2043	user
+2043	The single frequency must be within the fast sweep interval.
+
+2044	user
+2044	Emissions Only requires a fast sweep or single frequency solution.  
+2044	You must modify the setup or request a solution that supports 
+2044	emissions tests.
+
+2045	user
+2045	The test must have at least one active source.
+
+2046	fatal
+2046	Fatal error: Trying to make window that already exists.
+2046	Info:Id = $$1, name = $$1
+
+2047	user
+2047	You cannot do both single frequency and sweep solutions
+2047	when solving for ports only.
+
+2048	user
+2048	Emissions tests were modified due to changes in defined sources.
+
+2049	user
+2049	You changed the definition of the current test but did not update it.
+2049	Do you want to discard the changes and proceed?
+
+2050	user
+2050	You must supply a name for the emissions test.
+
+2051	user
+2051	Invalid initial mesh refinement type.
+
+2052	user
+2052	Warning: the basis for the convergence matrix has been changed,
+2052	either in number of ports or number of modes per port.
+2052	Due to this, the convergence matrix has been reset using defaults.
+
+2053	user
+2053	Manual mesh has not yet been run for this project, and is not
+2053	supported in your setup until you run it.  This situation likely
+2053	arose from copying a project model-only, which does not copy the
+2053	mesh files.  Either use "Mesh Options" to run manual mesh, or change
+2053	your mesh type selection.
+
+2054	user
+2054	Given the specified frequency and model dimensions, lambda
+2054	refinement will create an extremely large starting mesh.
+2054	Your model and/or frequency units may be set incorrectly.
+2054
+2054	Do you want to change your setup before exiting?
+
+2055	user
+2055	The sweep start and stop frequencies may not be equal.
+
+2056	user
+2056	You must request at least one and no more than 20 eigenmodes.
+
+2057	user
+2057	You must specify a positive value for the minimum eigenmode 
+2057	frequency that is less than 100 times the default frequency $$1.  
+2057	This default frequency is determined by the geometry dimensions 
+2057	of the model.
+
+2058	user
+2058	This command can only be used for driven solutions.
+
+2059	user
+2059	This command can only be used for eigenmode solutions.
+
+2060	user
+2060	Invalid identifier for requested eigenmode solution.
+
+2061	user
+2061	Invalid mode index for the requested eigenmode solution.
+
+2062	user
+2062	The specified frequency value is already in the list.
+
+2063	user
+2063	You must first select a frequency from the list.
+
+2064	user
+2064	At least two frequencies (one step) are required for a sweep.
+
+2065	user
+2065	You have changed the start frequency, stop frequency, and/or
+2065    the number of steps.  These are inconsistent with previously
+2065    defined explicit sweep frequencies.  Do you want to revert to
+2065	the default frequency distribution or continue using the current
+2065	explicit frequencies?
+
+2066	user
+2066	The number of discrete frequency values supplied is not sufficient.
+
+2067	user
+2067	The discrete frequencies must all be distinct.
+
+2068	user
+2068	Discrete frequencies can be set only if a discrete sweep has 
+2068	previously been selected.
+
+2069	user
+2069	The field solution is saved only for the last frequency in a
+2069	discrete sweep or the last interpolating frequency in an interpolating
+2069	sweep.  Since your problem does not have any ports, solution data 
+2069	for all but this frequency will be discarded.  If this is your 
+2069	intent, please request a single frequency solution instead.
+
+2070	user
+2070	No eigenmode solution of the specified type was found.
+
+2071	user
+2071	The mesh computed at the adaptive frequency may not be dense enough 
+2071	to generate an accurate solution at higher frequencies in the sweep 
+2071	range.  Consider increasing the adaptive frequency to at least
+2071	0.5 times the high end frequency.  
+2071
+2071	Do you want to proceed anyway?
+
+2072	user
+2072	The selected fast sweep frequency range will likely result in
+2072	low accuracy near the upper and lower ends of the range.  Accuracy 
+2072	will be improved if you split it up into multiple fast sweeps.  
+2072	Consider using one sweep from $$1 to $$2 GHz and a second sweep 
+2072	from $$3 to $$4 GHz.
+2072
+2072	Do you want to proceed anyway?
+
+2073	user
+2073	You must specify a parametric variable name.
+
+2074	user
+2074	The parametric variable name must be unique.
+
+2075	user
+2075	You must define at least one parametric variable.
+
+2076	user
+2076	Error writing parametric variable definitions to disk.
+
+2077	user
+2077	Unable to open file $$1 to write parameter
+2077	extraction script.
+
+2078	user
+2078	Error writing parametric variable database $$1 to disk.
+
+2079	user
+2079	Filter cost function can be setup only if a frequency sweep
+2079	is chosen.
+
+2080	user
+2080	Frequency values cannot be negative.
+
+2081	user
+2081	As a consequence of problem setup changes that were made,
+2081	it was necessary to delete some of your parametric variable 
+2081	definitions, which no longer contained valid problem references.
+
+2082 user
+2082 The standard outputs that you can setup are circuit parameters.
+2082 Circuit parameters can only be extracted from projects that
+2082 have ports. You have not defined ports in this project. To
+2082 extract other data, you need to write custom macro files.
+
+2083	user
+2083	You must select at least one S-matrix entry for the plotting.
+
+2084	user
+2084	The error tolerance for the interpolating sweep must be positive and 
+2084	no larger than 2 percent.
+
+2085	user
+2085	The maximum number of solutions for the interpolating sweep must
+2085	be greater than 1.
+
+2086	user
+2086	The number of sweep steps requested may result in fewer solutions
+2086	than required for the interpolating sweep.  You should either use 
+2086	a discrete (non interpolating) sweep or increase the requested 
+2086	number of sweep steps.
+
+2087 user
+2087 Cannot convert reference curve to db. Function value(s) must be positive.
+
+2088	user
+2088	The fast sweep circuit parameters could not be approximated
+2088	well.  Corrective action will likely consist of one of the
+2088	following possibilities: 
+2088
+2088		Further refine the mesh.
+2088		Narrow the fast sweep frequency range.
+2088		Switch to an interpolating sweep.
+
+2089	user
+2089	The terminal voltage lines that were entered in the boundary manager
+2089	for one or more ports resulted in a singular voltage transformation
+2089	that cannot be used to produce reliable terminal quantities for the
+2089	current solution.  If you proceed, the terminal quantities may not
+2089	be useful.
+2089	
+2089	Possible causes of this problem are that one or more lines may have
+2089	been defined along the edge of a perfect conductor, or multiple lines
+2089	may connect the ground reference to a signal line.
+2089
+2089	Do you want to proceed, using the terminal voltage lines as defined?
+
+2090	user
+2090	The terminal voltage lines that were entered in the boundary
+2090	manager for one or more ports resulted in a singular voltage
+2090	transformation that cannot be used to produce reliable
+2090	terminal quantities for the current solution.
+2090	
+2090	Possible causes of this problem are that one or more lines
+2090	may have been defined along the edge of a perfect conductor,
+2090	or multiple lines may connect the ground reference to a
+2090	signal line.
+2090
+2090	Prior to doing any further solutions, please edit the 
+2090	terminal lines.
+2090
+
+2091	user
+2091	The interpolating sweep did not converge.  Attempting one or
+2091	more of the following may yield better approximated results:
+2091
+2091		1. Increase the maximum number of solutions for the
+2091		   interpolating sweep.  This will allow more 
+2091		   solutions supporting the interpolation, with 
+2091		   resulting increased accuracy.
+2091
+2091		2. Reduce the frequency range for the sweep.  This 
+2091		   may exclude problem regions where the circuit 
+2091		   parameters are volatile and cause interpolation 
+2091		   inaccuracy.
+2091
+2091		3. Do further mesh refinement by requesting 
+2091		   additional adaptive passes before redoing the 
+2091		   interpolating sweep.  This may reduce finite 
+2091		   element approximation error that distorts the
+2091		   results.
+2091
+
+2092	user
+2092	The sweep parameters you specified would result in too large 
+2092	a number of frequency steps.  The maximum number of steps
+2092	is 9999.  You can reduce the number of steps by one of the
+2092	following actions:
+2092
+2092		1. Reduce the impulse response duration.
+2092
+2092		2. Make the signal rise time longer.
+2092
+2092		3. Reduce the number of time steps during the rise time.
+2092
+2092	Do you want to remain in this panel in order to correct the
+2092	sweep parameter settings?
+2092
+
+2093	user
+2093	The sweep parameters you specified would result in too small 
+2093	a number of frequency steps.  The minimum recommended number of
+2093	steps is 100.  You can increase the number of steps by one of the
+2093	following actions:
+2093
+2093		1. Increase the impulse response duration.
+2093
+2093		2. Make the signal rise time shorter.
+2093
+2093		3. Increase the number of time steps during the rise time.
+2093
+2093	Do you want to remain in this panel in order to correct the
+2093	sweep parameter settings?
+2093
+
+2094	user
+2094	The sweep parameters you specified resulted in a maximum frequency
+2094	greater than 100 GHz or less than 1 MHz.  Do you want to proceed?
+
+2095	user
+2095	There is at least one port for which you specified that not all modes 
+2095	should be saved.  This will prevent you from setting the terminal
+2095	form of excitations when viewing fields in the field post processor.
+2095	If you do want to excite fields in this way, you should save all
+2095	modes instead.
+2095
+2095	Do you want to proceed?
+
+2096	user
+2096	The number of time points must be at least 10,
+2096	and there must be at least one time step per rise.
+
+2097	user
+2097	With a ports only solution, you must select either a single
+2097	frequency or a sweep.
+
+2098	user
+2098	If you plan on both de-embedding and renormalizing a structure,
+2098	you should de-embed the solution first, because de-embedding a
+2098	renormalized solution will produce inaccurate results.
+2098
+2098	Do you still want to continue?
+
+end_error_file

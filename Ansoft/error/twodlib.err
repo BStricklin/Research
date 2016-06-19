@@ -1,0 +1,17 @@
+# %W%	%Q%
+# Copyright 1984-1989 Ansoft Corp.
+
+begin_error_file
+
+1001	user
+1001	The entered object has intersecting lines. The
+1001	line segment must be corrected or deleted before
+1001	a 2d solid can be created using this piece.
+
+1002	user
+1002	The entered object has a line segment which
+1002	traces over itself. This must be fixed before
+1002	a 2d solid can be created using this piece.
+
+
+end_error_file

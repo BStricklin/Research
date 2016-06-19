@@ -1,0 +1,718 @@
+# %W%	%Q%
+# Copyright 1984-1992 Ansoft Corp.
+
+begin_error_file
+
+1001    fatal
+1001    Module $$1 died unexpectedly or
+1001    possibly was terminated by user.
+
+1002    fatal
+1002    Copy protection violation for module $$1.
+1002    Please check your codewords.
+
+1003    fatal
+1003    Error in (or Missing) transcript
+1003    file for module $$1.
+
+1004    fatal
+1004    Failure in graphics setup for module $$1.
+
+1005    fatal
+1005    Insufficient memory for module $$1.
+
+1006    fatal
+1006    Error in generating initial mesh.
+
+1007    fatal
+1007    Mesh refinement failed in point addition.
+
+1008    fatal
+1008    Mesh refinement failed in line preservation.
+
+1009    fatal
+1009    Insufficient disk space for
+1009    subprocess in module $$1.
+
+1010    fatal
+1010    File write failed in module $$1.
+1010    Probably out of disk space.
+
+1011    fatal
+1011    File read failed in module $$1.
+1011    Probably corrupted or empty file.
+
+1012    fatal
+1012    Module $$1 can not open file.
+
+1013    fatal
+1013    Module $$1 can not open attributes file.
+
+1014    fatal
+1014    Module $$1 encountered incompatible solved file.
+
+1015    fatal
+1015    Module $$1 can not open replay file.
+
+1016    fatal
+1016    Solving matrix failed in module $$1
+1016    Please check the problem setup
+
+1017    fatal
+1017    Module $$1 can not open points file.
+
+1018    fatal
+1018    Module $$1 can not open triangles file.
+
+1019    fatal
+1019    Module $$1 can not open lines file.
+
+1020    fatal
+1020    Module $$1 can not find object
+1020    and/or attribute files.
+
+1021    fatal
+1021    Module $$1 encountered an error in object file
+1021    operation. Either write failed or file open failed.
+1021    Possible causes are: disk space full, no permission,
+1021    or network/hardware problems.
+
+1022    fatal
+1022    Module $$1 encountered an error in attribute file
+1022    operation. Either write failed or file open failed.
+1022    Possible causes are: disk space full, no permission,
+1022    or network/hardware problems.
+
+1023    fatal
+1023    Module $$1 encountered an error in point file
+1023    operation. Either write failed or file open failed.
+1023    Possible causes are: disk space full, no permission,
+1023    or network/hardware problems.
+
+1024    fatal
+1024    Module $$1 encountered an error in line file operation.
+1024    Either write failed or file open failed.
+1024    Possible causes are: disk space full, no permission,
+1024    or network/hardware problems.
+
+1025    fatal
+1025    Module $$1 encountered an error in triangle file
+1025    operation. Either write failed or file open failed.
+1025    Possible causes are: disk space full, no permission,
+1025    or network/hardware problems.
+
+1026    fatal
+1026    Module $$1 encountered an error in global file
+1026    operation. Either write failed or file open failed.
+1026    Possible causes are: disk space full, no permission,
+1026    or network/hardware problems.
+
+1027    fatal
+1027    Module $$1 encountered an error in writing
+1027    transcript file for adaptive refinement.
+1027    Possible causes are: disk space full, no permission,
+1027    or network/hardware problems.
+
+1028    fatal
+1028    Module $$1 encountered an error in writing
+1028    the Capacitance or Inductance matrix file.
+1028    Possible causes are: disk space full, no permission,
+1028    or network/hardware problems.
+
+1029    fatal
+1029    Module $$1 encountered an error in writing data points.
+1029    Possible causes are: disk space full, no permission,
+1029    or network/hardware problems.
+
+1030    fatal
+1030    Module $$1 encountered an error in writing
+1030    B-H curve data points. Possible causes are:
+1030    disk space full, no permission, or
+1030    network/hardware problems.
+
+1031    fatal
+1031    Module $$1 encountered a conflict in
+1031    macro file or macro command.
+
+1032    fatal
+1032    Module $$1 failed in updating
+1032    adaptive information file.
+
+1033    fatal
+1033    Module $$1 encountered an error in reading
+1033    B-H curve data points. Possible causes are:
+1033    incorrect B-H data or the file is corrupted.
+
+1034    fatal
+1034    Module $$1 can not open A file.
+ 
+1035    fatal
+1035    Module $$1 can not open b file.
+ 
+1036    fatal
+1036    Module $$1 can not open X file.
+
+1037    fatal
+1037    Module $$1 encountered an error in
+1037    writing binary file A or b.
+
+1038    fatal
+1038    Module $$1 encountered an error in
+1038    reading binary file A or b.
+
+1039    fatal
+1039    Subprocess (solver) in "$$1" died unexpectedly.
+
+1040    fatal
+1040    Module $$1 could not open "solvedmu" file.
+
+1041    fatal
+1041    Module $$1 reading error in "solvedmu" file.
+
+1042    fatal
+1042    There is no license for module $$1.
+
+1043    fatal
+1043    There is no license for module $$1.
+
+1044    fatal
+1044    No license for the $$1 module is available.
+1044    Either all the licenses are currently in use, or
+1044    your licenses for this module have expired, or you
+1044    did not purchase the option.
+
+1045    fatal
+1045    Module $$1 exited as there is no license 
+1045    daemon running.
+
+1046    fatal
+1046    Module $$1 lost its license.
+
+1047    fatal
+1047    You are `excluded' from running module $$1.
+
+1048    fatal
+1048    Seed file missing or not specified.
+
+1050    fatal
+1050    Module $$1 encountered an error in matrix row look up.
+
+1051    fatal
+1051    Module $$1 encountered an error in
+1051    in constructing the [S] matrix.
+
+1052    fatal
+1052    Module $$1 encountered non-positive
+1052    definite global matrix.
+
+1053    fatal
+1053    Module $$1 can not place [C] matrix element.
+
+1054    fatal
+1054    Module $$1 encountered an error in
+1054    constructing choleski matrix.
+
+1055    fatal
+1055    Module $$1 encountered illegal matrix indexing.
+
+1056    fatal
+1056    Module $$1 detects that the size of one of
+1056    the triangles is greater than half of the
+1056    skin depth in the problem.
+1056    The solution may not converge.
+1056    Check the frequency, the units, and the material
+1056    assignments for this problem.
+
+1057    fatal
+1057    Module $$1 failed to converge to a solution.
+1057    Please check the materials and boundaries 
+1057    setup.
+
+1058    fatal
+1058    Unable to start matrix solver
+ 
+1059    fatal
+1059    Unable to solve FE matrix system.
+1059    Possible reasons:
+1059     (1) insufficient disk space
+1059     (2) singular matrix due to improper
+1059         problem setup
+
+1060    fatal
+1060    Thermal project is coupled to an EM project, 
+1060    but the coupling information is corrupted.
+
+1061    fatal
+1061    EM-Loss data is not available for thermal solution.
+1061	Please first solve the coupled EM project 
+1061	involving EM loss calculation.
+
+1062    fatal
+1062    Module $$1 encountered error in reading EM loss data file.
+
+1063    fatal
+1063    Module $$1 encountered error in writing EM loss data file.
+
+1064    fatal
+1064    Unable to start projection utility.
+
+1065    fatal
+1065    For thermal problems you must define at least one 
+1065    (implicit or explicit) reference temperature. 
+1065    Please check your boundary conditions.
+
+1066    fatal
+1066    File "postfld2/macroctrl" is incorrect or corrupted
+
+1090    fatal
+1090    Module $$1 failed in performing adaptive refinement.
+
+1091    fatal
+1091    Module $$1 failed in error
+1091    computation for adaptive refinement.
+
+1092    fatal
+1092    Module $$1 failed in constructing centroids list
+1092    for use in adaptive refinement process.
+
+1100    fatal
+1100    Module $$1 encountered an inconsistency in the solution
+1100    files. The number of triangles in the solution files
+1100    does not match the number of triangles in mesh files.
+
+1101    fatal
+1101    Module $$1 encountered error in line segment fixup.
+
+1102    fatal
+1102    Module $$1 encountered error in mesh data base.
+
+1103    fatal
+1103    Module $$1 encountered incorrect
+1103    geometry for axisymmetric solver.
+
+1104    fatal
+1104    Module $$1 failed to enforce local constraints.
+
+1105    fatal
+1105    Module $$1 failed to enforce constraints.
+
+1106    fatal
+1106    Module $$1 encountered overlapping objects.
+1106    Mesh can not be generated if object overlap exists.
+
+1107    fatal
+1107    Spline control polygon is not
+1107    defined for module $$1.
+
+1108    fatal
+1108    Spline is not defined for module $$1.
+
+1109    fatal
+1109    Not enough points for spline in module $$1.
+
+1110    fatal
+1110    Module $$1 encountered error in point data replace.
+
+1111    fatal
+1111    Module $$1 encountered error in point data list.
+
+1112    fatal
+1112    Module $$1 encountered error in
+1112    group line segment fixup.
+
+1113    fatal
+1113    Module $$1 encountered error in
+1113    group line segment match.
+
+1114    fatal
+1114    Module $$1 encountered error in
+1114    group line segment second side.
+
+1115    fatal
+1115    Module $$1 can not cut a group boundary.
+
+1116    fatal
+1116    Module $$1 can not merge mesh properly.
+
+1117    fatal
+1117    Module $$1 encountered error in line segment lookup.
+
+1118    fatal
+1118    Module $$1 encountered double circle error.
+
+1119    fatal
+1119    Module $$1 encountered side error.
+
+1120    fatal
+1120    Module $$1 encountered error in
+1120    second point addition.
+
+1121    fatal
+1121    Module $$1 encountered error in mid-line addition.
+
+1122    fatal
+1122    Module $$1 encountered extremely small circle angle.
+
+1123    fatal
+1123    Module $$1 encountered error in object data replace.
+
+1124    fatal
+1124    Module $$1 encountered illegal line definition.
+1124    A line definition must have at least two points.
+
+1125    fatal
+1125    Module $$1 encountered illegal point for deletion.
+
+1126    fatal
+1126    Module $$1 encountered error in constraint data.
+
+1127    fatal
+1127    Module $$1 encountered object or
+1127    group or triangle mismatch.
+
+1128    fatal
+1128    Module $$1 encountered error in triangle assignment.
+
+1129    fatal
+1129    Module $$1 encountered triangle head
+1129    error in group remove.
+
+1130    fatal
+1130    Module $$1 encountered triangle head
+1130    in object remove.
+
+1131    fatal
+1131    Module $$1 encountered error in vertex count.
+
+1140    fatal
+1140    Module $$1 encountered error in
+1140    refinement with center point.
+
+1141    fatal
+1141    Refinement location out of bounds in module $$1.
+
+1142    fatal
+1142    Module $$1 failed in trying to match master-slave.
+1142    The length of slave is not equal the length of master.
+
+1143    fatal
+1143    Module $$1 is unable to match master-slave boundary.
+
+1144    fatal
+1144    Module $$1 failed in trying to match master-slave.
+1144    One of the lines to be matched has zero length.
+
+1145    fatal
+1145    Module $$1 failed in reading matching boundary information.
+
+1147    fatal
+1147    Module $$1 can not find mesh needed for
+1147    this operation. Please generate mesh first.
+
+1148    fatal
+1148    Educational version limitation for module $$1.
+
+1149    fatal
+1149    Module $$1 encountered serious error in mesh data.
+1149    At least one triangle vertex is not defined.
+
+1150    fatal
+1150    The problem has not been solved by module $$1.
+
+1151    fatal
+1151    Function error encountered in module $$1.
+
+1152    fatal
+1152    Calculator register in module $$1
+1152    contains no solution.
+
+1153    fatal
+1153    Module $$1 encountered error in vector allocation.
+
+1154    fatal
+1154    Module $$1 encountered error in matrix allocation.
+
+1160    fatal
+1160    Module $$1 encountered error in angle computation.
+
+1161    fatal
+1161    Module $$1 encountered error in zeta computation.
+
+1170    fatal
+1170    Module $$1 can not find any line(s) for operation.
+
+1171    fatal
+1171    Module $$1 can not find any line for plotting.
+
+1172    fatal
+1172    Module $$1 can not find any line
+1172    for force or torque computation.
+
+1173    fatal
+1173    Module $$1 encountered an error in flux linkage
+1173    computation. At least one of the lines is inside
+1173    a region where no solution has been computed, such
+1173    as an excluded region or a perfect conductor.
+
+1174	fatal
+1174 	Module $$1 encountered improper problem setup.
+1174    There are perfect conductors enclosed by
+1174	other perfect conductors. 
+
+1180    fatal
+1180    The window is too small for plotting in module $$1.
+
+1185    fatal
+1185    Module $$1 encountered error in
+1185    current flow computation.
+
+1186    fatal
+1186    Module $$1 encountered error in finding Br
+1186    for energy computation
+
+1197    fatal
+1197    Can not choose both Y-Connect and External Circuit
+
+1198    fatal
+1198    Call TDSLink failed
+
+1199    fatal
+1199    reserved for tdslink errors
+
+1200    fatal
+1200    Module $$1 can not find all material definitions.
+1200    Please verify material properties for all objects.
+
+1201    fatal
+1201    Module $$1 can not define attributes
+1201    due to an error in attribute look up.
+
+1202    fatal
+1202    Module $$1 can not find object with name.
+
+1203    fatal
+1203    Module $$1 encountered error in balloon boundary.
+
+1204    fatal
+1204    The boundary conditions have not been
+1204    assigned for module $$1. Please verify
+1204    boundary condition assignments for the problem.
+
+1205    fatal
+1205    Module $$1 encountered an incorrect value
+1205    entered for permittivity or permeability.
+
+1206    fatal
+1206    Module $$1 encountered balloon
+1206    boundary in interior region. Balloon
+1206    boundary must be defined for exterior region.
+
+1207    fatal
+1207    Module $$1 encountered an incorrect
+1207    value entered for conductivity.
+
+1208    fatal
+1208    Module $$1 encountered an illegal
+1208    point in the BH curve data.
+
+1209    fatal
+1209    Module $$1 encountered permeability less
+1209    than permeability of air in the BH curve.
+
+1210    fatal
+1210    Module $$1 can not find attribute for object.
+
+1211    fatal
+1211    Module $$1 encountered negative
+1211    permeability value from the BH curve data.
+
+1212    fatal
+1212    The minimum B value must be greater or equal
+1212    to zero in the BH curve data for module $$1.
+
+1213    fatal
+1213    The number of BH points excluding Hc for the
+1213    BH curve data should be at least 3 for module $$1.
+
+1214    fatal
+1214    The last 2 segments of BH curve data should
+1214    have a decreasing slope for module $$1.
+
+1215    fatal
+1215    Module $$1 encountered non-positive
+1215    slope in the BH curve data.
+
+1216    fatal
+1216    The permeability on BH curve data
+1216    should be greater than permeability
+1216    of air for module $$1.
+
+1217    fatal
+1217    Module $$1 encountered illegal BH point.
+1217    Please enter in order of increasing H.
+
+1218    fatal
+1218    Module $$1 encountered illegal BH point.
+1218    Please enter in order of increasing B.
+
+1219    fatal
+1219    Module $$1 encountered illegal BH point.
+1219    The BH point is above the air/saturation line.
+
+1220    fatal
+1220    Module $$1 encountered error in matching boundary.
+1220    The slave boundary can not be matched to master.
+1220    Probably because the mesh on the slave boundary
+1220    is not identical to the mesh on the master boundary.
+1220    This problem can be corrected by performing <Mesh>
+1220    <Line Match> operation using the "Manual Mesh" feature.
+
+1221    fatal
+1221    The number of parallel sources is
+1221    limited to 200 for module $$1.
+
+1222    fatal
+1222    Module $$1 encountered error in getting polarity index.
+
+1223    fatal
+1223    Module $$1 encountered error
+1223    $$2
+
+1224    fatal
+1224    Module $$1 encountered error in winding setup
+1224    $$2
+
+1225    fatal
+1225    Module $$1 encountered error in recovering restart data.
+1225    This is possibly caused by:
+1225    1) The mesh has been modified since the last solution
+1225    2) You changed the band object in the motion setup
+1225    3) You may have illegally changed winding source type 
+1225    4) Some of winding parameters have been illegally changed
+
+1226    fatal
+1226    Module $$1 encountered an error in opening restart.wnd
+
+1227    fatal
+1227    Module $$1 encountered an error in opening file for
+1227    recording input source. Possible causes are: disk space
+1227    full, no permission, or network/hardware problems.
+
+1228    fatal
+1228    Module $$1 encountered an error in finding function.
+
+1229    fatal
+1229    Module $$1 encountered an error in opening file 
+
+1230    fatal
+1230    Module $$1 encountered an error in setting up moving band
+
+1231    fatal
+1231    Module $$1 encountered an error in setting up moving
+1231    surface.
+
+1232    fatal
+1232    Module $$1 encountered an error in setting up connected
+1232    solid conductors.
+
+1233    fatal
+1233    Setup for solid conductor in module $$1 may be wrong
+
+1234    fatal
+1234    Motion setup for rotational problem in module $$1 may be
+1234    incorrect. The moving band must be circular and each segment
+1234    on the arc must be less than 5 degrees. In addition,
+1234    The rotational axis must be in the center of the moving band  
+
+1235    fatal
+1235    File solvedhc corrupted or empty
+1235    This is possibly caused by:
+1225    The mesh has been modified since the original magnetization solution
+
+1236    fatal
+1236    Could not open file solvedhc
+
+1237    fatal
+1237    Could not find solid conductor object with total current source
+
+1238    fatal
+1238    Could not find solid conductor object with voltage source
+
+1239    fatal
+1239    Could not find the winding with specified name in user.ctl file
+
+1240    fatal
+1240    File user.ctl corrupted or empty
+
+1241    fatal
+1241    Could not find the object with specified name in user.ctl file
+
+1242    fatal
+1242    Error in user.ctl file
+1242    Object associated with objectSrc can only be active solid
+1242    conductor with current source or voltage source
+
+1243    fatal
+1243    Unable to find or execute user control program
+
+1244    fatal
+1244    Unable to read "initial.ecp" file which contains
+1244    external program call information
+
+1245    fatal
+1245    Unable to open post2d macro file.
+1245    This file has to be in the root directory of the project
+
+1246    fatal
+1246    Unable to open "extnlckt.wnd" file which is used to describe
+1246    the connection between windings and external circuits
+
+1247    fatal
+1247    Winding name in "extnlckt.wnd" file could not match
+1247    the winding name in source setup. It is not allowed to
+1247    setup both Y-Connect and External Circuit in the model
+
+1248    fatal
+1248    File "extnlckt.wnd" is incorrect or corrupted
+
+1249    fatal
+1249    Could not open "extnlckt.ini" file
+
+1250    fatal
+1250    Could not open "extnlckt.par" file
+
+1251    fatal
+1251    File "extnlckt.par" is incorrect or corrupted
+
+1252    fatal
+1252    Change of winding source type is not allowed after restart.
+
+1253    fatal
+1253    File "force.set" is incorrect or corrupted
+
+1254    fatal
+1254    Total energy is zero and
+1254    unable to finish the solution.
+1254    Please check the problem setup.
+ 
+1255    fatal
+1255    Feature Not Yet Implemented in module $$1.
+ 
+1256    fatal
+1256    Error in variable control program $$1.
+1256    $$2
+
+1260  fatal
+1260  The "*.crs" file is corrupted or core loss setup is wrong.
+
+1261  fatal
+1261  Could not recover core loss data from "coreloss.his" for restart
+
+1262  fatal
+1262  File system unable to open or append "coreloss.dat" file"
+
+1263  There may have two layer interfaces between non-moving objects and band
+1263  You may add environment variable: TWO_LAYER_BAND
+ 
+end_error_file
+

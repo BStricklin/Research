@@ -1,0 +1,124 @@
+
+# Standard error file.
+# NOTE
+# Only use errors which take a single arg, 
+# which is the module being called.
+
+begin_error_file
+
+1001    fatal
+1001    Module $$1 died unexpectedly or
+1001    possibly was terminated by user.
+
+1002	fatal
+1002	Module $$1 exited with save.
+
+1003	fatal
+1003	Module $$1 exited without save.
+
+1004	fatal 
+1004	Error reading input file in module $$1.
+
+1005 	fatal
+1005	Error opening input file in module $$1.
+
+1006	fatal 
+1006	Disk full error in module $$1.
+
+1007	fatal 
+1007	Exceeded quota in module $$1.
+
+1008 	fatal
+1008	Exceeded maximum dimension in module $$1.
+
+1009	fatal
+1009	Unauthorized copy attempted in module $$1.
+
+1010	fatal
+1010	Unable to locate transcript file in module $$1.
+
+1011	fatal
+1011	Illegal problem setup in module $$1.
+
+1012	fatal
+1012	Materials have not been defined for module $$1.
+
+1013	fatal
+1013	Problem to complex for solution in module $$1.
+
+1014	fatal
+1014	Eigensolver failed in module $$1.
+
+1015	fatal
+1015	Impedance solution failed in module $$1.
+
+1016	fatal
+1016	Module $$1 failed to solve the problem due to 
+1016	lack of precision.
+
+1017	fatal
+1017	Configuration file error in module $$1.
+
+1018	fatal
+1018	Module $$1 was aborted by the user.
+
+1042	fatal
+1042	Unable to find a codeword for module $$1.
+
+1043	fatal
+1043	There is no license for module $$1.
+
+1044	fatal
+1044	Unable to checkout a license for module $$1.
+
+1045    fatal
+1045    There is no license daemon running. Please start one before
+1045    launching $$1 again.
+
+1046	fatal
+1046	Module $$1 lost its license for this session.
+
+1047	fatal
+1047    Unable to run module $$1.
+1047	Error in license permissions.
+
+1048	fatal
+1048    Unable to run module $$1.
+1048	License verification failed to connect to the host.
+
+1049	fatal
+1049	Unable to launch module $$1 as a sub-process.
+1049    Possible Causes are:
+1049        - System swap space exhausted.
+1049        - System limit on number of processes exceeded.
+
+1050    fatal
+1050	Unable to find module $$1 in your path.
+
+1100    fatal
+1100    Insufficient memory for module $$1.
+
+1127    fatal
+1127    Solver died unexpectedly.
+
+1200    fatal
+1200    Write failure in module $$1.
+1200    Possible causes are:
+1200       - Out of disk space.
+1200       - No file access privileges.
+1200       - Network or hardware problems.
+
+1251	user
+1251	The save command cannot be executed in the current mode of operation.
+
+1252 user
+1252 Length of $$1 does not match $$2.
+
+1253 user
+1253 $$1 must be greater than 0.
+
+end_error_file
+
+# NOTE
+# Only use errors which take a single arg, 
+# which is the module being called.

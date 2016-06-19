@@ -1,0 +1,11 @@
+B_HEADER
+ FileSign SLVP FormVers 1.000 CreaSign EPRM CreaVers 3.000
+E_HEADER
+
+B_SLVPRM 
+ B_SETUP Force 
+  B_OBJLST ListName group1 1 
+   Object 11 core 
+  E_OBJLST 
+ E_SETUP 
+E_SLVPRM 

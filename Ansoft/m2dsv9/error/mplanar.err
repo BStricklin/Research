@@ -1,0 +1,485 @@
+# %W%    %Q%
+# Copyright 1984-1999 Ansoft Corp.
+
+begin_error_file
+
+1000    fatal
+1000    Error reading the layer sequence file $$1.
+
+1001    fatal
+1001    Error in solve process.
+
+1002    fatal
+1002    Error generating two dimensional mesh for layer $$1. 
+1002    The return code from meshv6 is $$2.
+1002    Modify the layer geometry using Draw Trace Layers
+1002    in the Edit Layers panel.
+
+1003    fatal
+1003    Error opening file $$1 to read
+
+1004    fatal
+1004    Error reading the via file $$1
+
+1005    fatal
+1005    Error reading the model file $$1
+
+1006    fatal
+1006    Possible corruption of data. Via $$1; Layer $$2.
+
+1007    fatal
+1007    Dielectric slab $$1 cuts $$2 $$3
+1007    Workaround: 1. Create a zero thickness trace layer at this Z location.
+1007    2. Create only the 2D objects of the via cross section at this Z.
+1007    3. Make them part of the corresponding vias.
+
+1008    fatal
+1008    Via $$1 has no matching object after layer $$2
+
+1009    fatal
+1009    Error reading $$1th point of layer $$2
+
+1010    fatal
+1010    Nearly coincident point $$1 in layer $$2
+
+1011    fatal
+1011    Error reading $$1th triangle of layer $$2
+
+1012    fatal
+1012    Error creating the $$1th triangle of layer $$2
+
+1013    fatal
+1013    Unable to create a planar facet in layer $$1
+
+1014    fatal
+1014    Unable to create a triangle in layer $$1
+
+1015    fatal
+1015    Error in conforming the via objects to two dimensional mesh
+1015    Via = $$1 Layer = $$2
+
+1016    fatal
+1016    Error in copying two dimensional mesh of layer $$1 
+1016    to global three D mesh.
+
+1017    fatal
+1017    Error in updating the tree of global mesh. layer $$1.
+
+1018    fatal
+1018    Unable to create a facet during the extrusion of layer $$1.
+
+1019    fatal    
+1019    Error opening the file $$1 to write.
+
+1020    fatal
+1020    Error while writing file $$1.
+
+1021    fatal
+1021    Error writing the material database.
+
+1022    fatal
+1022    Error reading the file $$1
+
+1023    fatal
+1023    Error allocating points array
+
+1024    fatal
+1024    Triangle is on more than one facet. Not allowed in mplanar.
+
+1025    non fatal
+1025    Not all the specified points were inserted.
+
+1026    fatal
+1026    Lambda not defined.
+
+1027    fatal
+1027    Error in conforming mesh with dielectric layers.
+
+1028    fatal
+1028    -----------------------------------------------------unused
+
+1029    fatal
+1029    -----------------------------------------------------unused
+
+1030    fatal
+1030    Some inconsistency in internal mesh data structures detected.
+1030    $$1
+1030    $$2
+
+
+1050    fatal
+1050    All the refinement points have been rejected by the mesh.
+
+1051    fatal
+1051    Error in writing the refined mesh.
+
+1052    fatal
+1052    Error in reading the mesh.
+
+1053    fatal
+1053    The points forming the ports not found in the mesh.
+
+1054    fatal
+1054    The port end points are not connected by straight line in the mesh
+
+1055    fatal
+1055    Error in making the arm.
+
+1100    fatal
+1100    Incomplete setup for $$1 solution.
+
+1101    fatal
+1101    Error in solve process.
+
+1102    fatal
+1102    Error in solve sweep process.
+
+1103    user
+1103    Unable to $$1 with a $$2 license.
+
+1104    fatal
+1104    Unable to solve for thick and thin ports simultaneously.
+
+1105    fatal
+1105    Unable to solve fast sweep with thick ports.
+
+1150    fatal
+1150    Error in geometry processing: Code 150.
+
+1200    fatal
+1200    Error in MOM Pre-Processing.
+
+1300    fatal
+1300    $$1
+
+# Error numbers greater than 5000 come from the 2.5D engine 
+# in Ensemble 6.0 and higher
+
+5000    fatal
+5000    Interpolation range error! (B_R_INTP)
+
+5001    fatal
+5001    Interpolation range error! (B_V_INTP)
+
+5002    fatal
+5002    Observation cell error! (QUAD001)
+
+5003    fatal
+5003    Observation cell error! (QUAD002)
+
+5004    fatal
+5004    Source cell error! (QUAD003)
+
+5005    fatal
+5005    Observation cell error! (QUAD001)
+
+5006    fatal
+5006    Observation cell error! (QUAD002)
+
+5007    fatal
+5007    Source cell error! (QUAD003)
+
+5008    fatal
+5008    Problems in cell-side-node numbering! (CC100)
+
+5009    fatal
+5009    Problems in cell-side-node numbering! (CC100A)
+
+5010    fatal
+5010    Stopping in CERR (CERR1)
+
+5011    fatal
+5011    Invalid Parameter! (CGEMV01)
+
+5012    fatal
+5012    Invalid Parameter! (CGERU01)
+
+5013    fatal
+5013    Invalid Parameter! (CSPCON)
+
+5014    fatal
+5014    Invalid Parameter! (CSPR01)
+
+5015    fatal
+5015    Invalid Parameter! (CSPTRF01)
+
+5016    fatal
+5016    Simulation Frequency outside of Black Box Data Range! (BB1000)
+
+5017    fatal
+5017    Height above zero (SLINE1)
+
+5018    fatal
+5018    Height below zero (SLINE2)
+
+5019    fatal
+5019    Error in curve fitting (GFXNFIT)
+
+5020    fatal
+5020    Sorting Error Type 1! (GS0001)
+
+5021    fatal
+5021    Sorting Error Type 2! (GS0002)
+
+5022    fatal
+5022    Sorting Error Type 3! (GS0003)
+
+5023    fatal
+5023    Sorting Error Type 4! (GS0004)
+
+5024    fatal
+5024    Interpolation range error! (INTRP)
+
+5025    fatal
+5025    Interpolation range error! (INTRP2D)
+
+5026    fatal
+5026    Interpolation range error! (INTRP2DEXP)
+
+5027    fatal
+5027    Interpolation range error! (INTRP20)
+
+5028    fatal
+5028    Interpolation range error! INTRP20
+
+5029    fatal
+5029    Unknown Lumped Load Option (LDFILLOPT)
+
+5030    fatal
+5030    Problems with singular rank matrix! (LUD200)
+
+5031    fatal
+5031    Unsupported Command Line Option (ENS)
+
+5032    fatal
+5032    Changing Mesh Refinement Percentage (ENS)
+
+5033    fatal
+5033    Unknown Command Line Option (ENS)
+
+5034    fatal
+5034    Usage: plnr25d <file.trn> (ENS)
+
+5035    fatal
+5035    Mesh Read Error (RMESH)
+
+5036    fatal
+5036    Invalid Mesh in Plnr25D (VMESH)
+
+5037    fatal
+5037    Mesh Conform Error (MCONFM)
+
+5038    fatal
+5038    Illegal Frequency Scan Type (MAIN050)
+
+5039    fatal
+5039    Mesh Refinement Error (MESHREF)
+
+5040    fatal
+5040    Non-physical propagation constant! (DEMBD1NP)
+
+5041    fatal
+5041    Interpolation range error! (INTRP20)
+
+5042    fatal
+5042    Error Opening Refinement S Matrix File (PRTS100)
+
+5043    fatal
+5043    Problems with current flow! (CJK100)
+
+5044    fatal
+5044    Cannot open S-parameter file!(SFILE1)
+
+5045    fatal
+5045    Cannot open Z-parameter file! (ZFILE1)
+
+5046    fatal
+5046    Cannot open 2D far field file! (E2FILE1)
+
+5047    fatal
+5047    Cannot open 3D far field file! (E3FILE1)
+
+5048    fatal
+5048    Cannot open RCS output file! (RCSFILE1)
+
+5049    fatal
+5049    Cannot open current output file! (JFILE1)
+
+5050    fatal
+5050    Cannot open near field file! (NFFILE1)
+
+5051    fatal
+5051    Error Opening Refinement S Matrix File (PRTS100)
+
+5052    fatal
+5052    Observation cell error! (QUAD001)
+
+5053    fatal
+5053    Observation cell error! (QUAD002)
+
+5054    fatal
+5054    Source cell error! (QUAD003
+
+5055    fatal
+5055    Observation cell error! (QUAD001)
+
+5056    fatal
+5056    Observation cell error! (QUAD002)
+
+5057    fatal
+5057    Source cell error! (QUAD003)
+
+5058    fatal
+5058    Interpolation range error! (R_INTP)
+
+5059    fatal
+5059    Interpolation Failure! (RTINT)
+
+5060    fatal
+5060    Interpolation Failure! (RTINTP)
+
+5061    fatal
+5061    Metal found not in plane (READST1)
+
+5062    fatal
+5062    Dielectric ordering incorrect (READST010)
+
+5063    fatal
+5063    Dielectric gap detected (READST011)
+
+5064    fatal
+5064    Failure to organize local slabs (READST020)
+
+5065    fatal
+5065    Line segment not in plane (READST100)
+
+5066    fatal
+5066    GetFacetPolygon Error (READST110)
+
+5067    fatal
+5067    Couldn't find correct number of ports! (READST2PTS)
+
+5068    fatal
+5068    Cavity setup error (READST2C)
+
+5069    fatal
+5069    Black Boxes cannot be used with Cavities (READST2BBCAV)
+
+5070    fatal
+5070    Sources found both inside and outside cavity (READST2118)
+
+5071    fatal
+5071    Could not load Black Box (READST2BBR)
+
+5072    fatal
+5072    Incorrect number of ports in Black Box (READST2BBP)
+
+5073    fatal
+5073    Cannot use black boxes and CPW ports! (READST3XBB)
+
+5074    fatal
+5074    Could not load Black Box (READST3BBR)
+
+5075    fatal
+5075    Black Box Frequencies must be strictly increasing! (READST3FREQS)
+
+5076    fatal
+5076    Some nodes are outside the cavity walls! (READST3)
+
+5077    fatal
+5077    Freq GT Fmax in SubMain! (SUBM4560)
+
+5078    fatal
+5078    Problems with attaching feed strips! (AM100)
+
+5079    fatal
+5079    Matrix Resolution Error! (MATRES)
+
+5080    fatal
+5080    Error finding Alpha! (SVDPRONY01)
+
+5081    fatal
+5081    Error finding Amplitudes! (SVDPRONY02)
+
+5082    fatal
+5082    Invalid IJOB in SVDPRONY (SVDPRONY03)
+
+5083    fatal
+5083    Invalid IJOB in SVDPRONY (SVDPRONY04)
+
+5084    fatal
+5084    Wrong number of probe cells in Wire_Setup! (WRSETPBCL)
+
+5085    fatal
+5085    Overlapping nodes on wires (ENS)
+
+5086    fatal
+5086    Wire segment overlaps interface (ENS)
+
+5087    fatal
+5087    N too Large (ZBAKSUB)
+
+5088    fatal
+5088    Invalid Parameter! (CSPTRS01)
+
+5089    fatal
+5089    Problems with singular matrix! (LUD100)
+
+5090    fatal
+5090    SPLINE Failure! (ENS)
+
+5091    fatal
+5091    Probe Mesh Refinement Error (PRBMESH)
+
+5092    fatal
+5092    Probe Mesh Write Error (PRBMWRT)
+
+5093    Non Fatal Error:
+5093    See Warnings in 'message.err'
+
+5094    fatal
+5094    Triangle Fix Error (TRIFIX)
+
+5095    fatal
+5095    Triangle Fix Write Error (TRIWRT)
+
+5096    fatal
+5096    Triangle Fix Error (TRIFMSH)
+
+5097    fatal
+5097    Out of Memory - Please reduce mesh density (MEM)
+
+5098    fatal
+5098    Logic error for CPW feed in Cavity! (SUCPWPIC)
+
+5099    fatal
+5099    The delta_gap is too small for CPW feed in Cavity! (SUCPWP)
+
+5100    fatal
+5100    There are no ports defined! (RDTRN2)
+
+5101    fatal
+5101    There are no mesh points! (MESH0)
+
+5102    fatal
+5102    Port Solution Error (Slotline)
+
+5103    fatal
+5103    Couldn't find the Port Layer (Port_Main)
+
+5104    fatal
+5104    Logic error in coax source setup (MAIN_STR)
+
+5105    fatal
+5105    Logic error in setup of loads (MAIN_STR)
+
+5106    fatal
+5106    Logic error in CPW gap source setup (MAIN_STR)
+
+5107    fatal
+5107    Number of ports in black box is not correct (MAIN_STR)
+
+5108    fatal
+5108    Even mode CPW is not allowed in cavities
+
+end_error_file

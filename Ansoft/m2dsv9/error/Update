@@ -1,0 +1,3 @@
+#!/bin/sh
+
+(cd /vobs/ansoft/three/lib/source/error; tar cf - .) | tar xvf -

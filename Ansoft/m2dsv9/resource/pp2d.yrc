@@ -1,0 +1,827 @@
+B_RESFIL
+B_TOOLBX
+16325       22663       26061       0           0           0           0           0           0           0           
+B_HOTKYS
+28606       
+B_TOPMENU
+207         
+B_HLPTOK
+29301       
+
+B_TOPMENU
+B_MENU
+Command:  "none"
+Caption:  "&File"
+Help:     "Commands to open/close solved projects and exit the post processor"
+E_MENU
+B_MENUITEM
+Command:  "OpenProject"
+Caption:  "&Open..."
+Help:     "Open a solved project&&&&File/Open"
+E_MENUITEM
+B_MENUITEM
+Command:  "CloseProject"
+Caption:  "&Close"
+Help:     "Close the active project&&&&File/Close"
+E_MENUITEM
+B_SEPARATOR
+E_SEPARATOR
+B_MENUITEM
+Command:  "SaveDefinitions"
+Caption:  "&Save"
+Help:     "Save the postprocessing definitions for the current project&&&&File/Save"
+E_MENUITEM
+B_MENUITEM
+Command:  "ExportAnimation"
+Caption:  "Export &Animation"
+Help:     "Export the animated plot to standard animation formats&&&&File/Export Animation"
+E_MENUITEM
+B_SEPARATOR
+E_SEPARATOR
+B_SUBMENU
+Command:  "none"
+Caption:  "&Macro"
+Help:     "Macro"
+E_SUBMENU
+B_SUBMENUITEM
+Command:  "StartMacroRec"
+Caption:  "Star&t Recording..."
+Help:     "Start recording&&&&File/Macro/Start Recording"
+E_SUBMENUITEM
+B_SUBMENUITEM
+Command:  "StopMacroRec"
+Caption:  "Sto&p Recording"
+Help:     "Stop recording&&&&File/Macro/Stop Recording"
+E_SUBMENUITEM
+B_SUBMENUITEM
+Command:  "ExecuteMacro"
+Caption:  "&Execute..."
+Help:     "Execute macro&&&&File/Macro/Execute"
+E_SUBMENUITEM
+B_SUBMENUITEM
+Command:  "DeleteMacro"
+Caption:  "&Delete..."
+Help:     "Delete macro&&&&File/Macro/Delete"
+E_SUBMENUITEM
+B_SUBMENUITEM
+Command:  "PromoteMacro"
+Caption:  "Pro&mote..."
+Help:     "Promote macro&&&&File/Macro/Promote"
+E_SUBMENUITEM
+B_SUBSEPARATOR
+E_SUBSEPARATOR
+B_SUBMENUITEM
+Command:  "EditMacro"
+Caption:  "Edit &Macro..."
+Help:     "Edit macro files&&&&File/Edit Macro"
+E_SUBMENUITEM
+B_SEPARATOR
+E_SEPARATOR
+B_MENUITEM
+Command:  "Exit"
+Caption:  "E&xit"
+Help:     "Exit the Post Processor&&&&File/Exit"
+E_MENUITEM
+B_MENU
+Command:  "none"
+Caption:  "&Edit"
+Help:     "Edit commands"
+E_MENU
+B_MENUITEM
+Command:  "SelInteractive"
+Caption:  "&Select..."
+Help:     "Select objects for further operations&&&&Edit/Select"
+E_MENUITEM
+B_MENUITEM
+Command:  "DeSelect '*'"
+Caption:  "D&eselect All"
+Help:     "Deselect all objects&&&&Edit/Deselect All"
+E_MENUITEM
+B_SEPARATOR
+E_SEPARATOR
+B_SUBMENU
+Command:  "none"
+Caption:  "&Visibility"
+Help:     "Hide/show objects"
+E_SUBMENU
+B_SUBMENUITEM
+Command:  "HideSel"
+Caption:  "&Hide Selection"
+Help:     "Hide all selected objects&&&&Edit/Visibility/Hide Selection"
+E_SUBMENUITEM
+B_SUBMENUITEM
+Command:  "VisByItem"
+Caption:  "By &Item..."
+Help:     "Set visibility of individual objects&&&&Edit/Visibility/By Item"
+E_SUBMENUITEM
+B_SUBMENUITEM
+Command:  "ToggleRegion"
+Caption:  "&Toggle Region"
+Help:     "Toggle region visibility&&&&Edit/Visibility/Toggle Region"
+E_SUBMENUITEM
+B_MENUITEM
+Command:  "ShowAll"
+Caption:  "S&how All"
+Help:     "Make all hidden objects visible again&&&&Edit/Show All"
+E_MENUITEM
+B_MENU
+Command:  "none"
+Caption:  "&View"
+Help:     "View commands"
+E_MENU
+B_SUBMENU
+Command:  "none"
+Caption:  "&Render"
+Help:     "Set current view options"
+E_SUBMENU
+B_SUBMENUITEM
+Command:  "wireframe"
+Caption:  "&Wireframe"
+Help:     "Set current view to wireframe mode&&&&View/Render/Wireframe"
+E_SUBMENUITEM
+B_SUBMENUITEM
+Command:  "ShadedFlat"
+Caption:  "&Flat Shaded"
+Help:     "Set current view to a faster flat shaded mode&&&&View/Render/Flat Shaded"
+E_SUBMENUITEM
+B_SUBMENUITEM
+Command:  "ShadedSmooth"
+Caption:  "&Smooth Shaded"
+Help:     "Set current view to a slower smooth shaded mode&&&&View/Render/Smooth Shaded"
+E_SUBMENUITEM
+B_SEPARATOR
+E_SEPARATOR
+B_MENUITEM
+Command:  "RectZoomIn"
+Caption:  "&Zoom In"
+Help:     "Zooms in on the selected region&&&&View/Zoom In"
+E_MENUITEM
+B_MENUITEM
+Command:  "RectZoomOut"
+Caption:  "Zoom &Out"
+Help:     "Expand the viewing volume&&&&View/Zoom Out"
+E_MENUITEM
+B_MENUITEM
+Command:  "FitSel"
+Caption:  "&Fit Selection"
+Help:     "Set the viewing volume to see all selected objects&&&&View/Fit Selection"
+E_MENUITEM
+B_SUBMENU
+Command:  "none"
+Caption:  "Fit &All"
+Help:     "Set the viewing volume to see all objects"
+E_SUBMENU
+B_SUBMENUITEM
+Command:  "FitAllViews"
+Caption:  "Al&l Views"
+Help:     "Set the viewing volume to see all objects in all views &&&&View/Fit All/All Views"
+E_SUBMENUITEM
+B_SUBMENUITEM
+Command:  "FitAll"
+Caption:  "Acti&ve View"
+Help:     "Set the viewing volume to see all objects in active view&&&&View/Fit All/Active View"
+E_SUBMENUITEM
+B_SEPARATOR
+E_SEPARATOR
+B_MENUITEM
+Command:  "EditOrientations"
+Caption:  "&Orientations..."
+Help:     "Edit view orientations&&&&View/Orientations"
+E_MENUITEM
+B_MENUITEM
+Command:  "DefaultOrientation"
+Caption:  "&Default"
+Help:     "Set to Default Orientation&&&&View/Default"
+E_MENUITEM
+B_SEPARATOR
+E_SEPARATOR
+B_SUBMENU
+Command:  "none"
+Caption:  "&Coordinate System"
+Help:     "Modify the way coordinate system is displayed in the current view"
+E_SUBMENU
+B_SUBMENUITEM
+Command:  "ShowHideCS"
+Caption:  "&Hide"
+Help:     "Hide or show the coordinate system&&&&View/Coordinate System"
+E_SUBMENUITEM
+B_SUBMENUITEM
+Command:  "SmallLargeCS"
+Caption:  "&Small"
+Help:     "Change the size of the coordinate system&&&&View/Coordinate System"
+E_SUBMENUITEM
+B_SUBMENUITEM
+Command:  "Positive2SidesCS"
+Caption:  "&Positive Only"
+Help:     "Display positive only or both sides of the coordinate system&&&&View/Coordinate System"
+E_SUBMENUITEM
+B_SUBMENU
+Command:  "none"
+Caption:  "&Grid Plane"
+Help:     "Hide/show the grid or change the grid plane"
+E_SUBMENU
+B_SUBMENUITEM
+Command:  "GridToggle"
+Caption:  "&Hide"
+Help:     "Hide/show the grid&&&&View/Grid Plane"
+E_SUBMENUITEM
+B_SUBMENUITEM
+Command:  "GridPlane 2"
+Caption:  "&XY"
+Help:     "Set the grid plane in current view to XY&&&&View/Grid Plane"
+E_SUBMENUITEM
+B_SUBMENUITEM
+Command:  "GridPlane 0"
+Caption:  "&YZ"
+Help:     "Set the grid plane in current view to YZ&&&&View/Grid Plane"
+E_SUBMENUITEM
+B_SUBMENUITEM
+Command:  "GridPlane 1"
+Caption:  "X&Z"
+Help:     "Set the grid plane in current view to XZ&&&&View/Grid Plane"
+E_SUBMENUITEM
+B_MENUITEM
+Command:  "GridSet"
+Caption:  "Set&up Grid..."
+Help:     "Setup grid type and spacing&&&&View/Setup Grid"
+E_MENUITEM
+B_SEPARATOR
+E_SEPARATOR
+B_SUBMENU
+Command:  "none"
+Caption:  "Side &Window"
+Help:     ""
+E_SUBMENU
+B_SUBMENUITEM
+Command:  "ModuleSidewinLeft"
+Caption:  "&Left"
+Help:     "Show the side window on the left of your projects.&&&&View/Side Window"
+E_SUBMENUITEM
+B_SUBMENUITEM
+Command:  "ModuleSidewinRight"
+Caption:  "&Right"
+Help:     "Show the side window on the right of your projects.&&&&View/Side Window"
+E_SUBMENUITEM
+B_SUBMENU
+Command:  "none"
+Caption:  "Tool&bar"
+Help:     "Toolbar hide and show options"
+E_SUBMENU
+B_SUBMENUITEM
+Command:  "ModuleToolbarLeft"
+Caption:  "&Left"
+Help:     "Show toolbar on the left side.&&&&View/Toolbar"
+E_SUBMENUITEM
+B_SUBMENUITEM
+Command:  "ModuleToolbarRight"
+Caption:  "&Right"
+Help:     "Show toolbar on the right side.&&&&View/Toolbar"
+E_SUBMENUITEM
+B_SUBMENUITEM
+Command:  "ModuleToolbarTop"
+Caption:  "&Top"
+Help:     "Show toolbar on the top.&&&&View/Toolbar"
+E_SUBMENUITEM
+B_SUBMENUITEM
+Command:  "ModuleToolbarBottom"
+Caption:  "&Bottom"
+Help:     "Show toolbar on the bottom.&&&&View/Toolbar"
+E_SUBMENUITEM
+B_SUBMENUITEM
+Command:  "ModuleToolbarHide"
+Caption:  "&Hide"
+Help:     "Hide toolbar.&&&&View/Toolbar"
+E_SUBMENUITEM
+B_MENUITEM
+Command:  "ModuleTogglePrompt"
+Caption:  "Command &Prompt"
+Help:     "Toggle display of the command prompt&&&&View/Command Prompt"
+E_MENUITEM
+B_MENU
+Command:  "none"
+Caption:  "&Coordinates"
+Help:     "Coordinate system move/rotate and grid commands"
+E_MENU
+B_SUBMENU
+Command:  "none"
+Caption:  "Set &Current CS"
+Help:     ""
+E_SUBMENU
+B_SUBMENUITEM
+Command:  "morigin"
+Caption:  "&Move Origin"
+Help:     "Move origin to the current position&&&&Coordinates/Set Current CS/Move Origin"
+E_SUBMENUITEM
+B_SUBMENUITEM
+Command:  "CSRotX"
+Caption:  "Rotate &X"
+Help:     "Rotate X axis to go through current position&&&&Coordinates/Set Current CS/Rotate X"
+E_SUBMENUITEM
+B_SUBMENUITEM
+Command:  "CSRotY"
+Caption:  "Rotate &Y"
+Help:     "Rotate Y axis to go through current position&&&&Coordinates/Set Current CS/Rotate Y"
+E_SUBMENUITEM
+B_MENUITEM
+Command:  "SaveCS"
+Caption:  "&Save Current CS..."
+Help:     "Save coordinate system&&&&Coordinates/Save Current CS"
+E_MENUITEM
+B_MENUITEM
+Command:  "DeleteCS"
+Caption:  "&Delete CS..."
+Help:     "Delete saved coordinate system&&&&Coordinates/Delete CS"
+E_MENUITEM
+B_SEPARATOR
+E_SEPARATOR
+B_MENUITEM
+Command:  "GlobalCS"
+Caption:  "&Global"
+Help:     "Switch to global (abs. [0,0,0], unrotated) coordinate system&&&&Coordinates/Global"
+E_MENUITEM
+B_MENUITEM
+Command:  "LocalCS"
+Caption:  "&Local"
+Help:     "Switch to latest local coordinate system&&&&Coordinates/Local"
+E_MENUITEM
+B_MENUITEM
+Command:  "UnrotatedCS"
+Caption:  "&Unrotated"
+Help:     "Switch to unrotated coordinate system (paralell to global), preserving origin&&&&Coordinates/Unrotated"
+E_MENUITEM
+B_MENUITEM
+Command:  "RotatedCS"
+Caption:  "Ro&tated"
+Help:     "Switch to latest rotated coordinate system, preserving origin&&&&Coordinates/Rotated"
+E_MENUITEM
+B_MENU
+Command:  "none"
+Caption:  "&Geometry"
+Help:     "Commands to create/edit geometry definitions"
+E_MENU
+B_SUBMENU
+Command:  "none"
+Caption:  "&Create"
+Help:     "Create a new geometry definition"
+E_SUBMENU
+B_SUBMENUITEM
+Command:  "PointCreate"
+Caption:  "&Point..."
+Help:     "Define a point geometry&&&&Geometry/Create/Point"
+E_SUBMENUITEM
+B_SUBMENUITEM
+Command:  "LineCreate"
+Caption:  "&Line..."
+Help:     "Define a line geometry&&&&Geometry/Create/Line"
+E_SUBMENUITEM
+B_SUBMENUITEM
+Command:  "ArcCreate"
+Caption:  "&Arc..."
+Help:     "Define an arc geometry&&&&Geometry/Create/Arc"
+E_SUBMENUITEM
+B_SUBMENUITEM
+Command:  "CircleCreate"
+Caption:  "&Circle..."
+Help:     "Define a circle geometry&&&&Geometry/Create/Circle"
+E_SUBMENUITEM
+B_SUBMENUITEM
+Command:  "ObjectListCreate"
+Caption:  "&Object List..."
+Help:     "Define an object list volume&&&&Geometry/Create/Object List"
+E_SUBMENUITEM
+B_SUBMENUITEM
+Command:  "RectBoxCreate"
+Caption:  "&Rectangle..."
+Help:     "Define a rectangle geometry&&&&Geometry/Create/Rectangle"
+E_SUBMENUITEM
+B_SUBMENU
+Command:  "none"
+Caption:  "&Modify"
+Help:     "Modify existing geometry definitions"
+E_SUBMENU
+B_SUBMENUITEM
+Command:  "PointModify"
+Caption:  "&Point..."
+Help:     "Modify point definitions&&&&Geometry/Modify/Point"
+E_SUBMENUITEM
+B_SUBMENUITEM
+Command:  "LineModify"
+Caption:  "&Line..."
+Help:     "Modify line definitions&&&&Geometry/Modify/Line"
+E_SUBMENUITEM
+B_SUBMENUITEM
+Command:  "ObjectListModify"
+Caption:  "&Object List..."
+Help:     "Modify object lists volumes&&&&Geometry/Modify/Object List"
+E_SUBMENUITEM
+B_MENUITEM
+Command:  "DeleteGeometry"
+Caption:  "&Delete..."
+Help:     "Delete existing geometries&&&&Geometry/Delete"
+E_MENUITEM
+B_MENU
+Command:  "none"
+Caption:  "&Data"
+Help:     "Commands for data analysis"
+E_MENU
+B_SUBMENU
+Command:  "none"
+Caption:  "&Functions"
+Help:     "Edit/modify the function table"
+E_SUBMENU
+B_SUBMENUITEM
+Command:  "EditFunctions"
+Caption:  "&Edit..."
+Help:     "Edit the function table&&&&Data/Functions/Edit"
+E_SUBMENUITEM
+B_SUBMENUITEM
+Command:  "ModifyVariables"
+Caption:  "&Modify"
+Help:     "Modify the variables in the function table&&&&Data/Functions/Modify"
+E_SUBMENUITEM
+B_MENUITEM
+Command:  "ShowCalc"
+Caption:  "&Calculator..."
+Help:     "Show the field calculator&&&&Data/Calculator"
+E_MENUITEM
+B_MENUITEM
+Command:  "ShowSolutionInfo"
+Caption:  "&Solution Info..."
+Help:     "Show solution and mesh information&&&&Data/Solution Info"
+E_MENUITEM
+B_MENU
+Command:  "none"
+Caption:  "&Plot"
+Help:     "Commands to create/edit plots"
+E_MENU
+B_MENUITEM
+Command:  "PlotMesh"
+Caption:  "M&esh"
+Help:     "Draw mesh for the current selection&&&&Plot/Mesh"
+E_MENUITEM
+B_MENUITEM
+Command:  "CreatePlot"
+Caption:  "&Field..."
+Help:     "Create a new field plot&&&&Plot/Field"
+E_MENUITEM
+B_MENUITEM
+Command:  "CreateAnimation 1"
+Caption:  "&Animation..."
+Help:     "Create a new animation plot with a default name and edit it's frames&&&&Plot/Animation"
+E_MENUITEM
+B_MENUITEM
+Command:  "CreateBHPlot"
+Caption:  "&BH Curves..."
+Help:     "Plot the BH curves for objects&&&&Plot/BH Curves"
+E_MENUITEM
+B_SEPARATOR
+E_SEPARATOR
+B_SUBMENU
+Command:  "none"
+Caption:  "&Open"
+Help:     "Read in 2D/3D plots from file"
+E_SUBMENU
+B_SUBMENUITEM
+Command:  "Load2DPlot"
+Caption:  "&2D Plot..."
+Help:     "Read in a 2D plot (dat file)&&&&Plot/Open/2D Plot"
+E_SUBMENUITEM
+B_SUBMENUITEM
+Command:  "LoadPlot"
+Caption:  "&3D Plot..."
+Help:     "Read in a 3D plot (dsp file)&&&&Plot/Open/3D Plot"
+E_SUBMENUITEM
+B_SUBMENU
+Command:  "none"
+Caption:  "&Save As"
+Help:     "Save 2D/3D plots to file"
+E_SUBMENU
+B_SUBMENUITEM
+Command:  "Save2DPlot"
+Caption:  "&2D Plot..."
+Help:     "Save a 2D plot (dat file)&&&&Plot/Save As/2D Plot"
+E_SUBMENUITEM
+B_SUBMENUITEM
+Command:  "SavePlot"
+Caption:  "&3D Plot..."
+Help:     "Save a 3D plot (dsp file)&&&&Plot/Save As/3D Plot"
+E_SUBMENUITEM
+B_SEPARATOR
+E_SEPARATOR
+B_MENUITEM
+Command:  "ModifyPlot"
+Caption:  "&Modify..."
+Help:     "Modify an existing plot&&&&Plot/Modify"
+E_MENUITEM
+B_MENUITEM
+Command:  "PanelPlotVisibility"
+Caption:  "&Visibility..."
+Help:     "Edit the visibility of plots in the active subwindow&&&&Plot/Visibility"
+E_MENUITEM
+B_MENUITEM
+Command:  "PanelPlotDelete"
+Caption:  "&Delete..."
+Help:     "Delete existing plots&&&&Plot/Delete"
+E_MENUITEM
+B_SEPARATOR
+E_SEPARATOR
+B_MENUITEM
+Command:  "ShowPlotCoordinates"
+Caption:  "Show &Coordinates"
+Help:     "Show plot coordinates at mouse location&&&&Plot/Show Coordinates"
+E_MENUITEM
+B_SUBMENU
+Command:  "none"
+Caption:  "Fo&rmat"
+Help:     "Modify formatting of plots."
+E_SUBMENU
+B_SUBMENUITEM
+Command:  "FormatPlotAxes"
+Caption:  "&Axes..."
+Help:     "Format axes labels and formats in active 2D plot.&&&&Plot/Format/Axes"
+E_SUBMENUITEM
+B_SUBMENUITEM
+Command:  "FormatPlotGraphs"
+Caption:  "&Graphs..."
+Help:     "Format the graphs in the active 2D plot.&&&&Plot/Format/Graphs"
+E_SUBMENUITEM
+B_MENU
+Command:  "none"
+Caption:  "&Options"
+Help:     "Commands to set user preferences"
+E_MENU
+B_MENUITEM
+Command:  "PostprocessorOptions"
+Caption:  "&Preferences..."
+Help:     "Set user preferences for settings used in 2D post processor"
+E_MENUITEM
+B_MENU
+Command:  "none"
+Caption:  "&Window"
+Help:     "Window setup commands"
+E_MENU
+B_MENUITEM
+Command:  "NewWindow"
+Caption:  "&New"
+Help:     "Create a new subwindow&&&&Window/New"
+E_MENUITEM
+B_MENUITEM
+Command:  "CloseWindow"
+Caption:  "&Close"
+Help:     "Close the active subwindow&&&&Window/Close"
+E_MENUITEM
+B_MENUITEM
+Command:  "TileAllGrid"
+Caption:  "&Tile"
+Help:     "Tile all views&&&&Window/Tile"
+E_MENUITEM
+B_MENUITEM
+Command:  "CascadeAll"
+Caption:  "C&ascade"
+Help:     "Cascade all views&&&&Window/Cascade"
+E_MENUITEM
+B_MENU
+Command:  "none"
+Caption:  "&Help"
+Help:     "Help system"
+E_MENU
+B_MENUITEM
+Command:  "IHelp 'Using the Help System'"
+Caption:  "About &Help..."
+Help:     "Describes how to use Maxwell help system&&&&Help Menu"
+E_MENUITEM
+B_SEPARATOR
+E_SEPARATOR
+B_MENUITEM
+Command:  "CHelp"
+Caption:  "On &Context..."
+Help:     "Display context sensitive help&&&&Help/On Context"
+E_MENUITEM
+B_MENUITEM
+Command:  "IHelp '2D Post Processor'"
+Caption:  "On &2D Post Processor..."
+Help:     "Display help on the 2D Post Processor&&&&Help Menu"
+E_MENUITEM
+B_MENUITEM
+Command:  "IHelp '*cp'"
+Caption:  "On &Product..."
+Help:     "Help on this Maxwell product&&&&Help Menu"
+E_MENUITEM
+B_SEPARATOR
+E_SEPARATOR
+B_MENUITEM
+Command:  "IHelp 'Contents'"
+Caption:  "Con&tents..."
+Help:     "Displays the table of contents for the product's help system&&&&Help Menu"
+E_MENUITEM
+B_MENUITEM
+Command:  "IHelp 'Index'"
+Caption:  "&Index..."
+Help:     "Displays topics index for the product's help system&&&&Help Menu"
+E_MENUITEM
+B_SUBMENU
+Command:  "none"
+Caption:  "&Shortcuts..."
+Help:     "Displays help on hotkeys and toolbar"
+E_SUBMENU
+B_SUBMENUITEM
+Command:  "IHelp 'Hotkeys'"
+Caption:  "&Hotkeys..."
+Help:     "Describe hotkeys shortcuts in executive parameters manager&&&&Help Menu"
+E_SUBMENUITEM
+B_SUBMENUITEM
+Command:  "IHelp 'Tool Bar'"
+Caption:  "&Tool Bar..."
+Help:     "Describe the selected tool bar icons in the 2D Post Processor&&&&Help Menu"
+E_SUBMENUITEM
+E_TOPMENU
+B_TOOLBX
+ShowCalc
+BM–      v   (                                        €  €   €€ €   € € €€  ÀÀÀ €€€   ÿ  ÿ   ÿÿ ÿ   ÿ ÿ ÿÿ  ÿÿÿ wˆˆˆˆˆˆˆˆˆ‡wx          w€wwwwwwwwww€|ÇÌ|ÇwÌÇÌÇ€|ÇÌ|ÇwÌÇÌÇ€wwwwwwwwww€|ÇÌ|ÇwÌÇÌÇ€|ÇÌ|ÇwÌÇÌÇ€wwwwwwwwww€|ÇÌ|ÇwÌÇÌÇ€|ÇÌ|ÇwÌÇÌÇ€wwwwwwwwww€|ÌÌÌÌÌÌÌÌÇ€|™™™™™™™™Ç€|yw—yw—ywÇ€|yw—yw—ywÇ€|yw—ywwwwÇ€|ywwywwwwÇ€|ywwwwwwwÇ€|wwwwwwwwÇ€|ÌÌÌÌÌÌÌÌÇ€wwwwwwwwwwx          wwwwwwwwwwwwwseparator
+OpenProject
+BM–      v   (                                        €  €   €€ €   € € €€  €€€ ÀÀÀ   ÿ  ÿ   ÿÿ ÿ   ÿ ÿ ÿÿ  ÿÿÿ ˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆ€     ˆˆˆˆˆ 33330ˆˆˆˆˆ°33333ˆˆˆˆ»33330ˆˆˆˆ»°33333ˆˆˆ»»33330ˆˆˆ»»°     ˆˆˆ»»»»»ˆˆˆˆˆ»»   ˆˆˆˆˆ»°ˆˆˆˆˆˆˆˆˆ€ ˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆ€ ˆˆˆˆˆˆˆˆˆˆˆ ˆˆˆˆˆˆˆˆˆˆ€€ˆˆˆˆˆˆˆˆˆ ˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆSaveDefinitions
+BM–      v   (                                        €  €   €€ €   € € €€  €€€ ÀÀÀ   ÿ  ÿ   ÿÿ ÿ   ÿ ÿ ÿÿ  ÿÿÿ ˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆ€       ˆˆˆˆ0   €0ˆˆˆˆ0   €0ˆˆˆˆ0   €0ˆˆˆˆ0   €0ˆˆˆˆ0     0ˆˆˆˆ3333330ˆˆˆˆ0    0ˆˆˆˆˆˆˆˆ€0ˆˆˆˆˆˆˆˆ€0ˆˆˆˆˆˆˆˆ€0ˆˆˆˆˆˆˆˆ€0ˆˆˆˆˆˆˆˆ€0ˆˆˆˆˆˆˆˆ€ ˆˆˆˆˆˆˆˆ€€ˆˆˆˆ        ˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆseparator
+RectZoomIn
+BM–      v   (                                      €  €   €€ €   € € €€  ÀÀÀ €€€   ÿ  ÿ   ÿÿ ÿ   ÿ ÿ ÿÿ  ÿÿÿ wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww wwwwwwwwwwp wwwwwwwww  wwwwwwwwp  wwwwwwwww  wwwwwwwwp  wwwwwy™—w  wwwwy™™™—  wwwwy™›»¹™wwwwy›»Ì»¹—wwwww™»»Ì»»™wwwwy™»»Ì»»™wwwwy›»»Ì»»¹—wwwy›ÌÌÌÌÌ¹—wwwy›ÌÌÌÌÌ¹—wwwy›»»Ì»»¹—wwww™»»Ì»»™wwwww™›»Ì»»™wwwwwy›»Ì»¹—wwwwww™›»¹™—wwwwwwy™™™™wwwwwwwwy™™wwwwwwRectZoomOut
+BM–      v   (                                      €  €   €€ €   € € €€  ÀÀÀ €€€   ÿ  ÿ   ÿÿ ÿ   ÿ ÿ ÿÿ  ÿÿÿ wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww wwwwwwwwwwp wwwwwwwww  wwwwwwwwp  wwwwwwwww  wwwwwwwwp  wwwwwy™—w  wwwwy™™™—  wwwwy™›»¹™wwwwy›»»»¹—wwwww™»»»»»™wwwwy™»»»»»™wwwwy›»»»»»¹—wwwy›ÌÌÌÌÌ¹—wwwy›ÌÌÌÌÌ¹—wwwy›»»»»»¹—wwww™»»»»»™wwwww™›»»»»™wwwwwy›»»»¹—wwwwww™›»¹™—wwwwwwy™™™™wwwwwwwwy™™wwwwwwFitAll
+BM–      v   (                                      €  €   €€ €   € € €€  ÀÀÀ €€€   ÿ  ÿ   ÿÿ ÿ   ÿ ÿ ÿÿ  ÿÿÿ wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww wwwwwwwwwwp wwwwwwwww  wwwwwwwwp  wwwwwwwww  w|wwwwww|  wwÌÇwy™—wÌÀww|Ìy™™™œÌ wwwwÌÉ›»¹ÌÀwwww|Ì»»¼Ì—wwwww™ÌË»ÌË™wwwwy™¼Ì¼Ì»™wwwwy›»ÌÌË»¹—wwwy›»¼Ì»»¹—wwwy›»ÌÌË»¹—wwwy›¼Ì¼Ì»¹—wwww™ÌË»ÌË™wwwwwœÌ»»¼Ì™wwwwwÌË»»»ÌÇwwww|Ì™›»¹œÌwwwwÌÇy™™™—ÌÇwww|wwy™—w|wwwwseparator
+cstoggle
+BM–      v   (                                        €  €   €€ €   € € €€  ÀÀÀ €€€   ÿ  ÿ   ÿÿ ÿ   ÿ ÿ ÿÿ  ÿÿÿ             pwpwpwppwwwwwwwwwwp wwwwwwwwwwpwwÌÇwwwwwwpw|w|wwwwÇwp wÇwwÇwwwÌÇpwÇ|wÇÌÌÌÌÌpwÇwwÇwwwÌÇp w|w|wwwwÇwpwwÌÇwwwwwwpwwwwwwwwwwp ww|wwwwwwwpww|wwwwwwwpww|wwwwwwwp ww|wwwwwwwpww|wwwwwwwpww|wwwwwwwp w|ÌÌwwwwwwpwwÌÇwwwwwwpwwÌÇwwwwwwp ww|wwwwwwwpwwwwwwwwwwp            GridToggle
+BM–      v   (                                        €  €   €€ €   € € €€  €€€ ÀÀÀ   ÿ  ÿ   ÿÿ ÿ   ÿ ÿ ÿÿ  ÿÿÿ ˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆ‡ÇŒˆÉˆ‡ÇŒˆÈˆŒŒŒŒÈ˜ŒŒŒÈÌˆŒŒŒÈÈ‰ŒŒŒˆÈˆ‡ÇŒˆÈˆ—ÇŒÇÌxˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆ€ˆ€ˆ€ˆ€ˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆ€ˆ€ˆ€ˆ€ˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆy—‰‡˜˜™—ˆˆ€ˆ˜‰‰‰ˆ˜˜‰ˆˆˆ˜™‰˜ˆ˜˜‰ˆˆˆˆ˜ˆ‰™x˜˜‰ˆˆ€ˆ˜‰‰ˆ˜˜˜‰ˆˆˆy—‰™x˜™—ˆˆˆˆˆˆˆˆˆˆˆˆˆˆ€ˆ€ˆ€ˆ€ˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆGridPlane -1
+BM–      v   (                                        €  €   €€ €   € € €€  €€€ ÀÀÀ   ÿ  ÿ   ÿÿ ÿ   ÿ ÿ ÿÿ  ÿÿÿ øˆˆˆˆˆˆˆˆˆˆˆøˆˆˆ€ˆˆˆˆˆˆøˆˆˆ€ˆˆˆˆˆˆøˆˆˆˆˆˆˆˆˆˆˆøˆˆˆˆˆˆ ˆˆˆˆøˆˆˆˆˆˆ ˆˆˆˆøˆˆ ˆˆˆˆˆ ˆˆøˆˆ ˆˆˆˆˆ ˆˆøˆˆˆˆ€ˆˆˆˆˆøˆˆˆˆ™ˆˆˆˆˆøˆˆˆˆ™˜€ˆˆˆø ˆˆˆ‰™€ˆˆˆø ˆˆˆˆ™˜ˆˆˆˆøˆˆ ˆˆ‰™ˆˆˆˆøˆˆ ˆˆˆ™˜ˆˆˆøˆˆˆˆ ˆ‰™‰˜ˆøˆˆˆˆ ˆˆ™™˜ˆøˆˆˆˆˆˆˆ‰™™ˆøˆˆˆˆˆˆˆ™™™ˆøˆˆˆˆˆˆˆ™™™˜øˆˆˆˆˆˆˆˆ™™˜øˆˆˆˆˆˆˆˆˆ‰™øˆˆˆˆˆˆˆˆˆˆˆÿÿÿÿÿÿÿÿÿÿÿÿToggleShaded
+BM–      v   (                                        €  €   €€ €   € € €€  ÀÀÀ €€€   ÿ  ÿ   ÿÿ ÿ   ÿ ÿ ÿÿ  ÿÿÿ wwwwwwwwwwwwxˆˆˆˆˆˆˆwwwwxİİİİwwx‡wwwxİİİwwwxxwwwxİİ×€ xw‡wwxİİ 30ˆwxwwxİĞ³33ww‡wxİp»³3wwxwxİww»3 www‡x×wwp  ww‡xwwwwwwpww‡xwwwwwwxw‡xwwwwwwxpw‡xwwwwwwxw‡xwwwwwwxwp‡xˆˆˆˆˆˆˆwwwıııııı‡wpwxßßßßßßØwwwwıııııı‡w€wwxßßßßßßØw‡wwwıııııı‡‡wwwxßßßßßßØ‡wwwwˆˆˆˆˆˆˆ‡wwwwwwwwwwwwseparator
+SelInteractive
+BM–      v   (                                        €  €   €€ €   € € €€  €€€ ÀÀÀ   ÿ  ÿ   ÿÿ ÿ   ÿ ÿ ÿÿ  ÿÿÿ ˆˆˆˆ‰™™˜ˆˆˆˆˆˆˆ‰˜ˆˆ‰˜ˆˆˆˆˆ‰˜ˆˆˆˆ‰˜ˆˆˆˆ˜ˆˆˆˆˆˆ‰ˆˆˆ‰ˆˆˆˆˆˆˆˆ˜ˆˆ˜ˆˆˆˆˆˆˆˆ‰ˆˆ˜ˆˆˆˆˆˆˆˆ‰ˆ‰  ˆ€   ˆ  	ˆ€€ˆˆˆ ˆ˜ˆ€€ˆˆˆ ˆ‰˜ˆ€€ˆˆˆ ˆ‰˜€ ˆ€ˆˆˆ ˆ‰ ˆˆ€  ˆ ˆ‰ ˆˆˆ€ˆˆˆ ˆ‰ ˆ€€ˆˆˆ ˆ‰	ˆ€€ˆˆˆ ˆ˜‰  ˆ€   ˆ ˆ˜ˆ˜ˆˆˆˆˆˆˆˆ‰ˆˆ˜ˆˆˆˆˆˆˆˆ‰ˆˆ‰ˆˆˆˆˆˆˆˆ˜ˆˆˆ˜ˆˆˆˆˆˆ‰ˆˆˆˆ‰˜ˆˆˆˆ‰˜ˆˆˆˆˆ‰˜ˆˆ‰˜ˆˆˆˆˆˆˆ‰™™˜ˆˆˆˆDeSelect '*'
+BM–      v   (                                        €  €   €€ €   € € €€  €€€ ÀÀÀ   ÿ  ÿ   ÿÿ ÿ   ÿ ÿ ÿÿ  ÿÿÿ ˆˆˆˆ‰™™˜ˆˆˆˆˆˆˆ‰˜ˆˆ‰˜ˆˆˆˆˆ‰˜ˆˆˆˆ‰˜ˆˆˆˆ˜ˆˆˆˆˆˆ‰ˆˆˆ‰˜ˆˆˆˆˆˆˆ˜ˆˆ˜‰ˆˆˆˆˆˆˆ‰ˆˆ˜ˆ˜ˆˆˆˆˆˆ‰ˆ‰  ‰€   ˆ  	ˆ€ˆˆˆ ˆ˜ˆ€‰ˆˆˆ ˆ‰˜ˆ€€˜ˆˆˆ ˆ‰˜€ ˆ€	ˆˆˆ ˆ‰ ˆˆ€ ˆ ˆ‰ ˆˆˆ€‰ˆˆ ˆ‰ ˆ€€ˆ˜ˆ ˆ‰	ˆ€€ˆ‰ˆ ˆ˜‰  ˆ€   ˜ ˆ˜ˆ˜ˆˆˆˆˆˆ‰ˆ‰ˆˆ˜ˆˆˆˆˆˆˆ˜‰ˆˆ‰ˆˆˆˆˆˆˆ‰˜ˆˆˆ˜ˆˆˆˆˆˆ‰ˆˆˆˆ‰˜ˆˆˆˆ‰˜ˆˆˆˆˆ‰˜ˆˆ‰˜ˆˆˆˆˆˆˆ‰™™˜ˆˆˆˆseparator
+VisByItem
+BM–      v   (                                        €  €   €€ €   € € €€  ÀÀÀ €€€   ÿ  ÿ   ÿÿ ÿ   ÿ ÿ ÿÿ  ÿÿÿ wwwwwwwwwwwwwwwwwwwwwwwwwwwp   wwwwwwwp     wwwwww   ˆˆ€ wwwp ‡w w€ ww  wp wp ˆ€wğˆ  ÿÿÿÿ  wÿ ÿÿDDÿÿ€  ÿüDDÿø    ÿÄDD@ÿğ  p€ÿDDODÿ  p ÿDDO@ğ€ww ôDOÿ wwp€ ôD@ €wwwpˆ     xwwwwˆ   w€‡wwwwxxˆˆ€wwwwwx   ˆwww‡ wwxˆ‡www€p ‡wwwwww  ww  wwww  wwww€      ‡wwwwwp   wwwwToggleRegion
+BM–      v   (                                        €  €   €€ €   € € €€  €€€ ÀÀÀ   ÿ  ÿ   ÿÿ ÿ   ÿ ÿ ÿÿ  ÿÿÿ ˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆØˆˆˆˆˆØˆˆˆˆØˆˆˆˆˆØˆˆˆˆˆØˆˆˆˆØˆˆˆØˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆ€     ˆˆˆˆˆˆˆˆˆˆˆˆˆ€ˆˆˆˆˆˆˆˆˆˆÌÌÈˆˆˆˆˆˆÈˆÈˆˆˆˆˆˆÈˆÈˆİØİØˆÌÌÈˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆ     ˆˆˆˆ€ˆˆˆˆˆˆˆˆˆˆˆˆˆ ˆˆˆˆˆ ˆˆˆˆ€ˆˆˆˆˆˆ     ˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆØˆˆØˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆØØˆˆˆˆˆˆˆˆˆˆˆseparator
+CHelp
+BM–      v   (                                        €  €   €€ €   € € €€  €€€ ÀÀÀ   ÿ  ÿ   ÿÿ ÿ   ÿ ÿ ÿÿ  ÿÿÿ ˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆ        ˆˆ€`ÿÿÿÿÿÿÿˆˆ€`      ˆˆ€`»»»»»»ˆˆ€`»»™›»»ˆˆ€`»»™›»»ˆˆ€`»»»»»»ˆˆ€`»»™›»»ˆˆ€`»»™›»»ˆˆ€`»»™›»»ˆˆ€`»»¹™›»ˆˆ€`»»»¹™»ˆˆ€`»»»¹™»ˆˆ€`»¹»¹™»ˆˆ€`»™›¹™»ˆˆ€`»™›¹™»ˆˆ€`»¹›¹›»ˆˆ€`»»™™»»ˆˆ€`»»»»»» ˆˆˆ€       ˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆE_TOOLBX
+B_TOOLBX
+ShowCalc
+BM–      v   (                                        €  €   €€ €   € € €€  ÀÀÀ €€€   ÿ  ÿ   ÿÿ ÿ   ÿ ÿ ÿÿ  ÿÿÿ wˆˆˆˆˆˆˆˆˆ‡wx          w€wwwwwwwwww€|ÇÌ|ÇwÌÇÌÇ€|ÇÌ|ÇwÌÇÌÇ€wwwwwwwwww€|ÇÌ|ÇwÌÇÌÇ€|ÇÌ|ÇwÌÇÌÇ€wwwwwwwwww€|ÇÌ|ÇwÌÇÌÇ€|ÇÌ|ÇwÌÇÌÇ€wwwwwwwwww€|ÌÌÌÌÌÌÌÌÇ€|™™™™™™™™Ç€|yw—yw—ywÇ€|yw—yw—ywÇ€|yw—ywwwwÇ€|ywwywwwwÇ€|ywwwwwwwÇ€|wwwwwwwwÇ€|ÌÌÌÌÌÌÌÌÇ€wwwwwwwwwwx          wwwwwwwwwwwwwseparator
+ShowPlotCoordinates
+BM–      v   (                                      €  €   €€ €   € € €€  ÀÀÀ €€€   ÿ  ÿ   ÿÿ ÿ   ÿ ÿ ÿÿ  ÿÿÿ wwwwwwwwwwwwwwwp p  wwwwwwwwwwwwwwwwp          wpwpwpwppwpwwwwwwwwwpwpwwpwwwwpwp™—wpy™™™ppw—p  wwwppp—p  wwwpppw—wpwwwwpppw—ypwwwwppp™ywwwwwwpppwyywwwwwwpwpwyy|ÌÌÌÌÌpppyy|    pppwyy| °°°pppwyy| ° °pwpyy|  °pwpwy™|» °pwpww™|    pwpww|ÌÌÌÌÌpwpwwwwwwwwwpwp          FormatPlotAxes
+BM–      v   (                                      €  €   €€ €   € € €€  ÀÀÀ €€€   ÿ  ÿ   ÿÿ ÿ   ÿ ÿ ÿÿ  ÿÿÿ wwwwwwwwwwwwwwwp p  wwwwwwwwwwwwwwwwp          wpwpwpwppwpwwÇwwwwwwpwp|ÌwwwwÇwpwpw|ÌwwwwÌÇpppwÌÌÇÌÌÌÌÌpppwÇwwwwÌÇpppwwÇwwwwÇwpppwwÇwwwwwwpppwÇwwwwwwpppwwÇwwwwwwpwpwwÇwwwwwwpppwÇwwwwwwpppwwÇwwwwwwpppwwÇwwwwwwpwpÌÌÇwwwwwpwpw|Ìwwwwwwpwpw|ÌwwwwwwpwpwÇwwwwwwpwpwwwwwwwwwpwp          FormatPlotGraphs
+BM–      v   (                                      €  €   €€ €   € € €€  ÀÀÀ €€€   ÿ  ÿ   ÿÿ ÿ   ÿ ÿ ÿÿ  ÿÿÿ wwwwwwwwwwwwwwwp p  wwwwwwwwwwwwwwwwp          wpwpwpwppwpwwwwwwwwwpwpwwwwwwwwpwpy—ww™™™™™ppw—wy—wwwwppp—y™wwwwwpppw—ywwwwwwpppw—yww|Çwwppp™yww|Çwwpppwyywwwwwwpwpwyyww|Çwwpppyyww|ÇwwpppwyywwwÌwwpppwyyw|w|Çwpwpyyw|Ç|Çwpwpwy™w|ÇÌÇwpwpww™wwÌÌwwpwpwwwwwwwwpwpwwwwwwwwwpwp          separator
+RectZoomIn
+BM–      v   (                                      €  €   €€ €   € € €€  ÀÀÀ €€€   ÿ  ÿ   ÿÿ ÿ   ÿ ÿ ÿÿ  ÿÿÿ wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww wwwwwwwwwwp wwwwwwwww  wwwwwwwwp  wwwwwwwww  wwwwwwwwp  wwwwwy™—w  wwwwy™™™—  wwwwy™›»¹™wwwwy›»Ì»¹—wwwww™»»Ì»»™wwwwy™»»Ì»»™wwwwy›»»Ì»»¹—wwwy›ÌÌÌÌÌ¹—wwwy›ÌÌÌÌÌ¹—wwwy›»»Ì»»¹—wwww™»»Ì»»™wwwww™›»Ì»»™wwwwwy›»Ì»¹—wwwwww™›»¹™—wwwwwwy™™™™wwwwwwwwy™™wwwwwwRectZoomOut
+BM–      v   (                                      €  €   €€ €   € € €€  ÀÀÀ €€€   ÿ  ÿ   ÿÿ ÿ   ÿ ÿ ÿÿ  ÿÿÿ wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww wwwwwwwwwwp wwwwwwwww  wwwwwwwwp  wwwwwwwww  wwwwwwwwp  wwwwwy™—w  wwwwy™™™—  wwwwy™›»¹™wwwwy›»»»¹—wwwww™»»»»»™wwwwy™»»»»»™wwwwy›»»»»»¹—wwwy›ÌÌÌÌÌ¹—wwwy›ÌÌÌÌÌ¹—wwwy›»»»»»¹—wwww™»»»»»™wwwww™›»»»»™wwwwwy›»»»¹—wwwwww™›»¹™—wwwwwwy™™™™wwwwwwwwy™™wwwwwwFitAllViews
+BM–      v   (                                      €  €   €€ €   € € €€  ÀÀÀ €€€   ÿ  ÿ   ÿÿ ÿ   ÿ ÿ ÿÿ  ÿÿÿ wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww wwwwwwwwwwp wwwwwwwww  wwwwwwwwp  wwwwwwwww  w|wwwwww|  wwÌÇwy™—wÌÀww|Ìy™™™œÌ wwwwÌÉ›»¹ÌÀwwww|Ì»»¼Ì—wwwww™ÌË»ÌË™wwwwy™¼Ì¼Ì»™wwwwy›»ÌÌË»¹—wwwy›»¼Ì»»¹—wwwy›»ÌÌË»¹—wwwy›¼Ì¼Ì»¹—wwww™ÌË»ÌË™wwwwwœÌ»»¼Ì™wwwwwÌË»»»ÌÇwwww|Ì™›»¹œÌwwwwÌÇy™™™—ÌÇwww|wwy™—w|wwwwseparator
+CHelp
+BM–      v   (                                        €  €   €€ €   € € €€  €€€ ÀÀÀ   ÿ  ÿ   ÿÿ ÿ   ÿ ÿ ÿÿ  ÿÿÿ ˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆ        ˆˆ€`ÿÿÿÿÿÿÿˆˆ€`      ˆˆ€`»»»»»»ˆˆ€`»»™›»»ˆˆ€`»»™›»»ˆˆ€`»»»»»»ˆˆ€`»»™›»»ˆˆ€`»»™›»»ˆˆ€`»»™›»»ˆˆ€`»»¹™›»ˆˆ€`»»»¹™»ˆˆ€`»»»¹™»ˆˆ€`»¹»¹™»ˆˆ€`»™›¹™»ˆˆ€`»™›¹™»ˆˆ€`»¹›¹›»ˆˆ€`»»™™»»ˆˆ€`»»»»»» ˆˆˆ€       ˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆE_TOOLBX
+B_TOOLBX
+ShowCalc
+BM–      v   (                                        €  €   €€ €   € € €€  ÀÀÀ €€€   ÿ  ÿ   ÿÿ ÿ   ÿ ÿ ÿÿ  ÿÿÿ wˆˆˆˆˆˆˆˆˆ‡wx          w€wwwwwwwwww€|ÇÌ|ÇwÌÇÌÇ€|ÇÌ|ÇwÌÇÌÇ€wwwwwwwwww€|ÇÌ|ÇwÌÇÌÇ€|ÇÌ|ÇwÌÇÌÇ€wwwwwwwwww€|ÇÌ|ÇwÌÇÌÇ€|ÇÌ|ÇwÌÇÌÇ€wwwwwwwwww€|ÌÌÌÌÌÌÌÌÇ€|™™™™™™™™Ç€|yw—yw—ywÇ€|yw—yw—ywÇ€|yw—ywwwwÇ€|ywwywwwwÇ€|ywwwwwwwÇ€|wwwwwwwwÇ€|ÌÌÌÌÌÌÌÌÇ€wwwwwwwwwwx          wwwwwwwwwwwwwseparator
+ModifyPlot
+BM–      v   (                                      €  €   €€ €   € € €€  ÀÀÀ €€€   ÿ  ÿ   ÿÿ ÿ   ÿ ÿ ÿÿ  ÿÿÿ wwwwwwwwwwwwwwwp p  wwwwwwwwwwwwwwwwp          wpwpwpwppwpwwÇwwwwwwpwp|ÌwwwwÇwpwpw|ÌwwwwÌÇpppwÌÌÇÌÌÌÌÌpppwÇwwwwÌÇpppwwÇwwwwÇwpppwwÇwwwwwwpppwÇwwwwwwpppwwÇwwwwwwpwpwwÇwwwwwwpppwÇwwwwwwpppwwÇwwwwwwpppwwÇwwwwwwpwpÌÌÇwwwwwpwpw|Ìwwwwwwpwpw|ÌwwwwwwpwpwÇwwwwwwpwpwwwwwwwwwpwp          separator
+RectZoomIn
+BM–      v   (                                      €  €   €€ €   € € €€  ÀÀÀ €€€   ÿ  ÿ   ÿÿ ÿ   ÿ ÿ ÿÿ  ÿÿÿ wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww wwwwwwwwwwp wwwwwwwww  wwwwwwwwp  wwwwwwwww  wwwwwwwwp  wwwwwy™—w  wwwwy™™™—  wwwwy™›»¹™wwwwy›»Ì»¹—wwwww™»»Ì»»™wwwwy™»»Ì»»™wwwwy›»»Ì»»¹—wwwy›ÌÌÌÌÌ¹—wwwy›ÌÌÌÌÌ¹—wwwy›»»Ì»»¹—wwww™»»Ì»»™wwwww™›»Ì»»™wwwwwy›»Ì»¹—wwwwww™›»¹™—wwwwwwy™™™™wwwwwwwwy™™wwwwwwRectZoomOut
+BM–      v   (                                      €  €   €€ €   € € €€  ÀÀÀ €€€   ÿ  ÿ   ÿÿ ÿ   ÿ ÿ ÿÿ  ÿÿÿ wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww wwwwwwwwwwp wwwwwwwww  wwwwwwwwp  wwwwwwwww  wwwwwwwwp  wwwwwy™—w  wwwwy™™™—  wwwwy™›»¹™wwwwy›»»»¹—wwwww™»»»»»™wwwwy™»»»»»™wwwwy›»»»»»¹—wwwy›ÌÌÌÌÌ¹—wwwy›ÌÌÌÌÌ¹—wwwy›»»»»»¹—wwww™»»»»»™wwwww™›»»»»™wwwwwy›»»»¹—wwwwww™›»¹™—wwwwwwy™™™™wwwwwwwwy™™wwwwwwFitAllViews
+BM–      v   (                                      €  €   €€ €   € € €€  ÀÀÀ €€€   ÿ  ÿ   ÿÿ ÿ   ÿ ÿ ÿÿ  ÿÿÿ wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww wwwwwwwwwwp wwwwwwwww  wwwwwwwwp  wwwwwwwww  w|wwwwww|  wwÌÇwy™—wÌÀww|Ìy™™™œÌ wwwwÌÉ›»¹ÌÀwwww|Ì»»¼Ì—wwwww™ÌË»ÌË™wwwwy™¼Ì¼Ì»™wwwwy›»ÌÌË»¹—wwwy›»¼Ì»»¹—wwwy›»ÌÌË»¹—wwwy›¼Ì¼Ì»¹—wwww™ÌË»ÌË™wwwwwœÌ»»¼Ì™wwwwwÌË»»»ÌÇwwww|Ì™›»¹œÌwwwwÌÇy™™™—ÌÇwww|wwy™—w|wwwwseparator
+CHelp
+BM–      v   (                                        €  €   €€ €   € € €€  €€€ ÀÀÀ   ÿ  ÿ   ÿÿ ÿ   ÿ ÿ ÿÿ  ÿÿÿ ˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆ        ˆˆ€`ÿÿÿÿÿÿÿˆˆ€`      ˆˆ€`»»»»»»ˆˆ€`»»™›»»ˆˆ€`»»™›»»ˆˆ€`»»»»»»ˆˆ€`»»™›»»ˆˆ€`»»™›»»ˆˆ€`»»™›»»ˆˆ€`»»¹™›»ˆˆ€`»»»¹™»ˆˆ€`»»»¹™»ˆˆ€`»¹»¹™»ˆˆ€`»™›¹™»ˆˆ€`»™›¹™»ˆˆ€`»¹›¹›»ˆˆ€`»»™™»»ˆˆ€`»»»»»» ˆˆˆ€       ˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆE_TOOLBX
+B_HOTKYS
+StartMacroRec
+Ctrl-F1
+StopMacroRec
+Ctrl-F2
+ExecuteMacro
+Ctrl-F3
+OpenProject
+Ctrl+o
+CloseProject
+Ctrl+w
+RectZoomIn
+=
+RectZoomOut
+-
+FitAllViews
+F
+GridToggle
+G
+FormatPlotGraphs
+Ctrl+F
+CHelp
+F1
+IHelp 'Using the Help System'
+F3
+CmdFocus
+F2
+TileAllGrid
+F4
+CascadeAll
+F5
+cstoggle
+Ins
+GridPlane -1
+Home
+GridSet
+Ctrl-G
+CancelCmd
+Ctrl-C
+wireframe
+F6
+ShadedFlat
+F7
+ShadedSmooth
+F8
+SaveDefinitions
+Ctrl-S
+Exit
+Ctrl-Q
+Select '*'
+Ctrl-A
+DeSelect '*'
+BS
+PanelPlotVisibility
+V
+ShowCalc
+c
+UpdatePlots
+Ctrl-U
+GeneralPlotOptions
+Ctrl-1
+ArrowPlotOptions
+Ctrl-2
+LinePlotOptions
+Ctrl-3
+MarkerPlotOptions
+Ctrl-4
+CreateAnimation 1
+Ctrl-N
+SelNext
+N
+ModuleTogglePrompt
+Ctrl-F4
+DefaultOrientation
+Ctrl-D
+E_HOTKYS
+B_HLPTOK
+ObjAttrib
+Edit/Attributes/By Clicking
+ReColor
+Edit/Attributes/Recolor
+ModifyPlot
+Plot/Modify
+PanelPlotVisibility
+Plot/Visibility
+DeletePlot
+Plot/Plot
+ToggleRegion
+Edit/Visibility/Toggle Region
+Shaded
+View/Render/Flat Shaded
+ToggleShaded
+View/Render
+cstoggle
+View/Coordinate System
+CHelp
+Help/On Context
+Select
+Edit/Select
+UpdateFarField
+Radiation/Compute/Far Field
+UpdateNearField
+Radiation/Compute/Near Field
+ComputeFarField
+Radiation/Compute/Far Field
+ComputeNearField
+Radiation/Compute/Near Field
+DisplayFarFieldData
+Radiation/Display Data/Far Field
+DisplayNearFieldData
+Radiation/Display Data/Near Field
+SaveRadiatedFields
+Radiation/Save Fields
+LoadRadFieldsMenuCmd
+Radiation/Load Fields
+ClearRadFieldsMenuCmd
+Radiation/Clear
+CreateFarFieldPlot
+Plot/Far Field
+CreateNearFieldPlot
+Plot/Near Field
+EditSources
+Data/Edit Sources
+QP3DEditSources
+Data/Edit Sources
+EditBoundDisplay
+View/Boundary Display
+PointCreate
+Geometry/Create/Point
+LineCreate
+Geometry/Create/Line
+ObjectListCreate
+Geometry/Create/Object List
+PointModify
+Geometry/Modify/Point
+LineModify
+Geometry/Modify/Line
+ObjectListModify
+Geometry/Modify/Object List
+SavedTransfCmd
+Using Coordinate Systems
+E_HLPTOK
+E_RESFIL

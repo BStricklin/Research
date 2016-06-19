@@ -1,0 +1,68 @@
+begin_error_file
+
+1101  fatal
+1101  Module died unexpectedly due to unrecoverable error.
+
+1102  fatal
+1102  Command line parameters are not valid.
+ 
+1103  fatal
+1103  The feature requested has not been implemented yet.
+
+1104  fatal
+1104  Cannot start executable $$1.
+ 
+1105  fatal
+1105  Executable $$1 died unexpectedly.
+
+
+1201  fatal
+1201  No such file: $$1.
+
+1202  fatal
+1202  Another text file for tockening is open ($$1).
+
+1203  fatal
+1203  Error closing file: $$1.
+
+1204  fatal
+1204  Error in SAT file: $$1.
+
+1205  fatal
+1205  Error reading file: $$1.
+
+1206  fatal
+1206  Too many tokens.
+
+1207  fatal
+1207  Error reading SPR file.
+
+1208  fatal
+1208  The thermal setup is inconsistent. The most probable
+1208  reason is a boundary condition definition on a solid 
+1208  with zero thermal conductivity. Please note that solids
+1208  with zero thermal conductivity are automatically
+1208  excluded from the simulation region.
+
+1209  fatal
+1209  The thermal setup is not consistent: There are two
+1209  or more touching Temperature boundary conditions with
+1209  different prescribed temperature values. 
+
+
+1301  fatal
+1301  Cannot recover from loss mapping failure.
+
+1302  fatal
+1302  Cannot fix orientation on resistive shell.
+
+1303  fatal
+1303  Error has occured in the Expression Evaluator.
+
+1304  fatal
+1304  Functional $$1 is not supported.
+
+end_error_file
+ 
+
+

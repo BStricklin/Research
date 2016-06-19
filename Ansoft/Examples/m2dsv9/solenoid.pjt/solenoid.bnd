@@ -1,0 +1,42 @@
+B_HEADER
+ FileSign BNDR FormVers 1.000 CreaSign BNDS CreaVers 3.000
+E_HEADER
+
+B_DATA 
+ B_SETNGS 
+  MaxId 0 
+ E_SETNGS 
+ 
+ B_SYMTAB 
+  THETA = 0
+  RHO = 0
+  R = 0
+  Z = 0
+ E_SYMTAB 
+ B_OBJLST 0 
+ E_OBJLST 
+ 
+ B_BNDLST 2 
+  B_BOUND 128 source1 
+   Color 8 
+   Visible Y Selected N 
+   BoundType source 
+    B_SRCLST 1 
+     MStype current SubType solid DoTType total Value 10000 
+    E_SRCLST 
+   B_BOPLST 1 
+    Obj Name coil Id 25 
+     CoordSys 0 0 0 
+   E_BOPLST 
+  E_BOUND 
+  B_BOUND 130 balloon1 
+   Color 8 
+   Visible Y Selected N 
+   BoundType balloon Charge Y 
+   B_BOPLST 1 
+    Obj Name background Id 0 
+     CoordSys 0 0 0 
+   E_BOPLST 
+  E_BOUND 
+ E_BNDLST 
+E_DATA 

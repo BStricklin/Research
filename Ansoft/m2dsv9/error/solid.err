@@ -1,0 +1,300 @@
+# %W%	%Q%
+# Copyright 1984-1989 Ansoft Corp.
+
+begin_error_file
+
+1001 user
+1001 Name for $$1 is too long.
+1001 Length of names cannot exceed 10 characters.
+1001 Please select a shorter name.
+
+1002 user
+1002 Name entry is blank.
+1002 Please specify a name.
+
+1003 user
+1003 Length entry is zero.
+1003 Please enter a nonzero positive number.
+
+1004 user
+1004 Length entry is either negative or zero.
+1004 Please enter a nonzero positive number.
+
+1005 user
+1005 List $$1 is defined by the system.
+1005 This list cannot be redefined or deleted.
+1005 Please select another list.
+
+1006 user
+1006 Entity $$1 cannot be deleted.
+1006 This entity does not exist.
+1006 Please select another.
+
+1007 user
+1007 Plane $$1 is defined by the system.
+1007 This plane cannot be redefined or deleted.
+1007 Please select another plane.
+
+1008 user
+1008 The three points specified do not define a plane.
+1008 Please check the point coordinates.
+
+1009 user
+1009 No plane has been specified.
+1009 Please select a plane.
+
+1010 user
+1010 The mouse point selection process has been aborted.
+1010 No point has been selected.
+
+1011 user
+1011 There is no active 3d window.
+1011 Please set an active 3d window.
+1011 Use the Window/Active menu command.
+
+1012 user
+1012 There is no active window.
+1012 Please set an active window.
+1012 Use the Window/Active menu command.
+
+1013 user
+1013 Angle entry is negative.
+1013 Please enter a number greater than zero.
+
+1014 user
+1014 Angle entry is negative.
+1014 Please enter a number greater than or equal to zero.
+
+1015 user
+1015 Angle entry is zero.
+1015 Please enter a number greater than zero.
+
+1016 user
+1016 Magnify is not functional in zoom mode.
+1016 Please UnZoom before magnifying.
+
+1017 user
+1017 Illegal entry for magnification multiplier.
+1017 Please enter a number greater than zero.
+
+1018 user
+1018 Mouse point selection not functional.
+1018 Viewing angles set too close to axes.
+1018 Please abort and select new viewing angles.
+1018 Use the Window/Settings menu command.
+
+1019 user
+1019 Shift not functional in zoom mode.
+1019 Please UnZoom before shifting.
+
+1020 user
+1020 Number of times to copy is not within acceptable bounds.
+1020 Entry must be greater than zero and less than 100.
+1020 Please change your entry.
+
+1021 user
+1021 No axis has been specified.
+1021 Please select an axis.
+
+1022 user
+1022 Name for $$1 is too long for copy.
+1022 NOTE: Copy for more than 1 time adds suffix to name.
+1022 Length of names cannot exceed 10 characters.
+1022 Please select a shorter name.
+
+1023 user
+1023 Object $$1 already exists.
+1023 Every object name must be unique.
+1023 Please select another name.
+
+1024 user
+1024 Name for $$1 has an embedded space.
+1024 Names cannot contain spaces.
+1024 Please select another name.
+
+1025 user
+1025 Name for $$1 used more than once.
+1025 Name $$1 is multiply used as a new name.
+1025 Every object name must be unique.
+1025 Please select another name.
+
+1026 user
+1026 Axis $$1 is defined by the system.
+1026 This axis cannot be redefined or deleted.
+1026 Please select another axis.
+
+1027 user
+1027 The two points specified do not define an axis.
+1027 Please check the point coordinates.
+
+1028 user
+1028 Two different objects have not been specified.
+1028 Boolean operations require two separate objects.
+1028 Please select one object from each object list.
+
+1029 user
+1029 Boolean operation for $$1 and $$2 failed.
+1029 No new object was created.
+1029 Please check your geometry.
+
+1030 user
+1030 The two points specified do not define a line segment.
+1030 Please check the point coordinates.
+
+1031 user
+1031 Model file $$1 already exists.
+1031 You have specified no overwrite.
+1031 Please allow overwrite or change name.
+
+1032 user
+1032 There are no objects in memory to save.
+
+1033 user
+1033 You have not specified any objects to save.
+1033 Please specify objects you want to save. 
+
+1034 user
+1034 Unable to open $$1 file.
+1034 Please check specified file name.
+
+1035 user
+1035 No list has been specified.
+1035 Please select a list.
+
+1036 user
+1036 Plane $$1 cannot be deleted.
+1036 Plane is referenced by cut plane $$2.
+1036 Cut plane $$2 must be deleted first.
+
+1037 user
+1037 Plane $$1 cannot be deleted.
+1037 This plane is referenced by rectangle $$2.
+1037 Rectangle $$2 must be deleted first.
+
+1038 user
+1038 List $$1 cannot be deleted.
+1038 List is referenced by cut plane $$2.
+1038 Cut plane $$2 must be deleted first.
+
+1039 user
+1039 Distance entry is zero.
+1039 Please enter a nonzero number.
+
+1040 user
+1040 Number of segments not adequate for specified angle.
+1040 Please revise your entry.
+
+1041 user
+1041 Angle must be between -360 and +360 degrees (but not zero).
+1041 Please check your entry.
+
+1042 user
+1042 Object $$1 is not valid for revolution.
+
+1043 user
+1043 File $$1 is not a *.sld file.
+1043 Please check specified file name.
+
+1044 user
+1044 Objects $$1 and $$2 are
+1044 not compatible for connection.
+1044 Please check your objects.
+
+1045 user
+1045 Two different objects have not been specified.
+1045 Connect operations require two separate objects.
+1045 Please select one object from each object list.
+
+1046 user
+1046 Spiral too small for specified width and spacing.
+1046 Please check your spiral parameters.
+
+1047 user
+1047 Unable to translate STL file $$1.
+1047 Please check the validity of your STL file.
+
+1048 user
+1048 Unknown color $$1.
+1048 Defaulting color to white.
+
+1049 user
+1049 Null face found in $$1.
+1049 Object $$1 is not valid.
+
+1050 user
+1050 Boolean classification error.
+1050 Probable cause is either extremely small angle or 
+1050 or small point separation in your geometry.
+1050 Please check your geometry.
+
+1051 user
+1051 Boolean classification error.
+1051 Possible cause is an illegal point of zero thickness
+1051 in the Boolean result.
+1051 Please check your geometry.
+
+1052 user
+1052 Object $$1 is not valid for revolution.
+1052 Object has more than 2 vertex points on the Axis of
+1052 Revolution.
+
+1053 user
+1053 Object $$1 is not valid for revolution.
+1053 Object has vertex points crossing the Axis of
+1053 Revolution.
+
+1054 user
+1054 Object $$1 is not valid for revolution.
+1054 Object has only one vertex point on the Axis of
+1054 Revolution.
+
+1055 user
+1055 Unable to translate the STL file to internal format.
+1055 $$1
+
+1056 user
+1056 No objects have been selected for operation.
+1056 Please select object(s) first.
+
+1057 user
+1057 Too few colors for shading surfaces.
+
+1058 user
+1058 Cannot create a planar section of 2D object $$1.
+
+1059 user
+1059 Magnification is too small.
+
+1060 user
+1060 Data access error
+1060 $$1
+
+1061 user
+1061 Data creation error
+1061 $$1
+
+1062 user
+1062 Storage allocation error
+1062 $$1
+
+1063 user
+1063 Geometry error
+1063 $$1
+
+1064 user
+1064 File error
+1064 $$1
+
+1065 user
+1065 User error
+1065 $$1
+
+1066 user
+1066 Rules error
+1066 $$1
+
+5000 user
+5000 $$1 is not implemented.
+5000 This feature will be included in a future release.
+
+end_error_file

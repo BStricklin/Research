@@ -1,0 +1,101 @@
+# %W%	%Q%
+# Copyright 1984-1989 Ansoft Corp.
+
+begin_error_file
+
+1001	fatal
+1001	Leaf has zero elements.
+
+1002	fatal
+1002	Head value is greater than first
+1002	value in leaf.
+
+1003	fatal
+1003	Error in link structure.
+1003	$$1
+
+1004	fatal
+1004	Stem is greater than root.
+
+1005	fatal
+1005	Root leaf error.
+
+1006	fatal
+1006	Stem's link is wrong.
+
+1007	fatal
+1007	Error in element count in leaf.
+
+1008	fatal
+1008	Error in leaf data structure.
+
+1009	fatal
+1009	Illegal node count encountered
+1009	during list test.
+
+1010	fatal	
+1010	Illegal order in list test.
+
+1011	fatal
+1011	List size not correct.
+
+1012	fatal
+1012	Found list member to delete when quick
+1012	test could not.
+
+1013	fatal    
+1013	Fatal delete from list.
+
+1014	fatal
+1014	Error in high level routine during
+1014	element deletion.
+
+1015	fatal
+1015	Duplicate linked list. 
+
+1016	fatal
+1016	Linked list previous link error.
+
+1017	fatal
+1017	Linked list next link error.
+
+1018	fatal
+1018	Linked list size disagrees with 
+1018	actual size.
+
+1019	fatal
+1019	Illegal leaf structure encountered during walk.
+
+1020	fatal
+1020	Leaf is empty during walk.
+
+1021	fatal
+1021	Leaf's head is nil during walk.
+
+1022	fatal
+1022	Can't determine which point is first.
+
+1023	fatal
+1023	One of the solved points in the tetrahedra
+1023	is nil.
+
+1024	fatal
+1024	Error in reading tetrahedra data.
+
+1025	fatal
+1025	Can't find tetrahedra's neighbor.
+
+1026	fatal
+1026	Error in two point tetrahedra match.
+
+1027	user
+1027	The active window is a 2d window. This function
+1027	requires an active 3d window. Please make a
+1027	3d window active.
+
+1028	fatal
+1028	Error in reading linked list data from file. The number
+1028	of data elements in the file is different than the number
+1028	of reported elements in the file header.
+
+end_error_file

@@ -1,0 +1,135 @@
+# %W%	%Q%
+# Copyright 1984-1995 Ansoft Corp.
+
+begin_error_file
+1001	fatal
+1001	Meshmaker died unexpectedly.
+
+1008    fatal
+1008    Generation of initial mesh failed or aborted.
+
+1009    fatal
+1009    Model file is missing or corrupted
+
+1010    fatal
+1010    The model fails acis entity checks.
+1010    Please refer to the file "model_analysis.html" in the project 
+1010    directory for more information.
+
+1011    fatal
+1011    Unable to obtain initial triangulation
+1011    Please refer to the file "model_analysis.html" in the project 
+1011    directory for more information.
+
+1012    fatal
+1012    Unable to tie the triangles to the body faces.
+1012    Please refer to the file "model_analysis.html" in the project 
+1012    directory for more information.
+
+1013	fatal
+1013    Irregular union fails. 
+1013    Please refer to the file "model_analysis.html" in the project 
+1013    directory for more information.
+
+1014    fatal
+1014    ACIS Error "$$1"
+1014    While "$$2"
+1014    Please refer to the file "model_analysis.html" in the project 
+1014    directory for more information.
+
+1015	fatal
+1015	None of the adaptive points could be inserted.
+1015    Please refer to the file "model_analysis.html" in the project 
+1015    directory for more information.
+
+1016	fatal
+1016	Unexpected inconsistency found in internal mesh 
+1016	data structures. 
+1016    Please refer to the file "model_analysis.html" in the project 
+1016    directory for more information.
+
+1017	fatal
+1017	Error in building initial triangulation.
+1017	Acis faceting returns no triangles.
+1017    Please refer to the file "model_analysis.html" in the project 
+1017    directory for more information.
+
+1018	fatal
+1018	Error in building initial triangulation.
+1018	Detected an error in the Acis faceting.
+1018    Please refer to the file "model_analysis.html" in the project 
+1018    directory for more information.
+
+1019	fatal
+1019	Error in preserving calibration lines.
+1019	A calibration (or an impedance) line (or a part of it)
+1019    may not be interior to any face in the model.
+
+1020	fatal
+1020    Error in reading matching boundary data.
+
+1021 	fatal
+1021	Seed file has references to non-existent faces or objects.
+1021	Invalid seed file.
+
+1022    fatal
+1022    The input acis model does not have the background object or it
+1022    does not have face ids already assigned. Such a model is not ready
+1022    for meshing. Please make sure the model is saved correctly in the
+1022    Ansoft modeler.
+
+1043    fatal
+1043    There is no license for module $$1.
+
+1049	fatal
+1049	Failed to create model file for the finite element solvers.
+1049    Probable cause: Invalid or inconsistent solid model.
+
+1050	fatal
+1050	mesh3d failed.
+1050    Please refer to the file "model_analysis.html" in the project 
+1050    directory for more information.
+
+1051	fatal
+1051	Error while opening/reading the model
+
+1052	fatal
+1052	Failed to make initial mesh
+
+1053	fatal
+1053	Error while opening/writing the mesh files
+
+1054	fatal
+1054	Error while opening/reading the mesh files
+
+1055	fatal
+1055	Error while refining the mesh
+
+1056	fatal
+1056	Error while inserting a point to slave face or edge
+
+1057	fatal
+1057	Unable to recover all the surface triangles.
+1057    Please refer to the file "model_analysis.html" in the project 
+1057    directory for more information.
+
+1058	fatal
+1058	Error in matching boundary process
+
+1059	fatal
+1059	The adaptive points file is missing, corrupted or empty.
+
+1100    fatal
+1100    Insufficient memory for module $$1.
+
+1101    user
+1101    Cannot display model in shaded mode if mesh is displayed
+1101	in shaded or hidden line mode. Turning model display to
+1101	wire frame mode.
+
+end_error_file
+
+
+
+
+

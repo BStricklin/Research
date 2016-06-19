@@ -1,0 +1,109 @@
+B_HEADER
+ FileSign MTRL FormVers 1.000 CreaSign MATS CreaVers 3.000
+ FileMark DBRootFile
+E_HEADER
+
+B_DATA 
+ B_DBASE solenoid 1 BlockSep B_MATTAB GlbIndex 82 
+  B_SYMTAB 
+   THETA = 0
+   RHO = 0
+   R = 0
+   Z = 0
+  E_SYMTAB 
+  B_MATTAB solenoid 1 BlockSep B_MATERL ParentDB solenoid 
+   B_MATERL vacuum 1 Locked CndClass 1 
+    DeriveFr vacuum 1 External 
+    B_PROP Permeability Constant 1 
+    E_PROP 
+    B_PROP ImgPermeability Constant 0 
+    E_PROP 
+    B_PROP MagLossTan Constant 0 
+    E_PROP 
+    B_PROP MagCoercivity Constant 0 
+    E_PROP 
+    B_PROP MagRetentivity Constant 0 
+    E_PROP 
+    B_PROP PermMagnetizatn Constant 0 
+    E_PROP 
+   E_MATERL 
+   B_MATERL copper 4 Locked CndClass 64 
+    DeriveFr copper 4 External 
+    B_PROP Permeability Latent Constant 0.999991 
+    E_PROP 
+    B_PROP Conductivity Latent Constant 58000000 
+    E_PROP 
+    B_PROP ThermalConducty Latent Constant 400 
+    E_PROP 
+    B_PROP ImgPermeability Constant 0 
+    E_PROP 
+    B_PROP MagLossTan Constant 0 
+    E_PROP 
+    B_PROP MagCoercivity Constant 0 
+    E_PROP 
+    B_PROP MagRetentivity Constant 0 
+    E_PROP 
+    B_PROP PermMagnetizatn Constant 0 
+    E_PROP 
+   E_MATERL 
+   B_MATERL ColdRolledSteel 80 CndClass 1 PrpClass 2 
+    DeriveFr vacuum 1 Local 
+    B_PROP Permeability Override 2 InterpFn 
+     "H Field" Versus "B Field" NumPnts 11 
+      Units ampere/meter tesla 
+      Limits 0 35000 0 2.5 
+      Frequency 0 
+      0 0 
+      779 0.644 
+      1080 0.858 
+      1480 1.06 
+      2090 1.26 
+      3120 1.44 
+      5160 1.61 
+      9930 1.77 
+      15500 1.86 
+      25000 1.88 
+      35000 1.9 
+    E_PROP 
+   E_MATERL 
+   B_MATERL Neo35 81 CndClass 1 
+    DeriveFr vacuum 1 Local 
+    B_PROP Permeability Constant 1.05 
+    E_PROP 
+    B_PROP MagCoercivity Constant -947350.851734394 
+    E_PROP 
+    B_PROP MagRetentivity Constant 1.25 
+    E_PROP 
+    B_PROP PermMagnetizatn Constant 994718.394321114 
+    E_PROP 
+   E_MATERL 
+   B_MATERL SS430 82 CndClass 1 PrpClass 2 
+    DeriveFr vacuum 1 Local 
+    B_PROP Permeability Override 2 InterpFn 
+     "H Field" Versus "B Field" NumPnts 18 
+      Units ampere/meter tesla 
+      Limits 0 40000 0 2 
+      Frequency 0 
+      0 0 
+      143 0.125 
+      180 0.206 
+      219 0.394 
+      259 0.589 
+      298 0.743 
+      338 0.853 
+      378 0.932 
+      438 1.01 
+      597 1.11 
+      716 1.16 
+      955 1.2 
+      1590 1.27 
+      3980 1.37 
+      6370 1.43 
+      11900 1.49 
+      23900 1.55 
+      39800 1.59 
+    E_PROP 
+   E_MATERL 
+  E_MATTAB 
+ E_DBASE 
+E_DATA 

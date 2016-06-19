@@ -1,0 +1,66 @@
+B_HEADER
+ FileSign BNDR FormVers 1.000 CreaSign BNDS CreaVers 3.000
+E_HEADER
+
+B_DATA 
+ B_SETNGS 
+  MaxId 0 
+ E_SETNGS 
+ 
+ B_SYMTAB 
+  PHI = 0
+  R = 0
+  X = 0
+  Y = 0
+ E_SYMTAB 
+ B_OBJLST 0 
+ E_OBJLST 
+ 
+ B_BNDLST 4 
+  B_BOUND 129 source1 
+   Color 8 
+   Visible Y Selected N 
+   BoundType source 
+    B_SRCLST 1 
+     EStype voltage SubType solid Value 1 
+    E_SRCLST 
+   B_BOPLST 1 
+    Obj Name left Id 90 
+     CoordSys 0 0 0 
+   E_BOPLST 
+  E_BOUND 
+  B_BOUND 130 source2 
+   Color 8 
+   Visible Y Selected N 
+   BoundType source 
+    B_SRCLST 1 
+     EStype voltage SubType solid Value -1 
+    E_SRCLST 
+   B_BOPLST 1 
+    Obj Name right Id 99 
+     CoordSys -0.00015240000000061 0 0 
+   E_BOPLST 
+  E_BOUND 
+  B_BOUND 131 source3 
+   Color 8 
+   Visible Y Selected N 
+   BoundType source 
+    B_SRCLST 1 
+     EStype voltage SubType solid Value 0 
+    E_SRCLST 
+   B_BOPLST 1 
+    Obj Name ground Id 108 
+     CoordSys 0 0 0 
+   E_BOPLST 
+  E_BOUND 
+  B_BOUND 133 balloon1 
+   Color 8 
+   Visible Y Selected N 
+   BoundType balloon Charge Y 
+   B_BOPLST 1 
+    Obj Name background Id 0 
+     CoordSys 0 0 0 
+   E_BOPLST 
+  E_BOUND 
+ E_BNDLST 
+E_DATA 

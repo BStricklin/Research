@@ -1,0 +1,24 @@
+B_HEADER
+ FileSign ASSN FormVers 1.000 CreaSign MATS CreaVers 3.000
+ FileMark DBRootFile
+E_HEADER
+
+B_DATA 
+ B_DBASE solenoid 0 BlockSep B_ASNTAB 
+  B_ASNTAB solenoid 1 BlockSep AssignTo PrvIndex 53 ParentDB solenoid 
+   AssignTo coil 25 
+    Material copper 4 
+   AssignTo bonnet 53 
+    Material ColdRolledSteel 80 
+   AssignTo yoke 35 
+    Material ColdRolledSteel 80 
+   AssignTo core 11 
+    Material Neo35 81 
+    OrientAbsolute OrientAt 0 0 90 
+   AssignTo plugnut 1 
+    Material SS430 82 
+   AssignTo background 0 
+    Material vacuum 1 
+  E_ASNTAB 
+ E_DBASE 
+E_DATA 

@@ -1,0 +1,194 @@
+# %W%	%Q%
+# Copyright 1984-1992 Ansoft Corp.
+
+begin_error_file
+
+1000 fatal
+1000  Died unexpectedly.
+1000  Possible reasons:
+1000   (1) singular matrix due to improper problem setup
+1000   (2) Unknown error
+
+1001 fatal
+1001  Module $$1 died unexpectedly.
+1001  Possible reasons:
+1001   (1) insufficient disk space
+1001   (2) singular matrix due to improper
+1001       problem setup
+
+1002 user
+1002 Some (or all) mesh files are missing.
+1002 Please create a mesh and save the files.
+
+1003 user
+1003 To perform this operation you must have a
+1003 vector in the top register of the calculator.
+
+1004 user
+1004 Material attributes are not set yet.
+
+1005 user
+1005 Some inline function is not available.
+
+1006 user
+1006 This operation requires a solved problem.  Please
+1006 solve the problem or retrieve the solution files.
+
+1008 user
+1008 All objects are defined as perfect conductors; so there is no
+1008 interior electric field.  Please correct this condition
+1008 by redefining material attributes.
+
+1009 user
+1009 Plane "$$1" does not exist. Enter the plane now.
+
+1010 user
+1010 You need two planes to set matching boundaries.
+1010 Please define proper planes.
+
+1011 user
+1011 Inline function "$$1" is not available. 
+1011 Enter the function now.
+
+1012 user
+1012 Matching boundary is not set properly.  Either a plane or 
+1012 a function does not exist.  Please set your boundary again.
+
+1013 user
+1013 You have not selected all the necessary options to generate
+1013 a plot.  Please check your settings and try again.
+
+1014 fatal
+1014 Problem cannot be solved because
+1014 no excitation has been defined.
+
+1015 fatal
+1015 To use object "$$1" as a valid terminal for resistance matrix
+1015 calculation, you need to specify it as a perfect conductor with
+1015 given voltage. Please go back to set material attributes again.
+
+1016 fatal
+1016 Insulation sheet can not be used for
+1016 conduction path involving voltage source.
+1016 Please set up your problem again.
+
+1017 fatal
+1017 Unable to find match point for 
+1017 matching boundary.
+1017 Please check problem setup.
+
+1018 fatal
+1018 Unable to find match edge for
+1018 matching boundary.
+1018 Please check problem setup.
+
+1019 fatal
+1019 There are holes in conductor "$$1". In order
+1019 to solve, you need a surrounding box or object.
+1019 Internal software error.
+
+1020 fatal
+1020 Cannot have voltage terminal on 
+1020 matching boundary.  Please set
+1020 your problem again.
+
+1021 fatal
+1021 Problem cannot be solved due to
+1021 improper setup.
+
+1034 fatal
+1034 Unable to create file "$$1" in your project
+1034 directory.  Check the computer file system
+1034 status please.
+
+1035 fatal
+1035 Unable to find the file "$$1" in your directory.
+1035 This file contains the results of matrix solving.
+
+1036 fatal
+1036 Problem cannot be solved due to
+1036 improper geometry or source setup.
+
+1037 fatal
+1037 Some Conductor has more than one sink terminal.
+
+1038 fatal
+1038 Some conductor has no sink terminal.
+
+1039 fatal
+1039 "$$1" is not a source terminal.
+
+1040 fatal
+1040 Incorrect terminal setup on at least one conductor.
+1040 Possibilities:
+1040   (1) mixed current and voltage terminals.
+1040   (2) more than one sink current terminal.
+1040   (3) either no sink or no source terminal.
+1040   (4) overlapping terminals.
+
+1043    fatal
+1043    There is no license for module $$1.
+
+1044 fatal
+1044 Unable to find hydra due to
+1044 improper terminal setup.
+
+
+1100    fatal
+1100    Insufficient memory or some other internal error for module $$1.
+
+1200    fatal
+1200    Error in writing file.
+1200    Possible causes are:
+1200       - Out of disk space.
+1200       - No file access privileges.
+1200       - Network or hardware problems.
+
+1201 fatal
+1201 Negative mind is detected.
+
+1202 fatal
+1202 No objects are included in solution region.
+
+1204 fatal
+1204 Unable to finish the solution.
+1204 Please check the problem setup.
+
+1205 fatal
+1205 No unknowns to solve
+1205 Please use manual mesh and try again.
+ 
+1206 fatal
+1206 Cannot find tangential vector
+ 
+1207 fatal
+1207 Illegal face number
+ 
+1209 fatal
+1209 Cannot find an attribute with a given name or solid number
+ 
+1210 fatal
+1210 Cannot compute tangential sign
+ 
+1211 fatal
+1211 Cannot create tangential edge
+
+2000 fatal
+2000 Unable to start matrix solver
+
+2001 fatal
+2001 Unable to solve FE matrix system.
+2001 Possible reasons:
+2001   (1) insufficient disk space
+2001   (2) singular matrix due to improper 
+2001       setting of the problem
+
+2002 fatal
+2002 Unable to solve FE matrix system.
+2002 Possible reasons:
+2002   (1) insufficient disk space
+2002   (2) singular matrix due to improper 
+2002       setting of the problem
+
+end_error_file
+

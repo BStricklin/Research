@@ -1,0 +1,837 @@
+# %W%	%Q%
+# Copyright 1984-1996 Ansoft Corp.
+
+B_HEADER
+ FileSign MTRL FormVers 1.000 CreaSign MATS CreaVers 1.220
+ FileMark DBRootFile
+E_HEADER
+
+B_DATA 
+ B_DBASE maxwell 1 BlockSep B_MATTAB GlbIndex 81 
+  B_SYMTAB 
+   PHI = 0
+   THETA = 0
+   R = 0
+   X = 0
+   Y = 0
+   Z = 0
+  E_SYMTAB 
+  B_MATTAB maxwell 1 BlockSep B_MATERL ParentDB maxwell 
+   B_MATERL vacuum 1 CndClass 1 
+   E_MATERL 
+   B_MATERL air 2 CndClass 1 
+    DeriveFr vacuum 1 Local 
+    B_PROP Permittivity Constant 1.0006 
+    E_PROP 
+    B_PROP Permeability Constant 1.0000004 
+    E_PROP 
+    B_PROP ThermalConducty Constant 0.026 
+    E_PROP 
+   E_MATERL 
+   B_MATERL perf_conductor 3 CndClass 128 
+    DeriveFr vacuum 1 Local 
+   E_MATERL 
+   B_MATERL copper 4 CndClass 64 
+    DeriveFr vacuum 1 Local 
+    B_PROP Permeability Constant 0.999991 
+    E_PROP 
+    B_PROP Conductivity Constant 58000000 
+    E_PROP 
+    B_PROP ThermalConducty Constant 400 
+    E_PROP 
+   E_MATERL 
+   B_MATERL gold 5 CndClass 64 
+    DeriveFr vacuum 1 Local 
+    B_PROP Permeability Constant 0.99996 
+    E_PROP 
+    B_PROP Conductivity Constant 41000000 
+    E_PROP 
+    B_PROP ThermalConducty Constant 315 
+    E_PROP 
+   E_MATERL 
+   B_MATERL silver 6 CndClass 64 
+    DeriveFr vacuum 1 Local 
+    B_PROP Permeability Constant 0.99998 
+    E_PROP 
+    B_PROP Conductivity Constant 61000000 
+    E_PROP 
+    B_PROP ThermalConducty Constant 427 
+    E_PROP 
+   E_MATERL 
+   B_MATERL platinum 7 
+    DeriveFr vacuum 1 Local 
+    B_PROP Conductivity Constant 9300000 
+    E_PROP 
+    B_PROP ThermalConducty Constant 72 
+    E_PROP 
+   E_MATERL 
+   B_MATERL chromium 8 
+    DeriveFr vacuum 1 Local 
+    B_PROP Conductivity Constant 7600000 
+    E_PROP 
+    B_PROP ThermalConducty Constant 94 
+    E_PROP 
+   E_MATERL 
+   B_MATERL tantalum 9 
+    DeriveFr vacuum 1 Local 
+    B_PROP Conductivity Constant 6300000 
+    E_PROP 
+    B_PROP ThermalConducty Constant 58 
+    E_PROP 
+   E_MATERL 
+   B_MATERL titanium 10 CndClass 64 
+    DeriveFr vacuum 1 Local 
+    B_PROP Permeability Constant 1.00018 
+    E_PROP 
+    B_PROP Conductivity Constant 2100000 
+    E_PROP 
+    B_PROP ThermalConducty Constant 21 
+    E_PROP 
+   E_MATERL 
+   B_MATERL aluminum 11 CndClass 64 
+    DeriveFr vacuum 1 Local 
+    B_PROP Permeability Constant 1.000021 
+    E_PROP 
+    B_PROP Conductivity Constant 38000000 
+    E_PROP 
+    B_PROP ThermalConducty Constant 237.5 
+    E_PROP 
+   E_MATERL 
+   B_MATERL palladium 12 CndClass 64 
+    DeriveFr vacuum 1 Local 
+    B_PROP Permeability Constant 1.00082 
+    E_PROP 
+    B_PROP Conductivity Constant 9300000 
+    E_PROP 
+    B_PROP ThermalConducty Constant 73 
+    E_PROP 
+   E_MATERL 
+   B_MATERL FR4_epoxy 13 
+    DeriveFr vacuum 1 Local 
+    B_PROP Permittivity Constant 4.4 
+    E_PROP 
+   E_MATERL 
+   B_MATERL modified_epoxy 14 
+    DeriveFr vacuum 1 Local 
+    B_PROP Permittivity Constant 4.2 
+    E_PROP 
+   E_MATERL 
+   B_MATERL BT_systems 15 
+    DeriveFr vacuum 1 Local 
+    B_PROP Permittivity Constant 3.9 
+    E_PROP 
+   E_MATERL 
+   B_MATERL cyanate_ester 16 
+    DeriveFr vacuum 1 Local 
+    B_PROP Permittivity Constant 3.8 
+    E_PROP 
+   E_MATERL 
+   B_MATERL polyamide 17 
+    DeriveFr vacuum 1 Local 
+    B_PROP Permittivity Constant 4.3 
+    E_PROP 
+    B_PROP ThermalConducty Constant 0.26 
+    E_PROP 
+   E_MATERL 
+   B_MATERL teflon_based 18 
+    DeriveFr vacuum 1 Local 
+    B_PROP Permittivity Constant 2.08 
+    B_PROP ThermalConducty Constant 0.3
+    E_PROP 
+   E_MATERL 
+   B_MATERL Al2_O3_ceramic 19 
+    DeriveFr vacuum 1 Local 
+    B_PROP Permittivity Constant 9.8 
+    E_PROP 
+    B_PROP ThermalConducty Constant 35 
+    E_PROP 
+   E_MATERL 
+   B_MATERL sapphire 20 
+    DeriveFr vacuum 1 Local 
+    B_PROP Permittivity Constant 10 
+    E_PROP 
+    B_PROP ThermalConducty Constant 23.1 
+    E_PROP 
+   E_MATERL 
+   B_MATERL quartz_glass 21 
+    DeriveFr vacuum 1 Local 
+    B_PROP Permittivity Constant 3.78 
+    E_PROP 
+    B_PROP ThermalConducty Constant 7.25 
+    E_PROP 
+   E_MATERL 
+   B_MATERL corning_glass 22 CndClass 8 
+    DeriveFr vacuum 1 Local 
+    B_PROP Permittivity Constant 5.75 
+    E_PROP 
+   E_MATERL 
+   B_MATERL gallium_arsenid 23 
+    DeriveFr vacuum 1 Local 
+    B_PROP Permittivity Constant 12.9 
+    E_PROP 
+    B_PROP ThermalConducty Constant 55 
+    E_PROP 
+   E_MATERL 
+   B_MATERL glass_PTFEreinf 24 
+    DeriveFr vacuum 1 Local 
+    B_PROP Permittivity Constant 2.5 
+    E_PROP 
+   E_MATERL 
+   B_MATERL silicon 25 
+    DeriveFr vacuum 1 Local 
+    B_PROP Permittivity Constant 11.9 
+    E_PROP 
+    B_PROP ThermalConducty Constant 0.3 
+    E_PROP 
+   E_MATERL 
+   B_MATERL silicon_dioxide 26 
+    DeriveFr vacuum 1 Local 
+    B_PROP Permittivity Constant 4 
+    E_PROP 
+    B_PROP ThermalConducty Constant 1.5 
+    E_PROP 
+   E_MATERL 
+   B_MATERL duroid 27 
+    DeriveFr vacuum 1 Local 
+    B_PROP Permittivity Constant 2.2 
+    E_PROP 
+   E_MATERL 
+   B_MATERL ferrite 28 CndClass 8 
+    DeriveFr vacuum 1 Local 
+    B_PROP Permittivity Constant 12 
+    E_PROP 
+    B_PROP Permeability Constant 1000 
+    E_PROP 
+    B_PROP Conductivity Constant 0.01 
+    E_PROP 
+    B_PROP ThermalConducty Constant 5.5 
+    E_PROP 
+   E_MATERL 
+   B_MATERL polystyrene 29 CndClass 8 
+    DeriveFr vacuum 1 Local 
+    B_PROP Permittivity Constant 2.6 
+    E_PROP 
+    B_PROP Conductivity Constant 1E-16 
+    E_PROP 
+    B_PROP ThermalConducty Constant 0.14 
+    E_PROP 
+   E_MATERL 
+   B_MATERL rubber_hard 30 CndClass 8 
+    DeriveFr vacuum 1 Local 
+    B_PROP Permittivity Constant 3 
+    E_PROP 
+    B_PROP Conductivity Constant 1E-15 
+    E_PROP 
+    B_PROP ThermalConducty Constant 0.16 
+    E_PROP 
+   E_MATERL 
+   B_MATERL mica 31 CndClass 8 
+    DeriveFr vacuum 1 Local 
+    B_PROP Permittivity Constant 6 
+    E_PROP 
+    B_PROP Conductivity Constant 1E-15 
+    E_PROP 
+    B_PROP ThermalConducty Constant 0.34 
+    E_PROP 
+   E_MATERL 
+   B_MATERL porcelain 32 CndClass 8 
+    DeriveFr vacuum 1 Local 
+    B_PROP Permittivity Constant 5.7 
+    E_PROP 
+    B_PROP Conductivity Constant 1E-14 
+    E_PROP 
+    B_PROP ThermalConducty Constant 0.88 
+    E_PROP 
+   E_MATERL 
+   B_MATERL diamond 33 
+    DeriveFr vacuum 1 Local 
+    B_PROP Permittivity Constant 16.5 
+    E_PROP 
+    B_PROP Conductivity Constant 1E-13 
+    E_PROP 
+    B_PROP ThermalConducty Constant 990 
+    E_PROP 
+   E_MATERL 
+   B_MATERL bakelite 34 
+    DeriveFr vacuum 1 Local 
+    B_PROP Permittivity Constant 4.8 
+    E_PROP 
+    B_PROP Conductivity Constant 1E-09 
+    E_PROP 
+    B_PROP ThermalConducty Constant 0.23 
+    E_PROP 
+   E_MATERL 
+   B_MATERL glass 35 
+    DeriveFr vacuum 1 Local 
+    B_PROP Permittivity Constant 5.5 
+    E_PROP 
+    B_PROP Conductivity Constant 1E-12 
+    E_PROP 
+    B_PROP ThermalConducty Constant 1.0 
+    E_PROP 
+   E_MATERL 
+   B_MATERL marble 36 
+    DeriveFr vacuum 1 Local 
+    B_PROP Permittivity Constant 8.3 
+    E_PROP 
+    B_PROP Conductivity Constant 1E-08 
+    E_PROP 
+    B_PROP ThermalConducty Constant 1.75 
+    E_PROP 
+   E_MATERL 
+   B_MATERL water_distilled 37 CndClass 8 
+    DeriveFr vacuum 1 Local 
+    B_PROP Permittivity Constant 81 
+    E_PROP 
+    B_PROP Permeability Constant 0.999991 
+    E_PROP 
+    B_PROP Conductivity Constant 0.0002 
+    E_PROP 
+    B_PROP ThermalConducty Constant 0.61 
+    E_PROP 
+   E_MATERL 
+   B_MATERL water_fresh 38 CndClass 8 
+    DeriveFr vacuum 1 Local 
+    B_PROP Permittivity Constant 81 
+    E_PROP 
+    B_PROP Permeability Constant 0.999991 
+    E_PROP 
+    B_PROP Conductivity Constant 0.01 
+    E_PROP 
+    B_PROP ThermalConducty Constant 0.61 
+    E_PROP 
+   E_MATERL 
+   B_MATERL water_sea 39 CndClass 8 
+    DeriveFr vacuum 1 Local 
+    B_PROP Permittivity Constant 81 
+    E_PROP 
+    B_PROP Permeability Constant 0.999991 
+    E_PROP 
+    B_PROP Conductivity Constant 4 
+    E_PROP 
+    B_PROP ThermalConducty Constant 0.61 
+    E_PROP 
+   E_MATERL 
+   B_MATERL graphite 40 
+    DeriveFr vacuum 1 Local 
+    B_PROP Conductivity Constant 70000 
+    E_PROP 
+    B_PROP ThermalConducty Constant 24 
+    E_PROP 
+   E_MATERL 
+   B_MATERL iron 41 
+    DeriveFr vacuum 1 Local 
+    B_PROP Permeability Constant 4000 
+    E_PROP 
+    B_PROP Conductivity Constant 10300000 
+    E_PROP 
+    B_PROP ThermalConducty Constant 79 
+    E_PROP 
+   E_MATERL 
+   B_MATERL tungsten 42 
+    DeriveFr vacuum 1 Local 
+    B_PROP Conductivity Constant 18200000 
+    E_PROP 
+    B_PROP ThermalConducty Constant 163.3 
+    E_PROP 
+   E_MATERL 
+   B_MATERL bronze 43 
+    DeriveFr vacuum 1 Local 
+    B_PROP Conductivity Constant 10000000 
+    E_PROP 
+    B_PROP ThermalConducty Constant 64 
+    E_PROP 
+   E_MATERL 
+   B_MATERL steel_stainless 44 
+    DeriveFr vacuum 1 Local 
+    B_PROP Conductivity Constant 1100000 
+    E_PROP 
+    B_PROP ThermalConducty Constant 13.8 
+    E_PROP 
+   E_MATERL 
+   B_MATERL zinc 45 
+    DeriveFr vacuum 1 Local 
+    B_PROP Conductivity Constant 16700000 
+    E_PROP 
+    B_PROP ThermalConducty Constant 115.5 
+    E_PROP 
+   E_MATERL 
+   B_MATERL nickel 46 CndClass 64 
+    DeriveFr vacuum 1 Local 
+    B_PROP Permeability Constant 600 
+    E_PROP 
+    B_PROP Conductivity Constant 14500000 
+    E_PROP 
+    B_PROP ThermalConducty Constant 90 
+    E_PROP 
+   E_MATERL 
+   B_MATERL solder 47 
+    DeriveFr vacuum 1 Local 
+    B_PROP Conductivity Constant 7000000 
+    E_PROP 
+    B_PROP ThermalConducty Constant 48 
+    E_PROP 
+   E_MATERL 
+   B_MATERL brass 48 
+    DeriveFr vacuum 1 Local 
+    B_PROP Conductivity Constant 15000000 
+    E_PROP 
+    B_PROP ThermalConducty Constant 111 
+    E_PROP 
+   E_MATERL 
+   B_MATERL beryllium 49 
+    DeriveFr vacuum 1 Local 
+    B_PROP Permeability Constant 1.00000079 
+    E_PROP 
+    B_PROP ThermalConducty Constant 190 
+    E_PROP 
+   E_MATERL 
+   B_MATERL cast_iron 50 CndClass 1 
+    DeriveFr vacuum 1 Local 
+    B_PROP Permeability Constant 60 
+    E_PROP 
+    B_PROP Conductivity Constant 1500000 
+    E_PROP 
+    B_PROP ThermalConducty Constant 83 
+    E_PROP 
+   E_MATERL 
+   B_MATERL cobalt 51 CndClass 1 
+    DeriveFr vacuum 1 Local 
+    B_PROP Permeability Constant 250 
+    E_PROP 
+    B_PROP Conductivity Constant 10000000 
+    E_PROP 
+    B_PROP ThermalConducty Constant 100 
+    E_PROP 
+   E_MATERL 
+   B_MATERL NdFe30 52 CndClass 1 
+    DeriveFr vacuum 1 Local 
+    B_PROP Permeability Constant 1.0445730167132 
+    E_PROP 
+    B_PROP Conductivity Constant 625000 
+    E_PROP 
+    B_PROP MagCoercivity Constant -838000 
+    E_PROP 
+    B_PROP MagRetentivity Constant 1.1 
+    E_PROP 
+    B_PROP PermMagnetizatn Constant 875352.18800566 
+    E_PROP 
+   E_MATERL 
+   B_MATERL NdFe35 53 CndClass 1 
+    DeriveFr vacuum 1 Local 
+    B_PROP Permeability Constant 1.0997785406 
+    E_PROP 
+    B_PROP Conductivity Constant 625000 
+    E_PROP 
+    B_PROP MagCoercivity Constant -890000 
+    E_PROP 
+    B_PROP MagRetentivity Constant 1.2300000000005 
+    E_PROP 
+    B_PROP PermMagnetizatn Constant 978802.901134 
+    E_PROP 
+   E_MATERL 
+   B_MATERL Ceramic5 54 CndClass 1 PrpClass 2 
+    DeriveFr vacuum 1 Local 
+    B_PROP Permeability Override 2 InterpFn 
+     "H Field" Versus "B Field" NumPnts 13 
+      Units ampere/meter tesla 
+      Limits 0 0 0 0 
+      Frequency 0 
+      -190985.931710274 0 
+      -190190.156994815 0.1 
+      -188996.494921626 0.12 
+      -187007.058132977 0.1325 
+      -183028.18455568 0.145 
+      -175070.437401085 0.1575 
+      -167112.69024649 0.1675 
+      -159154.943091895 0.18 
+      -139260.575205408 0.21 
+      -119366.207318921 0.235 
+      -79577.4715459477 0.2875 
+      -39788.7357729738 0.341 
+      0 0.395 
+    E_PROP 
+    B_PROP Conductivity Constant 0.0001 
+    E_PROP 
+    B_PROP MagCoercivity Constant -190985.931710274 
+    E_PROP 
+    B_PROP MagRetentivity Constant 0.394543540740606 
+    E_PROP 
+    B_PROP PermMagnetizatn Constant 313967.774227991 
+    E_PROP 
+   E_MATERL 
+   B_MATERL Ceramic8D 55 CndClass 1 PrpClass 2 
+    DeriveFr vacuum 1 Local 
+    B_PROP Permeability Override 2 InterpFn 
+     "H Field" Versus "B Field" NumPnts 11 
+      Units ampere/meter tesla 
+      Limits 0 0 0 0 
+      Frequency 0 
+      -266584.529678925 0 
+      -262605.656101627 0.04 
+      -254647.908947032 0.061 
+      -246690.161792438 0.0775 
+      -238732.414637843 0.0875 
+      -198943.678864869 0.14 
+      -159154.943091895 0.1925 
+      -119366.207318921 0.245 
+      -79577.4715459477 0.2975 
+      -39788.7357729738 0.35 
+      0 0.4 
+    E_PROP 
+    B_PROP Conductivity Constant 0.0001 
+    E_PROP 
+    B_PROP MagCoercivity Constant -266584.529678925 
+    E_PROP 
+    B_PROP MagRetentivity Constant 0.399999999992242 
+    E_PROP 
+    B_PROP PermMagnetizatn Constant 318309.886541339 
+    E_PROP 
+   E_MATERL 
+   B_MATERL Alnico5 56 CndClass 1 PrpClass 2 
+    DeriveFr vacuum 1 Local 
+    B_PROP Permeability Override 2 InterpFn 
+     "H Field" Versus "B Field" NumPnts 26 
+      Units oersted gauss 
+      Limits -55704.2300821634 0 0 1.4 
+      Frequency 0 
+      -50929.5817894065 0 
+      -50133.807073947 0.25 
+      -49338.0323584876 0.48 
+      -48542.2576430281 0.62 
+      -47746.4829275686 0.725 
+      -46950.7082121091 0.81 
+      -46154.9334966496 0.89 
+      -45359.1587811902 0.93 
+      -44563.3840657307 0.97 
+      -43767.6093502712 0.995 
+      -42971.8346348117 1.02 
+      -42176.0599193523 1.035 
+      -41380.2852038928 1.05 
+      -40584.5104884333 1.06 
+      -39788.7357729738 1.07 
+      -38992.9610575144 1.08 
+      -38197.1863420549 1.09 
+      -35809.8621956764 1.11 
+      -31830.9886183791 1.14 
+      -27852.1150410817 1.16 
+      -23873.2414637843 1.18 
+      -19894.3678864869 1.2 
+      -15915.4943091895 1.215 
+      -11936.6207318921 1.23 
+      -7957.74715459477 1.245 
+      0 1.27 
+    E_PROP 
+    B_PROP Conductivity Constant 2128000 
+    E_PROP 
+    B_PROP MagCoercivity Constant -50929.5817894065 
+    E_PROP 
+    B_PROP MagRetentivity Constant 1.26801107236813 
+    E_PROP 
+    B_PROP PermMagnetizatn Constant 1009051.15146623 
+    E_PROP 
+   E_MATERL 
+   B_MATERL SmCo24 57 CndClass 1 
+    DeriveFr vacuum 1 Local 
+    B_PROP Permeability Constant 1.06313817927575 
+    E_PROP 
+    B_PROP Conductivity Constant 1111111 
+    E_PROP 
+    B_PROP MagCoercivity Constant -756000 
+    E_PROP 
+    B_PROP MagRetentivity Constant 1.01 
+    E_PROP 
+    B_PROP PermMagnetizatn Constant 803732.46353247 
+    E_PROP 
+   E_MATERL 
+   B_MATERL SmCo28 58 CndClass 1 
+    DeriveFr vacuum 1 Local 
+    B_PROP Permeability Constant 1.03838895916414 
+    E_PROP 
+    B_PROP Conductivity Constant 1111111 
+    E_PROP 
+    B_PROP MagCoercivity Constant -820000 
+    E_PROP 
+    B_PROP MagRetentivity Constant 1.07 
+    E_PROP 
+    B_PROP PermMagnetizatn Constant 851478.946514597 
+    E_PROP 
+   E_MATERL 
+   B_MATERL steel_1008 59 CndClass 1 PrpClass 2 
+    DeriveFr vacuum 1 Local 
+    B_PROP Permeability Override 2 InterpFn 
+     "H Field" Versus "B Field" NumPnts 19 
+      Units ampere/meter tesla 
+      Limits -50000 400000 -0.5 3 
+      Frequency 0 
+      0 0 
+      159.2 0.2402 
+      318.3 0.8654 
+      477.5 1.1106 
+      636.6 1.2458 
+      795.8 1.331 
+      1591.5 1.5 
+      3183.1 1.6 
+      4774.6 1.683 
+      6366.2 1.741 
+      7957.7 1.78 
+      15915.5 1.905 
+      31831 2.025 
+      47746.5 2.085 
+      63662 2.13 
+      79577.5 2.165 
+      159155 2.28 
+      318309.9 2.485 
+      397887.4 2.585 
+    E_PROP 
+    B_PROP Conductivity Constant 2000000 
+    E_PROP 
+    B_PROP ThermalConducty Constant 45 
+    E_PROP 
+   E_MATERL 
+   B_MATERL steel_1010 60 CndClass 64 PrpClass 2 
+    DeriveFr vacuum 1 Local 
+    B_PROP Permeability Override 2 InterpFn 
+     "H Field" Versus "B Field" NumPnts 23 
+      Units ampere/meter tesla 
+      Limits -50000 350000 -0.5 2.5 
+      Frequency 0 
+      0 0 
+      238.7 0.2003 
+      318.3 0.3204 
+      358.1 0.40045 
+      437.7 0.50055 
+      477.5 0.5606 
+      636.6 0.7908 
+      795.8 0.931 
+      1114.1 1.1014 
+      1273.2 1.2016001 
+      1591.5 1.3019999 
+      2228.2 1.4028 
+      3183.1 1.5239999 
+      4774.6 1.626 
+      6366.2 1.6980001 
+      7957.7 1.73 
+      15915.5 1.87 
+      31831 1.99 
+      47746.5 2.04 
+      63662 2.0699999 
+      79577.5 2.095 
+      159155 2.2 
+      318309.9 2.4000001 
+    E_PROP 
+    B_PROP Conductivity Constant 2000000 
+    E_PROP 
+    B_PROP ThermalConducty Constant 45 
+    E_PROP 
+   E_MATERL 
+   B_MATERL mu_metal 61 CndClass 1 PrpClass 2 
+    DeriveFr vacuum 1 Local 
+    B_PROP Permeability Override 2 InterpFn 
+     "H Field" Versus "B Field" NumPnts 53 
+      Units ampere/meter tesla 
+      Limits 0 10000 0 1 
+      Frequency 0 
+      0 0 
+      0.8 0.080001 
+      1.2 0.1200015 
+      1.6 0.150002 
+      2 0.1900025 
+      2.4 0.230003 
+      2.8 0.2800035 
+      3.2 0.300004 
+      3.6 0.3250045 
+      4 0.350005 
+      4.4 0.3700055 
+      4.8 0.390006 
+      5.2 0.4000065 
+      5.6 0.410007 
+      6.4 0.430008 
+      7.2 0.440009 
+      8 0.46001 
+      11.9 0.500015 
+      15.9 0.52502 
+      19.9 0.540025 
+      23.9 0.54503 
+      27.9 0.555035 
+      31.8 0.56004 
+      35.8 0.565045 
+      39.8 0.57005 
+      43.8 0.575055 
+      47.7 0.58006 
+      51.7 0.585065 
+      55.7 0.5900699 
+      63.7 0.59338 
+      71.6 0.59669 
+      79.6 0.6001 
+      119.4 0.62015 
+      159.2 0.6252 
+      198.9 0.63025 
+      238.7 0.6353 
+      278.5 0.64035 
+      318.3 0.6454 
+      358.1 0.64705 
+      397.9 0.6488 
+      437.7 0.6505499 
+      477.5 0.6522 
+      517.3 0.65385 
+      557 0.6555 
+      636.6 0.6572 
+      716.2 0.6589 
+      795.8 0.661 
+      1193.7 0.664 
+      1591.5 0.667 
+      1989.4 0.67 
+      2387.3 0.673 
+      2785.2 0.6735 
+      3183.1 0.674 
+    E_PROP 
+    B_PROP Conductivity Constant 1610000 
+    E_PROP 
+   E_MATERL 
+   B_MATERL Alnico9 62 CndClass 1 PrpClass 2 
+    DeriveFr vacuum 1 Local 
+    B_PROP Permeability Override 2 InterpFn 
+     "H Field" Versus "B Field" NumPnts 11 
+      Units oersted gauss 
+      Limits -159154.943091895 0 0 1.2 
+      Frequency 0 
+      -119366.207318921 0 
+      -117774.657888003 0.54 
+      -116183.108457084 0.66 
+      -113000.009595246 0.7 
+      -106633.81187157 0.78 
+      -101859.163578813 0.81 
+      -97084.5152860562 0.85 
+      -92309.8669932993 0.88 
+      -79577.4715459477 0.93 
+      -71619.7243913529 0.96 
+      0 1.05 
+    E_PROP 
+    B_PROP Conductivity Constant 2000000 
+    E_PROP 
+    B_PROP MagCoercivity Constant -119366.207318921 
+    E_PROP 
+    B_PROP MagRetentivity Constant 1.04999999999329 
+    E_PROP 
+    B_PROP PermMagnetizatn Constant 835563.45218188 
+    E_PROP 
+   E_MATERL 
+   B_MATERL polyethylene 65 CndClass 1 
+    DeriveFr vacuum 1 Local 
+    B_PROP Permittivity Constant 2.25 
+    E_PROP 
+    B_PROP ThermalConducty Constant 0.2 
+    E_PROP 
+   E_MATERL 
+   B_MATERL plexiglass 66 CndClass 1 
+    DeriveFr vacuum 1 Local 
+    B_PROP Permittivity Constant 3.4 
+    E_PROP 
+    B_PROP Conductivity Constant 0.0051 
+    E_PROP 
+    B_PROP ThermalConducty Constant 0.26 
+    E_PROP 
+   E_MATERL 
+   B_MATERL lead 67 CndClass 1 
+    DeriveFr vacuum 1 Local 
+    B_PROP Permeability Constant 0.999983 
+    E_PROP 
+    B_PROP Conductivity Constant 5000000 
+    E_PROP 
+    B_PROP ThermalConducty Constant 35 
+    E_PROP 
+   E_MATERL 
+   B_MATERL alumina_92pct 68 CndClass 1 
+    DeriveFr vacuum 1 Local 
+    B_PROP Permittivity Constant 9.2 
+    E_PROP 
+    B_PROP ThermalConducty Constant 26 
+    E_PROP 
+   E_MATERL 
+   B_MATERL alumina_96pct 69 CndClass 1 
+    DeriveFr vacuum 1 Local 
+    B_PROP Permittivity Constant 9.4 
+    E_PROP 
+   E_MATERL 
+   B_MATERL silicon_nitrate 70 CndClass 1 
+    DeriveFr vacuum 1 Local 
+    B_PROP Permittivity Constant 7 
+    E_PROP 
+   E_MATERL 
+   B_MATERL Al_N 71 CndClass 1 
+    DeriveFr vacuum 1 Local 
+    B_PROP Permittivity Constant 8.8 
+    E_PROP 
+    B_PROP ThermalConducty Constant 120 
+    E_PROP 
+   E_MATERL 
+   B_MATERL Be_O 74 CndClass 1 
+    DeriveFr vacuum 1 Local 
+    B_PROP Permittivity Constant 6.8 
+    E_PROP 
+   E_MATERL 
+   B_MATERL diamond_hi_pres 75 CndClass 1 
+    DeriveFr vacuum 1 Local 
+    B_PROP Permittivity Constant 5.7 
+    E_PROP 
+    B_PROP ThermalConducty Constant 990 
+    E_PROP 
+   E_MATERL 
+   B_MATERL epoxy_Kevlar_xy 76 CndClass 1 
+    DeriveFr vacuum 1 Local 
+    B_PROP Permittivity Constant 3.6 
+    E_PROP 
+   E_MATERL 
+   B_MATERL polyimideQuartz 77 CndClass 1 
+    DeriveFr vacuum 1 Local 
+    B_PROP Permittivity Constant 4 
+    E_PROP 
+   E_MATERL 
+   B_MATERL polyimide 78 CndClass 1 
+    DeriveFr vacuum 1 Local 
+    B_PROP Permittivity Constant 3.5 
+    E_PROP 
+    B_PROP ThermalConducty Constant 0.25 
+    E_PROP 
+   E_MATERL 
+   B_MATERL benzocyclobuten 79 CndClass 1 
+    DeriveFr vacuum 1 Local 
+    B_PROP Permittivity Constant 2.6 
+    E_PROP 
+   E_MATERL 
+   B_MATERL Teflon 80 CndClass 1 
+    DeriveFr vacuum 1 Local 
+    B_PROP Permittivity Constant 2.2 
+    E_PROP 
+    B_PROP ThermalConducty Constant 0.25 
+    E_PROP 
+   E_MATERL 
+   B_MATERL diamond_pl_cvd 81 CndClass 1 
+    DeriveFr vacuum 1 Local 
+    B_PROP Permittivity Constant 3.5 
+    E_PROP 
+    B_PROP ThermalConducty Constant 990 
+    E_PROP 
+   E_MATERL 
+   B_MATERL aluminum_EC 82 CndClass 64 
+    DeriveFr vacuum 1 Local 
+    B_PROP Permeability Constant 1.000021 
+    E_PROP 
+    B_PROP Conductivity Constant 36000000 
+    E_PROP 
+    B_PROP ThermalConducty Constant 237.5 
+    E_PROP 
+   E_MATERL 
+   B_MATERL aluminum_no2_EC 83 CndClass 64 
+    DeriveFr vacuum 1 Local 
+    B_PROP Permeability Constant 1.000021 
+    E_PROP 
+    B_PROP Conductivity Constant 33000000 
+    E_PROP 
+    B_PROP ThermalConducty Constant 237.5 
+    E_PROP 
+   E_MATERL 
+  E_MATTAB 
+ E_DBASE 
+E_DATA 

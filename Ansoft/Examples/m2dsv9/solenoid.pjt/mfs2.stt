@@ -1,0 +1,8 @@
+B_STATUS
+Model2DComplete
+MaterialSetupComplete
+BoundaryConditionsComplete
+InitMeshComplete
+SolveFieldsComplete
+MotionSetupDone
+E_STATUS

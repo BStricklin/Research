@@ -1,0 +1,223 @@
+# %W%	%Q%
+# Copyright 1984-1995 Ansoft Corp.
+
+begin_error_file
+
+2045    user
+2045    This project contains all perfect conductors, so DC R/L results
+2045	will be equivalent to AC R/L results.  Since DC solutions require
+2045	full volume meshing, you should only solve the AC problem for better
+2045	efficiency.
+
+2046	user
+2046	Frequency must be greater than zero.
+
+2047	user
+2047	Cannot overwrite the original matrix.
+
+2048    user
+2048   	Creating original reduce matrix failed for $$1.
+
+2049    user
+2049   	Cannot save rdm file for $$1.
+
+2050    user
+2050    No solution of type $$1.
+
+2051	user
+2051	Matrix label $$1 not found.
+
+2052	user
+2052	Cannot read solution matrix of $$1.
+
+2053    user
+2053    Cannot open sat file.
+
+2054    user
+2054    Corrupt sat file.
+
+2055 	user
+2055	Can only select one source terminal for $$1 operation.
+
+2056 	user
+2056	Can only select one source terminal and sinks from different
+2056    net for Joining in Series operation.
+
+2057	user
+2057	$$1 name has to be unique.
+
+2058	user
+2058	$$1 name cannot be empty.
+
+2059	user
+2059	Need to select at least 2 source terminals for Parallel operation.
+
+2060	user
+2060	Cannot select all for $$1 operation.
+
+2061	user
+2061	Should select at least one $$1 for $$2 operation.
+
+2070 	user
+2070	Making of new reduce matrix $$1 for $$2 problem failed.
+
+2071 	user
+2071	Loading original solution matrices failed for all problems.
+2071	Cannot start Reduce Matrix Module.
+
+2072  	user
+2072	Saving $$1.rdm failed.
+
+2073  	user
+2073	Loading $$1.rdm failed.
+
+2074  	user
+2074	Saving $$1.lvl failed.
+
+2075  	user
+2075	Loading $$1.lvl failed.
+
+2076	user
+2076	Failed in creating new reduce_parm for $$1.rdm.
+
+2077	user
+2077	Failed in creating reduction group for $$1.rdm.
+
+2078    user
+2078    Could not open file $$1 
+2078    for writing the PEEC circuit.
+2078
+2078    Check to make sure that you have write permission and
+2078    sufficient disk space.
+
+2200	user
+2200	Failed in verifying project.
+
+2201	user
+2201	Cannot find file: $$1.
+
+2202	user
+2202	Corrupt file: $$1.
+
+2203	user
+2203	Terminal "$$1" touches terminal "$$2".
+2203	This is not allowed since it leads to singularities.
+
+2204	user
+2204	Terminal "$$1" lies between two conductors.
+
+2205	user
+2205	Invalid net setup.
+2205	There may be a non-net conductor touching a net.
+2205	There may be a net made up of non-touching conductors.
+
+2206	user
+2206	Invalid net setup.
+2206	How did I get to 2206?
+
+2207	user
+2207	Invalid net setup.
+2207	There may be a zero area conduction path.
+2207	Check for two solids assigned to the same net which
+2207	intersect along an edge or at a point.
+
+2208	user
+2208	There is a non-conducting solid on net "$$1".
+2208	The conductivity of the solid might be below the threshold
+2208	threshold defined in you preferences file.
+
+2209	user
+2209	Net "$$1" contains both regular and perfect conductors.
+
+2210	user
+2210	Net "$$1" contains more than one sink.  Please merge
+2210	the sink terminals into a single sink terminal.
+
+2211	user
+2211	Found a regular conductor which
+2211	touches a perfect conductor.
+
+2212	user
+2212	There are no conductors in this project.
+2212	Check your conductivity threshold.
+
+2300    user
+2300	Failed in moving solutions and meshes.
+
+2301	user
+2301	Copy solutions to working failed.
+
+2302	user
+2302	Failed in Copying project mesh into working mesh.
+
+2303	user
+2303	Failed in creating initial mesh.
+
+2304	user
+2304	Copy .prm and .sat to working failed.
+
+2305	user
+2305	Failed in seeding initial mesh.
+
+2306	user
+2306	Failed in copying initial mesh to working.
+
+2307 	user
+2307	Filter $$1 file failed.
+
+2308	user
+2308	Copy $$1 file failed.
+
+2309	user
+2309	Failed in updating working.avl.
+
+2310    user
+2310    You have selected a DC resistance only solution.
+2310    The inductance solver is used to compute surface currents in
+2310    DC projects with perfect conductors. Since surface currents
+2310    affect resistance values, you must also solve for inductance
+2310    to obtain the correct resistance matrix.
+ 
+2311    user
+2311    This project contains only perfect conductors. The DC solution
+2311    of this project will be inefficient and will give the same 
+2311    results as the AC solution. Please assign the true conductor
+2311    material to each perfect conductor and request an AC solution.
+
+2312 user
+2312 No matching $$1 node "$$2" in "$$3".
+
+2313 user
+2313 Matrix "$$1" doesn't exist.
+
+2314 user
+2314 Invalid syntax for calling $$1. Missing $$2.
+
+2315 user
+2315 Invalid syntax in $$1 list.
+
+2316 user
+2316 "$$1" is not a valid option.
+2316 The valid options are "All" (reduce on all matrix), 
+2316                       "Cap" (reduce on Capitance matrix),
+2316			   "DC"  (reduce on DC Inductance/Resistance matrix) and
+2316                	   "AC"  (reduce on AC Inductance/Resistance matrix).
+
+2317 user
+2317 Too much arguments in call to $$1.
+
+2318 user
+2318 "$$1" is not a valid node type.
+
+2319 user
+2319 Cannot delete the "original" matrix.
+
+2320 user
+2320 $1
+2320 Your reduce operation will not be recorded,
+2320 and auto-regeneration of matrices will be disabled.
+
+2321 user
+2321 Can not select any terminal in a multi-terminal net for $$1 operation.
+
+end_error_file

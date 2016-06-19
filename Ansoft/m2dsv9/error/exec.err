@@ -1,0 +1,675 @@
+# %W%	%Q%
+# Copyright 1984-1994 Ansoft Corp.
+
+begin_error_file
+
+1001	user
+1001	Unable to delete file $$1.
+
+1002	user
+1002	$$1 is corrupted or empty.
+
+1003	fatal
+1003	$$1 is corrupted or empty.
+
+1004	user
+1004	Unable to create the $$1 project.
+
+1005	user
+1005	Unable to create files in $$1.
+
+1006	user
+1006	Impedance lines are not on the port for all modes.
+1006	Please check your impedance line definition for
+1006	each mode.
+
+1007	user
+1007	Module $$1 died unexpectedly.
+1007	$$2
+
+1008	user
+1008	Insufficient memory for module $$1. 
+
+1009	user
+1009	Error starting module $$1.
+
+1010	user
+1010	Impedance computation not successful for all modes
+1010	and ports. Please verify your impedance line
+1010	definitions and try Compute Impedance in Circuits menu.
+
+1011	user
+1011	Unable to open file config.hc in the hfsstrn directory
+1011	for writing updated configuration information. Please
+1011	check the protection on that file.	
+
+1012	user
+1012	Unable to recover $$1 to its best state.
+
+1013	user
+1013	No port specified for calibration. Please pick a
+1013	calibration port and reference port before saving
+1013	calibration data.
+
+1014	user
+1014	No port specified for reference. Please pick a
+1014	reference port before saving calibration data.
+
+1015	user
+1015	The u and v axes specified are identical. 
+
+1016	user
+1016	Specified reference port does not have any calibration
+1016	data yet. This information must be specified before
+1016	the port can be used as a reference solution.
+
+1017	user
+1017	Zero length u or v axis specified. Please check
+1017	the points specified for the u and v axis.
+
+1018	user
+1018	Specified port calibration cannot be deleted since
+1018	it is used as a reference by at least one other port.
+
+1019	user
+1019	Write Failure in module $$1. 2 Possible causes are:
+1019	1. Disk space full.
+1019	2. Disk quota exceeded.
+1019	All temporary files have been deleted and normal disk
+1019	space has been restored. Previous solution retained.
+
+1020	user
+1020	File name too long.
+1020    Please enter a shorter file name and try again.
+
+1021    user
+1021    The solid file $$1.sld is corrupted.
+
+1022    fatal
+1022    Unable to copy $$1 to $$2.
+
+1023	user
+1023	Unable to lock project, $$1.
+
+1024	user
+1024	Unable to lock project $$1.
+
+1025	user
+1025	Unable to read S matrix file ($$1.svl).
+
+1026	user
+1026	Convergence matrix has not been entered
+1026	yet. Please enter the convergence matrix
+1026	before solving.
+
+1027	user
+1027	The convergence matrix does not have any
+1027	data in it yet. Please enter some convergence
+1027	data before solving.
+
+1028    user
+1028    Old calibration data is no longer compatible with the
+1028    current version of the software. Please redefine calibration
+1028    using the new procedure in the port setup panel.
+
+1029	user
+1029	There are no adaptive passes requested. Please enter
+1029	a number greater than zero.
+
+1030	user
+1030	The solution has already met the convergence criteria.
+1030	Please change the convergence criteria before solving
+1030	the problem.
+
+1031	user
+1031	Port calibration failed. Possibly because the calibration
+1031	line is close to being orthogonal to the port field or
+1031	the calibration line is not on the port plane.
+1031	The transmission phase in the [S] matrix might be incorrect.
+
+1032	fatal
+1032	Unable to read information from module mic3d.
+1032	File name: $$1
+
+1033	user
+1033	Port boundaries must be defined
+1033	with the New Port operation.
+
+1034	user
+1034	The boundary name $$1
+1034	has already been used.
+
+1035	user
+1035	Some Ports/Surfaces have not been defined.
+1035	Use the BOUNDARY DEFINITION functions
+1035	to specify the locations of Ports/Surfaces.
+
+1036	user
+1036	$$1 can not be redefined.
+
+1037	user
+1037	The $$1 boundary can not be deleted.
+
+1038	user
+1038	$$1 is not yet implemented.
+
+1039	user
+1039	No port and mode selected.
+1039	Cannot $$1 data.
+
+1040	user
+1040	Problem has not been solved yet.
+
+1041	user
+1041	No $$1 selected for display.
+
+1042	user
+1042	Port was defined by a method that is no
+1042	longer supported (probably Name Interface
+1042	or Object Name).  Unable to draw ports.
+
+1043	user
+1043	You have added or deleted an electric or magnetic
+1043	boundary.  This may affect the impedance multiplier
+1043	associated with your model, but you have not
+1043	updated the multiplier.  Please check the value and 
+1043	update it if necessary.
+
+1044	user
+1044	Matrix solution results have been tampered with!
+1044	(The last matrix in your solution file is not an
+1044	S Matrix or P Matrix).  Impedance results may no longer
+1044	be correct since changes cannot be reflected in the 
+1044	solution data.  Try making an additional solution 
+1044	pass to generate a new final S matrix.
+
+1045	user
+1045	Cannot rename $$1.  Check the file write permission.
+
+1046	user
+1046	The line does not lie on the port.  It cannot be saved.
+
+1047	user
+1047	Cannot recover project, project is locked by $$1.
+
+1048	user
+1048	$$1 terminated because the config file is corrupted.
+1048	Removing corrupted config file.
+
+1049 	user
+1049	Could not find the .sat and .db files to identify properties
+1049	of the model.  The project is corrupted and therefore boundaries
+1049	cannot be displayed.
+
+1050 	user
+1050	Cannot display boundaries because a mesh could not be found or 
+1050	generated.  This may be due to a problem with the Meshmaker,
+1050	a lack of disk space, or incorrect protections on the project 
+1050	directory.
+
+1051	user
+1051	There are no adaptive passes requested; the number of adaptive
+1051	passes is set to the default value of 3.
+
+1052  	user
+1052	Project is not selected; pick 'Setup' button first.
+
+1053	user
+1053	Model is not defined; pick 'Model' button first.
+
+1054	user
+1054	No solution yet; pick 'Solve' button first.
+
+1055	user
+1055	Project not drawn yet; pick 'Draw' button first.
+
+1056	user
+1056	Materials not yet defined; pick 'Define Materials' button first.
+
+1057	user
+1057	Port only solution does not have field information.
+
+1058	user
+1058	Solution file (.nvc) does not exist. 
+
+1059	user
+1059	Port defined by volume box must be rectangular and with edges
+1059	parallel to the main axis. Please re-enter the points or redefine it
+1059	using a three point plane.
+
+1060 	user
+1060	The two points define a box that is of zero area; please redefine it.
+
+1061	user
+1061	The two points are identical. Please redefine it.
+
+1062	fatal
+1062	The mesh files are corrupted.
+
+1063	user
+1063	Zero $$1 is not allowed. Please enter value greater than 0.
+1063	$$1 is reset to default or previous value.
+
+1064	user
+1064	Seed Value is too large; zero seed points are obtained.
+
+
+1065	user
+1065	There is no field solution available.
+
+1066	user
+1066	This project is in Revision A.01 format. Only certain post
+1066	processing operations are allowed. 
+1066    MODEL MENU is not accessible.
+
+1067	user
+1067	This project is in Revision A.01 format. Only certain post
+1067	processing operations are allowed. 
+1067    SOLVE MENU is not accessible.
+
+1068	user
+1068	This project is in Revision A.01 format. Only certain post
+1068	processing operations are allowed. 
+1068    Impedance Computation is not accessible.
+
+1069	user
+1069	This project is in Revision A.01 format. Only certain post
+1069	processing operations are allowed. 
+1069    Color Setup Menu is not accessible.
+
+1070	user
+1070	This project is in Revision A.01 format. Only certain post
+1070	processing operations are allowed. 
+1070    Hard Copy is not accessible.
+
+1071	user
+1071	Cannot compute impedance without impedance line definitions.
+
+1072	user
+1072	Recovering to last adaptive solution which is the maximum 
+1072	problem size that can be solved using the current RAM/Swap
+1072    space configuration.
+
+1073	user
+1073	Recovering to last solution.
+
+1074	user
+1074    $$1 is corrupted. 
+
+1075	user
+1075 	Seeded mesh is not defined; please define it.
+
+1076	user
+1076	Solution files are protected or non-existent. Check file protection
+1076	or re-solve the problem.
+
+1077 	user
+1077	Could not find the .nvc for $$1.  Without it the deembedding
+1077	distance cannot be displayed.  To display the distance, you must
+1077    resolve the ports.  Note that deembedding can still be done now
+1077    by entering an appropriate distance.
+
+1078	user
+1078	Solve type unknown. 
+
+1079	user
+1079	$$1 Parameters not setup yet.
+
+1080	user
+1080	Unable to use $$1 as your project directory,
+1080    defaulting to $$2.
+
+1081	user
+1081	Unable to $$1 project $$2.
+
+1082	user
+1082	Unable to create project $$1 since it already exists.
+
+1083	user
+1083	Unable to pick project for recovery.
+
+1084	user
+1084	Environment variable, $$1, points to invalid directory.
+1084	Defaulting to $$2.
+
+1085	user
+1085	Unable to write color file, $$1.
+
+1086	user
+1086	$$1 must be greater than or equal to $$2;
+1086  	please enter another value. 
+1086	The current value is reset to value $$2.
+
+1087	user
+1087	$$1 must be less than or equal to $$2;
+1087	please enter another value.
+1087	The current value is reset to value $$2.
+
+1088	user
+1088	The project $$1 is locked by $$2.
+1088	
+1088	Access to $$1 is denied until $$2
+1088	exits project.
+
+1089	fatal
+1089	The environment variable $$1 doesn't point to
+1089	a valid directory. Please set it.
+
+1090	user
+1090	Write Failure, 2 possible causes are:
+1090	  - Disk space full.
+1090	  - Disk quota exceeded.
+
+1091	user
+1091	No solved parameters. 
+
+1092	user
+1092	Project $$1 has been unselected and marked for $$2.
+
+1093	user
+1093	Neither Impedance Line nor Calibration Line is selected.
+1093	Cannot $$1 data.
+
+1094	user
+1094	Unable to write out $$1 file. 3 possible causes are:
+1094	  - file or directory is write protected
+1094	  - Disk space full.
+1094	  - Disk quota exceeded.
+1094    Project $$2 is deleted.
+
+1095	user
+1095	This version of the software cannot solve $$1 with 
+1095    nonlinear materials.
+
+1096	user
+1096	This version of the software cannot solve $$1 with nonlinear
+1096	materials. Will solve 'Field Only' without computing $$1.
+
+1097	user
+1097	Boundaries not defined; pick 'Define Boundaries' button first.
+
+1098	user
+1098	The line is of length zero.  It cannot be saved.
+
+1099    user
+1099    Error writing hardcopy.cfg configuration file.
+
+1100	user
+1100	No hardcopy configuration filename given.
+
+1101	user
+1101	The hardcopy configuration file $$1 does not exist.
+
+1102	fatal
+1102	Operating system error encountered.
+1102	$$1.
+
+1103	user
+1103	Unable to change the current directory to
+1103	$$1.
+1103	Current directory is $$2.
+
+1104	fatal
+1104	Project $$1 appears to be corrupted. Please check it.
+
+1105	user
+1105	Three points entered do not define a plane. Please redefine it.
+
+1106    user
+1106    Ports are not defined yet. Please define ports first.
+
+1107    user
+1107    No parameters requested. Nothing is done.
+
+1108	user
+1108 	Cannot reduce all the conductors. 
+
+1109	user
+1109	Port file non-existent, cannot $$1.
+
+1110	user
+1110	Error in reading port (.prt) file.
+
+1111	user
+1111	Cannot deembed; no ports defined.
+
+1112	user
+1112	Cannot deembed; inconsistent number of ports defined.
+
+1113	user
+1113	Cannot deembed; inconsistent port name defined. Please check if
+1113 	the port names defined are consistent across solvers.
+
+1114	user
+1114	Cannot deembed, some ports not yet solved.
+
+1115	user
+1115	Cannot $$1, no conductor is defined.
+
+1116	user
+1116	Cannot $$1, inconsistent number of conductors defined.
+
+1117	user
+1117	Cannot $$1, inconsistent conductor setup. Please check if each
+1117	set of conductors has the same name and conductor type.
+
+1118	user
+1118	Cannot deembed, inconsistent number of reduced conductors, please
+1118	go back to REDUCE menu and check if reduction is done uniformly.
+
+1119	user
+1119	Cannot deembed, inconsistent reduced conductors, please
+1119	go back to REDUCE menu and check if reduction is done uniformly.
+
+1120	user
+1120	Invalid file name.
+
+1121	user
+1121	File name $$1 already in use, please choose another name.
+
+1122	fatal
+1122	Unable to move $$1 to $$2.
+
+1123	user
+1123	Error in reading conductor (.cnd) file.
+
+1124	user
+1124	Only a single ground conductor is allowed. For solution of multiple
+1124	ground conductors, please use REDUCE button.
+
+1125	user
+1125	Cannot solve modes, need both C and L matrix solutions.
+
+1126	user
+1126	Can not find object for $$1.
+1126	The object probably has been deleted or modified.
+
+1127	user
+1127	The E0 vector must be nonzero.
+1127	Please enter a nonzero E0 vector.
+
+1128	user
+1128	The E0 and k vectors must be orthogonal.
+1128	Please make them so.
+
+1129	user
+1129	The k vector must be a unit vector.  It has been 
+1129	automatically normalized to a magnitude of 1, in 
+1129	a direction parallel to that which you entered.
+
+1130	user
+1130	The k vector must be nonzero.
+1130	Please enter a nonzero k vector.
+
+1131	user
+1131	The $$1 source calibration line does not lie in
+1131	the $$2 specified.  Please make it do so.
+
+1132	user
+1132	One or more of the sources or boundaries is not 
+1132	completely defined.  Please define or delete it.
+
+1197 user
+1197 Error in license configuration ($$1).
+
+1198 user
+1198 Starting license server: Time out.
+
+1199 user 
+1199 Unable to launch license server ($$1).
+
+1200	fatal
+1200    Lost connection to license daemon.
+
+1201    fatal
+1201    There is no license for this product.
+
+1202    fatal
+1202    Unable to check out a '$$1' license for $$2@$$3 ($$4).
+
+1203    user
+1203	Lost connection to license daemon.
+
+1204 user
+1204 You lost your license for this session ($$1).
+
+1205    fatal
+1205    There is no license daemon running. Please start one before
+1205    launching $$1 again.
+
+1206	user
+1206	Both conductors and sources have not been defined.
+1206	Pick 'Setup Conductors/Sources' button first.
+
+1207	user
+1207	Source file name is the same as Destination file name.
+1207	Please modify one or the other.
+
+1208	user
+1208	The extension of the Source file should be ".svl".
+1208	Please modify the Source file name.
+
+1209	user
+1209	Module $$1 was aborted/killed by user.
+
+1210	user
+1210	All sources have not been defined.
+1210	Pick 'Setup Conductors/Sources' button first.
+
+1211	user
+1211	No conductors have been selected.
+1211	Pick 'Setup Conductors/Sources' button first.
+
+1212	user
+1212	The problem is not ready to be solved.
+1212	Setup status is: "$$1".
+
+1213	user
+1213	Failed setting up solver for $$1 problem.
+
+1214	user
+1214	At least one of the conductors contains both Current and
+1214	Voltage source/sink point types. All source and sink points
+1214	on a conductor must be of the same type.
+
+1215	user
+1215	Unable to find `$$1' in your PATH.
+
+1216	user
+1216	Can not $$1.
+1216	No matrix is available for matrix reduction.
+1216	Please solve the matrix first.
+
+1217	user
+1217	Cannot have a ferrite material $$1 and perform a fast sweep.
+
+1218	user
+1218	Unable to run `$$1' due to missing shared library ($$2).
+
+1219	user
+1219	Error running `$$1', no license for the solver.
+
+1220	user
+1220	Cannot use seeding information because the seeding file doesn't exist.
+
+1221 user
+1221 Generation of parametric setup (materials, boundaries, etc.) 
+1221 may have failed - probably the topology of one or more bodies changed.
+1221 Investigate the setup by selecting the row and clicking on the
+1221 "View Project" button.
+
+1222 user
+1222 You cannot solve in read only mode.
+
+1300 user
+1300 You must specify a parametric variable name.
+
+1301 user
+1301 The parametric variable name must be unique.
+
+1302 user
+1302 You must define at least one parametric variable.
+
+1303 user
+1303 Error writing parametric variable definitions to disk.
+
+1304 user
+1304 Unable to open file $$1 to write parameter
+1304 extraction script.
+
+1305 user
+1305 Error writing parametric variable database $$1 to disk.
+
+1306 user
+1306 Error encountered while solving.
+
+1307 user
+1307 One or more objects have changed. The boundaries, if any,
+1307 on these objects are adjusted appropriately. Please verify
+1307 that the moved boundaries are ok.
+
+1308 user
+1308 If you want to record this session to a macro file, please
+1308 click on "File/Macro/Start Recording".
+
+1309 user
+1309 There is no open macro file to close.
+
+1310 user
+1310 The recording of macro "$$1" is not started in "$$2".
+1310 Do you wish to stop the recording anyway?
+
+1311 user
+1311 Macro is saved to "$$1".
+
+1312 user
+1312 Cannot delete the macro file:
+1312 $$1
+
+1313 user
+1313 Cannot execute the macro file:
+1313 $$1
+
+1314 user
+1314 The selected plot file should be in the "$$1" directory.
+1314 Note that you may not have generated all plots for every row.
+1314 It might help to select rows of interest and then
+1314 generate the composite plot.
+
+1315 user
+1315 Error in reading the following plot file(s):
+1315 $$1
+
+1316 user
+1316 Macro editor name is not specified in the preferences file.
+1316 Please edit your preferences file and add the line:
+1316 "MacroEditor  EditorName  specify_editor_name_here"
+1316 NOTE: If you are specifying full path to the editor:
+1316 use $ in place of space and forward-slash in place of
+1316 backward slash.
+
+1317 user
+1317 Plot "$$1" not found for any of the selected rows.
+
+end_error_file
+

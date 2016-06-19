@@ -1,0 +1,192 @@
+#######################################################################
+#  Copyright Ansoft Corp. 1984-2000
+#
+#
+#  This file describes the variables in the Maxwell resource file;
+#  called maxwellrc on UNIX and maxwell.ini on Windows
+#
+#  NOTE: Comments can be used in this file but must be the first 
+#  non-whitespace character on the line.
+#
+#
+#  ---key words---
+#
+#   B_VAL                 begin the description of a variable
+#
+#   B_DIR                 begin the description of a directory.  
+#                         If the user enters a directory name that doesn't 
+#                         exist, the dialog will warn them.
+#
+#   END                   end the description of a variable or directory
+#
+#   B_PC_ONLY, E_PC_ONLY  variables between these key words should
+#                         only be shown in the Windows version.
+#
+#   B_UNIX_ONLY, E_UNIX_ONLY  variables between these key words should
+#                         only be shown in the UNIX version.
+#
+#   WRITE_ALWAYS          write the value of this variable in the resource
+#                         file even if the user chooses to use the default
+#                         value.
+#
+#   SUGGEST_DEFAULT       the software will suggest that the user use the
+#                         default value for this variable.
+#
+#  ---variable input format---
+#
+#   line 1:         B_VAL or B_DIR optionally followed by 
+#  	            WRITE_ALWAYS and/or SUGGEST_DEFAULT
+#   line 2:         variable name
+#   line 3, 4, etc: variable description
+#   last line: END
+#
+#
+#######################################################################
+
+B_VAL WRITE_ALWAYS
+    ColorFile
+    Sets the color file to use.  Initially default.rgb is a standard
+    palette with a WHITE background.
+    The background color and palette can be customized using 
+    the Color Manager.  From the Maxwell Control Panel, choose 
+    UTILITIES and then COLORS.
+END
+
+B_PC_ONLY
+
+ B_VAL WRITE_ALWAYS
+    Default_X
+    Default placement of the left edge of the executable window.
+ END
+
+ B_VAL WRITE_ALWAYS
+    Default_Y
+    Default placement of the top edge of the executable window.
+ END
+
+ B_VAL WRITE_ALWAYS
+    DefaultWidth
+    Default width of the executable window.
+ END
+
+ B_VAL WRITE_ALWAYS
+    DefaultHeight
+    Default height of the executable window.
+ END
+
+ B_VAL WRITE_ALWAYS
+    FontFace
+    Font to use for text in the executables.  To see the list of 
+    available fonts:  From the Start menu go to Settings/Control Panel.
+    Double click on 'Fonts' to see the available fonts.  Most of the
+    available fonts are not fixed-pich, and may compromise the
+    appearance of the software.  The 'Courier New', 'Letter Gothic', 
+    and 'Lucida Sans Typewriter' font families are all fixed pitch. 
+ END
+
+ B_VAL WRITE_ALWAYS
+    FontHeight
+    Font size to use for text in the executable.
+ END
+
+E_PC_ONLY
+
+
+
+B_DIR SUGGEST_DEFAULT
+    ConfigDir
+    Sets the location of the 'config' directory.  The 'config' directory
+    stores user preferences and data set by the software.  Changing the
+    location of this directory will also affect the location of the
+    sub-directories: 'macros', 'colors', 'maxwelldb', 'parts', and 'symbols'.
+    This variable will not appear in the resource file if its
+    default value is used.
+END
+
+B_DIR SUGGEST_DEFAULT
+    UserMacros
+    Sets the location of your personal macros directory.  This directory
+    is automatically searched when the software is looking for a macro.
+    This variable will not appear in the resource file if its
+    default value is used.
+END
+
+B_DIR
+    SharedMacros
+    Sets the location of an optional macro repository shared by 
+    multiple users.  This directory is automatically searched 
+    when the software is looking for a macro.
+END
+
+B_DIR SUGGEST_DEFAULT
+    ColorDir
+    Sets the location of the 'colors' directory.  This is
+    the directory where the .rgb color files are stored.
+    This variable will not appear in the resource file if its
+    default value is used.
+END
+
+B_DIR SUGGEST_DEFAULT
+    MaterDir
+    Sets the location of the 'maxwelldb' directory.  This directory 
+    stores user defined materials.
+    This variable will not appear in the resource file if its
+    default value is used.
+END
+
+
+B_DIR SUGGEST_DEFAULT
+    PartsDir
+    Sets the location of the 'partsdb' directory.  This directory 
+    stores Spice models exported from Maxwell Spicelink or Ansoft High
+    Frequency Structure Simulator.
+    This variable will not appear in the resource file if its
+    default value is used.
+END
+
+B_DIR SUGGEST_DEFAULT
+    SymbolDir
+    Sets the location of the 'symboldb' directory.  This directory
+    holds the screen shots corresponding to the models in the 'partsdb'
+    directory. 
+    This variable will not appear in the resource file if its
+    default value is used.
+END
+
+B_DIR SUGGEST_DEFAULT
+    ScriptDir
+    Sets the location of the 'trn' directory.
+    This variable will not appear in the resource file if its
+    default value is used.
+END
+
+
+B_UNIX_ONLY
+ B_VAL 
+    HardcopyConfig
+    Sets the location of the .prn file to use for printing.
+ END
+
+E_UNIX_ONLY
+
+B_DIR
+    PicData
+    Used by the ParICs product.
+    This variable tells ParICs where to find the various package 
+    master descriptions.  This is ordinarily a directory where
+    the user has read and write permissions, such as 
+    ~/Maxwell/pardata.
+END
+
+B_DIR
+    PicPath
+    Used by the ParICs product.
+    This is the location of the various ParICs executables.  
+    Typically this is a subdirectory of your Ansoft software 
+    installation directory, such as /usr/ansoft/parc3.
+END
+
+
+
+
+

@@ -1,0 +1,50 @@
+Checking object "coil":
+checked:
+	1 lumps
+	1 shells
+	1 wires
+	0 faces
+	0 loops
+	4 coedges
+	4 edges
+	4 vertices
+Checking object "bonnet":
+checked:
+	1 lumps
+	1 shells
+	1 wires
+	0 faces
+	0 loops
+	6 coedges
+	6 edges
+	6 vertices
+Checking object "yoke":
+checked:
+	1 lumps
+	1 shells
+	1 wires
+	0 faces
+	0 loops
+	8 coedges
+	8 edges
+	8 vertices
+Checking object "core":
+checked:
+	1 lumps
+	1 shells
+	1 wires
+	0 faces
+	0 loops
+	6 coedges
+	6 edges
+	6 vertices
+Checking object "plugnut":
+checked:
+	1 lumps
+	1 shells
+	1 wires
+	0 faces
+	0 loops
+	4 coedges
+	4 edges
+	4 vertices

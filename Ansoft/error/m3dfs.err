@@ -1,0 +1,189 @@
+# %W%	%Q%
+# Copyright 1984-1995 Ansoft Corp.
+
+begin_error_file
+
+1001    fatal
+1001    Module $$1 died unexpectedly or
+1001    possibly was terminated by user.
+
+1016    fatal
+1016    Executing module or solver fails.  No further
+1016    information available.
+
+1026    fatal
+1026    Error in writing the $$1 file.
+1026    Possible causes are:
+1026       - Out of disk space.
+1026       - No file access privileges.
+1026       - Network or hardware problems.
+
+
+1037    fatal
+1037    Could not create directory $$1. Possible causes are:
+1037       - Out of disk space.
+1037       - No file access privileges.
+1037       - Network or hardware problems.
+
+1050	fatal
+1050	mesh3d failed.
+
+1051	fatal
+1051	Error while opening/reading the model
+
+1052	fatal
+1052	Failed to make initial mesh
+
+1053	fatal
+1053	Error while opening/writing the mesh files
+
+1054	fatal
+1054	Error while opening/reading the mesh files
+
+1055	fatal
+1055	Error while refining the mesh
+
+1100    fatal
+1100    Insufficient memory for module $$1.
+
+1243    fatal
+1243    Error in reading material file.
+
+1244    fatal
+1244    The project "$$1" is not created by "$$2".
+1244    Cannot run "$$3" on it.
+
+1245    user
+1245    Number of passes has to be greater than 0.
+
+1246    user
+1246    One of "Solve fields" or "Solve parameters" must be chosen.
+
+1247    fatal
+1247    Error in reading solution parameters. Error code is $$1,
+1247    Last read keyword = $$2.
+
+1248    user
+1248    Field solution does not exist for the current mesh.
+1248    Choose "Solve for fields" through 
+1248    "Setup solution parameters..." and then resume solving.
+
+1249    fatal
+1249    Meshes (fileset1 or fileset2) do not exist. Impossible to
+1249    solve non-adaptively.
+
+1250    fatal
+1250    Initial mesh copy failed either due to insufficient disk space
+1250    or the initial mesh does not exist.
+
+1251    user
+1251    Choose at least one of "Solve Parameters" or "Solve Fields"
+
+1252    fatal
+1252    Cannot copy $$1 to $$2
+
+1253    fatal
+1253    Cannot link $$1 to $$2
+
+1254    user
+1254    The current mouse position is not the vertex of a body.
+1254    Pick a vertex in the "Vertex Snap" mode and proceed.
+1254    If the face/sheet on which you are setting the master/slave
+1254    boundary doesn't have any vertex, then create 
+1254    rectangular sheet objects on both the master and the slave.
+1254    Use the vertices of these sheets to set the origin,
+1254    U and V points.
+
+1255    fatal
+1255    Feature Not Yet Implemented in module $$1.
+
+1256    fatal
+1256    Incomplete setup for $$1 solution.
+
+1257    user
+1257    The Problem has a converged solution.
+1257    Please check the solution parameters.
+
+1258    user
+1258    Additional passes requested is set to 0.
+1258    Please edit the solution parameters and 
+1258    specify the number of passes requested.
+
+1259    user
+1259    You do not have a license for pre-processing for the
+1259    current problem type.
+
+1260    user
+1260    You do not have a license for post-processing for the
+1260    current problem type.
+
+1261    user
+1261    You do not have a license for solving the
+1261    current problem type.
+
+1262    user
+1262    You do not have a license for parametrics.
+
+1263    user
+1263    Solvers do not accept residual values below 1e-30
+
+1264    user
+1264	Min D calculated is less than or equal to zero. 
+1264    Your model seems to be incorrect. Mesher/solver might fail
+
+1265    user
+1265    Translation of "$$1" to $$2 format failed
+1265    Message: $$3
+
+1266    user
+1266    Error in problem setup: $$1
+
+1267    user
+1267    The current field solution on disk is from the frequency 
+1267    different from the current frequency.
+1267    Cannot use this solution to compute parameters.
+
+1268    user
+1268    Cannot compute lorentz force/torque on perfectly
+1268    conducting objects
+
+1269    user
+1269    Cannot display solver attributes because there is no initial
+1269    mesh. Create initial mesh either by choosing the manual mesh
+1269    option or performing a solution.
+
+1270	user
+1270	Error reading the $$1 file. 
+
+1271 user
+1271 Project does not have any field solution.
+
+1272 user
+1272 No executive parameters (force, torque or matrix setups) have
+1272 been defined for this project so there is nothing to add to the 
+1272 parametric analysis. 
+1272 If you want to define some executive parameters, first return to 
+1272 "Nominal Project/Edit/View..." in modify mode; setup the force,
+1272 torque or matrix that you want to solve. Then you can select
+1272 which parameters will be calculated during the Optimetrics run
+1272 through "Post Process/Create Executive Parameters Macro ...".
+
+1273 Changing the solution frequency will invalidate the accuracy of 
+1273 the solution for the nominal and parametric problem.
+1273 Do you want to proceed?
+
+1274 Changing the solution frequency will invalidate the accuracy of 
+1274 the solution for the nominal problem.
+1274 Do you want to proceed?
+
+1275 Changing the solution frequency will invalidate the accuracy of 
+1275 the solution for the parametric problem.
+1275 Do you want to proceed?
+
+1276 The internal variable table in Maxwell 3D does not support 
+1276 thermal, coupled-thermal, or transient problem types. To do
+1276 parametric sweeps on these types of problems you must use the
+1276 optional Optimetrics module.
+
+end_error_file
+ 

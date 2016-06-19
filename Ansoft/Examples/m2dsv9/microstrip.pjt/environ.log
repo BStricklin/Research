@@ -1,0 +1,40 @@
+#
+# Ansoft Environment Log
+#
+
+ALLUSERSPROFILE=C:\Documents and Settings\All Users
+APPDATA=C:\Documents and Settings\john\Application Data
+CLIENTNAME=Console
+CommonProgramFiles=C:\Program Files\Common Files
+COMPUTERNAME=ABBY
+ComSpec=C:\WINNT\system32\cmd.exe
+DONT_AUTOCONFIGURE=1
+FMHOME=d:/sv/frame
+HELPD=d:/sv/helpd
+HOMEDRIVE=C:
+HOMEPATH=\Documents and Settings\john
+LOGONSERVER=\\DIABLO
+MAXWELL_DIR=d:
+NUMBER_OF_PROCESSORS=2
+OS=Windows_NT
+Path=C:\WINNT\system32;C:\WINNT;C:\WINNT\system32\WBEM;C:\Ansoft\EMAS41\nastran\bin;C:\Ansoft\EMAS41\BIN;C:\Program Files\Common Files\Adaptec Shared\System;d:\atria\bin;C:\Program Files\Rational\common;C:\Program Files\Rational\ClearQuest;d:/sv\frame\bin
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH
+PROCESSOR_ARCHITECTURE=x86
+PROCESSOR_IDENTIFIER=x86 Family 6 Model 8 Stepping 3, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=0803
+ProgramFiles=C:\Program Files
+RATL_RTHOME=C:\Program Files\Rational\Rational Test
+RTHOME=C:\Program Files\Rational\Rational Test
+SESSIONNAME=Console
+SystemDrive=C:
+SystemRoot=C:\WINNT
+TEMP=C:\DOCUME~1\john\LOCALS~1\Temp
+TMP=C:\DOCUME~1\john\LOCALS~1\Temp
+TPA_INSTALL_DIR=C:\Ansoft\tpa40
+USERDNSDOMAIN=ANSOFT.COM
+USERDOMAIN=SOFTWARE
+USERNAME=john
+USERPROFILE=C:\Documents and Settings\john
+windir=C:\WINNT
+ZERO_ORDER=1

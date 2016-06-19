@@ -1,0 +1,275 @@
+# %W%	%Q%
+# Copyright 1984-1989 Ansoft Corp.
+
+begin_error_file
+
+1001	user
+1001	There must be two entries on the stack
+1001	for an exchange operation.
+
+1002	user
+1002	There must be at least two entries on 
+1002	the stack for a roll operation.
+
+1003	user
+1003	The stack is empty. 
+
+1004	user
+1004	There must be at least two entries on 
+1004	the stack for a $$1 .
+
+1005	user
+1005	It is illegal to mix real and complex
+1005	registers for this operation.
+
+1006	user
+1006	It is illegal to mix vector and scalar
+1006	registers for this operation.
+
+1007	user
+1007	Two vectors cannot be multiplied together.
+1007	Legal vector operations are dot and cross.
+
+1008    fatal
+1008	Illegal call to virtual function $$1.
+
+1009    fatal
+1009	Space register is not $$1, as expected.
+
+1010	fatal
+1010	Tetrahedra register is not $$1, as expected.
+
+1011	user
+1011	Stack has no entries. Please enter 
+1011	a vector into the calculator.
+
+1012	user
+1012	This operation requires vector registers.
+1012	Please enter the appropriate registers.
+
+1013	user
+1013	Stack has less than two entries. Please enter 
+1013	at least two vectors into the calculator.
+
+1014	user
+1014	Stack has no entries. Please enter 
+1014	a scalar into the calculator.
+
+1015	user
+1015	This operation requires scalar registers.
+1015	Please enter the appropriate registers.
+
+1016	fatal
+1016	Mismatch in vector/scalar register type in the 
+1016    space calculator.
+
+1017	fatal
+1017	Mismatch in real/complex register type in the 
+1017    space calculator.
+
+1018	user
+1018	One of the triangles in this plane is located within
+1018	two different solids. If you want a plane defined in 
+1018	several solids use the cut-plane command instead.
+
+1019	user
+1019	No lines have been entered yet. Please use Line Entry
+1019    command to enter a line into the calculator.
+
+1020	user
+1020	The line does not have any values assigned to it yet.
+1020	Please use the value command to assign values to this line.
+
+1021	user
+1021	The space register is empty. In order for values to be
+1021	entered, there must be data in the space register.
+
+1022	fatal
+1022	There is no space allocated to store data for this line.
+
+1023	fatal
+1023	The line has zero length.
+
+1024	fatal
+1024	Tetrahedra too small for post processing operations.
+1024	There is probably an error in the mesh data.
+
+1025	fatal
+1025	The values of the homogeneous coordinates for
+1025	this problem are out of range.
+
+1026	user
+1026	There are no arrows to display.
+
+1027	user
+1027	Values have not been entered yet into the plane
+1027	register.
+
+1028	user
+1028	There must be two registers in the stack
+1028	for this operation.
+
+1029	user
+1029	The top two plane registers must have the same number
+1029	of elements for this operation to be performed.
+
+1030	user
+1030	No planes have been entered yet. Please use Plane Entry
+1030    command to enter a plane into the calculator.
+
+1031	user
+1031	The plane register does not have values 
+1031	entered into it yet.
+
+1032	user
+1032	A plane must be entered into the calculator before
+1032	a scalar operation can be performed.
+
+1033	fatal
+1033	Unable to find data for smoothing.
+
+1034	user
+1034	There must be three unique points in order to
+1034	define a plane.
+
+1035	user
+1035	The three points are collinear. A plane can not be
+1035	defined uniquely.
+
+1036	user
+1036	Illegal power.
+
+1037    user
+1037    Divide by zero error in evaluating
+1037    $$1.
+
+1038    user
+1038    There is an illegal symbol in the expression
+1038    $$1.
+1038    Legal symbols are:
+1038    ___Operators: +,-,*,/,%
+1038    ___Spatial Variables: x,y,z,theta,radius
+1038    ___Special Functions: abs,sqrt,exp,sin,cos,tan,atan
+1038    ___Other Symbols: pi,(,), numbers (e.g.;7.43, 2.96e-8)
+
+1039    user
+1039    Mismatched parenthesis. Check the function 
+1039    $$1.
+
+1040	user
+1040	The viewing angle for this window is orthogonal
+1040	to the specified plane. Please change the viewing
+1040	angle to view this plane.
+
+1041	user
+1041    The number of tetrahedra in the register file is
+1041    not the same as in the problem. 
+1041    Register file I/O is valid only for identical meshes.
+
+1042	user
+1042    The tetrahedra in the register file does not match 
+1042    those in the register at the top of the stack.
+1042    Register file I/O is valid only for identical meshes.
+
+1043	user
+1043	The space calculator does not have a vector
+1043	in its top register. Please enter a
+1043	vector in the space calculator.
+
+
+1044	user
+1044	The top register must be a scalar for the division
+1044	operation.
+
+1045	user
+1045	One of the entries in the top register is zero or
+1045	very close to zero. 
+
+1046	user
+1046	The active window is a 2d window. This post processing
+1046	function requires an active 3d window. Please make a
+1046	3d window active.
+
+1047	user
+1047	The register type is not a plane register and can
+1047	not be read in using this function.
+
+1048	user
+1048	The register file has a different number of 
+1048	plane triangles than are in the given plane.
+1048    Register file I/O is valid only for identical planes.
+
+1050	user
+1050	Error occurred during the writing of the file.
+1050	Please check to see if there is enough disk space
+1050	and try again.
+
+1051	user
+1051	Unable to open register file $$1. 
+
+1052	user
+1052	Unable to allocate the memory for the requested number
+1052	of bitmaps. If the display server and the host machine
+1052	are different, please note that the bitmaps are allocated
+1052	on the display server, not the remote host.  Please 
+1052	increase your phase step size to reduce the amount of
+1052	memory required, then try again.
+
+1053	user
+1053	There is no register in the stack. In order for
+1053	a register to be read, a register of the exact
+1053	same structure must be already present in the
+1053	calculator's stack.
+
+
+1054	user
+1054	This operation can't be performed with a real and a complex
+1054	register.
+
+
+1060	fatal
+1060	Error in conversion of data points into the
+1060	post processor.
+
+1070	user
+1070	No points have been entered by the BH_Examine command
+1070	yet. Please use the BH_Examine menu item before plotting
+1070	the data.
+
+1071	user
+1071	BH data has not been computed yet for the points 
+1071	entered in the BH_Examine command. Please
+1071	use the BH_Examine menu item to calculate the BH data.
+
+1072	user
+1072	None of the points calculated using the BH Examine
+1072	command contain nonlinear materials. This command
+1072	only works with nonlinear data points.
+
+
+1073    user
+1073    The line being entered has zero length.
+
+1074	user
+1074	The specified plot name does not correspond to a visible plot.
+
+
+1075    user
+1075    Could not open $$1 to write.
+
+1076    user
+1076    Must supply an input file name.
+
+1077    user
+1077    Could not open $$1 to read the grid.
+
+1078    user
+1078    Exported grid spacing must be greater than zero.
+
+1079    user
+1079    Exported grid minima must be <= grid maxima.
+
+end_error_file
+
+
+

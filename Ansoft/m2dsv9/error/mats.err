@@ -1,0 +1,545 @@
+# %W%	%Q%
+# Copyright 1984-1996 Ansoft Corp.
+
+begin_error_file
+
+1001    user
+1001    Either there is no problem by name $$1
+1001    or it is already added
+
+2000	user
+2000	Invalid object name.
+
+2001	user
+2001	Invalid orientation (ABS or OCS).
+
+2002	user
+2002	An angle value is ill formed or involves undefined functions.
+
+2003	user
+2003	No material is selected.
+
+2004	user
+2004	The currently selected material may have been changed.
+2004	Please Enter or Revert before proceeding.
+
+2005	user
+2005	Error setting material orientation.
+
+2006	user
+2006	Invalid yes/no parameter.
+
+2007	user
+2007	Solve Inside is not permitted for perfect conductors.
+
+2008	user
+2008	Solve Inside is required for perfect insulators.
+
+2009	fatal
+2009	An error was encountered while attempting to write the
+2009	material database files to disk.
+
+2010	user
+2010	Unable to add record to material database.
+
+2011	user
+2011	The material is write protected and cannot be removed.
+
+2012	user
+2012	Material type must be one of:
+2012	  "isotropic", "anisotropic", "nonlinear", "perfect conductor".
+
+2013	user
+2013	Choose property name from:
+2013 	conductivity or sigma, permittivity or eps, permeability or mu,
+2013	imag_permittivity or eps2, imag_permeability or mu2,
+2013	perm_magnetization or Mp, perm_polarization or Pp, 
+2013	mag_coercivity or Hc, mag_retentivity or Br, elec_coercivity or Ec,
+2013	elec_retentivity or Dr, elec_losstan, mag_losstan, saturation_mag, 
+2013	lande_g, delta_h.
+
+2014	user
+2014	This property is not supported for the current problem.
+
+2015	user
+2015	Anisotropic material properties require three values.
+
+2016	user
+2016	Material vector function properties require three values.
+
+2017	user
+2017	Non-anisotropic material properties take a single value.
+
+2018	user
+2018	A property numeric value is ill formed.
+
+2019	user
+2019	Property functional value names must begin with a letter.
+
+2020	user
+2020	A property functional value name is ill formed.
+
+2021	user
+2021	The name entered for this material is reserved!
+
+2022	user
+2022	This material is marked as NONLINEAR, but it has no B-H Curve!
+
+2023	user
+2023	This material has some undefined functional properties!
+
+2024	user
+2024	This material has an inconsistent magnetic or electric loss tangent!
+
+2025	user
+2025	This material is assigned to at least one signal conductor or ground.
+2025	Unless it is a perfect conductor, its conductivity must be NON-ZERO.
+
+2026	user
+2026	This material is assigned to at least one signal conductor or ground.
+2026	Its functional conductivity should not be zero or negative everywhere.
+
+2027	user
+2027	This material is assigned to some objects which are marked as
+2027	NON-CONDUCTORS. Its conductivity must be ZERO.
+
+2028	user
+2028	This material is assigned to some objects which are marked as
+2028	CONDUCTORS. Its conductivity must be NON-ZERO.
+
+2029	user
+2029	Invalid material name.
+
+2030	user
+2030	No objects were selected.
+
+2031	user
+2031	The function you entered for the angle does not exist.
+2031	Use the Functions... button to enter its definition first.
+
+2032	user
+2032	You may not use the same function for both a material property 
+2032	and the assignment angle.  This includes using the same sub-function 
+2032	as part of both functions.  Try defining a new function with a 
+2032	different name using the Functions...  button.
+
+2033	user
+2033	The function you entered for the $$1 angle does not exist.
+2033	Use the Functions... button to enter its definition first.
+
+2034	user
+2034	Note: Perfect insulators will be automatically EXCLUDED since
+2034	there is no current flow within them.
+
+2035	user
+2035	Note: All materials with a conductivity greater than $$1
+2035	siemens/meter will be treated as perfect conductors. They
+2035	will be excluded from the solution region as the voltage
+2035	inside these conductors is assumed to be constant. Materials
+2035	with lower conductivities will be included in the solution
+2035	region. Their conductivities will have no effect on the
+2035	electrostatic simulation as no current flow is modeled.
+
+
+2036	user
+2036	Solve Inside only applies to objects with assignments.
+
+2037	user
+2037	The name for this material is missing!
+
+2038	user
+2038	The name entered for this material is already in use!
+
+2039	user
+2039	Unable to delete object $$1 attribute.
+
+2040	user
+2040	You have used functional material properties and assignment angles 
+2040	that both depend upon spatial coordinates (X, Y, Z, R, PHI, THETA).
+2040	The solver does not support this.  Try to reformulate your material
+2040	setup so that only one of the two functions depends upon spatial
+2040	position.
+
+2041	user
+2041	Only two quantities may be editable at a time!
+2041	Please deselect one before adding to the selection.
+
+2042	user
+2042	Exactly two quantities must be editable!
+
+2043	fatal
+2043	Could not load user material database. Exiting.
+
+2044	user
+2044	Error reading materials.
+
+2045	user
+2045	This material has properties that are functions of spatial
+2045	coordinates (X, Y, PHI, Z, RHO, THETA, or R).  The current solver
+2045	does not support such functionally varying properties.
+
+2046	user
+2046	This material is not assignable because the BH curve does not start 
+2046	at (0,0).  The nonlinear eddy current solver is not able to model 
+2046	nonlinear permanent magnets.
+
+2047	user
+2047	This material is a PERFECT CONDUCTOR. It cannot be assigned to
+2047	conductors because you requested resistances to be calculated.
+2047	Please use materials with finite, non-zero conductivity for conductors.
+
+2048	user
+2048	A material with non-zero conductivity cannot be assigned to an
+2048	object not designated as a conductor or ground.
+
+2049	user
+2049	This material is a PERFECT INSULATOR. It cannot be assigned to
+2049	conductors because you requested resistances to be calculated.
+2049	Please use materials with finite, non-zero conductivity for conductors.
+
+2050	user
+2050	This solver does not support anisotropic or functionally varying
+2050	material properties. Please use a different material.
+
+2051	user
+2051	This material cannot be assigned to signal or ground conductors 
+2051	because its conductivity is ZERO. Change its conductivity or make it
+2051	a perfect conductor if you wish to go through with the assignment.
+
+2052	user
+2052	Cannot use a relative functional angle.
+
+2053	user
+2053	Cannot use an absolute functional angle.
+
+2054	user
+2054	Attempted to make assignment database with no material database.
+
+2055	user
+2055	Solving inside a solid with high conductivity may require a large mesh.
+
+2056	user
+2056	Problem setup is inconsistent. Some objects are assigned to orphaned 
+2056	materials ( derived materials for which the base material, and some 
+2056	property values, are missing ). Solution cannot proceed.
+2056	Hint: Reassign the objects to local materials, or locate the user
+2056	material database if it is missing.
+2056
+2056	Do you wish to continue?
+
+2057	user
+2057	Problem setup is inconsistent. Some objects are assigned to materials
+2057	with properties that are functions of spatial coordinates 
+2057	(X, Y, PHI, Z, RHO, THETA, or R).  The current solver does not support 
+2057	such functionally varying properties. Solution cannot proceed.
+2057	Hint: Assign ALL objects to materials without functional properties 
+2057	or with functional properties that do not depend on the coordinate 
+2057	system.
+2057
+2057	Do you wish to continue?
+
+2058	user
+2058	Problem setup is inconsistent. Some objects are assigned to materials
+2058	with nonlinear permeability. The current solver does not support
+2058	nonlinear permeability.  Solution cannot proceed.
+2058	Hint: Assign ALL objects to materials with a linear or functionally 
+2058	varying permeability.
+2058
+2058	Do you wish to continue?
+
+2059	user
+2059	Problem setup is inconsistent. Some objects are assigned to materials 
+2059	with anisotropic properties. The current solver does not support 
+2059	anisotropic material properties. Solution cannot proceed.
+2059	Hint: Assign ALL objects to isotropic materials.
+2059
+2059 	Do you wish to continue?
+
+2060	user
+2060	Problem setup is inconsistent. Some objects are assigned to materials 
+2060	with nonlinear permeability, while others have anisotropic properties. 
+2060	The current solver does not support this mix. Solution cannot proceed.
+2060	Hint: If you wish to solve a nonlinear problem, reassign the objects 
+2060	with anisotropic properties. Otherwise use only materials with linear
+2060	or functional permeabilities.
+2060
+2060	Do you wish to continue?
+
+2061	user
+2061	Problem setup is inconsistent. Some objects are assigned to materials 
+2061	with nonlinear permeability, while others have properties which are 
+2061	functions of spatial coordinates (X, Y, PHI, Z, RHO, THETA, or R). 
+2061	The current solver does not support this mix.  Solution cannot proceed.
+2061	Hint: If you wish to solve a nonlinear problem, reassign the objects 
+2061	with functional properties.  Otherwise use only materials with linear
+2061	or functional permeabilities.
+2061
+2061	Do you wish to continue?
+
+2062	user
+2062	Cannot lock the user-level material database.  
+2062	Do you wish to proceed anyway?
+2062	( Do you have sufficient access privileges to $$1? )
+
+2063	user
+2063	Cannot lock the user-level material database.  
+2063	Do you wish to proceed anyway?
+2063	( Are permissions set correctly for $$1? )
+
+2064	user
+2064	User-level material database has been locked for more than $$1
+2064	minutes. This lock is probably stale. Do you wish to remove it?
+
+2065	user
+2065	Cannot unlock the user-level material database. Do you wish to proceed 
+2065	anyway?  ( Do you have sufficient access privileges to $$1? )
+
+2066	user
+2066	User-level material database is locked for a READ.
+2066	Do you wish to ignore the lock and read it in?
+
+2067	user
+2067	User-level material database is locked for a WRITE.  This lock cannot 
+2067	be ignored. Do you wish to wait and try again?
+
+2068	user
+2068	Cannot lock the user-level material database.
+2068	Do you wish to load the database in READ ONLY mode?
+2068	( Are permissions set correctly for $$1? )
+
+2069	user
+2069	Conductivity must be non negative.
+
+2070	user
+2070	Relative permeability must be non zero.
+
+2071	user
+2071	Relative permittivity must be non zero.
+
+2072	user
+2072	Electric loss tangent must be non negative.
+
+2073	user
+2073	Magnetic loss tangent must be non negative.
+
+2074	user
+2074	Saturation magnetization must be non negative.
+
+2075	user
+2075	The Lande G Factor must be positive.
+
+2076	user
+2076	Delta H must be non negative.
+
+2077	user
+2077	Illegal symbol table operation.
+
+2078	user
+2078	This material has already been assigned to one or more objects.
+2078	The new material properties may require an assignment angle.
+2078	If so, reassign it in order to associate assignment angles.
+
+2079	user
+2079	The material 'vacuum' has a reserved name that may not be changed.
+
+2080	user
+2080	Solve Surface cannot be used with an anisotropic material assignment.
+
+2081	user
+2081	Applying "Solve Surface" to this object will cause the fields to be
+2081	modeled using a surface impedance approximation on the object's
+2081	faces.  Objects contained within this one will be electrically
+2081	isolated from those outside.
+2081	To allow fields to fully penetrate the object, choose "Solve Inside".
+2081	To model the effect of the conductivity on the surface of the inner
+2081	objects, delete the outer object and apply a conductivity boundary
+2081	to the surface of the inner objects.
+
+2082	user
+2082	Error reading the material database.  This may be caused by a failure
+2082	to locate your global material database.  This symptom would arise
+2082	if the MaterDir variable is missing or invalid.  Check your Maxwell
+2082	configuration file (.maxwellrc or maxwell.ini).
+
+2083	user
+2083	You cannot set conductivity to zero because this material
+2083	is assigned to an object for which you have requested only
+2083	a surface field solution.
+
+2084	user
+2084	You have assigned an anisotropic material to an object
+2084	for which you have requested a surface solution.
+
+2085	user
+2085	You have assigned a material with zero conductivity to
+2085	an object for which you have requested a surface solution.
+
+2086	user
+2086	You have assigned a material with functional conductivity
+2086	and a zero functional value to an object for which
+2086	you have requested a surface solution.
+
+2087	user
+2087	This solver does not support nonlinear material properties.
+2087	Please use a different material.
+
+2088	user
+2088	This solver does not support functional material properties.  
+2088	Please use a different material.
+
+2089	user
+2089	The combination of nonlinear materials and anisotropic materials is
+2089	not currently supported.
+
+2090	user
+2090	This solver does not support the use of functions of position in
+2090	material properties or material assignment angles.  Please use
+2090	a different material or alternate assignment angle specifications.
+
+2091	user
+2091	You have attempted to include one or more objects that are currently
+2091	assigned to perfect insulators.  In order to include these objects,
+2091	first change the assigned materials.  To view the assigned material
+2091	for an excluded object, set the object selection mode to Single Select
+2091	and then select the object.  The assigned material will be selected
+2091	in the material list.
+
+2092	user
+2092	Your material setup is not valid, because all objects are excluded
+2092	from the problem.
+
+2093	user
+2093	The background region cannot be assigned as a conductor.
+
+2094	user
+2094	The combination of nonlinear materials and materials with functions 
+2094	that depend on spatial coordinates (X, Y, PHI, Z, RHO, THETA, or R)
+2094	is not supported.
+
+2095	user
+2095	In order to set up PML material behavior for directly drawn model
+2095	objects, you must first select one or more of these objects in
+2095	the assignments listbox.  Please ensure that these objects can
+2095	all be treated uniformly, with regard to PML thickness and 
+2095	local coordinate system orientation.
+
+2096	user
+2096	The chosen combination is not valid for one of the following reasons:
+2096
+2096	a) In order to set up PML material behavior for model objects that
+2096	   were drawn using the PMLCoverSetup macro, you are restricted to
+2096	   terminating these objects with free space, or
+2096
+2096	b) If you have directly drawn an object for transmission line
+2096	   termination, it cannot be treated as if drawn by the 
+2096	   PMLCoverSetup macro.
+
+2097	user
+2097	In order to set up PML material behavior for directly drawn model
+2097	objects, you must supply the names of one or more model objects
+2097	that are to receive mateial assignments.  Please ensure that these
+2097	objects can all be treated uniformly, with regard to PML thickness
+2097	and local coordinate system orientation.
+
+2098	user
+2098	One or more of the objects supplied cannot be found in the model,
+2098	or is not a 3D object.
+
+2099	user
+2099	You have specified an illegal value for frequency or propagation
+2099	constant minimum or maximum value.
+
+2100	user
+2100	You have specified an illegal value for local coordinate system
+2100	orientation of the PML objects.
+
+2101	user
+2101	You have specified an illegal value for PML object thickness.
+
+2102	user
+2102	You have specified an illegal value for PML minimum distance to
+2102	a radiating object.Q
+
+2103	user
+2103	You have specified an illegal value for PML contact object
+2103	permittivity or permeability.
+
+2104	user
+2104	The currently selected material cannot be used for PML computations
+2104	and material assignments to directly drawn objects in the model,
+2104	because it is not anisotropic.  Please note that this material
+2104	would be modified if the PMLMatSetup macro were to complete normally.
+
+2105	user
+2105	One or more of the reserved name materials PMLx, PMLy, PMLz,
+2105	PMLxy, PMLxz, PMLyz, PMLxyz has been deleted.  You cannot use the
+2105	PMLMatSetup macro for automatically created PML objects until
+2105	you first use Material/Clear to remove those reserved materials
+2105	that remain.  This will enable the PMLMatSetup macro to 
+2105	initialize them all properly.
+
+2106	user
+2106	The material property for $$1 in $$2 has an illegal functional
+2106	value, because it makes use of unsupported intrinsic variables.
+
+2107	user
+2107	The non-linear curve that has been selected for this permanent
+2107	magnet represents a recoil permeability curve.  The problem
+2107	solution may not fully model the complex physics of the material.
+2107	Please see the Technical Note section of our online documentation
+2107	for a full explanation.
+
+2108	user
+2108	The thermal conductivity must be greater than 0.
+
+
+2109	user
+2109  $$1 is a default variable and can not be deleted.
+
+2110	user
+2110	The name $$1 is reserved, it has been assigned to a non constant value,
+2110  please use another name as function name.
+
+2111	user
+2111	The modifed material has been assigned to serveral objects.
+
+2112	user
+2112	Any material with a conductivity greater than zero and less than $$1 
+2112	S/m will be automatically assigned a conductivity = $$1 S/m.  For small 
+2112	conductivities, it is recommended that zero be used.
+
+2113	user
+2113	$$1 is a surface ground object, and should not be set to be a conductor. 
+
+2114	user
+2114	The thermal conductivity of function of space and temperature is not supported. 
+
+2115	user
+2115	The region with 0 thermal conductivity will be excluded from the thermal simulation.
+
+2116  user
+2116  The loss tangent value will not be considered if the material has functional value for
+2116  loss tangent, conductivity or permittivity.
+
+2117	user
+2117	Cannot import BH curve from the .bh format file.
+
+2118	user
+2118	Cannot import BH curve from the .dat format file.
+
+2119	user
+2119	Cannot export BH curve to the .bh format file.
+
+2120	user
+2120	Cannot export BH curve to the .dat format file.
+
+2121	user
+2121	Relative permeability must be non negative.
+
+2122	user
+2122	Material properties cannot be function of time, speed, or position.
+
+2123	user
+2123	Assignment orientation cannot be function of time, speed, or position.
+
+end_error_file

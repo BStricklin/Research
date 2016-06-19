@@ -1,0 +1,16 @@
+# %W%	%Q%
+# Copyright 1984-1989 Ansoft Corp.
+
+begin_error_file
+
+1256 user
+1256 Error writing to the file "$$1"
+1256 Possible causes are:
+1256   - Out of disk space.
+1256   - No file access privileges.
+1256   - Network or hardware problems.
+
+1257 user
+1257 File "$$1" already exists.
+
+end_error_file

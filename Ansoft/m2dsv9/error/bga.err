@@ -1,0 +1,15 @@
+# %W%	%Q%
+# Copyright 1984-1992 Ansoft Corp.
+
+begin_error_file
+
+1001    fatal
+1001    Module $$1 died unexpectedly.
+
+1010    fatal
+1010	File read failed in module $$1.
+
+
+
+end_error_file
+

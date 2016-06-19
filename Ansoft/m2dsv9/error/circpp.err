@@ -1,0 +1,492 @@
+# %W%	%Q%
+# Copyright 1984-1997 Ansoft Corp.
+
+
+begin_error_file
+
+2000	user
+2000	There are no solutions with plottable quantities.
+
+2001	user
+2001	There are no open plots.
+
+2002	user
+2002	Unable to read specified plot file.
+
+2003	user
+2003	No plot is selected.
+
+2004	user
+2004	Unable to write specified plot file.
+
+2005	user
+2005	Error saving calculated expressions.
+
+2006	user
+2006	Error saving input signals.
+
+2007	user
+2007	The max frequency must be positive.
+
+2008	user
+2008	Amplitude must be greater than zero.
+
+2009	user
+2009	All time parameters must be positive.
+
+2010	user
+2010	Duty cycle must be a valid percentage.
+
+2011	user
+2011	The signal parameters do not describe a valid pulse.
+2011	Please modify the duty cycle, period, or rise time.
+
+2012	user
+2012	The highest possible frequency for this signal and number of points 
+2012	is less than the requested maximum frequency.
+
+2013	user
+2013	The number of time points must be positive.
+
+2014	user
+2014	Too many coordinate values.
+
+2015	user
+2015	Coordinate times must be increasing.
+
+2016	user
+2016	Not enough coordinate values.
+
+2017	user
+2017	Named input signal not found.
+
+2018	user
+2018	The FFT max frequency must be positive.
+
+2019	user
+2019	The FFT num points must be a power of 2.
+
+2020	user
+2020	Unable to locate plot "$$1".
+
+2021	user
+2021	Emissions data cannot be plotted on a Smith Chart.
+
+2022	user
+2022	Solution not found.
+
+2023	user
+2023	Unknown plot type.
+
+2024	user
+2024	No solution is selected.
+
+2025	user
+2025	You should first renormalize to 50 ohms.
+2025	Do you want to proceed with the export?
+
+2026	user
+2026	Couldn't export data to file.
+
+2027	user
+2027	Missing command data.
+
+2028	user
+2028	Warning: You have specified a zero de-embedding distance
+2028	for one or more wave ports.  Do you want to proceed?
+
+2029	user
+2029	Illegal to divide by zero.
+
+2030	user
+2030	You may not delete a base matrix signal.
+
+2031	user
+2031	You have selected a project for import that is not compatible with
+2031	the current project.  It differs either in number of ports, 
+2031	number of modes for a port, or whether terminals are defined.
+
+
+
+2033	user
+2033	Each impedance must be non zero.
+
+2034	user
+2034	The mode number must be >= 1.
+
+2035	user
+2035	$$1 only has $$2 mode(s).
+
+2036	user
+2036	You may not select both dB and VSWR.
+
+2037	user
+2037	Magnitude is required when plotting an input signal.
+
+2038	user
+2038	An input signal cannot be plotted on a Smith Chart.
+
+2039	user
+2039	VSWR cannot be plotted with an input signal.
+
+2040	user
+2040	Only S Matrix and emissions data can be plotted with an input signal.
+
+2041	user
+2041	Only S Matrix data can be plotted as VSWR.
+
+2042	user
+2042	For emissions, only E Total can be in dB.
+
+2043	user
+2043	This data type cannot be plotted in dB.
+
+2044	user
+2044	Data on a Smith Chart may not be in dB or VSWR.
+
+2045	user
+2045	Only S or Y Matrix data can be plotted on a Smith Chart.
+
+2046	user
+2046	Time domain requires a Cartesian plot.
+
+2047	user
+2047	Error Function plotting requires magnitude.
+
+2048	user
+2048	At least one plot quantity must be selected.
+
+2049	user
+2049	Error loading calculated expressions.
+
+2050	user
+2050	Error loading input signals.
+
+2051	user
+2051	You can have only one signal value per time.
+
+2052	user
+2052	You must have at least two points defining the signal.
+
+2053	user
+2053	No signals are defined yet.
+
+2054	user	
+2054	There already is a signal defined with this name.
+
+2055	user
+2055	At least two solutions must be selected.
+
+2056	user
+2056	You cannot scale to input signals on a time plot.
+
+2057	user
+2057	Magnitude and phase cannot be plotted for Gamma.
+
+2058	user
+2058	You have not defined the expression currently on the stack.
+2058	Do you want to exit anyway?
+
+2059	user
+2059	Input signal times must be non negative.
+
+2060	user
+2060	No two input signal points may have the same time value.
+
+2061	user
+2061	An absolute coordinate move requires a single selection.
+
+2062	user
+2062	You must always have at least two points defined.
+
+2063	user
+2063	The imported signal data does not contain at least two points.
+
+2064	user
+2064	The import signal operation failed.
+
+2065	user
+2065	An X,Y data input signal cannot be converted to a pulse.
+
+2066	user
+2066	A relative add requires a non zero time delta.
+
+2067	user
+2067	A relative add requires at least one point selection.
+
+2068	user
+2068	An X,Y data input signal must have the same signal value
+2068	at its first and last points, for periodicity.
+
+2069	user
+2069	An X,Y data input signal must start at time = 0.
+
+2070	user
+2070	The imported X,Y data was not increasing in time values.
+
+2071	user
+2071	There must be at least two single frequency or sweep solutions
+2071	to use in creating a new sweep.
+
+2072	user
+2072	You must first renormalize to 50 ohms, in order to be able
+2072	export into neutral model format.
+
+2073	user
+2073	Invalid plot quantity identifier for calculated expression plotting.
+
+2074	user
+2074	Solution $$1 already has an expression named $$2.
+
+2075	user
+2075	Not enough data values supplied for expression.
+
+2076	user
+2076	Solution $$1 does not have an expression named $$2.
+
+2077	user
+2077	Calculated expressions are already being edited.
+
+2078	user
+2078	 Calculated expressions are not being edited.
+
+2079	user
+2079	Input signals are already being edited.
+
+2080	user
+2080 	Input signals are not being edited.
+
+2081	user
+2081	Unsupported circuit export format.
+
+2082	user
+2082	You must first supply a name for the input signal.
+
+2083	user
+2083	Error adding solution $$1.
+
+2084	user
+2084	You cannot add to an imported plot.
+
+2085	user
+2085	This operation cannot be done for a port-only solution.
+
+2086	user
+2086	Invalid port 1-based index.
+
+2087	user
+2087	Invalid solution frequency 0-based index.
+
+2088	user
+2088	Invalid solution matrix type.
+
+2089	user
+2089	Invalid port mode 1-based index.
+
+2090	user
+2090	The requested matrix data type is one dimensional.
+
+2091	user
+2091	The requested matrix is not present in the solution.
+
+2092	user
+2092	The number of points for the FFT must be a power of 2,
+2092	between 16 and 16384 inclusive.
+
+2093	user
+2093	The number of points for the FFT results in a sampling
+2093	interval that is greater than one-half the rise time.
+2093	This will produce an inaccurate representation of the pulse.
+
+2094	user
+2094	The number of points for the FFT results in a sampling
+2094	interval that is greater than one-half the minimum delta
+2094    between time values in the input signal definition.
+2094	This will produce an inaccurate representation of the signal.
+
+2095	user
+2095	The unit normal vector for the port face computed by the solver
+2095	is not available, and therefore is not shown graphically.
+2095	Please verify that your deembedding direction for the port
+2095	is correct.
+
+2096	user
+2096	Unable to access boundary FACE.
+
+2097	user
+2097	Error updating emissions test setup file "$$1".
+
+2098	user
+2098	Error updating solution data file "$$1".
+
+2099	user
+2099	Error updating calculated expression data file "$$1.exp".
+
+2100	user
+2100	Error updating input signal data file "$$1.sig".
+
+2101	user
+2101	Import from external project failed.
+
+2102	user
+2102	Neither dB nor VSWR scaling is supported when plotting versus time.
+
+2103	user
+2103	dB cannot be plotted with an input signal.
+
+2104	user
+2104	Invalid parameter value for the command.
+
+2105	user
+2105	Unable to locate plot with ID = $$1.
+
+2106	user
+2106	No emissions test results are available for the solution.
+
+2107	user
+2107	No data is available for the selected emissions test.
+
+2108	user
+2108	Invalid plot quantity identifier for matrix value plotting.
+
+2109	user
+2109	The import plot type is not compatible with the plot to which
+2109	you want to add it.
+
+2110	user
+2110	The phase component for quantities cannot be added to a plot
+2110	that is in dB.
+
+2111	user
+2111	You must retain at least one solution.
+
+2112	user
+2112	You may not delete the last solution with corresponding field
+2112	solution data on disk.
+
+2113	user
+2113	Unable to compute the terminal S Matrix for this solution.
+
+2114	user
+2114	This solution can not support the terminal S matrix.  Please
+2114	verify that terminals were defined in the boundary manager.
+
+2115	user
+2115	This solution has inconsistent data supporting the terminal S matrix.
+
+2116	user
+2116	You cannot deembed a solution that has terminal S parameters.
+
+2117	user
+2117	Error renormalizing modal S-matrix or recomputing terminal S-matrix 
+2117	support for renormalized modal solution.
+
+2118	user
+2118	The current solution has a terminal S matrix, and it cannot be 
+2118	exported in the requested format because it is not normalized to 
+2118	50 ohms.  The problem may either be in the terminal reference
+2118	impedances or in the characteristic impedances for the remaining
+2118	non terminal modes.
+
+2119	user
+2119	You must select at least one mode/terminal in order to use the
+2119	matrix view filter.
+
+2120	user
+2120	Reference impedance values were not supplied for one or more of the
+2120	port terminals.  The terminal S matrix cannot be computed.
+
+2121	user
+2121	Reference impedances may not equal zero.
+
+2122	user
+2122	The selected sweeps are incompatible in terms of modal versus
+2122	terminal S-matrix.  They cannot be combined into a single sweep.
+
+2123	user
+2123	The terminal S parameters for the selected sweeps are incompatible
+2123	because they are based on different reference impedances.
+
+2124	user
+2124	The selected terminal solutions cannot be combined because they
+2124	were based on incompatible definitions of differential pairs.
+
+
+
+2130	user
+2130	This solution cannot be renormalized, because its port impedances
+2130	are not available.
+
+2131	user
+2131	The raw data for selected quantity $$1 contains a value equal to 
+2131	or extremely close to zero.  Do you still want to plot this quantity?
+
+2132	user
+2132	Write error in exporting solution $$1 to $$ format.
+
+2133	user
+2133	Unable to copy $$1.ydl file for Spice export.
+
+2134	user
+2134	Spice exports require a solution with multiple frequencies and
+2134	S-parameters.  Solution $$1 cannot be exported.
+
+2135	user
+2135	Differential pair $$1 was not found.
+
+2136	user
+2136	Unable to load differential pair definitions.
+
+2137	user
+2137	This project contains a port with multiple modes.  Usually it is
+2137	better to define terminals for such ports in order to properly
+2137	interface with a circuit simulator.  Do you want to proceed?
+
+2138	user
+2138	This project contains a port with multiple modes, and the solution
+2138	selected for export is modal.  Usually it is better to select a
+2138	terminal solution for export, for improved circuit simulator results.
+2138	Do you want to proceed?
+
+2139	user
+2139	You can only export the terminal Z0 matrix if the terminal solution
+2139	was not based on any differential pairs.
+
+2140	user
+2140	When doing Spice exports from macro execution, you must make sure
+2140	that you first create a Spice exporter, before attempting the
+2140	actual export.  Use command SzgDataCreateSpiceExporter.
+
+2141	user
+2141	Unable to construct a Spice exporter for solution $$1.
+
+2142	user
+2142	You may not set an S-matrix value that is greater than 1.0.
+
+2143	user
+2143	Terminal Zo data may not be plotted in the time domain.
+
+2144	user
+2144	Data can only be interpolated for frequencies that are within the
+2144	range of the solution sweep frequencies.
+
+2145	user
+2145	File names for Spice export must begin with a letter.
+
+2146	user
+2146	Deembedding is not supported on lumped gap ports.
+2146	Please select a wave port.
+
+2147	user
+2147	The sweep you selected to export has a minimum frequency
+2147	that is too high to provide sufficient detail in the exported
+2147	data.  The suggested remedy is to first re-solve the sweep
+2147	with a minimum frequency of no greater than $$1 GHz.
+2147
+2147	Do you want to proceed with the export as requested?
+
+2148	user
+2148	The export filename for Maxwell Spice must be lower case.
+
+end_error_file
+

@@ -1,0 +1,159 @@
+B_RESFIL
+B_TOOLBX
+0           0           0           0           0           0           0           0           0           0           
+B_HOTKYS
+0           
+B_TOPMENU
+207         
+B_HLPTOK
+3122        
+
+B_TOPMENU
+B_MENU
+Command:  "none"
+Caption:  "&File"
+Help:     "&&&&Dataset File Menu"
+E_MENU
+B_MENUITEM
+Command:  "DsetPanNewDset '*'"
+Caption:  "&New"
+Help:     "&&&&File/New (Datasets)"
+E_MENUITEM
+B_MENUITEM
+Command:  "DsetPanOpenDset"
+Caption:  "&Open..."
+Help:     "&&&&File/Open (Datasets)"
+E_MENUITEM
+B_MENUITEM
+Command:  "DsetPanCloseDset"
+Caption:  "&Close"
+Help:     "&&&&File/Close (Datasets)"
+E_MENUITEM
+B_MENUITEM
+Command:  "DsetPanSaveDset"
+Caption:  "&Save"
+Help:     "&&&&File/Save (Datasets)"
+E_MENUITEM
+B_MENUITEM
+Command:  "DsetPanSaveAsDset"
+Caption:  "Save &As..."
+Help:     "&&&&File/Save As (Datasets)"
+E_MENUITEM
+B_SUBMENU
+Command:  "none"
+Caption:  "&Import"
+Help:     ""
+E_SUBMENU
+B_SUBMENUITEM
+Command:  "DsetPanReadText"
+Caption:  "&Text File..."
+Help:     "&&&&File/Import Text File"
+E_SUBMENUITEM
+B_MENUITEM
+Command:  "DsetPanExit"
+Caption:  "E&xit"
+Help:     "&&&&File/Exit (Datasets)"
+E_MENUITEM
+B_MENU
+Command:  "none"
+Caption:  "&Edit"
+Help:     "&&&&Dataset Edit Menu"
+E_MENU
+B_SUBMENU
+Command:  "none"
+Caption:  "&Insert Coords"
+Help:     ""
+E_SUBMENU
+B_SUBMENUITEM
+Command:  "DsetPanInsertRow -1"
+Caption:  "&Before"
+Help:     "&&&&Edit/Insert Coords/Before"
+E_SUBMENUITEM
+B_SUBMENUITEM
+Command:  "DsetPanInsertRow 1"
+Caption:  "&After"
+Help:     "&&&&Edit/Insert Coords/After"
+E_SUBMENUITEM
+B_MENUITEM
+Command:  "DsetPanDeleteRow"
+Caption:  "&Delete Coords"
+Help:     "&&&&Edit/Delete Coords"
+E_MENUITEM
+B_MENU
+Command:  "none"
+Caption:  "&View"
+Help:     "&&&&Dataset View Menu"
+E_MENU
+B_MENUITEM
+Command:  "DsetPanZoomIn"
+Caption:  "Zoom &In"
+Help:     "&&&&View/Zoom In (Datasets)"
+E_MENUITEM
+B_MENUITEM
+Command:  "DsetPanZoomOut"
+Caption:  "Zoom &Out"
+Help:     "&&&&View/Zoom Out (Datasets)"
+E_MENUITEM
+B_MENUITEM
+Command:  "DsetPanFitAll"
+Caption:  "Fit &All"
+Help:     "&&&&View/Fit All (Datasets)"
+E_MENUITEM
+B_MENUITEM
+Command:  "DsetPanShowCoords"
+Caption:  "Show &Coordinates"
+Help:     "&&&&View/Show Coordinates (Datasets)"
+E_MENUITEM
+B_MENUITEM
+Command:  "DsetPanPlotSettings"
+Caption:  "&Plot Settings"
+Help:     "&&&&View/Plot Settings"
+E_MENUITEM
+B_MENUITEM
+Command:  "DsetPanGraphSettings"
+Caption:  "&Graph Settings"
+Help:     "&&&&View/Graph Settings"
+E_MENUITEM
+B_MENU
+Command:  "none"
+Caption:  "&Arrange"
+Help:     "&&&&Dataset Arrange Menu"
+E_MENU
+B_MENUITEM
+Command:  "DsetPanMove"
+Caption:  "&Move"
+Help:     "&&&&Arrange/Move (Datasets)"
+E_MENUITEM
+B_MENUITEM
+Command:  "DsetPanScale"
+Caption:  "S&cale..."
+Help:     "&&&&Arrange/Scale (Datasets)"
+E_MENUITEM
+B_MENU
+Command:  "none"
+Caption:  "&Help"
+Help:     ""
+E_MENU
+B_MENUITEM
+Command:  "IHelp 'Using the Help System'"
+Caption:  "&About Help"
+Help:     ""
+E_MENUITEM
+B_SEPARATOR
+E_SEPARATOR
+B_MENUITEM
+Command:  "IHelp '*context'"
+Caption:  "On &Context..."
+Help:     ""
+E_MENUITEM
+B_MENUITEM
+Command:  "IHelp 'Dataset Editor'"
+Caption:  "On &Dataset Editor..."
+Help:     ""
+E_MENUITEM
+E_TOPMENU
+B_HLPTOK
+DsetPanInsertRow
+Edit/Insert Coords/Before
+E_HLPTOK
+E_RESFIL

@@ -1,0 +1,176 @@
+begin_error_file
+
+1000 user
+1000 test for error message
+
+1001 user
+1001 Usage: macedit [-directory <directory name>] [-product <product_id>] [macro file name].
+
+1002 user
+1002 File $$1 does not exist.
+
+1003 user
+1003 Cannot write file $$1!
+1003 Possible reasons are:
+1003   - Out of disk space.
+1003   - No file access privileges.
+1003   - Network or hardware problems.
+
+1004 user
+1004 Cannot back for file $$1.
+1004 Possible reasons are:
+1004   - Out of disk space.
+1004   - Network or hardware problems.
+
+1005 user
+1005 Cannot read file $$1.
+
+1006 user
+1006 Cannot create tmp file $$1!
+1006 Possible reasons are:
+1006   - Out of disk space.
+1006   - No file access privileges.
+1006   - Network or hardware problems.
+
+1007 user
+1007 $$1 is already opened.
+
+1008 user
+1008 Directory $$1 doesn't exist.
+
+1009 user
+1009 Cannot create temp file for creating new macro file!
+1009 Possible reasons are:
+1009   - Out of disk space.
+1009   - No file access privileges.
+1009   - Network or hardware problems.
+
+1010 user
+1010 Invalid Product ID!
+
+2001 user
+2001 $$1 is reserved name 
+2001 Please use $$1_1 or other name
+
+2002 user
+2002 Please input valid name.
+
+2003 user
+2003 $$1 can't be deleted!
+2003 $$2depend on $$1.
+
+2004 user
+2004 $$1 is not defined
+2004 Please define it by Edit Parameters
+
+2005 user
+2005 The parameter name "$$1" conflicts with the name
+2005 already defined by you, in the form of Assign or 
+2005 ExpAssign statements in your macro file. Having
+2005 such conflicts can result in undefined behaviour.
+2005 It is strongly recommended that you change the name.
+2005 Note that names that just differ in case are 
+2005 considered the same name.
+
+2006 user
+2006 Error in adding the parameter "$$1". Change name
+2006 and try again.
+
+3001 user
+3001 The row size of table can not exceed $$1. 
+
+3002 user
+3002 The col size of table can not exceed $$1.
+
+3003 user
+3003 Can't close main project.
+
+3004 user
+3004 Row and Column size should be greater than 0!
+
+3005 user
+3005 Database name $$1 already been used!
+
+4001 user
+4001 $$1 is not a valid command
+
+4002 user
+4002 $$1 is a bad command
+
+4003 user
+4003 Command execution for:
+4003 $$1 
+4003 is interrupted.
+
+4004 user
+4004 Command $$1 is a recursive function.
+
+4005 user
+4005 Parsing error for command $$1.
+
+4006 user
+4006 Invalid return value for command $$1.
+
+4007 user
+4007 No ASCII conversion for command $$1.
+
+4008 user
+4008 No file exist for command $$1.
+
+4009 user
+4009 File already open for command $$1.
+
+4010 user
+4010 No enough memory for command $$1.
+
+4011 user
+4011 Missing condition for command $$1.
+
+4012 user
+4012 User error for command $$1.
+
+4013 user
+4013 Unknow error for command $$1.
+
+5001 user
+5001 Macro editor is case insensitve 
+5001 Ambiguous name for variable "$$1" and variable "$$2"
+
+6001 user
+6001 Nothing to replace!
+
+6002 user
+6002 Search and replace string are the same.
+
+6003 user
+6003 Nothing to find!
+
+6004 user
+6004 Word not found! 
+
+6005 user
+6005 End searching 
+
+6006 user
+6006 Reached beginning, continue down?
+
+6007 user
+6007 Reached end, continue up?
+
+6008 user
+6008 Copy error
+
+7001 user
+7001 This mode of editing is recommended only for expert users.
+7001 Be careful before you make any changes to the syntax of the commands.
+
+8001 user
+8001 The lines you commented include expression assign
+8001 Do you really want to do it?
+
+8002 user
+8002 Undefined symbols for:
+8002 $$1!
+
+end_error_file
+

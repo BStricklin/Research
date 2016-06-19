@@ -1,0 +1,207 @@
+# %W%   %Q%
+# Copyright 1984-1993 Ansoft Corp.
+
+
+begin_error_file
+
+1001    fatal
+1001    Solver setup failed.
+1001    Incorrect usage (wrong/missing arguments).
+
+1004    fatal
+1004    Solver setup failed in writing .trn file.
+1004    Possible causes are:
+1004      - Disk space full or disk quota exceeded.
+1004      - File is locked by other application.
+1004      - Can not open file for writing.
+
+1005    fatal
+1005    Solver setup failed.
+1005    Error in reading in geometry data.
+1005    The geometry file is probably corrupted.
+
+1006    fatal
+1006    Solver setup failed.
+1006    Geometry data could not be read fully.
+1006    The geometry file is probably corrupted.
+
+1007    fatal
+1007    Solver setup failed.
+1007    Failed to add background object.
+1007    Please check the geometry definition.
+
+1008    fatal
+1008    Solver setup failed.
+1008    Error in the model, no background object.
+1008    Please check the geometry definition.
+
+1011    fatal
+1011    Solver setup failed.
+1011    Error in reading in material data.
+1011    The assignment and/or the material
+1011    file is probably corrupted.
+
+1012    fatal
+1012    Solver setup failed.
+1012    Reference to non-existent material.
+1012    The material database is probably corrupted.
+
+1013    fatal
+1013    Solver setup failed.
+1013    Error in reading attribute file.
+1013    The solver attribute file is probably corrupted.
+
+1014    fatal
+1014    Solver setup failed.
+1014    Error in material function query.
+1014    The function table is probably corrupted.
+
+1015    fatal
+1015    Solver setup failed.
+1015    Could not find material assignment for
+1015    the given object. Either the attribute file or
+1015    the assignment file is corrupted.
+
+1016    fatal
+1016    Solver setup failed.
+1016    Error in material vector function transformation.
+1016    The function table is probably corrupted.
+
+1021    fatal
+1021    Solver setup failed.
+1021    Error in reading in boundary data.
+1021    The boundary file is probably corrupted.
+
+1022    fatal
+1022    Solver setup failed.
+1022    Error in creating boundary objects data.
+1022    The boundary data is probably corrupted.
+
+1023    fatal
+1023    Solver setup failed.
+1023    Error in boundary/source function query.
+1023    The function table is probably corrupted.
+
+1024    fatal
+1024    Solver setup failed.
+1024    Boundary or source type is "unknown".
+1024    The boundary/source data is probably corrupted.
+
+1025    fatal
+1025    Solver setup failed.
+1025    Error in setting up matching boundary.
+1025    The boundary data is probably corrupted.
+
+1026    fatal
+1026    Solver setup failed.
+1026    Could not find matching boundary point.
+1026    The boundary data is probably corrupted.
+
+1027    fatal
+1027    Solver setup failed.
+1027    Matching boundary can only have 1 line segment
+1027    for current version of solver type.
+
+1028    fatal
+1028    Solver setup failed.
+1028    Error in boundary/source function transformation.
+1028    The function table is probably corrupted.
+
+1029    fatal
+1029    Solver setup failed.
+1029    Voltage source type "sheet" not allowed.
+
+1031    fatal
+1031    Solver setup failed.
+1031    Error in reading in conductor data.
+1031    The conductor file is probably corrupted.
+
+1040    fatal
+1040    Solver setup failed.
+1040    Error in reading data file, the data is either
+1040    the geometry, material, or boundary.
+1040    These files are probably corrupted.
+
+1050    fatal
+1050    Solver setup failed.
+1050    Background is excluded and the problem is not
+1050    well defined. At least one of the following
+1050    conditions has to be specified: value boundary,
+1050    balloon boundary, odd symmetry, sheet source.
+1050    Please check the boundary setup.
+
+1051    fatal
+1051    Solver setup failed.
+1051    Zero-area floating conductor is not supported.
+1051    Please check the geometry, material, and/or 
+1051    boundary setup.
+
+1052    fatal
+1052    Solver setup failed.
+1052    Anisotropy in the presence of nonlinear material,
+1052    or anisotropic nonlinear material is not supported.
+1052    Please check the material assignment.
+
+1053    fatal
+1053    Solver setup failed.
+1053    Functional material property is not
+1053    supported in RZ solvers.
+1053    Please check the material assignment.
+
+1054    fatal
+1054    Solver setup failed.
+1054    The problem is not well defined.
+1054    At least one of the following conditions
+1054    has to be specified: value boundary,
+1054    balloon boundary, odd symmetry, sheet source.
+1054    Please check the boundary setup.
+
+1055    fatal
+1055    Solver setup failed.
+1055    Perfect conducting material is not
+1055    supported in Eddy Axial solver.
+1055    Please check the material assignment.
+
+1056    fatal
+1056    Solver setup failed.
+1056    Failed in writing matching boundary
+1056    information to a file for mesh maker.
+1056    Possible causes are: file open failed,
+1056    out of disk space, corrupted boundary data.
+
+1057    fatal
+1057    Solver setup failed.
+1057    Functional assignment angle is not
+1057    supported in RZ solvers.
+1057    Please check the material assignment.
+
+1061    fatal
+1061    Solver setup failed.
+1061    Could not find property assignment for the
+1061    given object. Either the material database or
+1061    the assignment file is corrupted.
+
+1062    fatal
+1062    Solver setup failed.
+1062    Could not find object for the given object id.
+1062    The mesh (.att) file is probably inconsistent
+1062    with the model (.sm2) file.
+
+1250    fatal
+1250    Solver setup failed.
+1250    Error in writing out transcript.
+
+1253    fatal
+1253    Solver setup failed.
+1253    Error in setting up 2D solver(s).
+
+1254    fatal
+1254    Solver setup failed.
+1254    Error in setting up 3D solver(s).
+
+1255    fatal
+1255    Solver setup failed.
+1255    Product type is not supported.
+1255    Currently supported are: M2DFS (9) and PARAM2D (14).
+
+end_error_file

@@ -1,0 +1,16 @@
+a 99 right
+        c 0
+a 90 left
+        c 0
+a 36 substrate
+        c 1
+a 108 ground
+        c 7
+a 0 background
+        c 12
+e
+y   -150 -105
+   150 105
+u   39370.07874 MILS
+s   6.77333333336043E-005
+end

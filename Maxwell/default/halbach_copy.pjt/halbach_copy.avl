@@ -1,0 +1,94 @@
+B_DATA
+ B_ADAPTV 10
+  B_ADPDAT
+   solver ms2d
+   passnum 1
+   ntrig 31191
+   tot_egy 3.483921e+002
+   tot_err_egy 1.760229e+001
+   max_fld 0.000000e+000 0.000000e+000 0.000000e+000
+   min_fld 0.000000e+000 0.000000e+000 0.000000e+000
+  E_ADPDAT
+  B_ADPDAT
+   solver ms2d
+   passnum 2
+   ntrig 40413
+   tot_egy 3.549422e+002
+   tot_err_egy 2.313367e+000
+   max_fld 0.000000e+000 0.000000e+000 0.000000e+000
+   min_fld 0.000000e+000 0.000000e+000 0.000000e+000
+  E_ADPDAT
+  B_ADPDAT
+   solver ms2d
+   passnum 3
+   ntrig 52407
+   tot_egy 3.550435e+002
+   tot_err_egy 1.254163e+000
+   max_fld 0.000000e+000 0.000000e+000 0.000000e+000
+   min_fld 0.000000e+000 0.000000e+000 0.000000e+000
+  E_ADPDAT
+  B_ADPDAT
+   solver ms2d
+   passnum 4
+   ntrig 68022
+   tot_egy 3.550555e+002
+   tot_err_egy 8.155811e-001
+   max_fld 0.000000e+000 0.000000e+000 0.000000e+000
+   min_fld 0.000000e+000 0.000000e+000 0.000000e+000
+  E_ADPDAT
+  B_ADPDAT
+   solver ms2d
+   passnum 5
+   ntrig 88344
+   tot_egy 3.550637e+002
+   tot_err_egy 7.163560e-001
+   max_fld 0.000000e+000 0.000000e+000 0.000000e+000
+   min_fld 0.000000e+000 0.000000e+000 0.000000e+000
+  E_ADPDAT
+  B_ADPDAT
+   solver ms2d
+   passnum 6
+   ntrig 114740
+   tot_egy 3.550647e+002
+   tot_err_egy 5.683630e-001
+   max_fld 0.000000e+000 0.000000e+000 0.000000e+000
+   min_fld 0.000000e+000 0.000000e+000 0.000000e+000
+  E_ADPDAT
+  B_ADPDAT
+   solver ms2d
+   passnum 7
+   ntrig 149046
+   tot_egy 3.550665e+002
+   tot_err_egy 4.661091e-001
+   max_fld 0.000000e+000 0.000000e+000 0.000000e+000
+   min_fld 0.000000e+000 0.000000e+000 0.000000e+000
+  E_ADPDAT
+  B_ADPDAT
+   solver ms2d
+   passnum 8
+   ntrig 193624
+   tot_egy 3.550677e+002
+   tot_err_egy 3.952833e-001
+   max_fld 0.000000e+000 0.000000e+000 0.000000e+000
+   min_fld 0.000000e+000 0.000000e+000 0.000000e+000
+  E_ADPDAT
+  B_ADPDAT
+   solver ms2d
+   passnum 9
+   ntrig 251547
+   tot_egy 3.550686e+002
+   tot_err_egy 3.172500e-001
+   max_fld 0.000000e+000 0.000000e+000 0.000000e+000
+   min_fld 0.000000e+000 0.000000e+000 0.000000e+000
+  E_ADPDAT
+  B_ADPDAT
+   solver ms2d
+   passnum 10
+   ntrig 326809
+   tot_egy 3.550686e+002
+   tot_err_egy 2.598317e-001
+   max_fld 0.000000e+000 0.000000e+000 0.000000e+000
+   min_fld 0.000000e+000 0.000000e+000 0.000000e+000
+  E_ADPDAT
+ E_ADAPTV
+E_DATA

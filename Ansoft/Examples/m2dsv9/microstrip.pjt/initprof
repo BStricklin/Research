@@ -1,0 +1,11 @@
+                 Maxwell SV Version 9.0.06SV beginning
+               microstrip on ABBY at 10/18/2002 10:53:35
+-----------------------------------------------------------------------
+|               |   Real   |   Cpu    |  Memory  |                    |
+|    Command    |   Time   |   Time   |   in K   | Number of Elements |
+|---------------------------------------------------------------------|
+|                            Initial Mesh                             |
+|---------------------------------------------------------------------|
+| mesh_init     | 00:00:00 | 00:00:00 |  167804K |      38 triangles  |
+Finished microstrip on ABBY in 00:00:00 at 10/18/2002 10:53:35
+

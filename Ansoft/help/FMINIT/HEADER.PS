@@ -1,0 +1,39 @@
+% Copyright (c) 1986-1995 Frame Technology Corporation.
+/FMcmyk 100 dict def
+/FmBD{bind def}bind def
+/FmLD{load def}FmBD
+/FMc {
+ FMcmyk length FMcmyk maxlength ge { /FMcmyk FMcmyk dup length dup add dict copy def } if
+ 4 array astore 4 1 roll 8 bitshift add 8 bitshift add exch FMcmyk 3 1 roll put
+}FmBD
+/setcmykcolor where { pop
+ /sc where { pop /sc load 0 get /scignore eq {
+  /FMsc /sc FmLD
+  /sc { 3 copy 8 bitshift add 8 bitshift add FMcmyk 1 index known
+   { FMcmyk exch get aload pop setcmykcolor pop pop pop } { pop FMsc } ifelse
+  }FmBD
+ } if } if
+} if
+mark { /S load
+ dup 0 get /PenW eq { dup 1 get /sl load eq {
+  dup 0 { PenW .75 sub sl } bind put 1 /exec load put
+ } if } if
+} stopped cleartomark       
+/FmX matrix defaultmatrix def
+/FmDC {transform FmX itransform cvi exch cvi exch} def
+/FmBx { dup 3 index lt {3 1 roll exch} if 
+ 1 index 4 index lt {4 -1 roll 3 1 roll exch 4 1 roll} if
+}FmBD
+/FmPD/cleartomark FmLD
+/FmPD2/cleartomark FmLD
+/FmPT/pop FmLD
+/FmPA{pop pop pop}FmBD
+systemdict /pdfmark known {
+ /FmPD/pdfmark FmLD
+ currentdistillerparams /CoreDistVersion get 2000 ge {
+  /FmPD2/pdfmark FmLD
+  /FmPA { mark exch /Dest exch 5 3 roll 
+	/View [ /XYZ null 6 -2 roll FmDC exch pop null] /DEST FmPD 
+  }FmBD
+ } if
+} if

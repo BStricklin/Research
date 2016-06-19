@@ -1,0 +1,91 @@
+B_HEADER
+ FileSign MTRL FormVers 1.000 CreaSign MATS CreaVers 3.000
+ FileMark DBRootFile
+E_HEADER
+
+B_DATA 
+ B_DBASE halbach 1 BlockSep B_MATTAB GlbIndex 79 
+  B_SYMTAB 
+   PHI = 0
+   R = 0
+   X = 0
+   Y = 0
+  E_SYMTAB 
+  B_MATTAB halbach 1 BlockSep B_MATERL ParentDB halbach 
+   B_MATERL air 2 Locked CndClass 1 
+    DeriveFr air 2 External 
+    B_PROP Permittivity Latent Constant 1.0006 
+    E_PROP 
+    B_PROP Permeability Latent Constant 1.0000004 
+    E_PROP 
+    B_PROP ThermalConducty Latent Constant 0.026 
+    E_PROP 
+    B_PROP ImgPermeability Constant 0 
+    E_PROP 
+    B_PROP MagLossTan Constant 0 
+    E_PROP 
+    B_PROP MagCoercivity Constant 0 
+    E_PROP 
+    B_PROP MagRetentivity Constant 0 
+    E_PROP 
+    B_PROP PermMagnetizatn Constant 0 
+    E_PROP 
+   E_MATERL 
+   B_MATERL copper 4 Locked CndClass 64 
+    DeriveFr copper 4 External 
+    B_PROP Permeability Latent Constant 0.999991 
+    E_PROP 
+    B_PROP Conductivity Latent Constant 58000000 
+    E_PROP 
+    B_PROP ThermalConducty Latent Constant 400 
+    E_PROP 
+    B_PROP ImgPermeability Constant 0 
+    E_PROP 
+    B_PROP MagLossTan Constant 0 
+    E_PROP 
+    B_PROP MagCoercivity Constant 0 
+    E_PROP 
+    B_PROP MagRetentivity Constant 0 
+    E_PROP 
+    B_PROP PermMagnetizatn Constant 0 
+    E_PROP 
+   E_MATERL 
+   B_MATERL NdFe35 53 Locked CndClass 64 
+    DeriveFr NdFe35 53 External 
+    B_PROP Permeability Latent Constant 1.0997785406 
+    E_PROP 
+    B_PROP Conductivity Latent Constant 625000 
+    E_PROP 
+    B_PROP MagCoercivity Latent Constant -890000 
+    E_PROP 
+    B_PROP MagRetentivity Latent Constant 1.2300000000005 
+    E_PROP 
+    B_PROP PermMagnetizatn Latent Constant 978802.901134 
+    E_PROP 
+    B_PROP ImgPermeability Constant 0 
+    E_PROP 
+    B_PROP MagLossTan Constant 0 
+    E_PROP 
+   E_MATERL 
+   B_MATERL polyethylene 63 Locked CndClass 1 
+    DeriveFr polyethylene 65 External 
+    B_PROP Permittivity Latent Constant 2.25 
+    E_PROP 
+    B_PROP ThermalConducty Latent Constant 0.2 
+    E_PROP 
+    B_PROP Permeability Constant 1 
+    E_PROP 
+    B_PROP ImgPermeability Constant 0 
+    E_PROP 
+    B_PROP MagLossTan Constant 0 
+    E_PROP 
+    B_PROP MagCoercivity Constant 0 
+    E_PROP 
+    B_PROP MagRetentivity Constant 0 
+    E_PROP 
+    B_PROP PermMagnetizatn Constant 0 
+    E_PROP 
+   E_MATERL 
+  E_MATTAB 
+ E_DBASE 
+E_DATA 

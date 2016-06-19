@@ -1,0 +1,78 @@
+begin_error_file
+
+1256 user
+1256 Fail in initializing application :
+1256 Error reading $$1.
+
+1257 user
+1257 Fail in Mapping $$1 version $$2 for package
+1257 '$$3'.
+
+1258 user
+1258 '$$1' is not in valid date format.
+1258 Please enter date as dd/mm/yyyy.
+
+1259 user
+1259 Cannot generate license that expires in the past: '$$1'.
+
+1260 user
+1260 {' $$1 ' } are invalid hostid.
+
+1261 user
+1261 Fail is opening '$$1' for write.
+
+1262 user
+1262 Fail in reading '$$1'. 
+
+1263 user
+1263 Must specify at least one node to tie to for Node Lock license.
+
+1264 user
+1264 Are you sure you want to remove the selected license/s?
+
+1265 user
+1265 Error in loading '$$1'. 
+1265 Do you want to continue?
+
+1266 user
+1266 Invalid path '$$1'.
+1266 Please specify the path to the flg file.
+
+1267 user
+1267 Expiration date '$$1' passes the limit for evaluation
+1267 license ($$2).
+
+1268 user
+1268 Fail in loading feature: $$1(protected license).
+
+1269 user
+1269 File '$$1' already exists. Overwrite?
+
+1270 user
+1270 Error occured during encription of license file.
+1270 Please check file '$$1' 
+1270 for more information.
+
+1271 user
+1271 Dir '$$1' doesn't exist.
+
+1272 user
+1272 Duplicate feature found: '$$1'.
+
+1273 user
+1273 At least one view must be selected.
+
+1274 user
+1274 Are you sure you want to remove the selected log/s?
+
+1275 user
+1275 Invalid col width setup: Value must be greater than $$1.
+
+1276 user
+1276 Invalid refresh interval : The minimum refresh interval is 5 seconds.
+
+1277 user
+1277 '$$1' is not in valid FLEXLM date format.
+1277 Please enter date as dd/mmm/yyyy.
+
+end_error_file

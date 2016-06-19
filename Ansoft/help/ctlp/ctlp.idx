@@ -1,0 +1,681 @@
+868629: contents: Contents
+997455: cpintro: Control Panel
+410943: cpintro: Accessing the Control Panel
+861013: cpintro: Available Commands
+924901: cpintro: Exiting the Control Panel
+855682: cpuronhp: Using the Help System
+854739: cpuronhp: The Topics List
+854746: cpuronhp: The Button Commands
+854748: cpuronhp: Links in the Text
+854750: cpuronhp: Document Title
+855092: cpuronhp: Active Regions on Graphics
+855070: cpuronhp: Selecting Text and Graphics
+854752: cpuronhp: The Menu Bar
+996761: cpuronhp: Help Window Functions
+996784: cpuronhp: Page Number
+996791: cpuronhp: Screen Size (Percentage)
+996795: cpuronhp: Screen Size (Step)
+996796: cpuronhp: Page Scroll
+996797: cpuronhp: Scroll Bar
+555868: cpurdisp: Displaying the Maxwell Control Panel
+290265: cpurdisp: Displaying the Control and Utilities Panels on a Workstation
+290275: cpurdisp: Displaying the Control and Utilities Panels on a PC
+290289: cpurdisp: Options
+342468: cpurinte: The User Interface
+343494: cpurinte: Motif and Maxwell Software
+344839: cpurinte: Window Managers on UNIX Workstations
+342508: cpurinte: Microsoft Windows and Windows NT
+342528: cpurinte: Microsoft Windows and Maxwell Software
+342536: cpurinte: Using the Mouse
+342554: cpurinte: Clicking and Dragging with the Mouse
+342567: cpurinte: Mouse Help Messages
+342573: cpurinte: Windows
+342628: cpurinte: Title Bar
+342637: cpurinte: Maximize Button
+343843: cpurinte: Minimize Button
+342655: cpurinte: Window Menu
+344100: cpurinte: Borders
+344637: cpurinte: Moving and Resizing Windows
+344640: cpurinte: Moving Windows
+344647: cpurinte: Resizing Windows
+342780: cpurinte: Message Bar
+347235: cpurinte: List Boxes
+347255: cpurinte: Scroll Bars
+344610: cpurinte: Menu Bar
+342825: cpurinte: Menus
+342843: cpurinte: Cascading Menus
+342859: cpurinte: Pop-up Windows
+342881: cpurinte: Accessing Menu Commands
+342892: cpurinte: Executing Commands with the Mouse
+342910: cpurinte: Executing Commands with the Tool Bar
+342975: cpurinte: Executing Commands with the Keyboard
+342977: cpurinte: Keyboard Shortcuts
+342998: cpurinte: Hotkeys
+343041: cpurinte: Using the Arrow Keys
+343053: cpurinte: Buttons
+343056: cpurinte: Buttons with Menus
+343065: cpurinte: Default Buttons
+343068: cpurinte: On/Off Buttons
+343073: cpurinte: Selecting Buttons with the Keyboard
+343087: cpurinte: Text and Numbers
+343106: cpurinte: Default Text and Numbers
+343127: cpurinte: Fields Highlighted by Default
+343172: cpurinte: User Messages
+343180: cpurinte: Error Messages
+343198: cpurinte: Information Messages
+343218: cpurinte: Query/Warning Messages
+343240: cpurinte: Things to Consider
+343243: cpurinte: Mouse Settings
+343245: cpurinte: Changing Mouse Settings on the Workstation
+343256: cpurinte: Changing Mouse Settings on the PC
+343261: cpurinte: Commands that Operate on the Active Window
+344583: cpurinte: Commands that Operate on a Selected Item
+924929: cpurasft: Ansoft Information
+997946: cpurasft: Configure Software
+998045: cpurasft: Maxwell Resource File Editor
+998278: cpurpjct: Projects
+925225: cpurpjct: General Procedure for Running Maxwell Software Packages
+925259: cpurpjct: Projects Commands
+925264: cpurpjct: Selecting a Project
+925276: cpurpjct: New
+925424: cpurpjct: Rename
+925497: cpurpjct: Compress
+925563: cpurpjct: Delete
+1000246: cpurpjct: Delete Project
+925602: cpurpjct: Copy
+925719: cpurpjct: Move
+998715: cpurpjct: Reclassify
+1000039: cpurpjct: Search
+925498: cpurpjc2: Project Commands and Fields
+925552: cpurpjc2: Notes
+925560: cpurpjc2: Model
+925582: cpurpjc2: Open
+925596: cpurpjc2: Schedule
+997038: cpurpjc2: Size
+997049: cpurpjc2: Save Notes
+925621: cpurpjc2: Recover
+925497: cpurpjc3: Project Directories Commands
+925503: cpurpjc3: Selecting a Project Directory
+925511: cpurpjc3: Add
+925560: cpurpjc3: Edit
+998780: cpurpjc3: Edit Project Directory
+998725: cpurpjc3: Delete
+998910: cpurpjc3: Delete Directory
+925588: cpurpjc3: Change Dir
+536598: cpurpjc3: Changing Project Directories
+536579: cpurpjc3: Changing Subdirectories
+926179: cpurpjc4: Project Directories
+926263: cpurpjc4: Directory Structures for Maxwell Software Packages
+926273: cpurpjc4: Single Layer Directory Structures
+994786: cpurpjc4: Multi-Layer Directory Structures
+926289: cpurpjc4: Reclassifying Projects
+495455: cpurtrns: Translators
+997939: cpurtrns: Translators Commands
+497079: cpurtrns: Translation Manager
+495522: cpurtrns: Available Translators
+495523: cpurtrns: Translators for Maxwell 2D and Maxwell 3D Software
+495631: cpurtrns: Translators for Berkeley SPICE
+1001567: cpurtrns: Translators for Maxwell Ensemble
+495704: cpurtrns: General Procedure for Translating a File
+495748: cpurtrns: Translating PC AutoCAD Files on Sun Workstations
+495760: cpurtrns: Translation Manager Fields
+495761: cpurtrns: Source and Destination
+495764: cpurtrns: Source File(s)
+495771: cpurtrns: Destination Directory or File
+495778: cpurtrns: File Folder Icon
+495800: cpurtrns: Help
+495809: cpurtrns: Options
+495952: cpurtrns: Exiting the Translation Manager
+495958: cpurtrns: Translator Properties
+495998: cpurtrns: Translating AutoCAD .dxf Files to Maxwell 2D Software
+496004: cpurtrns: Geometric Objects
+1001871: cpurtrns: Hints for Translating .dxf to .sm2 Files
+496015: cpurtrns: Curved Objects
+496024: cpurtrns: Open Lines and Self-Intersecting Objects
+496032: cpurtrns: Crossed Lines and Open Vertices
+496039: cpurtrns: Layers
+496046: cpurtrns: Hidden Objects and Construction Lines
+496050: cpurtrns: Cross-Hatching and Frames
+496054: cpurtrns: Point Objects
+496056: cpurtrns: Printing and Paper Space
+496058: cpurtrns: Units of Measurement
+496074: cpurtrns: Translating Maxwell 2D v. 4.x Files to 2D Modeler Files
+496086: cpurtrns: Inverted Geometric Model
+496095: cpurtrns: Object Colors
+496110: cpurtrns: Translating 2D Modeler Files to Maxwell 2D Field Simulator v. 4 Files
+496113: cpurtrns: Open and Closed Geometric Objects
+496117: cpurtrns: Inverted Geometric Model
+496120: cpurtrns: Curved Geometric Objects
+496125: cpurtrns: Background Object
+496129: cpurtrns: Object Colors
+496144: cpurtrns: Translating Maxwell 2D Files to Solid Modeler Files
+496152: cpurtrns: Open and Closed Geometric Objects
+496157: cpurtrns: Curved Edges
+998743: cpurtrns: Translating Maxwell .sm2 Files to .dxf Files
+998751: cpurtrns: Open and Closed Geometric Objects
+998754: cpurtrns: Curved Edges
+1001027: cpurtrns: Translating Sonnet .geo Files to Maxwell Strata .sm2 Files
+1001048: cpurtrns: Open and Closed Geometric Objects
+1001094: cpurtrns: Ports in Translation
+1001108: cpurtrns: Translation Failure
+497037: cpurtrns: Translating Berkeley SPICE 3E2 Files to ContecSPICE, HSPICE, or PSpice
+1001555: cpurtrns: Translating Previous Versions of Ensemble to Ensemble 6.0
+666705: cpurprnt: Print Manager
+669006: cpurprnt: Screen Colors and Screen Captures
+668995: cpurprnt: Black and White Printers
+747201: cpurprnt: Printing on the Workstation
+746217: cpurprnt: Print Manager Commands
+666774: cpurprnt: General Procedure for Printing a Screen Capture
+666827: cpurprnt: Saving a Screen Capture to a File
+747327: cpurprnt: Cancel Printing
+666886: cpurprnt: Print Manager Fields
+666892: cpurprnt: Output Type
+666931: cpurprnt: Fewer Options and More Options
+666979: cpurprnt: Destination(s)
+666987: cpurprnt: File
+666995: cpurprnt: Printer
+667000: cpurprnt: Print Command
+667012: cpurprnt: Page Layout
+667044: cpurprnt: Hardcopy Size
+667064: cpurprnt: No. of Copies
+667071: cpurprnt: Line Thickness
+667076: cpurprnt: Font
+667104: cpurprnt: Image Options
+667113: cpurprnt: Invert Black/White
+667127: cpurprnt: Transparent Background
+667146: cpurprnt: Transparency Mode
+667150: cpurprnt: Draw Image Border
+667156: cpurprnt: Color Mapping
+667161: cpurprnt: Use Color
+667167: cpurprnt: Shade Text
+667175: cpurprnt: Shade Colors
+667190: cpurprnt: Halftone
+667197: cpurprnt: Dither
+667221: cpurprnt: Threshold
+667230: cpurprnt: Default
+667236: cpurprnt: Load Printer Setup
+667287: cpurprnt: Save Printer Setup
+667325: cpurprnt: Exit
+667342: cpurprn2: Printing on the PC
+667355: cpurprn2: Printing from the Maxwell Control Panel
+667377: cpurprn2: Print Screen Commands
+667393: cpurprn2: General Procedure
+667394: cpurprn2: Setting Up Screen Captures
+667427: cpurprn2: Printing Screen Captures
+667435: cpurprn2: File
+999075: cpurprn2: File/Open
+999028: cpurprn2: File/Save As
+667498: cpurprn2: File/Print Setup
+997249: cpurprn2: File/Print
+667641: cpurprn2: Cancelling a Print Job
+667649: cpurprn2: File/Exit
+667659: cpurprn2: Edit
+997807: cpurprn2: Grab screen
+668023: cpurprn2: Printing from the Control Menu
+668064: cpurprn2: Cancelling a Print Job
+668071: cpurprn2: Selecting a Region
+668074: cpurprn2: Entire Window
+668087: cpurprn2: Subwindow
+668100: cpurprn2: Rectangle
+925705: cpursche: Process Manager
+998520: cpursche: Process Manager Commands
+997163: cpursche: File Commands
+997397: cpursche: File/Import Hosts
+997399: cpursche: File/Save Configuration
+997400: cpursche: File/Exit
+997164: cpursche: Jobs Commands
+998767: cpursche: Jobs/Submit
+997402: cpursche: Jobs/Modify
+997403: cpursche: Jobs/Remove
+997165: cpursche: Configure Commands
+997405: cpursche: Configure/Add Host
+1000667: cpursche: Configure/Modify Host
+997407: cpursche: Configure/Remove Host
+997166: cpursche: Preferences Commands
+997408: cpursche: Preferences/Default Host
+997409: cpursche: Preferences/Default Path
+997578: cpursche: Preferences/Calendar
+997433: cpursche: Preferences/Timeout
+1000312: cpursche: Preferences/Save Preferences
+997610: cpursche: Specifying the Current Host
+610409: cpurutil: The Utilities Panel
+610480: cpurutil: Utilities Panel Commands
+342447: cpurcolr: The Color Manager
+343139: cpurcolr: Color Manager Overview
+342502: cpurcolr: System Colors
+342562: cpurcolr: User Colors
+343148: cpurcolr: Color Manager Commands
+342594: cpurcolr: Modifying Colors
+342611: cpurcolr: Default
+343509: cpurcolr: Load Color Map
+342619: cpurcolr: Save
+342695: cpurcolr: Exit
+342705: cpurcolr: Color Settings
+342713: cpurcolr: Setting Colors Through Your .Xdefaults File (Workstation)
+342742: cpurcolr: .Xdefaults File Color Settings
+342744: cpurcolr: Maxwell*activeBackground
+342746: cpurcolr: Maxwell*activeForeground
+342748: cpurcolr: Maxwell*borderBackground
+342750: cpurcolr: Maxwell*controlForeground
+342752: cpurcolr: Maxwell*controlBackground
+342754: cpurcolr: Maxwell*controlForeground
+342756: cpurcolr: Maxwell*drawingBackground
+342758: cpurcolr: Maxwell*drawingForeground
+342760: cpurcolr: Maxwell*privateColors
+703545: cpurcolr: System Colors on the PC
+574866: cpurmodo: 2D Modeler
+343766: cpurmodo: 2D Modeler Commands
+342491: cpurmodo: 2D Modeler Tool Bar
+343529: cpurmodo: Screen Layout
+342553: cpurmodo: Menu Bar
+342558: cpurmodo: Drawing Region
+573422: cpurmodo: Project Windows
+342574: cpurmodo: Subwindows
+342591: cpurmodo: Subwindow Coordinate Systems
+342598: cpurmodo: Subwindows Versus Project Windows
+342601: cpurmodo: Active Windows
+342609: cpurmodo: Status Bar
+342633: cpurmodo: Message Bar
+342708: cpurmodo: Differences Between 2D Modelers
+342712: cpurmodo: Drawing Plane
+342725: cpurmodo: Constraints
+342727: cpurmodo: General Procedure
+342819: cpurmodo: Selecting Points With the Keyboard
+342834: cpurmodo: Object Names and Colors
+342868: cpurmodo: Viewing a Model
+342874: cpurmodo: Zooming and Panning in Subwindows
+342885: cpurmodo: Displaying Objects as Wire Frames or Shaded Solids
+342888: cpurmodo: Reading, Writing, and Saving Objects
+342913: cpurmodo: Things to Consider
+574261: cpurmodo: Cartesian and Axisymmetric Models
+343026: cpurmodo: Keep it Simple
+343031: cpurmodo: Level of Detail
+343036: cpurmodo: Background Object
+343049: cpurmodo: Sizing the Drawing Region
+343053: cpurmodo: Objects within Objects
+343740: cpurmodo: Consider Boundaries
+343059: cpurmodo: Partial Overlapping Not Allowed
+343082: cpurfile: File Menu
+342490: cpurfile: File Commands
+342563: cpurfile: File Extensions
+343250: cpurfile: File/New
+342596: cpurfile: File/Open
+342654: cpurfile: Read Only Mode
+342659: cpurfile: Opening Maxwell 2D Field Simulator Files version 4.33 (or earlier)
+343336: cpurfile: File/Import
+342706: cpurfile: File/Close
+343394: cpurfile: File/Save
+343415: cpurfile: File/Save As
+342814: cpurfile: File/Revert
+557301: cpurfile: File/Print
+559243: cpurfile: File/Print/Rectangle
+559256: cpurfile: File/Print/Active View
+559269: cpurfile: File/Print/Project
+557363: cpurfile: Print Setup Within the Windows
+557382: cpurfile: File/Print Setup
+342824: cpurfile: File/Exit
+1002821: cpuredit: Edit Menu
+1006132: cpuredit: Edit Commands
+1006137: cpuredit: Edit/Undo Clear
+342712: cpuredit: Edit/Cut
+342727: cpuredit: Edit/Copy
+342743: cpuredit: Edit/Paste
+342770: cpuredit: Edit/Clear
+342780: cpuredit: Edit/Duplicate
+342808: cpuredit: Edit/Duplicate/Along Line
+342833: cpuredit: Edit/Duplicate/Along Arc
+342870: cpuredit: Edit/Duplicate/Mirror Duplicate
+342904: cpuredit: Edit/Select
+343007: cpuredit: Edit/Select/By Area
+343026: cpuredit: Edit/Select/By Name
+1008366: cpuredit: Edit/Select/From List
+343037: cpuredit: Edit/Select/All Items
+343044: cpuredit: Edit/Select/Open Objects
+343051: cpuredit: Edit/Select/Closed Objects
+343058: cpuredit: Edit/Select/Model Objects
+343067: cpuredit: Edit/Select/NonModel Objects
+343078: cpuredit: Edit/Deselect All
+1004055: cpuredit: Edit/Deselect All/Current Project
+1004068: cpuredit: Edit/Deselect All/All Projects
+343089: cpuredit: Edit/Attributes
+343108: cpuredit: Edit/Attributes/By Clicking
+344132: cpuredit: Object Attributes
+343154: cpuredit: Color
+343165: cpuredit: Name
+343187: cpuredit: Show Hatches
+343213: cpuredit: Model Object
+1002840: cpuredit: Show Orientation
+1002851: cpuredit: Text Attributes
+1003324: cpuredit: Text
+343243: cpuredit: Color
+343255: cpuredit: Alignment
+1005553: cpuredit: Slant
+343754: cpuredit: Edit/Attributes/Recolor
+343301: cpuredit: Edit/Attributes/Rename
+343338: cpuredit: Edit/Visibility
+343349: cpuredit: Edit/Visibility/Hide Selection
+343357: cpuredit: Edit/Visibility/By Item
+343381: cpuredit: Edit/Show All
+342472: cpurrshp: Reshape Menu
+342496: cpurrshp: Reshape Commands
+342576: cpurrshp: Reshape/Scale Selection
+342609: cpurrshp: Reshape/Vertex
+342642: cpurrshp: Reshape/Vertex/Move
+343032: cpurrshp: Reshape/Vertex/Align
+342741: cpurrshp: Reshape/Vertex/Insert
+342782: cpurrshp: Reshape/Edge
+342802: cpurrshp: Reshape/Edge/Number of Segments
+342835: cpurrshp: Reshape/Edge/Delete
+342850: cpurrshp: Object Stitching
+430139: cpurbool: Boolean Menu
+429509: cpurbool: Boolean Commands
+555952: cpurbool: Boolean/Union
+555166: cpurbool: Boolean/Subtract
+555205: cpurbool: Boolean/Intersect
+555164: cpurbool: Boolean/Simplify
+342473: cpurarng: Arrange Menu
+342487: cpurarng: Arrange Commands
+342522: cpurarng: Arrange/Move
+342773: cpurarng: Using the Mouse
+342785: cpurarng: Using the Keyboard
+342848: cpurarng: By Entering Offsets
+342571: cpurarng: Arrange/Rotate
+342587: cpurarng: Arrange/Mirror
+342473: cpurobjt: Object Menu
+429509: cpurobjt: Object Commands
+342583: cpurobjt: Objects
+343130: cpurobjt: Open Objects
+342617: cpurobjt: Closed Objects
+342619: cpurobjt: Simple Closed Objects
+555850: cpurobjt: Complex Closed Objects
+556088: cpurobjt: Entering Points from the Keyboard
+342653: cpurobjt: Selecting Points in Several Subwindows
+342673: cpurobjt: Overlapping Objects
+342693: cpurobjt: Self-Intersecting Objects
+342704: cpurobjt: Modeling Thin Objects
+342707: cpurobjt: Importing Complex Objects
+342735: cpurobjt: Object/Polyline
+342753: cpurobjt: Object/Arc
+342805: cpurobjt: Object/Spline
+342828: cpurobjt: Object/Text
+342868: cpurobjt: Scaling Text
+342878: cpurobjt: Generating Screen Captures
+342887: cpurobjt: Object/Rectangle
+342925: cpurobjt: Object/Circle
+342941: cpurobjt: Point
+342981: cpurobjt: Object/Circle/3 Point
+558020: cpurobjt: Object/Spiral
+558037: cpurobjt: Object/Spiral/Rectangular
+558079: cpurobjt: Square Corners
+558084: cpurobjt: Rounded Corners
+558159: cpurobjt: Mitered Corners
+558198: cpurobjt: Object/Spiral/Circular
+290263: cpurcnst: Constraint Menu
+290289: cpurcnst: Constraint Commands
+290378: cpurcnst: Constraints
+290399: cpurcnst: Constraints and Parametric Sweeps
+290406: cpurcnst: Direction of Constraints
+290408: cpurcnst: Over-Constraining a Model
+290458: cpurcnst: Deleting Objects and Edges
+290464: cpurcnst: Moving Objects and Edges
+290503: cpurcnst: Constraint/Add
+290536: cpurcnst: Constraint/Add/Point-To-Point Distance
+557706: cpurcnst: Effect of Point-to-Point Constraints on Object Dimensions
+290589: cpurcnst: Constraints Between Arbitrary Object Points
+290594: cpurcnst: Constraint/Add/Line-To-Line Angle
+290606: cpurcnst: Constraint/Add/Arc Radius
+290616: cpurcnst: Constraint/Add/Rotation
+559530: cpurcnst: Constraint/Add/Lock X Coordinate
+559541: cpurcnst: Constraint/Add/Lock Y Coordinate
+290629: cpurcnst: Constraint/Modify
+290640: cpurcnst: Constraint/Modify/By Clicking
+290650: cpurcnst: Constraint/Modify/Edit Variables
+290676: cpurcnst: Defining Functional Constraints
+290698: cpurcnst: Constraint/Delete
+290713: cpurcnst: Constraint/Delete/By Clicking
+290720: cpurcnst: Constraint/Delete/By Name
+290727: cpurcnst: Constraint/Delete/All
+290734: cpurcnst: Constraint/Enforce
+290737: cpurcnst: Errors in Enforcing Constraints
+290743: cpurcnst: Exiting With Unenforced Constraints
+689555: cpurmodl: Model Menu
+343107: cpurmodl: Model Commands
+690492: cpurmodl: Model/Measure
+343217: cpurmodl: Measurements
+343249: cpurmodl: Model/Drawing Units
+343272: cpurmodl: Model/Drawing Size
+689997: cpurmodl: Things to Consider
+689999: cpurmodl: Scroll Bars
+690002: cpurmodl: Adjusting the View
+343379: cpurmodl: Model/Drawing Plane
+343471: cpurmodl: Model/SnapTo Mode
+344143: cpurmodl: Snaps
+343506: cpurmodl: Keyboard Entry
+343523: cpurmodl: s
+343544: cpurmodl: Model/Defaults/Color
+343553: cpurmodl: Model/Defaults/Text Size
+343578: cpurmodl: Model/Defaults/Window Settings
+342472: cpurwind: Window Menu
+342492: cpurwind: Window Commands
+342666: cpurwind: Windows
+342667: cpurwind: Selecting the Active Project Window
+342677: cpurwind: Moving and Resizing Windows Using the Mouse
+342682: cpurwind: Entering Points With the Keyboard
+342696: cpurwind: Window/New
+342726: cpurwind: Window/Close
+342734: cpurwind: Window/Tile
+342757: cpurwind: Window/Tile/Subwindows
+342777: cpurwind: Window/Tile/Projects
+342797: cpurwind: Window/Tile/All
+342806: cpurwind: Window/Cascade
+342822: cpurwind: Window/Cascade/Subwindows
+342842: cpurwind: Window/Cascade/Projects
+342861: cpurwind: Window/Cascade/All
+342873: cpurwind: Window/Change View
+342899: cpurwind: Window/Change View/Zoom In
+342917: cpurwind: Window/Change View/Zoom Out
+342936: cpurwind: Window/Change View/Fit All
+342946: cpurwind: Window/Change View/Fit Selection
+342955: cpurwind: Window/Change View/Fit Drawing
+342965: cpurwind: Window/Coordinate System
+836127: cpurwind: Window/Coordinate System/Shift
+343009: cpurwind: Window/Coordinate System/Rotate
+838228: cpurwind: Window/Coordinate System/Align to Edge
+838225: cpurwind: Window/Coordinate System/Reset
+343059: cpurwind: Things to Consider
+343075: cpurwind: Window/Grid
+343141: cpurwind: Default Grid Settings
+343150: cpurwind: Inappropriate Grid Spacing
+343158: cpurwind: Invisible Grid Points
+343162: cpurwind: Window/Fill Solids
+343189: cpurwind: Window/Wire Frame
+840179: cpurwind: Window/Toolbar
+837570: cpurwind: Project Name
+555270: cpurhelp: Help Menu
+290434: cpurhelp: Help Commands
+295165: cpurhelp: Help/About Help
+555652: cpurhelp: Help/On Context
+294406: cpurhelp: Help/On Module
+555445: cpurhelp: Help/On Control Panel
+556036: cpurhelp: Help/Contents
+294412: cpurhelp: Help/Index
+294413: cpurhelp: Help/Shortcuts
+294886: cpurhelp: Help/Shortcuts/Hotkeys
+294887: cpurhelp: Help/Shortcuts/Tool Bar
+342470: cpurpldt: PlotData
+344037: cpurpldt: PlotData Commands
+342498: cpurpldt: PlotData Tool Bar
+342542: cpurpldt: PlotData Overview
+342557: cpurpldt: PlotData and Other Maxwell Software Products
+342561: cpurpldt: PlotData and the 2D Modeler
+342587: cpurpldt: Creating a Plot Using a Parametric Equation
+342615: cpurpldt: Opening a Plot From a Data File
+342636: cpurpldt: Opening a Plot Created in Maxwell Software
+342670: cpurpld2: PlotData File Menu
+342700: cpurpld2: File/Import Signals
+556370: cpurpld2: File/Print
+561461: cpurpld2: File/Printer Setup
+561470: cpurpld2: File/Exit
+342827: cpurpld3: PlotData View Menu
+557645: cpurpld3: View/Zoom In
+557608: cpurpld3: View/Zoom Out
+557618: cpurpld3: View/Fit All
+557625: cpurpld3: View/Make Square
+557567: cpurpld3: View/Tool Bar
+557646: cpurpld3: View/Command Prompt
+557628: cpurpld3: View/Status Bar
+556208: cpurpld4: PlotData Plot Menu
+556410: cpurpld4: Plot/New
+556285: cpurpld4: Plot/Open
+556314: cpurpld4: Plot/Save
+556428: cpurpld4: Plot/Save As
+556346: cpurpld4: Plot/Close
+556459: cpurpld4: Plot/Edit Plot
+563321: cpurpld4: Edit Plot
+556437: cpurpld4: Plot/Export .sm2
+558609: cpurpld4: Plot/Equation
+558753: cpurpld4: Entering a Parametric Equation
+558689: cpurpld4: Example of a Plotted Equation
+342970: cpurpld4: Plot/Format Axes
+343004: cpurpld4: Plot Axis Settings
+343005: cpurpld4: Heading
+343007: cpurpld4: X Label and Y Label
+343018: cpurpld4: Xmin, Xmax, Ymin, and Ymax
+343038: cpurpld4: Rmin and Rmax
+561621: cpurpld4: Major Ticks and Major Grids
+343081: cpurpld4: Minor Ticks and Minor Grids
+343117: cpurpld4: Show Legends
+343119: cpurpld4: Show Axes
+343127: cpurpld4: Plot/Format Graphs
+343174: cpurpld4: Line Formats
+343177: cpurpld4: Color
+343183: cpurpld4: Show Markers
+343188: cpurpld4: Marker
+343198: cpurpld4: Width
+343207: cpurpld4: Style
+343216: cpurpld4: Show Line
+343412: cpurpld5: PlotData Tools Menu
+556570: cpurpld5: Tools/Calculator
+561243: cpurpld5: Tools/Show Coordinates
+561204: cpurpld5: Signal Calculator
+556684: cpurpld5: Stack Commands
+556706: cpurpld5: Push
+556709: cpurpld5: Pop
+556712: cpurpld5: RlDn
+556715: cpurpld5: RlUp
+556718: cpurpld5: Exch
+556721: cpurpld5: Clear
+561744: cpurpld5: Name/Constant
+561742: cpurpld5: Deg (Degrees)
+556782: cpurpld5: Rad (Radians)
+556787: cpurpld5: Arc
+556791: cpurpld5: Calculator Buttons
+557277: cpurpld5: Numeric Functions
+557238: cpurpld5: Other Functions
+556629: cpurpld5: Signal Equation
+556630: cpurpld5: Load Signals
+557428: cpurpld5: Previewing a Signal
+557397: cpurpld5: Copying a Signal to the Calculator Stack
+557433: cpurpld5: Polynomial Interpolation
+563358: cpurpld5: Deleting a Signal
+556653: cpurpld5: Data Sampling
+556654: cpurpld5: Fast Fourier Transform
+556180: cpurpld6: PlotData Window Menu
+557578: cpurpld6: (PlotData)
+561018: cpurpld6: (PlotData)
+557580: cpurpld6: (PlotData)
+562149: cpurpld6: PlotData Help
+562163: cpurpld6: Using Data Files
+562186: cpurpld6: Accessing PlotData Outside of the Utilities Panel
+562191: cpurpld6: Accessing PlotData from the UNIX Prompt on the Workstation
+562197: cpurpld6: Accessing PlotData from the Command Line on the PC
+562215: cpurpld6: Options
+658009: cpureval: Evaluator
+660693: cpureval: Expression Evaluator Commands
+342490: cpureval: Expression Evaluator Overview
+343362: cpureval: Help
+342531: cpureval: Adding an Expression
+342564: cpureval: Updating an Expression
+342574: cpureval: Deleting an Expression
+342593: cpureval: Defining Expressions
+342596: cpureval: Variable Names
+342604: cpureval: Valid Operators
+343129: cpureval: Intrinsic Functions and Variables
+661065: cpureval: Variable Names
+661405: cpureval: Pre-defined Constants
+342870: cpureval: Numerical Values
+660735: cpureval: Piecewise Linear Functions
+660747: cpureval: Form Expressions
+661323: cpureval: Dataset Expressions
+342879: cpureval: Expressions File
+662168: cpureval: Exiting the Expression Evaluator
+343315: cpureval: Expressions File Format
+556844: datasets: Datasets
+557184: datasets: Dataset Editor
+556935: datasets: Datasets Menu Commands
+556852: datasets: Creating Datasets
+557036: datasets: Dataset File Menu
+557024: datasets: File/New (Datasets)
+557025: datasets: File/Open (Datasets)
+557026: datasets: File/Close (Datasets)
+557027: datasets: File/Save (Datasets)
+557028: datasets: File/Save As (Datasets)
+557029: datasets: File/Import Text File
+557030: datasets: File/Exit (Datasets)
+557031: datasets: Dataset Edit Menu
+557354: datasets: Edit/Insert Coords/Before
+557041: datasets: Edit/Insert Coords/After
+557040: datasets: Edit/Delete Coords
+557043: datasets: Dataset View Menu
+557044: datasets: View/Zoom In (Datasets)
+557045: datasets: View/Zoom Out (Datasets)
+557046: datasets: View/Fit All (Datasets)
+557091: datasets: View/Show Coordinates (Datasets)
+557092: datasets: View/Plot Settings
+557093: datasets: View/Graph Settings
+557047: datasets: Dataset Arrange Menu
+557048: datasets: Arrange/Move (Datasets)
+557049: datasets: Arrange/Scale (Datasets)
+559620: datasets: Dataset Help Menu
+559628: datasets: Help/About Help
+559660: datasets: Help On Context
+559661: datasets: Help/On Dataset Editor
+998373: cpurmate: Material Manager
+997330: cpurmate: Functional Material Properties
+997348: cpurmate: Options
+997360: cpurmate: Dependent and Independent (Editable) Material Properties
+997370: cpurmate: Magnetostatic Properties
+997417: cpurmate: Electrostatic Properties
+997461: cpurmate: Functions
+997496: cpurmate: Modifying a Function
+997503: cpurmate: Deleting a Function
+997514: cpurmate: Vector Functions
+997532: cpurmate: Radial Vector Functions
+997620: cpurmate: Tangential Vector Functions
+997615: cpurmate: Functional and Vector Material Properties
+997120: cpurmate: Adding a New Material
+997082: cpurmate: Defining a Perfect Conductor
+997159: cpurmate: Defining a New Anisotropic Material
+997084: cpurmate: Defining a Nonlinear Material
+997714: cpurmate: Entering a BH-Curve
+997729: cpurmate: Deleting a BH-Curve
+997733: cpurmate: Modifying B and H values for a BH-Curve
+997741: cpurmate: Adding Points to a BH-Curve
+997751: cpurmate: Importing a BH-Curve
+997766: cpurmate: Exporting a BH-Curve
+998129: cpurmate: Viewing the BH-Curve
+998269: cpurmate: Zoom In
+998270: cpurmate: Zoom Out
+998271: cpurmate: Fit All
+998337: cpurmate: Fit Drawing
+998273: cpurmate: Window
+998277: cpurmate: Window/Measure
+998295: cpurmate: Window/Grid
+998296: cpurmate: Window/SnapTo Mode
+997787: cpurmate: Axes
+997832: cpurmate: View
+997055: cpurmate: Deriving a New Material
+998423: cpurmate: Underiving a Material
+998413: cpurmate: Deleting a Material
+997229: cpurmate: Deleting Derived Materials
+49851: index: Index

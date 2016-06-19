@@ -1,0 +1,99 @@
+# %W%	%Q%
+# Copyright 1984-1996 Ansoft Corp.
+
+begin_error_file
+
+1001    user
+1001    Unable to contact `$$1' ($$2).
+
+1002	fatal
+1002	Internal software error in $$1.
+
+1003	user
+1003	The selected process is already running, it cannot be modified.
+
+1004	user
+1004	Nothing in the queue has been selected.
+
+1005	user
+1005	Unable to open preferences file ($$1) for writing.
+
+1006	user
+1006	Error writing to preferences file ($$1).
+
+1007	user
+1007	Unknown error occurred trying to save preferences.
+
+1008	user
+1008	Unable to launch the process daemon ($$1).
+
+1009	user
+1009	Unable to launch the process daemon.
+
+1010	user
+1010	Invalid password.
+
+1011	user
+1011	Error submitting job.
+
+1012	user
+1012	Error communicating with processd.
+
+1013	user
+1013	Error modifying job, $$1.
+
+1014	user
+1014	Error submitting job, $$1.
+
+1015	user
+1015	Unable to determine the project type.
+1015	Please classify it with the Project Manager.
+
+1016	user
+1016	Unable to determine the project type of `$$1', please classify
+1016	it with the Project Manager.
+
+1017	user
+1017	There are no hosts configured for scheduling, please run the
+1017	process manager and do so.
+
+1018	user
+1018	No hosts configured and unable to determine IP address of host `$$1'.
+
+1019	user
+1019	Error submitting job. This is most likely due to
+1019	a lack of write permission for the queue file for
+1019	`$$1'.  Please verify that you have permission
+1019	to write to the directory:
+1019	
+1019	  $$2
+1019	
+1019	and the file under it:
+1019	
+1019	   $$3
+
+1020	user
+1020	The process manager is unable to contact the process daemon
+1020	for host `$$1'. There is another daemon using the same port
+1020	number ($$2) as is currently configured for the process
+1020	manager.
+1020
+1020	One way to fix this problem is to configure the process
+1020	manager to use a different port. This can be done by adding
+1020	an entry for `procmgr' in /etc/services.
+
+1021	user
+1021	The process manager, after making an initial connection to
+1021	a daemon on port `$$2' (port $$1), was unable to get
+1021	a response back (timed out after $$3 seconds).
+1021	
+1021	Most likely this is caused by another daemon using the port
+1021	configured for the process manager. If this is the case, the
+1021	port number for the process manager can be changed by adding
+1021	an entry for `procmgr' in /etc/services.
+1021	
+1021	It is also possible that your network is just really slow.
+1021	To work around this, you can change the default timeout to
+1021	something more reasonable for your network.
+
+end_error_file

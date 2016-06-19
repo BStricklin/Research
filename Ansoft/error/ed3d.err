@@ -1,0 +1,292 @@
+# %W%	%Q%
+# Copyright 1984-1993 Ansoft Corp.
+
+
+begin_error_file
+
+1000 fatal
+1000  Died unexpectedly.
+1000  Possible reasons:
+1000   (1) singular matrix due to improper problem setup
+1000   (2) Unknown error
+
+1001 fatal
+1001  Module $$1 died unexpectedly.
+1001  Possible reasons:
+1001   (1) insufficient disk space
+1001   (2) singular matrix due to improper problem setup
+1001   (3) Unknown error
+
+1002 user
+1002 Some (or all) mesh files are missing.
+1002 Please create a mesh and save the files.
+
+1003 user
+1003 To perform this operation you must have a
+1003 vector in the top register of the calculator.
+
+1004 user
+1004 Material attributes are not set yet.
+
+1005 user
+1005 Some inline function, or B-H curve, is not available.
+
+1006 user
+1006 This operation requires a solved problem.  Please
+1006 solve the problem or retrieve the solution files.
+
+1007 user
+1007 No 2d object can be used as a current
+1007 terminal for "$$1".  Please make sure
+1007 "$$1" is a part of a conduction path,
+1007 or return to the solid modeler and
+1007 add a 2d solid(s) to use as a terminal(s).
+
+1008 user
+1008 There are no terminal named "$$1."
+
+1009 user
+1009 There is only one outer terminal which borders the
+1009 conductor "$$1," and that outer terminal may also
+1009 touch other 3d object(s).
+1009   (1) If you forgot to create the second terminal 
+1009       (2d object), please go back to the solid
+1009        modeler and add one more 2d object.
+1009   (2) If "$$1" is only a portion of a conduction path,
+1009       you may continue to set terminal current.
+1009       Be aware that you need other outer terminal(s) 
+1009       to allow the current to flow out of (or into) this 
+1009       conduction path.
+1009   (3) The current at the terminal flows into all
+1009       touched 3d objects.  Hence, all the touched
+1009       objects have to be set to "Source-Current Yes"
+1009       when you go through Material setup.
+1009 You can continue to set terminal currents.
+
+1010 fatal
+1010 File system unable to create "$$1."
+
+1011 fatal
+1011 File system unable to read "$$1."
+
+1012 user
+1012 There are two outer terminals which border the
+1012 conductor "$$1."  One (or two) of the terminals
+1012 may touch 3d object(s) other than "$$1."
+1012 Be aware that the current at the terminal
+1012 flows into all touched 3d objects.  Hence, 
+1012 all the touched 3d objects have to be set to 
+1012 "Source-Current Yes" when you go through Material
+1012 setup. 
+1012 You can continue to set terminal currents.
+
+1013 fatal
+1013 Message not available 
+
+1014 fatal
+1014 The solid file is corrupted.
+
+1015 user
+1015 Terminal "$$1" is not attached to a conductor.
+
+1017 user
+1017 There are more than two outer terminals
+1017 attached to this 3d object. To avoid
+1017 confusions, please go back to the solid 
+1017 modeler and reset your 2d objects.
+
+1018 user
+1018 There is only one outer terminal which borders the
+1018 conductor "$$1." 
+1018   (1) If you forgot to create the second terminal 
+1018       (2d object), please go back to the solid
+1018        modeler and add one more 2d object.
+1018   (2) If "$$1" is only a portion of a conduction path,
+1018       you can continue to use that terminal to specify
+1018       the total current flowing into (or out of) this
+1018       conduction path.  Be aware that you need other
+1018       outer terminal(s) to allow the current to 
+1018       flow out of (or into) this conduction path.
+1018 You can continue to set terminal current.
+
+1019 user
+1019 Electric current source is required for 
+1019 inductance computation.  Please go back to
+1019 solid modeler and change the voltage source to 
+1019 a current source for the conductor "$$1."
+
+1020 user
+1020 Matching boundary is not set properly.  Either plane or 
+1020 a function does not exist.  Please set your boundary again.
+
+1021 user
+1021 You have not selected all the necessary options to generate
+1021 a plot.  Please check your settings and try again.
+
+1022 user
+1022 Material conductivity has not been set properly.
+1022 You have to assign nonzero conductivity to this
+1022 object because it has been picked as a source 
+1022 and/or eddy region.
+
+1023 user
+1023 Illegal blank space in the file name. 
+
+1024 user
+1024 BH curve file name cannot start with a number.
+
+1025 user
+1025 Unable to write out BH curve to $$1,
+1025 defaulting to current directory.
+
+1027 fatal
+1027 Problem cannot be solved, because 
+1027 no excitation has been defined.
+
+1028 user
+1028 There may be a terminal which touches 3d objects 
+1028 other than "$$1." Please make sure this is what
+1028 you wanted to model. 
+1028 Be aware that the current at the terminal
+1028 flows into all touched 3d objects.  Hence, 
+1028 all the touched 3d objects have to be set to
+1028 "Current Source Yes" when you go through Material
+1028  setup. 
+1028 You can continue to set terminal current.
+
+1029    fatal
+1029    Unable to finish computation for particular H.
+1029    Not enough information to determine the
+1029    electric current flow.
+
+1030 fatal
+1030 Unable to complete particular H field 
+1030 due to improper problem setting.
+1030 Please check electric current setting
+1030 of the object, "$$1".
+
+1031 fatal
+1031 Unable to create file "$$1" in your project
+1031 directory.  Check the computer file system
+1031 status please.
+
+1032 fatal
+1032 Unable to find the file "$$1" in your directory.
+1032 This file contains the results of matrix solving.
+
+1034 fatal
+1034 Unable to find match point for 
+1034 matching boundary.
+1034 Please check problem setup.
+
+1035 fatal
+1035 Unable to find match edge for
+1035 matching boundary.
+1035 Please check problem setup.
+
+1036 user
+1036 Unable to compute matrix.
+1036 Possible reasons:
+1036     (1) At least one of the objects in the matrix setup is 
+1036         a 2d object (only 3d objects can be used in the matrix)
+1036     (2) At least one of the objects is not assigned as an
+1036         electric CURRENT source.
+1036		-it's assigned a current-density or voltage(s)
+1036	         instead of total current OR
+1036		-there are multiple objects in the conduction path
+1036             and the object you've selected doesn't include 
+1036             the source 
+
+1043    fatal
+1043    There is no license for module $$1.
+
+1100    fatal
+1100    Insufficient memory for module $$1.
+
+1200    fatal
+1200    Error in writing file.
+1200    Possible causes are:
+1200       - Out of disk space.
+1200       - No file access privileges.
+1200       - Network or hardware problems.
+
+1201 fatal
+1201 Negative mind is detected.
+ 
+1202 fatal
+1202 No objects are included in solution region.
+
+1203 fatal
+1203 Cannot calculate Lorentz force/torque on perfect conducting
+1203 objects or on objects which are excluded from solution region.
+ 
+1204 fatal
+1204 Total energy is zero.
+1204 Unable to finish the solution.
+1204 Please check the problem setup.
+
+1205 fatal
+1205 No unknowns to solve
+1205 Please use manual mesh and try again.
+
+1206 fatal
+1206 Cannot find tangential vector
+ 
+1207 fatal
+1207 Illegal face number
+ 
+1209 fatal
+1209 Cannot find an attribute with a given name or solid number
+ 
+1210 fatal
+1210 Cannot compute tangential sign
+ 
+1211 fatal
+1211 Cannot create tangential edge
+
+1212 fatal
+1212 No source is assigned
+ 
+2000 fatal
+2000 Unable to start matrix solver
+
+2001 fatal
+2001 Unable to solve FE matrix system.
+2001 Possible reasons:
+2001   (1) insufficient disk space
+2001   (2) singular matrix due to improper 
+2001       problem setup
+
+2002 fatal
+2002 Unable to solve FE matrix system.
+2002 Possible reasons:
+2002   (1) insufficient disk space
+2002   (2) singular matrix due to improper problem setup 
+2002   (3) Unknown error
+
+2003 fatal
+2003 Unable to solve because of the invalid
+2003 impedance boundary or radiation boundary, "$$1".
+
+2004 fatal
+2004 Error solving impedance matrix
+2004 All objects included in the matrix must have been
+2004 specified as sources in boundary/source setup
+
+2005 fatal
+2005 Current must be defined for all faces of source conductor 
+2005 that touch the edges of the solved region. If you do not 
+2005 want current cross a face, either leave a gap or assign
+2005 zero current
+
+5000 fatal
+5000 Unable to complete particular H 
+5000 due to improper problem setup
+
+end_error_file
+
+
+
+
+
+

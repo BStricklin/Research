@@ -1,0 +1,68 @@
+B_HEADER
+ FileSign MTRL FormVers 1.000 CreaSign MATS CreaVers 3.000
+ FileMark DBRootFile
+E_HEADER
+
+B_DATA 
+ B_DBASE microstrip 1 BlockSep B_MATTAB GlbIndex 79 
+  B_SYMTAB 
+   PHI = 0
+   R = 0
+   X = 0
+   Y = 0
+  E_SYMTAB 
+  B_MATTAB microstrip 1 BlockSep B_MATERL ParentDB microstrip 
+   B_MATERL vacuum 1 Locked CndClass 1 
+    DeriveFr vacuum 1 External 
+    B_PROP Permittivity Constant 1 
+    E_PROP 
+    B_PROP Conductivity Constant 0 
+    E_PROP 
+    B_PROP DielectricLoss Constant 0 
+    E_PROP 
+    B_PROP ElecLossTan Constant 0 
+    E_PROP 
+    B_PROP ElecCoercivity Constant 0 
+    E_PROP 
+    B_PROP ElecRetentivity Constant 0 
+    E_PROP 
+    B_PROP PermPolarizatn Constant 0 
+    E_PROP 
+   E_MATERL 
+   B_MATERL perf_conductor 3 Locked CndClass 128 
+    DeriveFr perf_conductor 3 External 
+    B_PROP Permittivity Constant 1 
+    E_PROP 
+    B_PROP Conductivity Constant 0 
+    E_PROP 
+    B_PROP DielectricLoss Constant 0 
+    E_PROP 
+    B_PROP ElecLossTan Constant 0 
+    E_PROP 
+    B_PROP ElecCoercivity Constant 0 
+    E_PROP 
+    B_PROP ElecRetentivity Constant 0 
+    E_PROP 
+    B_PROP PermPolarizatn Constant 0 
+    E_PROP 
+   E_MATERL 
+   B_MATERL FR4_epoxy 13 Locked CndClass 1 
+    DeriveFr FR4_epoxy 13 External 
+    B_PROP Permittivity Latent Constant 4.4 
+    E_PROP 
+    B_PROP Conductivity Constant 0 
+    E_PROP 
+    B_PROP DielectricLoss Constant 0 
+    E_PROP 
+    B_PROP ElecLossTan Constant 0 
+    E_PROP 
+    B_PROP ElecCoercivity Constant 0 
+    E_PROP 
+    B_PROP ElecRetentivity Constant 0 
+    E_PROP 
+    B_PROP PermPolarizatn Constant 0 
+    E_PROP 
+   E_MATERL 
+  E_MATTAB 
+ E_DBASE 
+E_DATA 

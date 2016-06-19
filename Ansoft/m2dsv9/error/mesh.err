@@ -1,0 +1,149 @@
+# %W%	%Q%
+# Copyright 1984-1989 Ansoft Corp.
+
+begin_error_file
+
+1001	user
+1001	There are no solids yet. A solid file must be 
+1001	read in before this operation can be performed.
+
+1002	user
+1002	There is no mesh yet. A mesh must exist before
+1002	this operation can be performed.
+
+1003	fatal
+1003	Nil tetrahedra for processing.
+
+1004	fatal
+1004	Duplicate tetrahedra entry for face.
+
+1005	fatal
+1005	Tetrahedra cannot be linked to face. Both sides of the face
+1005	are already attached to tetrahedra.
+
+1006	fatal
+1006	Tetrahedra cannot be deleted from face. Neither side of the face
+1006	is attached to the specified tetrahedra.
+
+1007	fatal
+1007	Tetrahedra's neighbor cannot be found.
+
+1008	fatal
+1008	Tetrahedra with volume too small for mesh
+1008	generator: $$1.
+
+1009	fatal
+1009	Duplicate point found during refinement procedure.
+1009	Duplication should have been eliminated before here.
+
+1010	fatal
+1010	Incorrect volume of object encountered 
+1010 	during refinement.
+
+1011	fatal
+1011	One of the two points is nil in two point
+1011	matching operation.
+
+1012	fatal
+1012	Error in two point tetrahedra match operation.
+
+1013	fatal
+1013	Duplicate point slipped by hydra_add_intercept routine.
+
+1014	fatal
+1014	Preservation object loop reached maximum count of
+1014	10000 loops.
+
+1015	fatal
+1015	Error in assigning line to tetrahedra during line 
+1015	preservation routines.
+
+1016	fatal
+1016	Error in reverse sweep during assigning line to 
+1016	tetrahedra during line preservation routines.
+
+1017	fatal
+1017	Mid point is indistinguishable from end points
+1017	during line preservation.
+
+1018	fatal
+1018	Incorrect solid angle $$1.
+
+1019	fatal
+1019	Unable to find initial solid during slow loop procedure
+1019	of tetrahedra assignment.
+
+1020	fatal
+1020	Face flag error during tetrahedra assignment.
+
+1021	fatal
+1021	Tetrahedra flag error during tetrahedra assignment.
+
+1022	fatal
+1022	No boundary tetrahedra upon entry to tetrahedra 
+1022	assignment procedure.
+
+1023	fatal
+1023	Unassigned tetrahedra are left after tetrahedra
+1023	assignment procedure.
+
+1024	fatal
+1024	Error in list structure of face.
+
+1025	fatal
+1025	Volume mismatch during mesh generation procedure.
+
+1026	fatal
+1026	Deleted tetrahedra volume is zero
+1026	during $$1 pass.
+
+1027	fatal
+1027	Face already has two tetrahedras and can not
+1027	be assigned to another tetrahedra.
+
+1028	fatal
+1028	Face has nil point
+
+1029	fatal
+1029	First side of face points to nothing.
+
+1030	fatal
+1030	Tetrahedra face mismatch of first face.
+
+1031	fatal
+1031	Tetrahedra face mismatch of second face.
+
+1032	fatal
+1032	Second face of tetrahedra points to nothing
+1032	and tetrahedra is not on the outer surface.
+
+1033	fatal
+1033	Tetrahedra face does not exist.
+
+1034	fatal
+1034	Tetrahedra's neighbor does not point back to
+1034	tetrahedra.
+
+1035	fatal
+1035	The volume of the solid $$1's tetrahedra is zero.
+1035	No tetrahedra's were assigned to the solid.
+
+1036	fatal
+1036	Point found on edge during test for illegal tetrahedra.
+
+1037	fatal
+1037	Point found on half face during test for illegal tetrahedra.
+
+1038    user
+1038    No tetrahedra's found in the box.
+
+1039    user
+1039    Refine plane is outside the problem region.
+
+1040	fatal
+1040	Unable to write $$1.
+
+1041	fatal
+1041	Unable to read $$1.
+
+end_error_file

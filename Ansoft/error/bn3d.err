@@ -1,0 +1,767 @@
+# %W%	%Q%
+# Copyright 1984-1995 Ansoft Corp.
+
+begin_error_file
+
+1001    fatal
+1001    Module $$1 died unexpectedly or
+1001    possibly was terminated by user.
+
+1002    user
+1002    Either there is no problem by name $$1
+1002    or it is already added
+
+1003    user
+1003    Cannot set current problem to $$1 - no problem
+1003    by this name
+
+1004    user
+1004    There is no boundary/source by name $$1
+
+1005    user
+1005    Cannot set units for $$1 boundary/source
+
+1006    user
+1006    Cannot set/swap boolean value for $$1 boundary/source
+
+1007    user
+1007    Cannot set origin/upoint/vpoint value for the $$1 boundary
+
+1008    user
+1008    Cannot set master value or the ms-relationship for the $$1 boundary
+
+1009    user
+1009    Eddy effect cannot be set on a perfect conductor or insulator
+
+1010    user
+1010    Voltage boundary for eddy current problem is not yet implemented
+
+1011    user
+1011    Voltage source can only be set on sheets or faces
+
+1012    user
+1012    Voltage source cannot be specified on an insulator
+
+1013    user
+1013    Voltage on the face of a conductor is not allowed. Select the
+1013    entire object.
+
+1014    user
+1014    "$$1" as a function of position is not allowed
+
+1015    user
+1015    Cannot set symmetry boundary on non-planar entities
+
+1016    user
+1016    Cannot set symmetry boundary at the object-object interface
+
+1017    user
+1017    Only planar entities can be assigned master/slave
+
+1018    user
+1018    Magnetic field cannot be specified on a 3d object.
+1018    Instead select all the faces and set the boundary
+
+1019    user
+1019    "$$1" boundary/source can only be assigned to $$2.
+
+1020    user
+1020    $$1 cannot be less than or equal to 0.
+
+1021    user
+1021    to be filled
+
+1022    user
+1022    Charge as a function of position on a floating conductor is not allowed
+
+1023    user
+1023    "$$1" source can only be set on a 3d object
+
+1024    user
+1024    Charge density is not allowed on a conductor
+
+1025    user
+1025    Charge density source can only be set on 3d objects
+
+
+1026    fatal
+1026    Error in writing the $$1 file.
+1026    Possible causes are:
+1026       - Out of disk space.
+1026       - No file access privileges.
+1026       - Network or hardware problems.
+
+1027    user
+1027    You are trying to set current source on an invalid entity.
+1027    Current source can only be set on faces or planar sheets
+
+1028    user
+1028    Current as a function of position is not allowed. Perhaps you want
+1028    to try setting functional current density?
+
+1029    user
+1029    You are trying to set current density on an invalid entity.
+1029    Current density source can only be set on 3d objects
+
+1030    user
+1030    A boundary already exists on the entity on which you are trying to
+1030    set another boundary. Remove the previous boundary and then try
+1030    assigning this one
+
+1031    user
+1031    Entity is not a part of any conduction path
+
+1032    user
+1032    You are trying to set voltage/current/current-density-terminal on an 
+1032	entity. It is not valid because in any conduction path voltage 
+1032 	terminals, current terminals and current density terminals cannot 
+1032	co-exist with one another.
+
+1033    user
+1033    For a conduction path, there cannot be more than one source current
+1033    and one sink current
+
+1034    user
+1034    Coil terminals and outer terminals cannot co-exist in the same 
+1034    conduction path.
+
+1035    user
+1035    For any conduction path, there cannot be more than one coil terminal
+
+1036    user
+1036    Insulation and voltage boundaries cannot co-exist in a conduction path
+
+1037    user
+1037    Multiple sources types (current, current density, voltage) cannot 
+1037    co-exist in a conduction path. Setting the chosen source on the entity
+1037    violates this.
+
+1038    user
+1038    Source and sink current values do not add up to zero in the
+1038    conduction path "$$1". Use "Model/Show Conduction Paths" to
+1038    view the available conduction paths for current flow.
+
+1039    user
+1039    Object "$$1" is an insulator and hence cannot be a part of 
+1039    any conduction path (View conduction paths using
+1039    Model/Show Conduction Paths)
+
+1040    user
+1040    Current/voltage boundary can only be set on faces/sheets 
+1040    bordering the region
+
+1041    user
+1041    The conduction path on which you are trying to set a 
+1041    current/voltage/insulating/current-density-terminal boundary has 
+1041	(or would have because of current boundary setting) only one outer 
+1041	terminal. So there is only one place where current can flow into 
+1041	the region and no place to get out; this would violate Kirchhoff's 
+1041	current law and is not allowed.
+
+1042    user
+1042    Insulation boundary cannot be set on sheet objects.
+1042    Instead use the interface between 2 objects to set the 
+1042    insulating boundary.
+
+1043    user
+1043    You have specified only one voltage terminal on the conduction path $$1.
+1043    At least two voltage terminals must exist per conduction path so the
+1043    potential difference can be used in current calculation.
+
+1044    user
+1044    Current/Current-density-terminal boundary can only be set on 
+1044    faces of 3D objects that border the region or sheet objects. 
+1044    It cannot also be set on the region.
+
+1045    user
+1045    "Voltage" source can only be applied on outer terminals.
+1045    Use "Voltage drop" on coil terminals.
+
+1046    user
+1046    "Voltage drop" source cannot be applied on sheet objects
+1046    bordering the problem region or the face of a 3d object.
+1046    Use "Voltage" source on outer terminals.
+
+1047    user
+1047    Invalid boundary name: "$$1" not allowed in the name.
+
+1048    user
+1048    You cannot use the keyword "$$1" as a boundary/source name
+
+1049    user
+1049    Sheet object names cannot be used as boundary/source names.
+1049    Please choose a different name for the boundary/source.
+
+1050    user
+1050    For a valid master or slave boundary, a valid UV-axis has to be
+1050    defined
+
+1051    user
+1051    A single master boundary can have only a single slave.
+
+1052    user
+1052    Function "$$1" is undefined. Use "Model/Functions"
+1052    command to assign a value to the above function.
+
+1053    user
+1053    Invalid master assigned to slave. Input valid master
+
+1054    user
+1054    Master cannot be deleted as it has a slave.
+1054    Delete slave and then delete master
+
+1055    user
+1055    "Background/Region" cannot be part of any conduction path.
+1055    Create an object with the same dimensions as the region
+1055    and set the source on it.
+
+1056    user
+1056    None of the faces of object "$$1" border the problem region.
+1056    Also there are no 2d objects forming the cross-section of 
+1056    object "$$1".
+1056    In order to set circulating/coil current, you must create a 
+1056    2d object forming the cross-section of "$$1" and then
+1056    set current on the 2d object.
+
+1057    user
+1057    Empty boundary name is not acceptable
+
+1058    user
+1058    None of the faces of object "$$1" touch the faces of 
+1058    object "$$2".
+
+1059    user
+1059    "$$1" direction is not valid.
+
+1060    user
+1060    There are no sheet objects forming a cross-section of
+1060    the 3d object "$$1". In order for solver to give accurate
+1060    solution, current-density objects must have sheet objects
+1060    forming their cross-section
+
+1061    user
+1061    The value entered for number of points is less than 0.
+1061    Number of points must be greater than zero.
+
+1062    user
+1062    The E0 and k vectors must be orthogonal.
+1062    Please make them so.
+
+1063    user
+1063    Non-planar entities cannot be terminals
+
+1064    user
+1064    You have aborted the conduction path calculations or
+1064    the error checking.
+
+1065    user
+1065    You have aborted the error checking. Error check will 
+1065    be performed before the solver is invoked.
+
+1066    user
+1066    Error message needs to be updated
+
+1067    user
+1067    Current density terminal computation has been aborted.
+1067    You need to select the current density terminal
+1067    from the existing 2d objects.
+
+1068    user
+1068    No terminals are picked due to one of the following reasons:
+1068        - You have not selected any 3-D solid object
+1068        - The terminals for the selected object's conduction path
+1068          are already present in the boundary listbox
+1068        - You wanted only 2d objects for coil/outer terminals and there
+1068          are no such 2d objects
+
+1069   user
+1069   Since no excitation has been defined, the problem cannot be solved.
+
+1070   user
+1070   If current-density is assigned to any 3d object of a conduction
+1070   path then the current-density source needs to be assigned to all the
+1070   other 3d objects in that conduction path. Some of the objects
+1070   in the conduction path "$$1" are not current-density sources.
+1070   Assign current-density source on these objects.
+1070   (View conduction paths using "Model/Show Conduction Paths")
+
+1071   user
+1071   Error in writing the material/boundary information to the disk.
+1071   Some of the possible reasons:
+1071        -Out of disk space
+1071        -Incorrect boundary/material setup. You may have functions
+1071         with the keyword "$$1". If you have such functions, rename these
+1071         and don't include "$$1" as a part of the name.
+
+1072   user
+1072   Master and Slave geometries don't have the same area.
+
+1073   user
+1073   Master and Slave geometries have the same area, but you have 
+1073   made an error in creating the UV axis. UV axis for the
+1073   slave and the master are used to calculate the transformation 
+1073   matrix corresponding to the transformation of slave UV axis 
+1073   to the master UV axis. If the slave boundary (it's faces/sheets)
+1073   is transformed using this matrix, it should coincide with 
+1073   it's master.
+
+
+1074   user
+1074   Encountered error in trying to match master and slave boundaries.
+1074   You may have an invalid UV axis definition for either the
+1074   master or the slave. Or the transformation of the slave 
+1074   UV axis to the master UV axis is not a rigid body 
+1074   transformation. Or there is an error in ACIS operations to
+1074   transform the slave geometry or boolean the master/slave objects.
+
+1075   user
+1075   There are multiple conductors in one or more of your conduction 
+1075   paths. The following points must be noted:
+1075        -The sheet object or the face used as the source terminal
+1075   	     must form an exact cross-section of the current flow
+1075         at that location of the conduction path. They cannot 
+1075         be smaller or larger.
+1075        -You might have forgotten to set the insulation boundary - 
+1075         view conduction paths using "Model/Show Conduction Paths" 
+1075         to ensure that the conduction paths represent your
+1075         expectations.
+
+1076   user
+1076   There is an overlap between 2 faces having different
+1076   boundaries ("$$1","$$2"). In the area of the overlap, the rule
+1076   followed is: Latter boundaries override the former except 
+1076   in the case of terminals and ports. Terminals and Ports
+1076   created initially cannot be overridden unless you clear
+1076   these. Note that the boundary listbox indicates the order 
+1076   in which boundaries got created.
+
+1077    user
+1077    The current mouse position is not the vertex of a body.
+1077    Pick a vertex in the "Vertex Snap" mode and proceed.
+1077    If the face/sheet on which you are setting the master/slave
+1077    boundary doesn't have any vertex, then create 
+1077    rectangular sheet objects on both the master and the slave.
+1077    Use the vertices of these sheets to set the origin,
+1077    U and V points.
+
+1078    user
+1078    String "$$1" can neither be a number or a functional value.
+1078    Functions must start with a letter and could only have characters
+1078    belonging to the character set:
+1078    "$$2". 
+1078    While numbers must start with a digit and could only have 
+1078    characters belonging to the character set "$$3".
+
+1079    user
+1079    k vector has a magnitude of "$$1". It must be a unit
+1079    vector.
+
+1080   user
+1080   Symmetry boundary must lie at the edge of the problem region.
+
+1081   user
+1081   "$$1" boundary/source must be planar.
+
+1082   user
+1082   "$$1" directory doesn't exist. 
+1082   Magnetostatic project containing a field solution must be 
+1082   created before assigning the non-uniform magnetic bias source.
+
+1083   user
+1083   Are you sure you want to change the boundary "$$1".
+
+1084   user
+1084   To define or modify boundary or source, you must first select 
+1084   the object or face to assign by clicking on the object, selecting 
+1084   its name from the list box, or using the Edit/Select command.
+
+1085   user
+1085   You have not assigned your changes to the $$1 boundary.
+1085   Do you want to: 
+
+1086   user
+1086   Unable to open the "$$1" file.
+1086   The file is not present in the current directory.
+
+1087   user
+1087   Unable to interpret the contents of file "$$1". 
+1087   The file may not represent $$2.
+
+1088   user
+1088   Failure in closing the "$$1" file.
+
+1089   user
+1089   Error in translating the "$$1" boundary. Failure in "$$2" operation. 
+1089   Reason: $$3
+
+1090   user
+1090   Error in reading the "$$1" boundary (see the above message).
+
+1091   user
+1091   Error in reading the boundary of type "$$1".
+1091   Reason: $$2
+
+1092   user
+1092   Error in reading the boundary file "$$1". 
+1092   Expected token: "$$1"
+
+1093   user
+1093   Error in reading the "Boundary Operations" section.
+
+1094   user
+1094   Error encountered while reading the "$$1" file.
+1094   Object by the name "$$1" does not exist.
+
+1095   user
+1095   Error encountered while reading the "$$1" file. 
+1095   There is no face by the id "$$2". 
+1095   The project may not have the correct geometry file.
+
+1096   user
+1096   Error in reading the material property magnetic source bias.
+
+1097   user
+1097   Operation "$$1" not translated correctly for the 
+1097   boundary "$$2" (see the above message)
+
+1098   user
+1098   Failed in creating magnetic source bias for the ferrite 
+1098   object "$$1". Reasons: $$2
+
+1099   user
+1099   Failed in creating impedance boundary for the 2D object
+1099   "$$1". Reasons: $$2
+ 
+1100  user
+1100   Current problem "$$1" does not have any ports.
+
+1101   user
+1101   Unable to compute the entities of the name interface operation.
+1101   Reason: one or both of the objects with ids "$$1", "$$2" are invalid.
+
+1102   user
+1102   Port names must have the keyword "port" as the prefix and a
+1102   number following it. Such names cannot be used for other
+1102   boundaries or sources.
+
+1103   user
+1103   Finite volume operation is not supported yet.
+
+1104   user
+1104   Error in reading the boundary operations. Expected token: "$$1"
+
+1105   user
+1105   Boundary with the name "$$1" either clashes with the name of an 
+1105   existing boundary or it's preserved or the name is invalid for
+1105   the chosen boundary/source type. Choose some other name.
+
+1106   	user
+1106   	Ports are not ordered correctly.
+1106	Do you want the software to automatically reorder ports and continue?
+1106	(Choose "No" or "Cancel" to reorder or rename ports manually.)
+
+1107   	user
+1107	Number of port modes cannot exceed 25.
+
+1108   	user
+1108	You have assigned a port source with multiple faces. All the faces 
+1108	selected to form the port must lie on the same plane. The normal
+1108	of one of the faces does not match the normal of the first face.
+
+1109	user
+1109	The $$1 point of the $$2 line for "$$3 $$4" does not lie 
+1109    on the port.
+
+1110	user
+1110	Invalid rectangle specification. Volume is 0 but none of the length,
+1110	width and height are with in the dimension tolerance.
+
+1111	user
+1111	Acis error while creating the rectangle: $$1
+
+1112	user
+1112	Invalid dimensions for the rectangle. Volume is not 0.
+
+1113	user
+1113	Unknown quantity named "$$1". Cannot set the value in current
+1113	units.
+
+1114	user
+1114	You have changed the selection of the selected boundary.
+1114	Ignoring these changes because in the current mode of the
+1114	boundary module, only port impedance lines are allowed to
+1114	change. 
+
+1115	user
+1115	In the current mode of the boundary module, a new boundary
+1115	cannot be created. Please select an existing port to change
+1115	its impedance lines.
+
+1116	user
+1116	This command cannot be executed in the current mode of
+1116	operation.
+
+1117	user
+1117	You have not defined any source in the current setup.
+1117	If you still proceed to solve, you may not get correct
+1117	results.
+1117	Do you want to exit the module?
+
+1118	user
+1118	All ferrite materials must be assigned a magnetic bias
+1118	source. In the current setup, some ferrites are not
+1118	assigned this source. Please assign magnetic bias source
+1118	to all ferrites in the model.
+
+1119	user
+1119	Invalid $$1 line for $$2 $$3: length is zero.
+
+1120	user
+1120	All ferrites must be assigned either uniform bias source or
+1120	non-uniform bias source. There cannot be a mix of these
+1120	two sources in a single project.
+
+1121	user
+1121	Magnitude of uniform magnetic bias cannot be negative.
+
+1122	user
+1122	Only one magnetostatic project could be associated with
+1122	every hfss setup. Having different project names is not
+1122	allowed.
+
+1123	user
+1123	Invalid name chosen for the magnetostatic project.
+
+1124	user
+1124	The first mode of calibration line must be defined when
+1124	"Polarize E Field" is checked.
+
+1125	user
+1125	The port surface has holes. Port solver may not be able to
+1125	calibrate the mode patterns if the hole material is not
+1125	dielectric.
+
+1126	user
+1126	Error in creating the port surface - may be the geometry
+1126	is invalid.
+
+1127	user
+1127	Error in the definition of the polarization line:
+1127	$$1 point does not lie on the border of the port surface.
+
+1128	user
+1128	Acis Error: $$1,
+1128	while $$2.
+
+1129	user
+1129	Error in the definition of the polarization line for
+1129	the port - port surface is not symmetrical about
+1129	the polarization line.
+
+1130	user
+1130	One or more boundaries don't have any selection or
+1130	boundary/source type assigned to them.
+1130	Either delete these boundaries or make an assignment.
+
+1131	user
+1131	Value for the "$$1" gap source must be non-zero.
+
+1132	user
+1132	The currently created boundaries don't have a visualization.
+1132	Only periodic boundaries, ports, gap sources and incident
+1132	wave sources have visualization.
+
+1133	user
+1133	The currently created boundaries don't have a visualization.
+1133	Only master/slave boundaries, current and voltage sources
+1133	have visualization.
+
+1134	user
+1134	You cannot have more than one face or sheet object assigned as 
+1134	a master or a slave boundary. For multiple selection, multiple 
+1134	master/slave pairs must be created.
+
+1135	user
+1135	You have not defined an absorbing boundary. Scattered fields
+1135	computation from incident wave sources requires either a radiation
+1135	boundary or a PML.
+1135	Do you want to continue?
+
+1136 	user
+1136 	You may directly enter either constant and functional values in 
+1136    the edit fields without choosing Options.
+
+1137 	user
+1137 	3D objects may not be assigned as source or sink terminals.
+1137 	Only 2D objects or faces of 3D objects may be assigned.
+
+1138 	user
+1138 	"$$1" has no sink terminal. Each net which
+1138 	contains a source terminal must also have a sink terminal.
+
+1139 	user
+1139	"$$1" is assigned more than one sink terminal.  You may assign
+1139	multiple faces on a net as a single sink, but multiple sink
+1139	terminals are not allowed on a net.
+
+1140 	user
+1140	Error while trying to assign.  The faces 
+1140	selected do not reside on a single net.
+
+1141	user
+1141	Error : Only faces which reside on a net may be assigned as a terminal.
+
+1142 	user
+1142 	"$$1" has no source terminal.  You have to assign at least one source
+1142	terminal in this net, as you cannot have only sink terminals in a net.
+
+1143	user
+1143	Real lumped impedance may not be negative.
+
+1144	user
+1144	Only one mode can be defined for a lumped gap source port.
+
+1145	user
+1145	A lumped gap source port requires both an impedance line and 
+1145    a calibration line to be defined.
+
+1146	user
+1146	The complex value of lumped impedance may not be zero.
+
+1147	user
+1147	The model contains terminals that touch each other.
+1147	The intersecting faces may be assigned as a single terminal.
+
+1148	user
+1148	Error : There are no source terminals assigned.  At least one source
+1148	terminal must be assigned for resistance and inductance calculations.
+
+1149    user
+1149    Voltage source cannot be applied on the face of region.
+
+1150	user
+1150	Invalid line: length is zero.
+
+
+1152	user
+1152	Invalid current flow line: length is zero.
+ 
+1153	user
+1153	The $$1 point of the current flow line does not lie in the plane
+1153    of the selected face.
+
+1154	user
+1154	The $$1 point of the current flow line does not lie on the
+1154    selected face.
+
+1155    user
+1155    $$1 cannot be less than or equal to 0.  If you want to use a
+1155	zero value, consider using a perfect E boundary instead.
+
+1156    user
+1156    $$1 cannot be less than 0.
+
+1157	user
+1157	A lumped RLC boundary must have a value for at least one of
+1157	resistance, inductance, or capacitance.
+
+1158    user
+1158    If you want to use a zero value for capacitance without also
+1158	specifying a value for either resistance or inductance, consider 
+1158	using a perfect H boundary instead.
+
+1159	user
+1159	When terminals are defined, no two terminals on a port may have the
+1159	same terminal voltage line definition, as these lines are used.
+
+1160	user
+1160	Terminal names must be unique for all modes on a port.
+
+1161	user
+1161	The terminal name for "mode $$1" must have no more than 8 characters 
+1161	and no embedded blanks.
+
+1162	user
+1162	Port names may contain no more than 8 characters.
+
+1163	user
+1163	When terminals are defined, each port must have voltage lines
+1163	defined for all of its terminals.
+
+1164	user
+1164	If the theta or phi angle has the same start and stop, you must
+1164	specify 1 as the number of points.
+
+1165 	user
+1165 	The problem is not well defined.
+1165 	At least on of the following conditions must be 
+1165 	specified: a voltage source, a voltage boundary,
+1165 	or an odd symmetry boundary.
+
+1166 	user
+1166	All current terminals defined in a conduction path should either be
+1166	"solid" or "stranded".
+
+1167	user
+1167	For every conduction path with current density sources defined,
+1167	there should be either at least one internal current density terminal
+1167	(for closed loops) or at least two outer current density terminals 
+1167	defined.
+
+1168	user
+1168	You have defined current density terminals without defining current 
+1168	density sources in the conduction path.
+
+1169	user
+1169	You have set "stranded" current terminals. This setting will override
+1169	any "eddy effect" and "displacement current" settings for all objects
+1169    in "stranded" conduction path(s). "Eddy effect" and "displacement 
+1169    current" will be turned off automatically in these objects during solve,
+1169    regardless of what the "eddy effect" panel shows for these objects.
+
+1170    user
+1170    "$$1" as a function of position or temperature is not allowed.
+
+1171    user
+1171    "$$1" as a function of position and temperature is not allowed.
+
+1172    user
+1172    "$$1" as a function of temperature is not allowed.
+
+1173 	user
+1173 	The problem is ill-defined. You must specify at least one of the
+1173 	following conditions: a temperature source, temperature boundary, 
+1173 	conduction/radiation boundary, heat transfer boundary, or an even
+1173 	symmetry boundary. 
+
+1174    user
+1174    The exponent can not be less than 0 or greater than 1.
+
+1175    user
+1175    The terminal winding is not completely set up.
+
+1176    user
+1176    Cannot set infinite ground plane boundary at the object-object 
+1176    interface.
+
+1177    user
+1177    Cannot set infinite ground plane boundary on non-planar entities.
+
+1178    user
+1178    Infinite ground plane  boundary must lie at the edge of the 
+1178    problem region.
+
+1179    user
+1179    The function defining the total current in a "current source"
+1179    cannot depend on time. You can define current as a function
+1179    of time by creating a winding and using a function for the
+1179    winding current.
+
+1180    user
+1180    The function defining the current density in a "current density source"
+1180    cannot depend on time. 
+
+1181    user
+1181    Coil terminals cannot be defined on or inside the perfect conductor.
+
+end_error_file

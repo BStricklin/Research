@@ -1,0 +1,209 @@
+# %W%	%Q%
+# Copyright 1984-1993 Ansoft Corp.
+
+
+begin_error_file
+
+1001	fatal
+1001	Cannot open surface point file.
+
+1002	fatal
+1002	Error in reading surface points.
+
+1003	fatal
+1003	Cannot open surface triangle file.
+
+1004	fatal
+1004	Error in reading surface triangles.
+
+1005	fatal
+1005	Cannot open attribute and/or object file.
+
+1006	fatal
+1006	Error in reading attributes and/or objects.
+
+1007	fatal
+1007	Error in reading boundaries.
+
+1008	fatal
+1008	Error in reading conductors.
+
+1009	fatal
+1009	Cannot open control file.
+
+1010	fatal
+1010	Error in reading control file.
+
+1011	fatal
+1011	Cannot open solution file.
+
+1012	fatal
+1012	Error in reading solutions.
+
+1013	fatal
+1013	Cannot open .adp or .ref file.
+
+1014	fatal
+1014	Cannot open .avl or .tmp file.
+
+1015	fatal
+1015	Cannot open .cap file.
+
+1016	fatal
+1016	A requested object not found.
+
+1017	fatal
+1017	Non-conductor 2D object.
+
+1018	fatal
+1018	Apply constant voltage on non-conductor object.
+
+1019	fatal
+1019	Unknown voltage is applied on a conductor object.
+
+1020	fatal
+1020	Cannot open .lvl file.
+
+
+1021	fatal
+1021	Compute capacitance on non-conductors.
+
+
+
+1031	fatal
+1031	Error in allocating vectors.
+
+1032	fatal
+1032	Error in allocating matrices.
+
+1041    fatal
+1041    Singular preconditioning matrix
+
+
+
+1051	fatal
+1051	Cannot open .hp file.
+
+1052	fatal
+1052	Error in reading .hp file.
+
+1053	fatal
+1053	Cannot open .jtr file.
+
+1054	fatal
+1054	Error in reading .jtr file.
+
+1055	fatal
+1055	Cannot open .jhd file.
+
+1056	fatal
+1056	Error in reading .jhd file.
+
+1057    fatal
+1057    Error opening .k file
+
+1058    fatal
+1058    Error writing .k file
+
+1059    fatal
+1059    Out of memory
+
+1060    fatal
+1060    Inconsistent number of sources
+
+1061    fatal
+1061    Volume trace pointer has been deleted
+
+1062    fatal
+1062    Inconsistent number of solids in .sat 
+
+1063    fatal
+1063    Netname not followed by `solids' in .sat
+
+1064    fatal
+1064    Inconsistent number of nets in .sat
+
+1065    fatal
+1065    Insufficient number of input parameters
+1065    multipol -<exec_mode> <mode> <project>
+
+1066    fatal
+1066    Invalid _exec
+
+1067    fatal
+1067    Usage: multipol -qpv4_exec translate cap_bak cap
+
+1068    fatal
+1068    Invalid mode
+
+1069    fatal
+1069    No source basis functions found
+
+1070    fatal
+1070    No PEC surfaces present 
+1070    Use L mode instead of Hp-K-L modes
+
+1071    fatal
+1071    Two different nets are touching
+
+1072    fatal
+1072    Parasitic conductor touches a net
+
+  
+
+
+
+
+
+
+
+
+1101    fatal
+1101    Unknown calling parameters.
+
+1102    fatal
+1102    Unknown exec oper.
+
+1103    fatal
+1103    Unknown exec command.
+
+1104    fatal
+1104    Error opening file.
+
+1105    fatal
+1105    Inconsistent number of sources.
+
+1106    fatal
+1106    Inconsistent in triangle lists.
+
+1107    fatal
+1107    Matrix solver failed.
+
+1108    fatal
+1108    Corrupt mesh file.
+
+1109    fatal
+1109    Two conductors, which are not on the
+1109    same net, are touching.
+
+1110    fatal
+1110    Cannot mix regular conductors and perfect
+1110    conductors on the same net.
+
+1111    fatal
+1111    There is a solid referenced in the mesh files
+1111    which is not defined in the SAT file.
+
+1112    fatal
+1112    There is a net with sources but no sinks.
+
+1113    fatal
+1113    There are no sources on any valid net.
+
+1114    fatal
+1114    Non-conductors cannot be part of a net.
+
+1115    fatal
+1115    Distinct terminals may not overlap.
+
+end_error_file

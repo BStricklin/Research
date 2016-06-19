@@ -1,0 +1,196 @@
+# %W%	%Q%
+# Copyright 1984-1993 Ansoft Corp.
+
+
+begin_error_file
+
+1001  fatal
+1001  Module $$1 died unexpectedly.
+1001  Possible reasons:
+1001   (1) insufficient disk space
+1001   (2) singular matrix due to improper problem setup
+1001   (3) unknown error
+
+1002 user
+1002 Some (or all) mesh files are missing.
+1002 Please create a mesh and save the files.
+
+1003 user
+1003 To perform this operation you must have a
+1003 vector in the top register of the calculator.
+
+1004 user
+1004 Material attributes are not set yet.
+
+1005 user
+1005 Some inline function is not available.
+
+1006 user
+1006 This operation requires a solved problem.  Please
+1006 solve the problem or retrieve the solution files.
+
+1007 user
+1007 There is a voltage boundary on "$$1"
+1007 which is a floating conductor.  Please redefine
+1007 the problem to remove this condition.
+
+1008 user
+1008 All objects are conductors so there is no interior
+1008 electric field.  Please remove this condition
+1008 by redefining material attributes.
+
+1009 user
+1009 Plane "$$1" is not existing. Enter the plane now.
+
+1010 user
+1010 You need two planes for setting matching boundary.
+1010 Please exit this "define matching boundaries" panel and
+1010 define proper planes.
+
+1011 user
+1011 Inline function "$$1" is not available. 
+1011 Enter the function now.
+
+1012 user
+1012 Matching boundary is not set properly.  Either plane or 
+1012 attached 2d-solids are not set.  Please set your boundary again.
+
+1013 user
+1013 You have not selected all the necessary options to generate
+1013 a plot.  Please check your settings and try again.
+
+1014 fatal
+1014 Problem cannot be solved, because
+1014 no excitation has been defined.
+
+1015 fatal
+1015 Object "$$1" is not a conductor. Please redefine "$$1" 
+1015 as a conductor and define Dirichlet boundary on it. Or 
+1015 unselect it in 'Setup Parameter' for C matrix calculation.
+
+1016 fatal
+1016 Object "$$1" is a floating conductor. Please redefine "$$1" 
+1016 as a non-floating conductor and define Dirichlet boundary on it.
+1016 Or unselect it in 'Setup Parameter' for C matrix calculation.
+
+1017    fatal
+1017    Unable to start the sub-process, es2d,
+1017    which solves for the port parameters.
+
+1018 	fatal
+1018 	Unable to solve port because "$$1" is not a valid port.
+1018 	Please redefine port in Define Boundaries/Ports.
+
+1019 	fatal
+1019 	Unable to solve problem because of illegal material
+1019	or boundary setup. Please verify setup.  
+
+1020 	fatal
+1020 	There is no conductor selected for capacitance
+1020	calculation on port "$$1". Please check your problem
+1020	setup in "Select Conductor".  
+
+1021    user
+1021    In order to set up matching boundary, you need
+1021    identical geometric patterns on master and slave
+1021    planes.  Please check your matching setup.  You
+1021    may need to check your solid model as well.
+
+1022    user
+1022    In order to set up matching boundary, you need
+1022    identical geometric patterns on master and slave
+1022    planes.  Apparently, there are vertices on your master
+1022    plane which do not exactly match corresponding vertices
+1022    on your slave plane. For example, for the point of
+1022    $$1    
+1022    on your master plane, no matched point on the slave 
+1022    plane can be found.  Total number of such mis-matched
+1022    points is: $$2.
+1022    Please quit and check your solid model carefully...
+
+1023 fatal
+1023 One of the objects of the matrix setup is a floating conductor. 
+1023 Please redefine the object as a non-floating conductor and 
+1023 define Dirichlet boundary on it.
+1023 Or unselect it in 'Setup Executive Parameters/Matrix...' for 
+1023 C matrix calculation.
+
+1024 fatal
+1024 One of the objects of the matrix setup is not a conductor. 
+1024 Please redefine the object as a conductor and define Dirichlet 
+1024 boundary on it. Or 
+1024 unselect it in 'Setup Executive Parameters/Matrix...' for 
+1024 C matrix calculation.
+
+1100    fatal
+1100    Insufficient memory for module $$1.
+
+1200    fatal
+1200    Error in writing the file.
+1200    Possible causes are:
+1200       - Out of disk space.
+1200       - No file access privileges.
+1200       - Network or hardware problems.
+
+1201 fatal
+1201 Negative mind is detected.
+
+1202 fatal
+1202 No objects are included in solution region.
+ 
+1203 fatal
+1203 Cannot calculate Lorentz force/torque on perfect conducting
+1203 objects or on objects which are excluded from solution region.
+
+1204 fatal
+1204 Unable to finish the solution.
+1204 Please check the problem setup.
+
+1205 fatal
+1205 No unknowns to solve
+1205 Please use manual mesh and try again.
+
+1206 fatal
+1206 Second order addition error
+ 
+1207 fatal
+1207 Illegal face number
+ 
+1208 fatal
+1208 Mismatched mid point
+
+1209 fatal
+1209 Cannot find an attribute with a given name or solid number
+ 
+1043    fatal
+1043    There is no license for module $$1.
+
+2000 fatal
+2000 Unable to start matrix solver
+ 
+2001 fatal
+2001 Unable to solve FE matrix system.
+2001 Possible reasons:
+2001   (1) insufficient disk space
+2001   (2) singular matrix due to improper problem setup
+2001   (3) Unknown error
+ 
+2002 fatal
+2002 Unable to solve FE matrix system.
+2002 Possible reasons:
+2002   (1) insufficient disk space
+2002   (2) singular matrix due to improper problem setup
+2002   (3) Unknown error
+
+
+
+5101  fatal
+5101  Module died unexpectedly due to unrecoverable error.
+
+5102  fatal
+5102  Command line parameters are not valid.
+ 
+end_error_file
+ 
+
+

@@ -1,0 +1,7 @@
+B_CLASSIFY
+ProductName Maxwell_SV_Version_9
+ProblemType magnetic_field
+Dimensionality two
+Plane rz
+ThermalSim exclude_thermal_simulation
+E_CLASSIFY

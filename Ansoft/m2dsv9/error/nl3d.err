@@ -1,0 +1,411 @@
+# %W%	%Q%
+# Copyright 1984-1992 Ansoft Corp.
+
+begin_error_file
+
+1000 fatal
+1000  Died unexpectedly.
+1000  Possible reasons:
+1000   (1) singular matrix due to improper problem setup
+1000   (2) Unknown error
+
+1001 fatal
+1001  Module $$1 died unexpectedly.
+1001  Possible reasons:
+1001   (1) insufficient disk space
+1001   (2) singular matrix due to improper problem setup
+1001   (3) Unknown error    
+
+1002 user
+1002 Some (or all) mesh files are missing.
+1002 Please create a mesh and save the files.
+
+1003 user
+1003 To perform this operation you must have a
+1003 vector in the top register of the calculator.
+
+1004 user
+1004 Material attributes are not set yet.
+
+1005 fatal
+1005 Some inline function, or B-H curve, is not available.
+
+1006 user
+1006 This operation requires a solved problem.  Please
+1006 solve the problem or retrieve the solution files.
+
+1007 user
+1007 There are no 2d objects bordering "$$1"
+1007 which can be used as terminals.  Please
+1007 make sure "$$1" is part of a conduction
+1007 path, or return to the solid modeler and
+1007 add a 2d solid(s) to use as a terminal(s).
+
+1008 user
+1008 There are no terminals named "$$1."
+1008 Please select a terminal from the list.
+
+1009 user
+1009 There is no BH Curve named "$$1."
+1009 Be sure to enter "$$1" before solving.
+1009 If the Coercivity, Hc, of "$$1" is
+1009 non-zero, be sure to indicate that it is a
+1009 permanent magnet and specify the direction
+1009 of Hc in the "Att Set" panel.
+
+1010 fatal
+1010 File system unable to create "$$1."
+
+1011 fatal
+1011 File system unable to read "$$1."
+
+1012 user
+1012 Anisotropic Material Capability Not Implemented.
+
+1013 user
+1013 Nonlinear Material Capability Not Implemented.
+
+1014 fatal
+1014 The solid file is corrupted.
+
+1015 user
+1015 Terminal "$$1" is not attached to a conductor.
+
+1016 user
+1016 The current specified for conductor "$$1"
+1016 is too small.  Please specify a non-zero
+1016 current.
+
+1017 user
+1017 At least one terminal on conductor "$$1"
+1017 must have a non-zero voltage.
+
+1018 user
+1018 There is only one outer terminal which borders 
+1018 the conductor "$$1."  
+1018   (1) If you forgot to create the second terminal 
+1018       (2d object), please go back to the solid 
+1018       modeler and add one more 2d object.
+1018   (2) If "$$1" is only a portion of a conduction path,
+1018       you may continue to set current or voltage on
+1018       the terminal. Be aware that you need other
+1018       outer terminal(s) to allow current to flow
+1018       out of (or into) that conduction path.
+
+1019 user
+1019 Electric current source is required for 
+1019 inductance computation.  Please go back to 
+1019 DEFINE MATERIALS and change the voltage source to 
+1019 a current source for the conductor "$$1."
+
+1020 user
+1020 Matching boundary is not set properly.  Either a plane or 
+1020 a function does not exist.  Please set your boundary again.
+
+1021 user
+1021 You have not selected all the necessary options to generate
+1021 a plot.  Please check your settings and try again.
+
+1022 fatal
+1022 BH curve has not been defined yet. Please define it,
+1022 or change the Relative Permeability to "Linear."
+
+1023 user
+1023 Illegal blank space in the file name. 
+
+1024 fatal
+1024 BH curve file name cannot start with a number.
+
+1025 user
+1025 Unable to write BH curve to $$1;
+1025 defaulting to current directory.
+
+1026 user
+1026 Unable to write BH curve to $$1.
+
+1027 fatal
+1027 Problem cannot be solved, because 
+1027 no excitation has been defined.
+
+1028    fatal
+1028    Unable to start the sub-process, ms2d,
+1028    which solves for the port parameters.
+
+1029    user
+1029    Bad BH-curve "$$1.bh". Slope should be 
+1029    decreasing for the last two points.
+1029    Please correct it or your nonlinear 
+1029    solution process may diverge.
+
+1030    fatal
+1030    Unable to finish computation for particular H.
+1030    Not enough information to determine the 
+1030    electric current flow.
+
+1031    fatal
+1031    Insulation sheet can not be used for
+1031    conduction path involving voltage source.
+1031    Please set up your problem again.
+
+1032 fatal
+1032 Unable to find match point for 
+1032 matching boundary.
+1032 Please check problem setup.
+
+1033 fatal
+1033 Unable to find match edge for
+1033 matching boundary.
+1033 Please check problem setup.
+
+1034 fatal
+1034 Unable to create file "$$1" in your project
+1034 directory.  Check the computer file system
+1034 status please.
+
+1035 fatal
+1035 Unable to find the file "$$1" in your directory.
+1035 This file contains the results of matrix solving.
+
+1036 fatal
+1036 Cannot have voltage terminal on 
+1036 matching boundary.  Please setup
+1036 your problem again.
+
+1037 user
+1037 There is only one outer terminal which borders 
+1037 the conductor "$$1."  
+1037   (1) If you forgot to create the second terminal 
+1037       (2d object), please go back to the solid 
+1037       modeler and add one more 2d object.
+1037   (2) If "$$1" is only a portion of a conduction path,
+1037       you may continue to set current or voltage
+1037       on the terminal.
+1037   (3) The current at "$$1" flows into all touched 
+1037       3d objects.  Hence all the touched objects have
+1037       to be set to "Source-Current Yes" when you go
+1037       through Material setup.  Be aware that you need
+1037       other outer terminal(s) to allow current
+1037       to flow out of (or into) that conduction path.
+
+1038 user
+1038 There are two outer terminals which border the
+1038 conductor "$$1."  One (or two) of the terminals
+1038 may touch 3d object(s) other than "$$1."
+1038 Be aware that the current at the terminal
+1038 flows into all touched 3d objects.  Hence,
+1038 all the touched 3d objects have to be set to
+1038 "Source-Current Yes" when you go through Material
+1038 setup.
+1038 You can continue to set terminals.
+
+1039 user
+1039 There are more than two outer terminals which 
+1039 border the conductor "$$1."  At least one of the
+1039 terminals may touch 3d object(s) other than "$$1."
+1039 Be aware that the current at that terminal flows
+1039 into all touched 3d objects.  Hence all the 
+1039 touched 3d objects have to be set to "Source-
+1039 Current Yes" when you go through Material setup.
+
+1040 user
+1040 One of the terminals on the terminal list (as
+1040 you will see when you proceed) may touch
+1040 3d object(s) other than "$$1."  Be aware 
+1040 that the current at that terminal flows
+1040 into all touched 3d objects.  Hence all the 
+1040 touched 3d objects have to be set to "Source-
+1040 Current Yes" when you go through Material setup.
+
+1041 user
+1041 Unable to compute matrix.
+1041 Possible reasons:
+1041     (1) At least one of the objects in the matrix setup is 
+1041         a 2d object (only 3d objects can be used in the matrix)
+1041     (2) At least one of the objects is not assigned as an
+1041         electric CURRENT source.
+1041		-there are multiple objects in the conduction path
+1041             and the object you've selected doesn't include 
+1041             the source 
+
+1042 fatal
+1042 The conduction solver does not currently support functional conductivity.
+1042 The program will not be able to generate a conduction solution for this
+1042 problem.
+1042 Note that you can still obtain a magnetostatic solution and use that
+1042 solution to view the current density ( J = curl H ).
+
+1043    fatal
+1043    There is no license for module $$1.
+
+1044    user
+1044    No solid conductor has been defined. Conduction solver has
+1044    nothing to do. To continue, please uncheck "Conduction Solve"
+1044    under Setup Solution Options and resolve.
+
+1100    fatal
+1100    Insufficient memory for module $$1.
+
+1200    fatal
+1200    Error in writing file.
+1200    Possible causes are:
+1200       - Out of disk space.
+1200       - No file access privileges.
+1200       - Network or hardware problems.
+
+1201 fatal
+1201 Negative mind is detected.
+
+1202 fatal
+1202 No objects are included in solution region.
+ 
+1203 fatal
+1203 Cannot calculate Lorentz force/torque on perfect conducting
+1203 objects or on objects which are excluded from solution region.
+
+1204 fatal
+1204 Total energy is zero and
+1204 unable to finish the solution.
+1204 Please check the problem setup.
+ 
+1205 fatal
+1205 No unknowns to solve
+1205 Please use manual mesh and try again.
+
+1206 fatal
+1206 Cannot find tangential vector
+
+1207 fatal
+1207 Illegal face number
+ 
+1208 fatal
+1208 Input data for BH curve are out of range
+
+1209 fatal
+1209 Cannot find an attribute with a given name or solid number
+ 
+1210 fatal
+1210 Cannot compute tangential sign
+
+1211 fatal
+1211 Cannot create tangential edge
+
+2000 fatal
+2000 Unable to start matrix solver
+
+2001 fatal
+2001 Unable to solve FE matrix system.
+2001 Possible reasons:
+2001   (1) insufficient disk space
+2001   (2) singular matrix due to improper problem setup 
+2001   (3) Unknown error
+
+2002 fatal
+2002 Unable to solve FE matrix system.
+2002 Possible reasons:
+2002   (1) insufficient disk space
+2002   (2) singular matrix due to improper problem setup 
+2002   (3) Unknown error   
+
+3001 fatal
+3001 No active "source point" in "$$1".
+3001 Please check the source setup.
+
+3002 fatal
+3002 No active "sink point" in "$$1".
+3002 Please check the source setup.
+
+3003 fatal
+3003 The object "$$1" is not defined to be a conductor.
+3003 Either the material assignment for this object is incorrect
+3003 or the terminals are not setup correctly for this conductor.
+
+3004 fatal
+3004 No active source and sink point in "$$1".
+3004 Please check the source setup.
+
+3005 fatal
+3005 Zero Current on the source point in "$$1".
+3005 Please check the problem setup.
+
+3006 fatal
+3006 The source/sink point named "$$1" is not on a conductor.
+3006 This is probably because the source/sink point (terminal)
+3006 ends in a non-conducting object instead of the problem space.
+
+3007 fatal
+3007 There is no path for current to flow.
+3007 Please check either the source/sink
+3007 assignments or the model itself.
+
+3008 fatal
+3008 The conductor "$$1" contains multi-terminals and at least
+3008 one of the terminals is defined to be of type Current.
+3008 All terminals on a multi-terminal conductor have to be
+3008 of type Voltage.
+
+3009 fatal
+3009 Failed writing register file "$$1" for
+3009 partial Inductance/Resistance computation.
+
+3010 fatal
+3010 Failed opening/reading register file "$$1" for
+3010 partial Inductance/Resistance computation.
+
+3011 fatal
+3011 Failed in normalizing current on each terminal.
+3011 Normalizing current value (total current) is zero.
+
+3012 fatal
+3012 Unable to open the BH curve data file or could not find
+3012 a function definition to match your input function name
+
+4000 fatal
+4000 Unable to start conduction solver
+
+4001 fatal
+4001 Unable to solve conduction problem
+
+4011 fatal
+4011 Unable to create file $$1.sat for the conduction solver
+
+4012 fatal
+4012 Unable to open file $$1
+
+4013 fatal
+4013 Error reading file $$1
+
+4014 fatal
+4014 Unable to create file $$1 for the conduction solver
+
+4015 fatal
+4015 Cannot find mesh files
+
+4016 fatal
+4016 jsrc1 cannot be assigned in this conduction path.
+
+4017 fatal
+4017 No terminal for inductance calculation.
+
+4018 fatal
+4018 In inductance calculation one conduction path can contain only 
+4018 one of the following terminal combinations:
+4018 - one voltage drop terminal,
+4018 - one branch current terminal,
+4018 - two current terminals, or
+4018 - two voltage terminals.
+
+4019 fatal
+4019 In inductance calculation a stranded conduction path requires 
+4019 at least one terminal.
+
+4020 fatal
+4020 Normal current density request is out of valid region
+
+4100 fatal
+4100 Unable to start executable isolver
+
+4101 fatal
+4101 Incorrect termination of isolver
+
+end_error_file
+

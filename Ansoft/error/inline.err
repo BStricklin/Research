@@ -1,0 +1,46 @@
+# %W%	%Q%
+# Copyright 1984-1989 Ansoft Corp.
+
+begin_error_file
+
+1001 user
+1001 Function name is too long: $$1
+1001 Name may not exceed $$2 characters.
+1001 Please use a shorter name.
+
+1002 user
+1002 Illegal character(s) in function name $$1.
+1002 Only alphabetic characters, a-z, are allowed.
+1002 Please use a different name.
+
+1003 user
+1003 Expression is too long for function $$1
+1003 Expression may not exceed $$2 characters.
+1003 Please use a shorter expression.
+
+1004 user
+1004 Illegal character(s) in expression for function $$1
+1004 Legal symbols are:
+1004 ___Operators: +,-,*,/,%
+1004 ___Spatial Variables: x,y,z,theta,radius
+1004 ___Special Functions: abs,sqrt,exp,sin,cos,tan,atan
+1004 ___Other Symbols: pi,(,),real numbers (e.g.;7.43, 2.96e-8)
+1004 Please enter the function again.
+
+
+1005 user
+1005 Divide by zero error in evaluating function.
+
+1006	user
+1006 There is an illegal symbol in the expression.
+1006 Legal symbols are:
+1006 ___Operators: +,-,*,/,%
+1006 ___Spatial Variables: x,y,z,theta,radius
+1006 ___Special Functions: abs,sqrt,exp,sin,cos,tan,atan
+1006 ___Other Symbols: pi,(,),real numbers (e.g.;7.43, 2.96e-8).
+
+1007 user
+1007 Mismatched parenthesis. Check the function for 
+1007 balanced ()'s.
+
+end_error_file

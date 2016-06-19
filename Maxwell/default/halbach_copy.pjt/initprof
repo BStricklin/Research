@@ -1,0 +1,11 @@
+                 Maxwell SV Version 9.0.06SV beginning
+           halbach on DROFDARBSLAPTOP at 06/13/2016 02:10:52
+-----------------------------------------------------------------------
+|               |   Real   |   Cpu    |  Memory  |                    |
+|    Command    |   Time   |   Time   |   in K   | Number of Elements |
+|---------------------------------------------------------------------|
+|                            Initial Mesh                             |
+|---------------------------------------------------------------------|
+| mesh_init     | 00:00:22 | 00:00:23 |  225656K |   31191 triangles  |
+Finished halbach on DROFDARBSLAPTOP in 00:00:23 at 06/13/2016 02:11:15
+

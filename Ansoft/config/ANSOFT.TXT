@@ -1,0 +1,60 @@
+# %W%	%Q% 
+# Copyright 1984-2002 Ansoft Corp.
+B_DATA
+ B_ADDR
+  Ansoft Corporation
+  ----------------------------------
+  Four Station Square
+  Suite 200  
+  Pittsburgh, PA 15219-1119
+
+  TEL 412-261-3200
+  FAX 412-471-9427
+  email: ansoftsup@ansoft.com
+  ----------------------------------
+  Electrical Engineering
+  Simulation Software
+  ----------------------------------
+  Version X.XX.XX
+  Copyright 1984-2002 Ansoft Corporation
+ E_ADDR
+ B_PRODS
+  Ansoft EM SIMULATION TOOLS
+  -------------------
+
+  Maxwell 2D - Electromagnetic Field Simulation (2D)
+     
+  Maxwell 3D - Electromagnetic Field Simulation (3D)
+   
+  SIMPLORER - Multi-Domain System Simulation
+
+  PExprt - Power Converter Design Tool
+
+  RMxprt - Rotating Electric Machine Design Tool
+
+
+E_PRODS
+
+ B_DISTRS
+  ANSOFT UNITED STATES OFFICE
+  ---------------------------
+
+  CORPORATE HEADQUARTERS
+  Four Station Square
+  Suite 200
+  Pittsburgh, PA 15219-1119
+  TEL: (412) 261-3200
+  FAX: (412) 471-9427
+
+  For Worldwide Sales Office Locations Please Visit:
+  www.ansoft.com
+
+ E_DISTRS
+E_DATA
+
+
+
+
+
+
+

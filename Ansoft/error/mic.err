@@ -1,0 +1,308 @@
+# %W%	%Q%
+# Copyright 1984-1989 Ansoft Corp.
+
+begin_error_file
+
+1001    fatal
+1001    Module $$1 died unexpectedly or
+1001    possibly was terminated by user.
+
+1002	fatal
+1002	Cannot find attribute information
+1002	for material number $$1.
+
+1003	fatal
+1003	Cannot find tangential vector on the
+1003	side of the tetrahedron.
+
+1004	fatal
+1004	Port $$1 has no boundary information.
+1004	This boundary must be redefined before the
+1004	problem can be solved.
+
+1005	fatal
+1005	The two dimensional sub-process, Wave, 
+1005	failed to converge to a solution.
+
+1006	fatal
+1006	Unable to start the sub-process, $$1.
+1006    Possible causes are:
+1006        - System swap space exhausted.
+1006        - System limit on the number
+1006           of processes has been exceeded.
+
+1007	fatal
+1007	Can't find the specified vertex on the
+1007	tetrahedron.
+
+1008	fatal
+1008	Error in reading two dimensional port
+1008	information from wave sub process.
+
+1009	fatal
+1009	Cannot find the requested port information.
+
+1010	fatal
+1010	Error in determining tetrahedra node extremes.
+
+1011	fatal
+1011	Error in reading two dimensional triangle file.
+
+1012	fatal
+1012	Cannot determine which two dimensional point is
+1012	first.
+
+1013	fatal
+1013	Cannot find the proper edge for the tetrahedron
+1013	face. The probable cause is that the problem has
+1013	reached the resolution limit for the machine.
+
+1014	fatal
+1014	Copy protection violation in wave. Please check
+1014	your codewords.
+
+1015	fatal
+1015	Missing transcript file in wave.
+
+1016	fatal
+1016	Failure in problem setup in wave procedure.
+
+1017	fatal
+1017	Too many wave lengths in the problem. Check the
+1017	frequency and the units for this problem.
+
+1018	fatal
+1018	Eigen solver failed in port computation.
+
+1019	fatal
+1019	Unable to create $$1.
+
+1020	fatal
+1020	Unable to read $$1.
+
+1021	fatal
+1021	Wave procedure could not find all material definitions.
+1021	Please verify material properties in the MATERIALS MENU.
+
+1022	fatal
+1022	The calibration normal for port $$1 does not agree with
+1022	with the port definition.
+
+1023	fatal
+1023	The calibration origin for port $$1 is not in the plane
+1023	of the port.
+
+
+1024	fatal
+1024	The two ports, $$1 and $$2, cannot be calibrated
+1024	against each other. 
+
+1025	user
+1025	The viewing angle for this window is orthogonal
+1025	to the specified plane. Please change the viewing
+1025	angle to view this plane.
+
+1026	user
+1026	No field solution has been entered for this problem yet.
+1026	Please use the Post Field menu item to select the field
+1026	for post processing.
+
+1027    fatal
+1027    Port boundaries contain 2-D resistors which are not
+1027    supported for this version of $$1.
+
+1028    user
+1028    There are no multiple port solutions available for this
+1028    problem. The actual field data is missing and no post
+1028	processing will be possible.
+
+1029    user
+1029    There are no multiple port solutions available for this
+1029    problem. This problem has been solved using an earlier
+1029	version of $$1 which only saved the dominant mode on port 1.
+1029	This solution has already been loaded.
+
+1030    user
+1030    The multiple port solution data for this problem has been
+1030    corrupted. No post processing will be possible.
+
+1031	user
+1031	The stack is empty. A scalar or vector must be 
+1031	entered before this operation can be performed.
+
+1032	fatal
+1032	Error in two dimensional port data created from
+1032	three dimensional mesh. 
+
+1033	fatal
+1033	Error in conversion of port data from 3D format
+1033	to 2D format.
+
+1034 	fatal
+1034	The boundary $$1 does not exist in the list of
+1034	defined boundaries. The boundary information is
+1034	inconsistent. The boundary information must be
+1034	deleted and reentered.
+
+1035    fatal
+1035    There are no boundaries to define $$1 correctly.
+1035    This may be due to incorrect material definitions for
+1035    those objects that make up the port surface. Please
+1035    verify the material properties in the MATERIALS MENU.
+
+1100    fatal
+1100    Insufficient memory for module $$1.
+
+1101	user
+1101	There are no tetrahedral faces assigned to 
+1101	boundary $$1. Since boundary operations are 
+1101	order dependent, please check to make certain that 
+1101	this boundary is not being ignored because of other 
+1101	operations on the same surfaces. It is recommended that
+1101	you redefine the boundary in question.
+
+1102	fatal
+1102	One of the faces which define this port has two
+1102	identical points. Please check your solid data 
+1102	file for any errors which might cause this
+1102	problem.
+
+1103	user
+1103	The X server on which you are running $$1 does
+1103	not support animated plots.  To view animated 
+1103 	plots you must display your $$1 windows on a 
+1103 	workstation running an X server from a different 
+1103 	vendor.
+
+1104	fatal
+1104	Cannot read adaptive point information from wave module. 
+1104	The file $$1.apt may be corrupted.
+
+1105	fatal
+1105	Sorry, you are Out of Memory. Please solve your problem
+1105	on a larger machine.	
+
+1106	fatal
+1106	Failed on generating moments.  Please continue your problem
+1106	on a larger machine.	
+
+
+1107	fatal
+1107	Unable to start subprocess, $$1.
+
+1108	fatal
+1108	Unable to find the executable `$$1'.
+
+1109    user
+1109    Can not compute radiated fields because the structure 
+1109    does not contain any radiation boundaries.
+
+1110    fatal
+1110    Unable to change the current directory to $$1.
+
+1112	fatal
+1112	Can not solve $$1 2D.  Anisotropic material 
+1112	$$2 has different principal axis for mu and epsilon.
+
+1113	fatal
+1113	Anisotropic material principal axis on '$$1'
+1113	must align with the port normal.
+
+1114	fatal
+1114	Can not solve '$$1' with anisotropic material and 
+1114	impedance/radiation boundary in this version of $$2.
+
+1115	fatal
+1115	Can not solve '$$1' with anisotropic material and 
+1115	lossy material on the same port.
+
+1116	fatal
+1116	Can not solve '$$1' with material '$$2'  
+1116	anisotropic and lossy.
+
+1117	fatal
+1117	Can not solve '$$1' with ferrite
+1117	material '$$2' on the port.
+
+1118	user
+1118	There are no tetrahedral faces assigned to 
+1118	port $$1. Since boundary operations are order dependent,
+1118	please check to make certain that this boundary is not
+1118	being ignored because of other operations on the same
+1118	surfaces.
+
+1119	user
+1119	The matrix solver failed ($$1).
+1119    This may be due to a lack of disk space.
+
+1120    fatal
+1120    Error in Magnetostatic data, tetrahedral centroid
+1120    data not found in magnetostatic file.
+
+1121    fatal
+1121    Mismatch in the number of triangles between
+1121    2D and 3D port definition.  Probable cause is
+1121    wave added triangles after 3D mesh was generated.
+
+1122    user
+1122    $$1 mode $$2 crosses cut-off in the specified fast sweep
+1122    range.  Consider splitting the sweep into multiple ranges.
+1122    Use a port discrete sweep to locate the cut-off frequency.
+
+1123    fatal
+1123    $$1 slave boundary has a phase shift that is
+1123    incompatible with fast sweep.  Modify the
+1123    phase shift or use discrete sweep.
+
+1124    fatal
+1124    $$1 slave boundary is a scan angle type.  The fast sweep
+1124    does not currently support that boundary condition.
+
+1125    fatal
+1125	The triangulations on $$1 are different in 2d than 3d.
+1125	Revisit solve set up to verify the correct mesh is selected.
+
+1126    fatal
+1126	$$1 is incorrectly set up.  A port must have a non-existent
+1126	material on one side.  Both $$2 and $$3 exist.
+
+1127    fatal
+1127    Error in finite element matrix generation.
+1127    $$1
+1127    Possible causes are internal code failure or
+1127    an invalid model has been created.
+
+1128    fatal
+1128	$$1 is incorrectly set up.  A gap source will be short circuited
+1128    by conductors
+
+1129	fatal
+1129	an unexpected port type
+
+1130	fatal
+1130	Inconsistent hydra ids on a half_face of port $$1
+
+1131	fatal
+1131	Problem with mode alignment on port $$1,
+1131    Possible casues are:
+1131        - Inappropriate terminal line setup
+1131        - Port files I/O difficulty
+
+1200	user
+1200	Write Failure in module $$1. 2 Possible causes are:
+1200	1. Disk space full.
+1200	2. Disk quota exceeded.
+1200	All temporary files have been deleted and normal disk
+1200	space has been restored. Previous solution retained.
+
+1201    user
+1201    The specified frequency is 
+1201    outside the fast sweep range.
+
+1202    user
+1202    There is a discrepancy in the number of degrees 
+1202    of freedom.  Most likely caused by post processing
+1202    a project with a different setting of ZERO_ORDER
+1202    from the setting it was solved with.
+
+end_error_file
